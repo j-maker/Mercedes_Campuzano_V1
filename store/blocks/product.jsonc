@@ -1,0 +1,228 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#description",
+      "rich-text#recomended",
+      "flex-layout.row#shelf-page-product-recomended"
+    ]
+  },
+  "flex-layout.row#product": {
+    "props": {
+      "blockClass": "specifications"
+    },
+    "children": [
+      "product-specifications#product"
+    ]
+  },
+  "product-specifications#product": {
+    "props": {
+      "shoudCollapseOnTabChange": true,
+      "collapsible": "desktopOnly"
+    }
+  },
+  "flex-layout.row#shelf-page-product-recomended": {
+    "children": [
+      "list-context.product-list#shelf"
+    ],
+    "props": {
+      "recommendation": "similars",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 0
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "blockClass": "product-description",
+      "marginBottom": 7,
+      "max-height": "10%"
+    },
+    "children": [
+      "product-description"
+    ]
+  },
+  "product-description": {
+    "props": {
+      "blockClass": "product-description" /*sube a 300 VALIDAR*/
+    }
+  },
+  "stack-layout": {
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "rich-text#recomended": {
+    "props": {
+      "blockClass": "home-text-1",
+      "text": "RECOMENDADO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#stack": {
+    "children": [
+      "stack-layout"
+    ],
+    "props": {
+      "width": "50%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "showBadge": true,
+      "zoomFactor": 2,
+      "aspectRatio": {
+        "desktop": "1:1",
+        "phone": "1:1"
+      },
+      "thumbnailsOrientation": "horizontal",
+      "showNavigationArrows": "mobile",
+      "showPaginationDots": false,
+      "displayThumbnailsArrows": true,
+      "marginTop": 0,
+      "paddingBottom": 7
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "blockClass": "right-col",
+      "preventVerticalStretch": false,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#selling-price",
+      "sku-selector",
+      "flex-layout.row#size-guide",
+      "product-assembly-options",
+      /*"buy-button#product",*/
+      "flex-layout.row#buy-button-product",
+      "flex-layout.row#product",
+      "rich-text#price-online",
+      "availability-subscriber",
+      "shipping-simulator",
+      "share#default"
+    ]
+  },
+
+
+
+
+
+
+
+
+  "flex-layout.row#buy-button-product": {
+    "props": {
+      "blockClass": "buy-button-product",
+      "marginTop": 4,
+      "marginBottom": 3
+    },
+    "children": [
+      "add-to-cart-button#product"
+    ]
+  },
+  "add-to-cart-button#product": {
+    "props": {
+      "blockClass": "buy-button-product",
+      "text": "AGREGAR AL CARRITO"
+    }
+  },
+  "rich-text#price-online": {
+    "props": {
+      "blockClass": "price-online",
+      "text": "El precio sólo aplica para tienda online",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#size-guide": {
+    "children": [
+      "modal-trigger#example"
+    ]
+  },
+  "modal-trigger#example": {
+    "children": [
+      "rich-text#example",
+      "modal-layout#example"
+    ]
+  },
+  "rich-text#example": {
+    "props": {
+      "blockClass": "tallas",
+      "text": "GUIA DE TALLAS"
+    }
+  },
+  "modal-layout#example": {
+    "children": [
+      "image#size"
+    ]
+  },
+  "image#size": {
+    "props": {
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-guia-tallas.jpg",
+      "width": "600px"
+    }
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 0
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+  "sku-selector": {
+    "props": {
+      "initialSelection": "empty",
+      "variationsSpacing": 3,
+      "maxItems": 10,
+      "showValueForVariation ": false,
+      "marginTop": 10,
+      "hideImpossibleCombinations": true,
+      "showVariationsLabels": true,
+      "showVariationsErrorMessage": true,
+      "imageLabel": 3
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  }
+}

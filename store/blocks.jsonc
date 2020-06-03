@@ -1,0 +1,586 @@
+{ /*copy*/
+  /* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ]
+  },
+  "store.account": {
+    "blocks": [
+      "my-account"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": [
+      "login-content#default"
+    ]
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showInstallments": true
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      /*"product-summary-space",*/
+      /*"product-list-price#summary",*/
+      "flex-layout.row#selling-price-savings",
+      "product-summary-sku-selector",
+      "product-installments#summary",
+      "flex-layout.row#buy-button-shelf"
+    ]
+  },
+  "product-summary-sku-selector": {
+    "props":{
+      "blockClass":"shelf-sku",
+      "imageLabel": 3,
+      "initialSelection":"empty",
+      "variationsSpacing": 3,
+      "maxItems":10,
+      "showValueForVariation ": false,
+      "marginTop":10,
+      "hideImpossibleCombinations":true,
+      "showVariationsLabels": false,
+      "showVariationsErrorMessage":false
+    }
+  },
+  
+
+
+
+
+
+
+
+
+    "product-summary.shelf#home": {
+  "children": [
+    "stack-layout#prodsum",
+    "product-summary-name",
+    "product-rating-inline",
+    "flex-layout.row#selling-price-savings",
+    "product-installments#summary",
+    "flex-layout.row#buy-button-shelf"
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+"product-summary-sku-selector#home": {
+  "props":{
+    "imageLabel": 3,
+    "initialSelection":"empty",
+    "variationsSpacing": 3,
+    "maxItems":10,
+    "showValueForVariation ": false,
+    "marginTop":10,
+    "hideImpossibleCombinations":true,
+    "showVariationsLabels": false,
+    "showVariationsErrorMessage":false
+  }
+},
+
+
+
+
+
+
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "modal-trigger#quickview"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "height": 220
+    }
+  },
+  "product-summary-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "store.product-review-form": {
+    "blocks": [
+      "product-review-form"
+    ]
+  },
+  "store.not-found#product": {
+    "blocks": [
+      "rich-text#not-found"
+    ]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  },
+  "store.not-found#search": {
+    "blocks": [
+      "rich-text#not-found"
+    ]
+  },
+
+
+
+
+  "drawer#mobile": {
+    "props": {
+      "blockClass": "drawer-mobile",
+      "isFullWidth": true,
+      "backdropMode": "none"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "vtex.menu@2.x:menu#category-menu-mobile"
+    ]
+  },
+  "flex-layout.row#drawer-row-2": {
+    "props": {
+      "blockClass": "drawer-row-2",
+      "colSizing": "auto"
+    },
+    "children": [
+      "login#drawer",
+      "search-bar#drawer",
+      "minicart.v2"
+    ]
+  },
+
+  "logo#drawer": {
+    "props": {
+      "blockClass": "logo-drawer",
+      "href": "/",
+      "url": "https://mercedescampuzano.vtexassets.com/arquivos/mc-logo.png"
+    }
+  },
+  "search-bar#drawer": {
+    "props": {
+      "blockClass": "search-drawer"
+    }
+  },
+  "login#drawer": {
+    "props": {
+      "blockClass": "login-drawer"
+    }
+  },
+/*  "minicart.v2#drawer": {
+    "props": {
+      "blockClass": "mini-drawer"
+    }
+  },
+*/
+
+
+  "drawer#mobile-menu-1": {
+    "props": {
+      "blockClass": "mobile-menu",
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-1",
+      "menu-item#menu-1-1",
+      "menu-item#menu-1-3",
+      "menu-item#menu-1-4",
+      "menu-item#menu-1-5",
+      "menu-item#menu-1-6",
+      "menu-item#menu-1-2",
+      "menu-item#menu-1-11",
+      "menu-item#menu-1-10",
+      "menu-item#menu-1-7",
+      "menu-item#menu-1-8",
+      "menu-item#menu-1-9"
+
+
+    ]
+  },
+  "drawer#mobile-menu-2": {
+    "props": {
+      "blockClass": "mobile-menu",
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-2",
+      "menu-item#menu-2-1",
+      "menu-item#menu-2-2",
+      "menu-item#menu-2-3",
+      "menu-item#menu-2-4"
+    ]
+  },
+  "drawer#mobile-menu-3": {
+    "props": {
+      "blockClass": "mobile-menu",
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-3",
+      "menu-item#menu-3-1",
+      "menu-item#menu-3-2",
+      "menu-item#menu-3-3",
+      "menu-item#menu-3-4",
+      "menu-item#menu-3-5",
+      "menu-item#menu-3-6",
+      "menu-item#menu-3-7",
+      "menu-item#menu-3-8",
+      "menu-item#menu-3-9",
+      "menu-item#menu-3-10"
+    ]
+  },
+  "drawer#mobile-menu-4": {
+    "props": {
+      "blockClass": "mobile-menu",
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-4",
+      "menu-item#menu-4-1",
+      "menu-item#menu-4-2",
+      "menu-item#menu-4-3",
+      "menu-item#menu-4-4",
+      "menu-item#menu-4-5",
+      "menu-item#menu-4-6"
+    ]
+  },
+  "link#mobile-menu-1": { 
+    "props": { 
+      "blockClass":"mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "/zapatos",
+      "label": "Zapatos"
+    }
+  },
+  "link#mobile-menu-2": { 
+    "props": { 
+      "blockClass":"mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "/bolsos",
+      "label": "Bolsos"
+    }
+  },
+  "link#mobile-menu-3": { 
+    "props": { 
+      "blockClass":"mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "/accesorios",
+      "label": "Accesorios"
+    }
+  },
+  "link#mobile-menu-4": { 
+    "props": { 
+      "blockClass":"mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "/otros",
+      "label": "Otros"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  /*texto con titulo y dos columnas*/
+  "flex-layout.row#footer-terms-col": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "about-us"
+    },
+    "children": [
+      "flex-layout.col#prueba-wrapper"
+    ]
+  },
+  "flex-layout.col#prueba-wrapper": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
+    },
+    "children": [
+      "flex-layout.row#prueba-title",
+      "flex-layout.row#prueba-content"
+    ]
+  },
+  "flex-layout.row#prueba-title": {
+    "props": {},
+    "children": [
+      "rich-text#title"
+    ]
+  },
+  "rich-text#title": {
+    "props": {
+      "blockClass": "footer-terms-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ingrese su titulo aquí"
+    }
+  },
+  "flex-layout.row#prueba-content": {
+    "children": [
+      "rich-text#prueba-content-1",
+      "rich-text#prueba-content-2"
+    ]
+  },
+  "rich-text#prueba-content-1": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Ingrese su texto aquí",
+      "blockClass": "footer-terms-content"
+    }
+  },
+  "rich-text#prueba-content-2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Ingrese su texto aquí",
+      "blockClass": "footer-terms-content"
+    }
+  },
+  /*texto con titulo y una columna*/
+  "flex-layout.row#footer-terms-col-1": {
+    "children": [
+      "flex-layout.col#col-1-wrapper"
+    ]
+  },
+  "flex-layout.col#col-1-wrapper": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
+    },
+    "children": [
+      "flex-layout.row#col-1-title",
+      "flex-layout.row#col-1-content"
+    ]
+  },
+  "flex-layout.row#col-1-title": {
+    "children": [
+      "rich-text#col-1-title"
+    ]
+  },
+  "flex-layout.row#col-1-content": {
+    "children": [
+      "rich-text#col-1-content"
+    ]
+  },
+  "rich-text#col-1-title": {
+    "props": {
+      "blockClass": "footer-terms-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ingrese su titulo aquí"
+    }
+  },
+  "rich-text#col-1-content": {
+    "props": {
+      "blockClass": "footer-terms-content",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Ingrese su texto aquí"
+    }
+  },
+
+
+
+
+
+
+
+
+  "flex-layout.row#product-main": {
+    "props": {
+      "blockClass":"product-main",
+      "colGap": 7,
+      "rowGap": 10,
+      "marginTop": 0,
+      "marginBottom": 7,
+      "paddingTop": 4,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    "minicart.v2": {
+      "children": ["minicart-base-content"]
+    },
+    "minicart-base-content": {
+      "blocks": ["minicart-empty-state"],
+      "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+    },
+    "flex-layout.row#minicart-footer": {
+      "props": {
+        "blockClass": "minicart-footer"
+      },
+      "children": ["flex-layout.col#minicart-footer"]
+    },
+    "flex-layout.col#minicart-footer": {
+      "children": ["minicart-summary", "minicart-checkout-button","link#button" ]
+    },
+    "link#button": { 
+      "props": { 
+        "blockClass":"minicart-checkout-button",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "href": "https://mcampuzano22--mercedescampuzano.myvtex.com/checkout/#/cart",
+        "label": "FINALIZA TU COMPRA"
+      }
+    },
+
+
+    "minicart-product-list": {
+      "blocks": ["product-list#minicart"]
+    },
+    "product-list#minicart": {
+      "blocks": ["product-list-content-mobile"]
+    },
+    "minicart-summary": {
+      "blocks": ["checkout-summary.compact#minicart"]
+    },
+  
+    "checkout-summary.compact#minicart": {
+      "children": ["summary-totalizers#minicart"],
+      "props": {
+        "totalizersToShow": ["Items", "Discounts"]
+      }
+    },
+    "summary-totalizers#minicart": {
+      "props": {
+        "showTotal": true,
+        "showDeliveryTotal": false
+      }
+    },
+    "minicart-empty-state": {
+      "children": ["flex-layout.row#empty-state"]
+    },
+    "flex-layout.row#empty-state": {
+      "children": ["flex-layout.col#empty-state"]
+    },
+    "flex-layout.col#empty-state": {
+      "children": ["rich-text#empty-state"]
+    },
+    "rich-text#empty-state": {
+      "props": {
+        "text": "Tu carrito esta vacio!"
+      }
+    },
+
+    
+  /*"flex-layout.row#buy-button-shelf": {
+    "props": {
+      "blockClass":"buy-button-shelf"
+    },
+    "children": [
+      "buy-button#product"
+  ]
+  },
+  "buy-button#product":{
+    "props":{
+      "blockClass":"buy-button-shelf",
+      "text":"COMPRAR",
+      "shouldAddToCart":false,
+      "showTooltipOnSkuNotSelected":false
+    }
+  }*/
+
+  "flex-layout.row#buy-button-shelf": {
+    "children": [
+
+      "buy-button#product"
+    ],
+    "props":{
+      "blockClass":"buy-button-shelf",
+      "text":"COMPRAR YA"
+    }
+  },
+   "buy-button#product": {
+    "props": {
+      "text":"COMPRAR YA",
+      "isOneClickBuy": false,
+      "showTooltipOnSkuNotSelected": false,
+      "shouldAddToCart":false
+    }
+  }
+}

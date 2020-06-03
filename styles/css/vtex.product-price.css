@@ -1,0 +1,88 @@
+.listPrice {
+  color: #727273;
+  margin: 4px 10px 0 0 !important;
+  font-size: 1rem;
+  color: #e69675;
+}
+
+.sellingPrice {
+  color: #3f3f40;
+  font-size: 1.25rem;
+}
+.sellingPrice--hasListPrice{
+  margin-top: 5px;
+}
+.sellingPriceValue {
+  font-size: 1.1rem;
+  margin: 0 0 0 10px;
+  font-weight: 600;
+  color: #e69675;
+  align-items: left;
+}
+.listPriceValue {
+  font-size: 1.20rem;
+  font-weight: 400;
+  color: #69727b;
+  margin: 0;
+  padding: 0;
+}
+
+.installments {
+  color: #727273;
+  margin-bottom: 1rem;
+}
+
+.savings {
+  display: none;
+  font-weight: 500;
+  color: #79B03A;
+}
+
+.sellingPriceValue--summary {
+  font-size: 16px;
+  color: #e69675;
+  margin: 0!important;
+}
+.listPriceValue--summary{
+  color: #292c2a;
+  font-size: 15px;
+  font-weight: 900;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.sellingPrice--summary{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.savings--summary {
+  display: none;
+
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+
+.installments--summary {
+display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .listPriceValue--summary{
+    font-size: 11px;
+  }
+  .listPrice {
+    margin: 4px 0px 0 0 !important;
+  }
+  .sellingPriceValue--summary {
+    font-size: 11px;
+   }
+
+}

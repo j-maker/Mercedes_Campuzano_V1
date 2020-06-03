@@ -1,0 +1,7 @@
+{
+    "store.custom#frequent-questions":{
+        "blocks": [  
+            "flex-layout.row#footer-terms-col"
+        ]
+    }
+}

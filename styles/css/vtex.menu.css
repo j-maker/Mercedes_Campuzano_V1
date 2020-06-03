@@ -1,0 +1,150 @@
+
+.menuItem--header-submenu-text {
+  margin: 5px 0;
+  font-size: 13px;
+  color: #515151;
+}
+.menuItem--header-submenu-text:hover {
+  background: #ebdedd;
+}
+.menuItem--header-submenu-1-text:hover {
+  background: #ebdedd;
+}
+.menuItem--header-submenu-1-text {
+  padding: 10px 0;
+}
+.styledLinkContent--header-submenu-1-text {
+  font-size: 13px;
+  color: #515151;
+  padding: auto 0;
+  height: 100%;
+  padding: 1% 0;
+}
+.styledLinkContent--header-menu-2 {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  height: 21px;
+}
+.styledLinkContent--header-menu-2::after {
+  width: 12px;
+  content: "";
+  background-image: url("https://img.icons8.com/material-sharp/24/000000/expand-arrow.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10px;
+  z-index: 999;
+  padding-top: 6px;
+  padding-left: 7px;
+}
+.styledLinkContent--header-menu-2:hover {
+  color: #797878;
+  font-weight: 400;
+}
+.styledLinkContainer--header-menu-2 {
+  height: 20px;
+  margin: 16px 5px 32px 5px;
+}
+.styledLinkContent--header-submenu-text {
+  font-size: 13px;
+  color: #515151;
+}
+.submenuContainer{
+  left: -.9em;
+  right: 0em;
+  position: absolute;
+}
+.submenuWrapper {
+  height: 310px; 
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #f7ebe9 !important;
+}
+
+.menuContainerNav--submenu{
+  width: 280px;
+}
+.menuContainerNav--submenu-1{
+  width: 200px;
+}
+
+.menuItem--submenu:hover{
+  background: #faf5f5;
+  opacity: 0.5;
+}
+.styledLinkContent--submenu {
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 13px;
+  color: #000;
+    }
+    .styledLink--submenu{
+background: transparent;
+    }
+
+
+@media screen and (max-width: 1024px) {
+  .menuItem--submenu{
+    margin: 0;
+    color: #000000;
+    font-size: 14px;
+    padding: 2px 70px 2px 30px;
+    border-bottom: 1px solid #d0d0d0;
+    text-transform: capitalize;
+  }
+  .submenuWrapper {
+    height:0px; 
+    padding: 0px;
+  }
+  .menuContainerNav{
+    width: 100%;
+  }
+  .styledLinkContainer--header-menu-2{
+    height: 0;
+    margin: 0 0 0 5px;
+    padding: 0px;
+  }
+  .styledLinkContent--header-menu-2 {
+    margin: 0;
+    padding: 0px 0 0 7px;
+    text-transform: capitalize;
+  }
+  .styledLinkContent--header-menu-2::after {
+display: none;
+  }
+  .styledLinkContent--header-menu-2 {
+    font-size: 16px;
+  }
+  .styledLinkContent--header-submenu-1-text {
+    margin: 0;
+    padding: 0px;
+  }
+  .styledLinkContent--submenu {
+    padding: 0 0 0 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+  .menuItem--header-submenu-1-text {
+    padding: 7px 20px;
+    margin: 0px 0px;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  .menuItem--header-submenu-text {
+    padding: 7px 20px;
+    margin: 0px 0px;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  .menuItem--header-menu-2{
+    width: 10px !important;
+    left: 0.9em;
+  }
+
+}

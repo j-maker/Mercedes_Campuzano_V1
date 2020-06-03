@@ -1,0 +1,215 @@
+    {
+      "store.custom#terms-conditions-promotions": {
+        "blocks": [
+          "flex-layout.row#footer-terms-conditions-promotions"
+        ]
+      },
+      "flex-layout.row#footer-terms-conditions-promotions": {
+        "props":{
+          "blockClass":"footer-terms-conditions-promotions"
+        },
+        "children": [
+          "flex-layout.col#col-1-wrapper-terms-conditions-promotions"
+        ]
+      },
+      "flex-layout.col#col-1-wrapper-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-col-policies-col-wrapper"
+        },
+        "children": [
+          "flex-layout.row#col-1-title-terms-conditions-promotions",
+          "flex-layout.col#col-1-content-terms-conditions-promotions"
+        ]
+      },
+      "flex-layout.row#col-1-title-terms-conditions-promotions": {
+        "children": [
+          "rich-text#col-1-title-terms-conditions-promotions"
+        ]
+      },
+      "flex-layout.col#col-1-content-terms-conditions-promotions": {
+        "children": [
+          "rich-text#col-1-subtitle-1-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-1-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-2-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-2-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-3-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-3-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-4-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-4-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-5-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-5-content-terms-conditions-promotions",
+          /*table*/
+          "rich-text#col-1-paragraph-6-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-7-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-7-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-8-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-8-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-9-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-9-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-10-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-10-content-terms-conditions-promotions"
+        ]
+      },
+      "rich-text#col-1-title-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-title",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "TÉRMINOS Y CONDICIONES DE PROMOCIONES"
+        }
+      },
+      "rich-text#col-1-subtitle-1-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**NUESTROS PRECIOS Y OFERTAS**"
+        }
+      },
+      "rich-text#col-1-paragraph-1-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Los precios consignados incluyen el IVA.\nLos precios se expresan en pesos colombianos.\nLos descuentos no son acumulables entre sí ni con otras ofertas, promociones o alianzas comerciales.\nLos descuentos no son canjeables por dinero.\nLos descuentos no aplican para bonos de descuento por cumpleaños.\nLos descuentos no aplican para redención de puntos club de coleccionistas.\nEs posible que se produzcan pequeñas variaciones de color u otro tipo de variables menores en nuestros productos, como consecuencia de las diferentes tecnologías de adquisición de imagen y exhibición, o por otras razones técnicas. MC Hormas y Zapatos no se hace responsable de estas variaciones y desviaciones.\nMC Hormas y zapatos se reserva el derecho de hacer cambios en los precios y el producto con anterioridad a un pedido realizado por usted\nMC Hormas y zapatos se reserva el derecho a cambiar, limitar o dar por terminadas ofertas especiales o promociones en cualquier momento.\nAplican condiciones y restricciones\n  Bono de descuento por valor de $50.000\nRedimible únicamente del 2 al 31 de enero de 2020\nSerá Válido si la compra es igual o superior a $150.000\nVálido para una sola compra\nAplica en todas las tiendas físicas MERCEDES CAMPUZANO de todo el país y tienda online www.mercedescampuzano.com con el código N4V1D4D\nNo aplica para producto colección ENTRELAZOS\nNo aplica en tiendas físicas Falabella\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento aplica con cualquier medio de pago\nBeneficio o descuento NO acumulable entre sí, ni con otras promociones ni alianzas\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para compra de bonos regalo\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías\nNo aplica para bonos de descuento por cumpleaños.\nDescuento no canjeable por dinero\nDeberás presentar este bono sin adulteraciones o deterioros que comprometan las características de seguridad"
+        }
+      },
+      "rich-text#col-1-subtitle-2-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**BLACK FRIDAY NOVIEMBRE 2019**"
+        }
+      },  
+      
+      "rich-text#col-1-paragraph-2-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones\nDescuento hasta del 60% en referencias seleccionadas\nPromoción válida únicamente (Desde 22-Nov-19 / Hasta 3-Dec-19) o hasta agotar existencias, lo que suceda primero.\nAplica únicamente en página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas.\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento.\nNo aplica para bonos de descuento por cumpleaños.\nUnidades disponibles a nivel nacional entre bolsos, zapatos y accesorios 12,756"
+        }
+      },
+      "rich-text#col-1-subtitle-3-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**CYBER SANTA 2019**\n\n"
+        }
+      },
+      "rich-text#col-1-paragraph-3-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones\n Descuento hasta del 60% en referencias seleccionadas\nPromoción válida únicamente (Desde 11-Dic-19 / Hasta 16-Dic-19) o hasta agotar existencias, lo que suceda primero.\nAplica únicamente en página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas.\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento.\nNo aplica para bonos de descuento por cumpleaños.\nUnidades disponibles a nivel nacional entre bolsos, zapatos y accesorios 23,736"
+        }
+      },
+      "rich-text#col-1-subtitle-4-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**DÍA DE LA MUJER 2020**\n\n"
+        }
+      },
+      "rich-text#col-1-paragraph-4-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones.\nBono de descuento del 15%\nValido para redimir en una sola compra.\nPromoción valida únicamente desde el 8 de Marzo del 2020 hasta el 31 de Marzo del 2020.\nAplica únicamente para el inventario disponible los días del evento, en todas las tiendas físicas MERCEDES CAMPUZANO de todo el país, sitio web www.mercedescampuzano.com, linea whapsapp 317 426 67 93, chat Mercedes Campuzano Instagram y Chat Mercedes Campuzano Facebook.\nNo aplica en tiendas físicas Falabella.\nNo aplica para ningún otro medio de comercialización físico ni virtual.\nLos descuentos no son acumulables entre sí ni con otras ofertas, promociones o alianzas comerciales.\nLos descuentos no son canjeables por dinero.\nNo aplica para compra de bonos regalo.\nLos descuentos no aplican para redención de puntos club de coleccionistas.\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento.\nLos descuentos no aplican para bonos de descuento por cumpleaños.\nDeberás conservar el código que te sea asignado al finalizar el test para tener acceso al descuento."
+        }
+      },
+      "rich-text#col-1-subtitle-5-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**BONOS ARTESANOS**"
+        }
+      },
+      "rich-text#col-1-paragraph-5-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones.\nCompra tú bono artesano y te obsequiamos hasta el 30% del valor del bono, redimible en productos Mercedes Campuzano\nEl obsequio otorgado dependerá del valor inicial de la compra y esta dado de acuerdo a la siguiente escala:\n"
+        }
+      },
+      "rich-text#col-1-paragraph-6-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Promoción valida únicamente desde el 9 de Abril del 2020 hasta el 30 de Abril del 2020.\nLa vigencia del bono será de un año a partir de la fecha de compra y solo podrá ser redimido a través de nuestra página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93\nNo aplica para ningún otro medio de comercialización físico ni virtual.\nLos descuentos del bono no son acumulables entre sí ni con otras ofertas, promociones o alianzas comerciales.\nEl beneficio no es canjeable por dinero.\nNo aplica para redención de puntos club de coleccionistas.\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento.\nLos descuentos no aplican para bonos de descuento por cumpleaños.\nDeberás conservar el código que te sea asignado vía correo para que puedas hacer uso del bono artesanos al cancelar una compra.\n\n"
+        }
+      },
+      "rich-text#col-1-subtitle-7-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**Zapatos x Alimentos**"
+        }
+      },
+      "rich-text#col-1-paragraph-7-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones.\nDonaremos el 20% de las compras que se realicen a través de nuestra pagina web www.mercedescampuzano.com y whatsapp 3174266793\nEl 20% de la compra que realices, será donado en desayunos, almuerzos y cenas para el personal de acompañamiento de los niños y personas en condición de discapacidad que den positivo en coronavirus del hospital de San Vicente de Medellín.\nEvento valida únicamente desde el 9 de Abril del 2020 hasta el 30 de Abril del 2020.\nAplica únicamente para el inventario disponible los días del evento, en todas las tiendas físicas MERCEDES CAMPUZANO de todo el país, sitio web www.mercedescampuzano.com, linea whapsapp 317 426 67 93.\nAplica únicamente  sobre producto de linea.\nNo aplica para producto en descuento y/o promoción.\nNo aplica para compra ni redención de bonos regalo.\nNo aplica para ningún otro medio de comercialización físico ni virtual.\nEl beneficio no es acumulable entre sí ni con otras ofertas, promociones o alianzas comerciales.\nEl beneficio no es canjeable por dinero.\n\n\n\n"
+        }
+      },
+      "rich-text#col-1-subtitle-8-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**Durante la Cuarentena.**\n"
+        }
+      },
+      
+      "rich-text#col-1-paragraph-8-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "***Envío gratis*** desde el 13 de marzo hasta el 26 de abril de 2020.\nPor compras realizadas del 15 de marzo al 26 de abril de 2020 se podrán realizar cambios hasta 90 días después de realizada la compra."
+        }
+      },
+      "rich-text#col-1-subtitle-9-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**MOM MIX & MATCH**\n"
+        }
+      }, 
+      "rich-text#col-1-paragraph-9-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Por $ 129,900 lleva un par de zapatos + un bolso de referencias seleccionadas e identificadas como 'combo'\nEvento valida únicamente desde el 1 de Mayo del 2020 hasta el 30 de Mayo del 2020.\nNo aplica para producto en descuento y/o promoción.\nEl descuento no es canjeable por dinero.\nNo aplica para ningún otro medio de comercialización físico ni virtual.\nNo aplica para compras  de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento\nNo aplica para bonos de descuento por cumpleaños.\nEl beneficio no es acumulable entre sí ni con otras ofertas, promociones o alianzas comerciales.\nUnidades disponibles entre bolsos y zapatos a nivel nacional, de referencias seleccionadas marcadas como 'combo' 8,178\n\n"
+        }
+      },
+      "rich-text#col-1-subtitle-10-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**Evento Madres 2020**\n"
+        }
+      },
+      "rich-text#col-1-paragraph-10-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones\nDescuento del 30% en referencias seleccionadas\nPromoción válida únicamente (Desde 01-May-2020 / Hasta 30-May-2020)\nAplica únicamente en página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas.\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento.\nNo aplica para bonos de descuento por cumpleaños.\n\n"
+        }
+      }
+    }

@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,429;1,500&display=swap");
+.paragraph--home-text-1 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin: 40px 0px;
+}
+.paragraph--home-text-1::after {
+  content: "";
+  display: block;
+  margin: 7px auto 0;
+  height: 2px;
+  width: 60%;
+  background-color: #9d884b;
+}
+.container--home-footer-banner {
+  color: black;
+}
+.strong--footer-row-3-contact {
+  font-weight: 600;
+}
+.strong--footer-row-4-title-redes {
+  font-weight: bold;
+  font-size: 15 px;
+}
+.paragraph--footer-row-3-contact {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin: 0;
+}
+.paragraph--footer-row-3-contact::before {
+  font-weight: 700;
+  color: #9d884b;
+  content: "¿NECESITAS AYUDA? ";
+}
+.paragraph--footer-row-3-contact::after {
+  font-weight: 700;
+  color: #9d884b;
+  content: " +57 317 426 6793";
+}
+.paragraph--footer-row-3-contact-email::before {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  color: #9d884b;
+  content: "EMAIL: ";
+}
+.strong--footer-row-3-contact {
+  font-weight: 700 !important;
+}
+.link--footer-row-3-contact-email {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin: 0;
+}
+.paragraph--footer-row-4-title-redes {
+  font-weight: semi-bold;
+  color: #9d884b;
+  font-size: 13px;
+}
+.paragraph--footer-link-title-col {
+  font-size: 13.5px;
+  font-weight: bold;
+  color: #515151;
+  margin-bottom: 30px;
+}
+.paragraph--row-6-2-copy {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+
+.container--footer-row-2-newsletter{
+justify-content: center;
+padding: 0 20px;
+}
+.wrapper--footer-row-2-newsletter{
+  width: 450px;
+  margin-bottom: 20px;
+}
+.paragraph--footer-row-2-newsletter{
+  line-height: 2;
+  font-size: 11px;
+  text-align: justify;
+}
+.paragraph--footer-terms-title {
+  border-top: 1px solid #9d884b;
+  padding: 10px 50px;
+  border-bottom: 1px solid #9d884b;
+  font-family: "Lora", serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+  height: 100%;
+  margin: 20px auto;
+}
+.container--footer-terms-content-subtitles,
+.container--footer-terms-content {
+  margin: 0px 30px;
+  height: 100%;
+}
+.container--footer-terms-content-terms-use,
+.container--footer-terms-content-terms-use-justify,
+.container--footer-terms-content-subtitles-terms-use,
+.container--footer-terms-content-subtitles-policies-1,
+.container--footer-terms-content-subtitles-buy-insurance,
+.container--footer-terms-content-buy-insurance,
+.container--footer-terms-content-online-shopping,
+.container--footer-terms-content-recomendations,
+.container--footer-terms-content-warranty,
+.container--footer-terms-content-policies,
+.container--footer-terms-content-policies-1,
+.container--footer-terms-content-subtitles-policies-changes,
+.container--footer-terms-content-subtitles-policies {
+  margin: 0px 30px;
+  height: auto;
+}
+.container--footer-contact-us{
+  width: 730px !important;
+  justify-content: center;
+  line-height: 2px;
+  font-size: 16px;
+  color: #69727B;
+}
+.paragraph--footer-terms-content-terms-use-justify,
+.paragraph--footer-terms-content-buy-insurance,
+.paragraph--footer-terms-content-online-shopping,
+.paragraph--footer-terms-content-recomendations,
+.paragraph--footer-terms-content-warranty,
+.paragraph--footer-terms-content-policies-1,
+.container--footer-terms-content-subtitles-policies-changes,
+.paragraph--footer-terms-content-policies {
+  font-size: 14px;
+  text-align: justify !important;
+  color: #515151;
+}
+.strong--footer-terms-content-terms-use-justify,
+.strong--footer-terms-content-subtitles-policies,
+.strong--footer-terms-content-subtitles-policies-changes,
+.strong--footer-terms-content-subtitles-buy-insurance,
+.strong--footer-terms-content-subtitles {
+  font-family: "Lora";
+  font-size: 18px;
+  text-align: justify !important;
+  color: #927c68;
+  font-weight: 600;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
+.strong--footer-terms-content-subtitles-policies-1,
+.strong--footer-terms-content-online-shopping,
+.strong--footer-terms-content-recomendastions,
+.strong--footer-terms-content-warranty {
+  font-size: 16px;
+  text-align: justify !important;
+  color: #69727b;
+  font-weight: bold;
+}
+.link--footer-terms-content-terms-use,
+.link--footer-row-2-newsletter,
+.link--footer-terms-content-online-shopping,
+.link--footer-terms-content-recomendations,
+.link--footer-terms-content-policies,
+.link--footer-terms-content-policies-1,
+.link--footer-terms-content {
+  text-decoration: none;
+  color: black;
+}
+.strong--footer-terms-content-subtitles-terms-use{
+  font-family: "Lora";
+  font-size: 15px;
+  text-align: justify !important;
+  color: #927c68;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.paragraph--footer-terms-content-terms-use{
+  font-size: 14px;
+  text-align: justify !important;
+  color: #515151;
+margin-left: 20px;}
+.link--footer-row-2-newsletter{
+  text-decoration: none;
+  color: #9d884b;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container--footer-terms-content-recomendations-block{
+  margin: 0px 30px 0 55px;
+  height: auto;
+  display: list-item;
+  font-size: 14px;
+  text-align: justify;
+  color: #515151;
+}
+.paragraph--footer-terms-content-recomendations-block{
+  margin: 0
+}
+
+
+
+.paragraph--footer-terms-content-subtitles,
+.paragraph--footer-terms-content {
+  font-size: 14px;
+  text-align: justify;
+  color: #515151;
+}
+
+.strong--footer-terms-content {
+  font-family: "Lora";
+  font-size: 14px;
+  text-align: justify;
+  color: #9d884b;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.strong--footer-terms-content-policies-1 {
+  font-family: "Lora";
+  font-size: 14px;
+  text-align: justify !important;
+  color: black !important;
+  font-weight: bold;
+}
+
+
+.container--desktop-fixed-help {
+  margin-top: 5px;
+  padding-right: 20px;
+}
+.paragraph--desktop-fixed-help {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 8px 0px;
+  padding: 0px;
+  color: #625449;
+  width: 48px;
+  height: 20px;
+}
+.strong--fixed-help {
+  font-weight: 600;
+}
+
+.container--store-shelf-title {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 800;
+  color: #e7b79a;
+}
+.strong--store-shelf-content {
+  color: #9d884b;
+  font-weight: 600;
+}
+.container--store-shelf-content {
+  margin: 0px 10px;
+  padding: 0px 55px;
+  height: 300px;
+  color: #515151;
+  font-size: 12px;
+}
+.container--price-online {
+  font-size: 16px;
+  color: #69727b;
+}
+.paragraph--price-online {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container--footer-row-2-newsletter{
+    margin: 0 20px;
+  }
+  .container--home-footer-banner {
+    font-size: 13px;
+  }
+  .container--row-6-2-copy {
+    margin-top: 80px;
+    padding-bottom: 0px;
+  }
+  .paragraph--row-6-2-copy {
+    font-size: 12px;
+    margin: 30px 80px 5px 80px;
+  }
+  .paragraph--footer-row-3-contact {
+    text-decoration: none;
+  }
+  .link--footer-row-3-contact-email {
+    font-size: 13px;
+  }
+  .container--home-text-1 {
+    width: 100%;
+  }
+  .container--footer-link-title-col {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+.container--footer-terms-title {
+  display: flex;
+  justify-content: center;
+}
+.container--title {
+  color: #03034e;
+  font-size: 28px;
+  font-weight: 700;
+}
+.paragraph--tallas{
+  margin: auto;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #9d884b;
+  text-align: center;
+  margin-left: 5px;
+}
+.wrapper--tallas{
+  cursor: pointer;
+}
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034e;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}

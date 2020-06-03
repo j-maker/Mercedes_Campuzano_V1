@@ -1,0 +1,32 @@
+.container{
+    background: #4C4C4C;
+    margin: 8px 0px;
+    height: 60px;
+}
+.departmentLink{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    margin: 0;
+    border: none;
+}
+.departmentLink:hover{
+    color: #797878;
+    font-weight: 400;
+}
+.section--department{
+    padding: 0px 10px ;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .headerRowBackground--header-3-wrapper {
+      background: #fff !important;
+  }  
+}

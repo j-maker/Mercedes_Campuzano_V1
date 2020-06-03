@@ -1,0 +1,14 @@
+.input{
+    z-index: 1;
+    font-size: 13px;
+}
+.hideDecorators{
+    height: 36px;
+  }
+.container{
+width: 50px;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+}

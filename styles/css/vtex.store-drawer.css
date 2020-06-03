@@ -1,0 +1,47 @@
+.closeIcon {
+  z-index: 99;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.childrenContainer--drawer-mobile {
+  display: block !important;
+}
+.openIconContainer--drawer-mobile {
+  margin: 15px 10px;
+}
+.openIconContainer--mobile-menu {
+  padding: 0 135px;
+  margin: 0;
+  opacity: 0;
+  width: 0px;
+}
+
+/*Submenus*/
+.childrenContainer--mobile-menu {
+  display: block;
+}
+
+.closeIcon--mobile-menu {
+  color:transparent;
+  width: 14px;
+  content: "";
+  background-image: url("https://img.icons8.com/material-sharp/24/000000/expand-arrow.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20px;
+  z-index: 999;
+  padding: 12px 7px;
+  margin: 0 8px;
+  transform: rotate(90deg);
+  top: 151px;
+  font-weight: 700 !important;
+}
+.closeIconButton--mobile-menu {
+  margin: 0;
+  padding: 0;
+}
+.closeIconContainer--mobile-menu {
+  margin-top: 24px;
+}

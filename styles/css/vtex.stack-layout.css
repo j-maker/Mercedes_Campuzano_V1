@@ -1,0 +1,15 @@
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--quickview {
+  display: none;
+  right: 0;
+  top: 0;
+  left: auto;
+}
+
+
+
+
+

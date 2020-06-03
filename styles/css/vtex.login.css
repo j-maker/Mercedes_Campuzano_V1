@@ -1,0 +1,123 @@
+.container:hover{
+    opacity: 0.5;
+}
+.profileIcon{
+    height: 20px;
+    width: 13px;
+    padding-right: 0px;
+    overflow: visible !important;
+    padding-bottom: 4px;
+    fill-rule:"evenodd";
+}
+.content{
+    font-size: 12px;
+    margin: 0 ;
+    background-color: #f9efed;
+    margin: 0px auto;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.button{
+    margin: 10px;
+}
+.backButton{
+    margin-right: auto;
+}
+.sendButton{
+    background: #E1D3C8;
+}
+.sendButton:hover{
+    background: #d56e2f;
+    color: white;
+    transition: all 0.6s;
+}
+
+
+.formTitle{
+    font-family: "Lora";
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.formError{
+    font-size: 12px;
+    margin: 15px 0 ;
+    background-color: #f9efed;
+    color: #646464;
+    font-weight: bold;
+}
+
+.pa2{
+    display: none;
+}
+
+.arrowUp{
+    display: none;
+}
+.optionsSticky{
+    display: none;
+}
+.contentFormVisible{
+    margin: 20px auto;
+    padding: 0 25px;
+    width: 445px;
+    height: auto;
+}
+.inputContainerEmail{
+    margin-bottom: 50px;
+}
+.formLinkContainer{
+display: flex;
+justify-content: center;
+color: #646464;
+font-size: 15px;
+}
+.forgotPasswordLink{
+    color: #646464;
+    font-family: "Montserrat";
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    }
+    .dontHaveAccount{
+        color: #646464;
+        font-family: "Montserrat";
+        font-size: 15px;
+        margin: 20px 0;
+        text-transform: uppercase;
+        }
+
+.profileIcon--login-drawer{
+    width: 14px;
+}
+        
+
+    @media screen and (max-width:1024px) {
+.label{
+    font-size: 0px;
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+    width:100% !important;
+}
+.contentFormVisible{
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+}
+.profileIcon--header-login{
+    padding: 0 0 10px 0 ;
+    width: 13px;
+}
+.container{
+    padding: 0px 5px 5px 0 !important;
+} 
+.buttonLink{
+    width: 45px !important;
+    margin: 0 10px 0 0 ;
+}
+}

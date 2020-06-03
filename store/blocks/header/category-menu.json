@@ -1,0 +1,1030 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": false,
+      "orientation": "horizontal"
+    },
+    "children": [
+      "link#row-3-1",
+      "menu-item#menu-1",
+      "menu-item#menu-2",
+      "menu-item#menu-3",
+      "logo#desktop",
+      "menu-item#menu-4",
+      "link#row-3-2",
+      "link#row-3-3",
+      "link#row-3-4",
+      "minicart.v2"
+    ]
+  },
+  "menu-item#menu-1": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "ZAPATOS",
+        "text": "ZAPATOS"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-1": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-1-1",
+      "vtex.menu@2.x:menu#menu-1-2",
+      "vtex.menu@2.x:menu#menu-1-3",
+      "list-context.image-list#menu-slider-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-1-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-1"
+    },
+    "children": [
+      "menu-item#menu-1-1",
+      "menu-item#menu-1-3",
+      "menu-item#menu-1-4",
+      "menu-item#menu-1-5",
+      "menu-item#menu-1-6"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-1-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-1"
+    },
+    "children": [
+      "menu-item#menu-1-2",
+      "menu-item#menu-1-11",
+      "menu-item#menu-1-7",
+      "menu-item#menu-1-8",
+      "menu-item#menu-1-9"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-1-3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-1"
+    },
+    "children": [
+      "menu-item#menu-1-10"
+    ]
+  },
+  "menu-item#menu-1-1": {
+    "props": {
+      "id": "1/2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos/baletas/",
+        "noFollow": false,
+        "tagTitle": "Baletas",
+        "text": "Baletas"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-2": {
+    "props": {
+      "id": "1/4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos?map=c,specificationFilter_45&query=/Zapatos/Sandalias%20planas",
+        "noFollow": false,
+        "tagTitle": "Sandalias Planas",
+        "text": "Sandalias Planas"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-3": {
+    "props": {
+      "id": "1/27",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos/botas-y-botines",
+        "noFollow": false,
+        "tagTitle": "Botas y Botines",
+        "text": "Botas y Botines"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-4": {
+    "props": {
+      "id": "1/5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos/mocasines",
+        "noFollow": false,
+        "tagTitle": "Mocasines",
+        "text": "Mocasines"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-5": {
+    "props": {
+      "id": "1/6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos/oxford",
+        "noFollow": false,
+        "tagTitle": "Oxford",
+        "text": "Oxford"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-6": {
+    "props": {
+      "id": "1/3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos?map=c,specificationFilter_45&query=/Zapatos/Sandalias%20de%20tacón",
+        "noFollow": false,
+        "tagTitle": "Sandalias de Tácon",
+        "text": "Sandalias de Tácon"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-7": {
+    "props": {
+      "id": "1/8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos/tacones",
+        "noFollow": false,
+        "tagTitle": "Tacones",
+        "text": "Tacones"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-8": {
+    "props": {
+      "id": "1/9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos/tenis",
+        "noFollow": false,
+        "tagTitle": "Tenis",
+        "text": "Tenis"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-9": {
+    "props": {
+      "id": "1/26",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos/zuecos",
+        "noFollow": false,
+        "tagTitle": "Zuecos",
+        "text": "Zuecos"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-10": {
+    "props": {
+      "id": "139",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "src": "https://mcampuzano22--mercedescampuzano.myvtex.com/139?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Spadrillas",
+        "text": "Spadrillas"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-1-11": {
+    "props": {
+      "id": "139",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos?map=c,specificationFilter_45&query=/Zapatos/Sandalias%20de%20plataforma",
+        "noFollow": false,
+        "tagTitle": "Sandalias Plataforma",
+        "text": "Sandalias Plataforma"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "list-context.image-list#menu-slider-1": {
+    "children": [
+      "slider-layout#menu-slider-1"
+    ],
+    "props": {
+      "blockClass": "menu-slider",
+      "images": [
+        {
+          "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-tacones.jpg",
+          "description": "Zapatos"
+        }
+      ]
+    }
+  },
+  "slider-layout#menu-slider-1": {
+    "props": {
+      "blockClass": "menu-slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }, 
+  "menu-item#menu-2": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "BOLSOS",
+        "text": "BOLSOS"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-2": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-2-1",
+      "vtex.menu@2.x:menu#menu-2-2",
+      "list-context.image-list#menu-slider-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-2-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    },
+    "children": [
+      "menu-item#menu-2-1",
+      "menu-item#menu-2-2",
+      "menu-item#menu-2-3",
+      "menu-item#menu-2-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-2-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    },
+    "children": [
+    ]
+  },
+  "menu-item#menu-2-1": {
+    "props": {
+      "id": "11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsos/bolsos-y-carteras",
+        "noFollow": false,
+        "tagTitle": "Bolsos y Carteras",
+        "text": "Bolsos y Carteras"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-2-2": {
+    "props": {
+      "id": "12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsos/morrales",
+        "noFollow": false,
+        "tagTitle": "Morrales",
+        "text": "Morrales"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-2-3": {
+    "props": {
+      "id": "13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsos/bandoleras",
+        "noFollow": false,
+        "tagTitle": "Bandoleras",
+        "text": "Bandoleras"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-2-4": {
+    "props": {
+      "id": "14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsos/sobres",
+        "noFollow": false,
+        "tagTitle": "Sobres",
+        "text": "Sobres"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "list-context.image-list#menu-slider-2": {
+    "children": [
+      "slider-layout#menu-slider-2"
+    ],
+    "props": {
+      "blockClass": "menu-slider",
+      "images": [
+        {
+          "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-bolsos.jpg",
+          "description": "bolsos"
+        }
+      ]
+    }
+  },
+  "slider-layout#menu-slider-2": {
+    "props": {
+      "blockClass": "menu-slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "menu-item#menu-3": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-3": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-3-1",
+      "vtex.menu@2.x:menu#menu-3-2",
+      "list-context.image-list#menu-slider-3"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-3-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    },
+    "children": [
+      "menu-item#menu-3-1",
+      "menu-item#menu-3-2",
+      "menu-item#menu-3-3",
+      "menu-item#menu-3-4",
+      "menu-item#menu-3-5"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-3-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    },
+    "children": [
+      "menu-item#menu-3-6",
+      "menu-item#menu-3-7",
+      "menu-item#menu-3-8",
+      "menu-item#menu-3-9",
+      "menu-item#menu-3-10"
+    ]
+  },
+  "menu-item#menu-3-1": {
+    "props": {
+      "id": "16",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/llaveros",
+        "noFollow": false,
+        "tagTitle": "Llaveros",
+        "text": "Llaveros"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-2": {
+    "props": {
+      "id": "20",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/cosmetiqueras",
+        "noFollow": false,
+        "tagTitle": "Cosmetiqueras",
+        "text": "Cosmetiqueras"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-3": {
+    "props": {
+      "id": "18",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/pulseras",
+        "noFollow": false,
+        "tagTitle": "Pulseras",
+        "text": "Pulseras"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-4": {
+    "props": {
+      "id": "19",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/limpieza-y-cuidados",
+        "noFollow": false,
+        "tagTitle": "Limpieza y Cuidados",
+        "text": "Limpieza y Cuidados"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-5": {
+    "props": {
+      "id": "20",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/cadenas-y-collares/404",
+        "noFollow": false,
+        "tagTitle": "Cadenas y Collares",
+        "text": "Cadenas y Collares"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-6": {
+    "props": {
+      "id": "21",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/anillos/404",
+        "noFollow": false,
+        "tagTitle": "Anillos",
+        "text": "Anillos"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-7": {
+    "props": {
+      "id": "22",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/aretes",
+        "noFollow": false,
+        "tagTitle": "Aretes",
+        "text": "Aretes"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-8": {
+    "props": {
+      "id": "23",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/billeteras-y-monederos",
+        "noFollow": false,
+        "tagTitle": "Billeteras y Monederos",
+        "text": "Billeteras y Monederos"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-9": {
+    "props": {
+      "id": "24",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/cinturones",
+        "noFollow": false,
+        "tagTitle": "Cinturones",
+        "text": "Cinturones"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-3-10": {
+    "props": {
+      "id": "25",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/vestuario",
+        "noFollow": false,
+        "tagTitle": "Vestuario",
+        "text": "Vestuario"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "list-context.image-list#menu-slider-3": {
+    "children": [
+      "slider-layout#menu-slider-3"
+    ],
+    "props": {
+      "blockClass": "menu-slider",
+      "images": [
+        {
+          "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-cadenas.jpg",
+          "description": "Accesorios"
+        }
+      ]
+    }
+  },
+  "slider-layout#menu-slider-3": {
+    "props": {
+      "blockClass": "menu-slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "menu-item#menu-4": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Otros",
+        "text": "Otros"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-4": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-4-1",
+      "vtex.menu@2.x:menu#menu-4-2",
+      "list-context.image-list#menu-slider-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-4-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    },
+    "children": [
+      "menu-item#menu-4-2",
+      "menu-item#menu-4-3",
+      "menu-item#menu-4-4",
+      "menu-item#menu-4-5",
+      "menu-item#menu-4-6"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-4-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    },
+    "children": [
+      "menu-item#menu-4-1"
+    ]
+  },
+  "menu-item#menu-4-1": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Safe Kit",
+        "text": "Safe Kit"
+      },
+      "href": "/otros/safe-kit",
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-4-2": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+
+        "noFollow": false,
+        "tagTitle": "Bono Regalo",
+        "text": "Bono Regalo"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-4-3": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ventas-corporativas",
+        "noFollow": false,
+        "tagTitle": "Ventas Corporativas",
+        "text": "Ventas Corporativas"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-4-4": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/143?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Cosmopolita",
+        "text": "Cosmopolita"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-4-5": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/142?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Urbano",
+        "text": "Urbano"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  "menu-item#menu-4-6": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/141?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Verano",
+        "text": "Verano"
+      },
+      "blockClass": "submenu"
+    }
+  },
+  
+  "list-context.image-list#menu-slider-4": {
+    "children": [
+      "slider-layout#menu-slider-4"
+    ],
+    "props": {
+      "blockClass": "menu-slider",
+      "images": [
+        {
+          "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-verano.jpg",
+          "description": "Otros"
+        }
+      ]
+    }
+  },
+  "slider-layout#menu-slider-4": {
+    "props": {
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": false
+      },
+      "blockClass": "menu-slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#category-menu-mobile": {
+    "props": {
+      "experimentalOptimizeRendering": false,
+      "orientation": "vertical"
+    },
+    "children": [
+      "link#row-3-1",
+      "flex-layout.row#menu-mobile-1",
+      "flex-layout.row#menu-mobile-2",
+      "flex-layout.row#menu-mobile-3",
+      "flex-layout.row#menu-mobile-4",
+      "link#row-3-2",
+      "link#row-3-3",
+      "link#row-3-4"
+    ]
+  },
+  "flex-layout.row#menu-mobile-1":{
+    "props":{
+      "blockClass":"menu-mobile",
+      "colSizing":"auto"
+    },
+    "children":[
+      "menu-item#menu-mobile-1",
+      "drawer#mobile-menu-1"
+    ]
+  },
+  "flex-layout.row#menu-mobile-2":{
+    "props":{
+      "blockClass":"menu-mobile",
+      "colSizing":"auto"
+    },
+    "children":[
+      "menu-item#menu-mobile-2",
+      "drawer#mobile-menu-2"
+    ]
+  },
+  "flex-layout.row#menu-mobile-3":{
+    "props":{
+      "blockClass":"menu-mobile",
+      "colSizing":"auto"
+    },
+    "children":[
+      "menu-item#menu-mobile-3",
+      "drawer#mobile-menu-3"
+    ]
+  },
+  "flex-layout.row#menu-mobile-4":{
+    "props":{
+      "blockClass":"menu-mobile",
+      "colSizing":"auto"
+    },
+    "children":[
+      "menu-item#menu-mobile-4",
+      "drawer#mobile-menu-4"
+    ]
+  },  
+  "menu-item#menu-mobile-1": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Zapatos",
+        "text": "Zapatos"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-mobile-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-mobile-1": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+    ]
+  },
+  "menu-item#menu-mobile-2": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Bolsos",
+        "text": "Bolsos"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-mobile-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-mobile-2": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "drawer#mobile-menu-2"
+    ]
+  },
+  "menu-item#menu-mobile-3": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-mobile-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-mobile-3": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "drawer#mobile-menu-3"
+    ]
+  },
+  "menu-item#menu-mobile-4": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Otros",
+        "text": "Otros"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-mobile-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-mobile-4": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "drawer#mobile-menu-4"
+    ]
+  }
+}

@@ -1,0 +1,751 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-row-1",
+      "flex-layout.row#footer-row-2",
+      "flex-layout.row#footer-row-3",
+      "flex-layout.row#footer-row-4",
+      "flex-layout.row#footer-row-5",
+      "flex-layout.row#footer-row-6",
+      /*"image#desktop-fixed-car",*/
+      "image#desktop-fixed-discount",
+      "image#desktop-fixed-arrow-up"
+/*      "flex-layout.row#desktop-fixed-help"*/
+    ]
+  },
+  
+  
+  
+  "flex-layout.row#footer-row-2":{
+    "props":{
+      "blockClass":"footer-row-2-newsletter"
+    },
+    "children":[
+      "flex-layout.col#footer-row-2"
+    ]
+  },
+   "flex-layout.col#footer-row-2":{
+    "children":[
+      "newsletter",
+      "rich-text#newsletter-terms"
+      /*"flex-layout.col#form"*/
+    ]
+  },
+  "rich-text#newsletter-terms": {  
+    "props": {  
+      "blockClass":"footer-row-2-newsletter",
+      "text": "Al suscribirte autorizas a recibir información y contenidos exclusivos de la marca Mercedes Campuzano. www.mercedescampuzano.com cuenta con rigurosos estándares de seguridad. Todos tus datos se mantendrán en estricta confidencialidad. Ver Política de seguridad. Si quieres dejar de recibir emails de Mercedescampuzano.com puedes solicitarlo al correo servicioalcliente@mecedescampuzano.com.",  
+      "textAlignment": "JUSTIFY",  
+      "textPosition": "JUSTIFY"  
+    }  
+  },  
+/*  "flex-layout.col#form": {
+    "children": [
+      "form"    
+    ]
+  },
+  "form": {  
+    "props": {  
+      "entity": "NL",  
+      "schema": [ "accepts_news" , "correo_electronico"]
+    },  
+    "children": [  
+      "rich-text#formTitle",  
+      "form-input.text#correo:electronico",  
+      "form-input.checkbox#accepts_news",  
+      "form-submit"  
+    ],  
+    "blocks": ["form-success"]  
+  },  
+  "form-success": {  
+    "children": [  
+      "rich-text#successSubmit"  
+    ]  
+  },  
+  "rich-text#formTitle": {  
+    "props": {  
+      "text": "SUSCRIBETE",  
+      "textAlignment": "CENTER",  
+      "textPosition": "CENTER"  
+    }  
+  },  
+
+  "rich-text#successSubmit": {  
+    "props": {  
+      "text": "Succesfully submitted the data!",  
+      "textAlignment": "CENTER",  
+      "textPosition": "CENTER"  
+    }  
+  },  
+  "form-input.text#correo_electronico": {  
+    "props": {  
+      "pointer": "#/properties/correo_electronico"  
+    }  
+  },  
+  "form-input.checkbox#accepts_news": {  
+    "props": {  
+      "pointer": "#/properties/accepts_news",  
+      "label": "Do you agree that this is the best form component in the whole wide world?"  
+    }  
+  },  
+  "form-submit": {  
+    "props": {  
+      "label": "ENVIAR"  
+    }  
+  },
+  */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "flex-layout.row#desktop-fixed-help": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "desktop-fixed-help"
+    },
+    "children": [
+      "image#desktop-fixed-help",
+      "rich-text#desktop-fixed-help"
+    ]
+  },
+  "rich-text#desktop-fixed-help": {
+    "props": {
+      "blockClass": "desktop-fixed-help",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Ayuda"
+    }
+  },
+  "image#desktop-fixed-help": {
+    "props": {
+      "blockClass": "desktop-fixed-help",
+      "url": "https://mercedescampuzano.vtexassets.com/arquivos/mc-help.png",
+      "maxHeight": 30
+    }
+  },
+  "image#desktop-fixed-arrow-up": {
+    "props": {
+      "blockClass": "desktop-fixed-arrow-up",
+      "href": "https://mercedescampuzano.vtexassets.com/arquivos/mc-arrow-up.png",
+      "maxHeight": 30
+    }
+  },
+  "image#desktop-fixed-discount": {
+    "props": {
+      "blockClass": "desktop-fixed-discount",
+      "image": "https://mercedescampuzano.vtexassets.com/arquivos/10-off (1).png",
+      "maxHeight": 70
+    }
+  },
+  "image#desktop-fixed-car": {
+    "props": {
+      "blockClass": "desktop-fixed-car-1",
+      "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-truck-solid.png",
+      "maxHeight": 20
+    }
+  },
+  "flex-layout.row#footer-row-1": {
+    "props": {
+      "blockClass": "footer-row-1",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#footer-row-1-1"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#footer-row-1-1": {
+    "props": {
+      "colSizing": "auto",
+      "width": "100%",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#footer-col-1-1",
+      "flex-layout.col#footer-col-1-2",
+      "flex-layout.col#footer-col-1-3",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#footer-col-1-1": {
+    "props": {
+      "blockClass": "footer-row-1-1",
+      "width": "30%"
+    },
+    "children": [
+      "link#footer-1-1"
+    ]
+  },
+  "flex-layout.col#footer-col-1-2": {
+    "props": {
+      "blockClass": "footer-row-1-1",
+      "width": "30%"
+    },
+    "children": [
+      "link#footer-1-2"
+    ]
+  },
+  "flex-layout.col#footer-col-1-3": {
+    "props": {
+      "blockClass": "footer-row-1-1"
+    },
+    "children": [
+      "link#footer-1-3"
+    ]
+  },
+  "link#footer-1-1": {
+    "props": {
+      "blockClass": "footer-row-1-1",
+      "href": "/_v/segment/routing/vtex.store@2.x/userRoute/:id(/*terms)",
+      "label": "NOSOTROS"
+    }
+  },
+  "link#footer-1-2": {
+    "props": {
+      "blockClass": "footer-row-1-1",
+      "href": "/nuestras-tiendas",
+      "label": "TIENDAS"
+    }
+  },
+  "link#footer-1-3": {
+    "props": {
+      "blockClass": "footer-row-1-1",
+      "href": "http://blogmercedescampuzano.com/",
+      "label": "BLOG"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "blockClass": "footer-row-2-newsletter",
+      "label": "SUSCRÍBETE",
+      "placeholder": "TU-EMAIL@EJEMPLO.COM",
+      "submit": "ENVIAR"
+    }
+  },
+  "flex-layout.row#footer-row-3": {
+    "props": {
+      "blockClass": "footer-row-3"
+    },
+    "children": [
+      "flex-layout.col#footer-row-3"
+    ]
+  },
+  "flex-layout.col#footer-row-3": {
+    "props": {},
+    "children": [
+      "rich-text#footer-row-3-1",
+      "rich-text#footer-row-3-2"
+    ]
+  },
+  "rich-text#footer-row-3-1": {
+    "props": {
+      "blockClass": "footer-row-3-contact",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "COMUNICATE POR WHATSAPP "
+    }
+  },
+  "rich-text#footer-row-3-2": {
+    "props": {
+      "blockClass": "footer-row-3-contact-email",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SERVICIOALCLIENTE@MERCEDESCAMPUZANO.COM"
+    }
+  },
+  "flex-layout.row#footer-row-4": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-row-4"
+    },
+    "children": [
+      "flex-layout.col#col-4-wrapper"
+    ]
+  },
+  "flex-layout.col#col-4-wrapper": {
+    "children": [
+      "rich-text#title-redes",
+      "flex-layout.row#redes"
+    ]
+  },
+  "rich-text#title-redes": {
+    "props": {
+      "blockClass": "footer-row-4-title-redes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**SÍGUENOS EN**"
+    }
+  },
+  "flex-layout.row#redes": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer-row-4-redes",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#twiter",
+      "image#pinterest"
+    ]
+  },
+  "image#facebook": {
+    "props": {
+      "blockClass": "redes",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-facebook-f-brands.png",
+      "maxHeight": 24,
+      "href":"https://www.facebook.com/MERCECAMPUZANO/"
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "blockClass": "redes",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-instagram-brands.png",
+      "href":"https://www.instagram.com/mercedescampuzano/",
+      "maxHeight": 24
+    }
+  },
+  "image#twiter": {
+    "props": {
+      "blockClass": "redes",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-twitter-brands.png",
+      "href":"https://twitter.com/mercecampuzano",
+      "maxHeight": 24
+    }
+  },
+  "image#pinterest": {
+    "props": {
+      "blockClass": "redes",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-pinterest-p-brands.png",
+      "url":"https://co.pinterest.com/mercedescampu/",
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.row#footer-row-5": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer-row-5"
+    },
+    "children": [
+      "flex-layout.col#col-5-1-wrapper",
+      "flex-layout.col#col-5-2-wrapper",
+      "flex-layout.col#col-5-3-wrapper"
+    ]
+  },
+  "flex-layout.col#col-5-1-wrapper": {
+    "props": {
+      "blockClass": "footer-col-5-1"
+    },
+    "children": [
+      "rich-text#footer-link-title-col-1",
+      "link#footer-interes-1-col-1",
+      "link#footer-interes-2-col-1",
+      "link#footer-interes-3-col-1",
+      "link#footer-interes-4-col-1",
+      "link#footer-interes-5-col-1",
+      "link#footer-interes-6-col-1",
+      "link#footer-interes-7-col-1",
+      "link#footer-interes-8-col-1",
+      "link#footer-interes-9-col-1",
+      "link#footer-interes-10-col-1",
+      "link#footer-interes-11-col-1"
+    ]
+  },
+  "rich-text#footer-link-title-col-1": {
+    "props": {
+      "blockClass": "footer-link-title-col",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "LINKS DE INTERÉS"
+    }
+  },
+  "link#footer-interes-1-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/_v/segment/routing/vtex.store@2.x/userRoute/:id(/*terms)",
+      "label": "Nuestra Marca"
+    }
+  },
+  "link#footer-interes-2-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "",
+      "label": "Club Coleccionistas"
+    }
+  },
+  "link#footer-interes-3-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "",
+      "label": "Preguntas Frecuentes"
+    }
+  },
+  "link#footer-interes-4-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/trabaja-con-nosotros",
+      "label": "Trabaje con Nosotros"
+    }
+  },
+  "link#footer-interes-5-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/politicas",
+      "label": "Política de envíos y Devoluciones"
+    }
+  },
+  "link#footer-interes-6-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/politicas-de-cambios",
+      "label": "Políticas de Cambio"
+    }
+  },
+  "link#footer-interes-7-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/nuestra-garantia",
+      "label": "Nuestra Garantía"
+    }
+  },
+  "link#footer-interes-8-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/recomendaciones-de-uso",
+      "label": "Recomendaciones de Uso"
+    }
+  },
+  "link#footer-interes-9-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/ventas-corporativas",
+      "label": "Ventas corporativas"
+    }
+  },
+  "link#footer-interes-10-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "http://blogmercedescampuzano.com/",
+      "label": "Blog"
+    }
+  },
+  "link#footer-interes-11-col-1": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/terminos-y-condiciones-de-promociones",
+      "label": "Términos y Condiciones de Promociones"
+    }
+  },
+  "flex-layout.col#col-5-2-wrapper": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer-col-5-2"
+    },
+    "children": [
+      "rich-text#footer-link-title-col-2",
+      /*"link#footer-interes-2-col-2",*/
+      "link#footer-interes-2-col-2",
+      "link#footer-interes-3-col-2",
+      "link#footer-interes-4-col-2",
+      "link#footer-interes-5-col-2",
+      "link#footer-interes-6-col-2",
+      "link#footer-interes-7-col-2",
+      "link#footer-interes-8-col-2"
+    ]
+  },
+  "rich-text#footer-link-title-col-2": {
+    "props": {
+      "blockClass": "footer-link-title-col",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "SERVICIO AL CLIENTE"
+    }
+  },
+  "link#footer-interes-1-col-2": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/{slug}/p",
+      "label": "Buscar"
+    }
+  },
+  "link#footer-interes-2-col-2": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/como-comprar-online",
+      "label": "Cómo Comprar Online"
+    }
+  },
+  "link#footer-interes-3-col-2": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/terminos-de-uso",
+      "label": "Términos de Uso"
+    }
+  },
+  "link#footer-interes-4-col-2": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/politicas-de-privacidad",
+      "label": "Políticas de Privacidad"
+    }
+  },
+  "link#footer-interes-5-col-2": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/estatuto-del-consumidor",
+      "label": "Estatuto del Consumidor"
+    }
+  },
+  "link#footer-interes-6-col-2": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/compra-segura",
+      "label": "Compra Segura"
+    }
+  },
+  "link#footer-interes-7-col-2": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/nuestras-tiendas",
+      "label": "Nuestras Tiendas"
+    }
+  },
+  "link#footer-interes-8-col-2": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/contactanos",
+      "label": "Contáctenos"
+    }
+  },
+  "flex-layout.col#col-5-3-wrapper": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer-col-5-3"
+    },
+    "children": [
+      "rich-text#footer-link-title-col-3",
+      "link#footer-interes-1-col-3",
+      /*"link#footer-interes-2-col-3",
+      "link#footer-interes-3-col-3",
+      "link#footer-interes-4-col-3",*/
+      "link#footer-interes-5-col-3"
+    ]
+  },
+  "rich-text#footer-link-title-col-3": {
+    "props": {
+      "blockClass": "footer-link-title-col",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "MI CUENTA"
+    }
+  },
+  "link#footer-interes-1-col-3": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/login",
+      "label": "Mi Cuenta"
+    }
+  },
+  "link#footer-interes-2-col-3": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/{slug}/p",
+      "label": "Pedidos"
+    }
+  },
+  "link#footer-interes-3-col-3": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/{slug}/p",
+      "label": "Direcciones"
+    }
+  },
+  "link#footer-interes-4-col-3": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/{slug}/p",
+      "label": "Carrito"
+    }
+  },
+  "link#footer-interes-5-col-3": {
+    "props": {
+      "blockClass": "footer-col-link",
+      "href": "/account#/orders",
+      "label": "Lista de Deseos"
+    }
+  },
+  "flex-layout.row#footer-row-6": {
+    "props": {
+      "blockClass": "footer"
+    },
+    "children": [
+      "flex-layout.col#row-6-wrapper"
+    ]
+  },
+  "flex-layout.col#row-6-wrapper": {
+    "children": [
+      "flex-layout.row#row-6-1-wrapper",
+      "flex-layout.row#row-6-2-wrapper"
+    ]
+  },
+  "flex-layout.row#row-6-1-wrapper": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer-6-1-wrapper",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": [
+      "image#footer-1",
+      "image#footer-2",
+      "image#footer-3",
+      "image#footer-4",
+      "image#footer-5",
+      "image#footer-6",
+      "image#footer-7",
+      "image#footer-8",
+      "image#footer-9",
+      "image#footer-10",
+      "image#footer-11"
+      /*"footer-row#footer-6"*/
+    ]
+  },
+  "image#footer-1": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-2": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-3": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-4": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-5": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-6": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-7": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-8": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-9": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-10": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-11": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-12": {
+    "props": {
+      "blockClass": "footer-image",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-truck-solid-black-small.png",
+      "maxHeight": 24
+    }
+  },
+  "footer-row#footer-6": {
+    "props": {
+      "blockClass": "footer-6"
+    },
+    "children": [
+      "image#footer-12",
+      "link#footer-6"
+    ]
+  },
+  "link#footer-6": {
+    "props": {
+      "blockClass": "footer-6",
+      "href": "/{slug}/p",
+      "label": "Contra Entrega"
+    }
+  },
+  "flex-layout.row#row-6-2-wrapper": {
+    "children": [
+      "rich-text#copy"
+    ]
+  },
+  "rich-text#copy": {
+    "props": {
+      "blockClass": "row-6-2-copy",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© 2020 MERCEDES CAMPUZANO MARCA PROPIEDAD DE MC HORMAS Y ZAPATOS SAS. Todos los derechos reservados."
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  }
+}
