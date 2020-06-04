@@ -33,7 +33,7 @@
    "flex-layout.col#footer-row-2":{
     "children":[
       "newsletter",
-      "rich-text#newsletter-terms",
+      "rich-text#newsletter-terms"
      /* "flex-layout.col#form"*/
     ]
   },

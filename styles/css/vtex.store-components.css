@@ -34,16 +34,13 @@
 .imageElement--home-col-1-wrapper-image-2:hover {
   filter: brightness(0.7);
 }
-.imageElementLink--home-row-1-wrapper-image-2 {
-  margin: 0% 3%;
-  padding: 10% 0px;
-}
+
 .imageElement--home-row-1-wrapper-image-2 {
   border-radius: 60%;
-  margin-top: 60px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  width: 90%;
+  margin-left: -20px;
+  width: 100%;
+
+  margin: 35px auto;
 }
 .imageElementLink--header-2-icon {
   padding: 20px 5px;
@@ -392,7 +389,7 @@ font-size: 12px;
   }
   .imageElement--home-row-1-wrapper-image-2 {
     width: 94% !important;
-    margin: 30px auto;
+    padding: 0px 10px;
   }
   .swiperCaretPrev,
   .swiperCaretNext{
@@ -501,7 +498,8 @@ font-size: 12px;
     margin: 0px 0px 5% 0px;
   }
   .imageElementLink--home-row-1-wrapper-image-2 {
-    padding: 5% 0px;
+    padding: 20px 0px;
+    width: 95%;
   }
   .imageElement--home-4-wrapper-image {
     padding-top: 20px;

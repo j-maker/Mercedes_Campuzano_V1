@@ -6,7 +6,7 @@
     width: 13px;
     padding-right: 0px;
     overflow: visible !important;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
     fill-rule:"evenodd";
 }
 .content{
@@ -92,7 +92,9 @@ font-size: 15px;
 .profileIcon--login-drawer{
     width: 14px;
 }
-        
+.label{
+    text-decoration: underline;
+}        
 
     @media screen and (max-width:1024px) {
 .label{

@@ -236,7 +236,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "src": "https://mcampuzano22--mercedescampuzano.myvtex.com/139?map=productClusterIds",
+        "href": "/139?map=productClusterIds",
         "noFollow": false,
         "tagTitle": "Spadrillas",
         "text": "Spadrillas"
@@ -723,7 +723,6 @@
       "blockClass": "submenu"
     },
     "children": [
-      "menu-item#menu-4-1"
     ]
   },
   "menu-item#menu-4-1": {
