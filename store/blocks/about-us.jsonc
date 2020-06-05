@@ -63,8 +63,8 @@
     },
     "flex-layout.row#about-us-image":{
       "props":{
-        "blockClass": "about-us-content",
-        "fullWidth": true
+        "blockClass": "about-us-content"
+       /* "fullWidth": true*/
       },
       "children":[
         "image#about-us-image"

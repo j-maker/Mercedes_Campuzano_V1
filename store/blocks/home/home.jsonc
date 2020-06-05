@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "sandbox#home",
       "list-context.image-list#home",
       "rich-text#new",
       "flex-layout.row#shelf",
@@ -10,10 +11,10 @@
       "rich-text#sale",
       "flex-layout.row#shelf-sale",
       "link#all-1",
-      "flex-layout.row#home-row-3",
+      "flex-layout.row#home-row-3", /*row2*/
       "rich-text#store",
       "flex-layout.row#social-networks",
-      "flex-layout.row#home-row-4",
+      "flex-layout.row#home-row-4", /*row2*/
       "rich-text#iframe",
       "iframe"
     ]
@@ -202,16 +203,30 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#shelf"],
+    "children": ["flex-layout.col#shelf"],
     "props": {
-      "fullWidth":true
+      "blockClass":"home-wrapper-shelf"
+/*      "fullWidth":true*/
     }
   },
+  "flex-layout.col#shelf": {
+    "children": ["list-context.product-list#shelf"]
+    /*"props": {
+      "fullWidth":true
+    }*/
+  },
   "flex-layout.row#shelf-sale": {
-    "children": ["list-context.product-list#sale"],
+    "children": ["flex-layout.col#shelf-sale"],
     "props": {
-       "fullWidth":true
+      "blockClass":"home-wrapper-shelf"
+       /*"fullWidth":true*/
     }
+  },
+  "flex-layout.col#shelf-sale": {
+    "children": ["list-context.product-list#sale"]
+    /*"props": {
+       "fullWidth":true
+    }*/
   },
   "list-context.product-list#shelf": {
     "blocks": ["product-summary.shelf#home"],
@@ -230,7 +245,7 @@
       },
       "showPaginationDots":"never",
       "infinite": true,
-      "fullWidth": false,
+     /* "fullWidth": false,*/
       "blockClass": "shelf"
     }
   },
@@ -251,7 +266,7 @@
       },
       "showPaginationDots":"never",
       "infinite": true,
-      "fullWidth": false,
+  /*    "fullWidth": false,*/
       "blockClass": "shelf"
     }
   },
@@ -510,8 +525,8 @@
   "flex-layout.row#home-row-4-wrapper":{
     "props":{
       "blockClass":"home-row-4-wrapper",
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
+   /*   "fullWidth": true*/
     },
     "children":[
       "flex-layout.col#home-col-4-1-wrapper",

@@ -9,8 +9,8 @@
             "flex-layout.row#footer-row-6-mobile",
             /*"image#desktop-fixed-car",*/
             "image#desktop-fixed-discount",
-            "image#desktop-fixed-arrow-up",
-            "image#mobile-fixed-help"
+            "image#desktop-fixed-arrow-up"
+            /*"image#mobile-fixed-help"*/
         ]
     },
     "image#mobile-fixed-help": {
@@ -51,8 +51,8 @@
         "props": {
             "colSizing": "auto",
             "blockClass": "mobile-footer-6",
-            "preserveLayoutOnMobile": true,
-            "fullWidth": true
+            "preserveLayoutOnMobile": true
+            /*"fullWidth": true*/
         },
         "children": [
             "flex-layout.col#spacer",
@@ -72,8 +72,8 @@
         "props": {
             "colSizing": "auto",
             "blockClass": "mobile-footer-6",
-            "preserveLayoutOnMobile": true,
-            "fullWidth": true
+            "preserveLayoutOnMobile": true
+           /* "fullWidth": true*/
         },
         "children": [
             "flex-layout.col#spacer",
@@ -89,8 +89,8 @@
         "props": {
             "colSizing": "auto",
             "blockClass": "mobile-footer-6",
-            "preserveLayoutOnMobile": true,
-            "fullWidth": true
+            "preserveLayoutOnMobile": true
+           /* "fullWidth": true*/
         },
         "children": [
             "flex-layout.col#spacer",

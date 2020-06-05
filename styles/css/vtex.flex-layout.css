@@ -121,13 +121,23 @@ width: 1024px;
 .flexRow--about-us {
   margin: 30px 0px;
 }
-.flexRow--footer-terms-col-wrapper,
+
 .flexCol--footer-terms-col-wrapper {
   height: auto;
   width: 1140px !important;
   margin: 0 auto;
 }
+.flexRow--footer-terms-col-wrapper{
+  height: auto;
+  width: 1140px !important;
+  margin: 40px auto;
+}
 
+
+.flexColChild--footer-terms-col-frequent-questions-col-wrapper{
+  width: 1140px;
+  margin: 0 auto;
+}
 
 .flexRow--stores-shelf-wrapper {
   margin: 20px 0px;
@@ -300,7 +310,9 @@ width: 1024px;
 
 
 
-
+.flexRow--home-wrapper-shelf{
+  padding: 0 30px;
+}
 .flexRow--footer-row-2-newsletter{
   background: #f9f9f9;
 }
@@ -319,7 +331,7 @@ width: 1024px;
 .flexRowContent--buy-button-product{
   width: 50%;
   background: #d56e2f!important;
-  margin: 40px 0 0;
+  margin: 50px 0 0;
 }
 .flexRowContent--buy-button-product:hover{
   transition: all 0.6s;
@@ -356,6 +368,9 @@ background: #E1D3C8;
 }
 
 @media screen and (max-width: 1023px) {
+  .flexRow--home-wrapper-shelf{
+    padding: 0 ;
+  }
   .flexRow--footer-contact-us{
     padding: 0 20px;
   }

@@ -67,22 +67,14 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-
-
 .installments--summary {
 display: none;
 }
-
 @media screen and (max-width: 1024px) {
-
   .listPriceValue--summary{
     font-size: 13px;
   }
   .listPrice {
     margin: 4px 0px 0 0 !important;
   }
-  .sellingPriceValue--summary {
-    font-size: 11px;
-   }
-
 }

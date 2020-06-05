@@ -13,15 +13,22 @@
       "flex-layout.row#footer-row-4",
       "flex-layout.row#footer-row-5",
       "flex-layout.row#footer-row-6",
-      /*"image#desktop-fixed-car",*/
+/*      "image#desktop-fixed-car",*/
       "image#desktop-fixed-discount",
       "image#desktop-fixed-arrow-up"
 /*      "flex-layout.row#desktop-fixed-help"*/
     ]
   },
-  
-  
-  
+  "sandbox#home": {
+    "props": {
+/*      "width": "100%",
+      "height": "600px",*/
+      "initialContent": "<h1 id='test'>home</h1><script>window.dataLayer.push({'event': 'newLead','leadEmail': jhonatan@jumpdigital.co});</script>",
+      "allowCookies": true
+    }
+  },
+  /*      "initialContent": "<h1 id='test'>home</h1><script>console.log(props, document.cookie); window.addEventListener('message', function(e){ console.log('got message in home', window.props) });</script>",*/
+ 
   "flex-layout.row#footer-row-2":{
     "props":{
       "blockClass":"footer-row-2-newsletter"
@@ -175,8 +182,8 @@
       "colSizing": "auto",
       "width": "100%",
       "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
+      /*"fullWidth": true*/
     },
     "children": [
       "flex-layout.col#spacer",
@@ -274,7 +281,7 @@
   },
   "flex-layout.row#footer-row-4": {
     "props": {
-      "fullWidth": true,
+      /*"fullWidth": true,*/
       "blockClass": "footer-row-4"
     },
     "children": [
@@ -299,8 +306,8 @@
     "props": {
       "colSizing": "auto",
       "blockClass": "footer-row-4-redes",
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
+      /*"fullWidth": true*/
     },
     "children": [
       "image#facebook",
@@ -389,14 +396,14 @@
   "link#footer-interes-2-col-1": {
     "props": {
       "blockClass": "footer-col-link",
-      "href": "",
+      "href": "/club-de-coleccionistas",
       "label": "Club Coleccionistas"
     }
   },
   "link#footer-interes-3-col-1": {
     "props": {
       "blockClass": "footer-col-link",
-      "href": "",
+      "href": "/preguntas-frecuentes",
       "label": "Preguntas Frecuentes"
     }
   },
@@ -612,8 +619,8 @@
     "props": {
       "colSizing": "auto",
       "blockClass": "footer-6-1-wrapper",
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
+      /*"fullWidth": true*/
     },
     "children": [
       "image#footer-1",

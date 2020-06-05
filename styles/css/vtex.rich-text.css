@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,429;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 .paragraph--home-text-1 {
   color: #000000;
   font-size: 16px;
@@ -104,6 +104,7 @@ padding: 0 20px;
   margin: 0px 30px;
   height: 100%;
 }
+.container--footer-terms-content-frequent-questions-1,
 .container--footer-terms-content-terms-use,
 .container--footer-terms-content-terms-use-justify,
 .container--footer-terms-content-subtitles-terms-use,
@@ -145,13 +146,13 @@ padding: 0 20px;
 .strong--footer-terms-content-subtitles-buy-insurance,
 .strong--footer-terms-content-subtitles {
   font-family: "Lora";
-  font-size: 18px;
+  font-size: 17px;
   text-align: justify !important;
   color: #927c68;
-  font-weight: 600;
   letter-spacing: 1px;
-  opacity: 0.7;
+  opacity: 0.9;
 }
+
 .strong--footer-terms-content-subtitles-policies-1,
 .strong--footer-terms-content-online-shopping,
 .strong--footer-terms-content-recomendastions,
@@ -161,6 +162,19 @@ padding: 0 20px;
   color: #69727b;
   font-weight: bold;
 }
+.strong--footer-terms-content-subtitles-frequent-questions{
+  font-size: 18px;
+  font-family: "Lora";
+  color: #907c68;
+}
+.strong--footer-terms-content-subtitles-club-coleccionistas{
+  font-size: 19px;
+  font-family: "Lora";
+  color: #907c68;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.link--footer-terms-content-recomendations-block,
 .link--footer-terms-content-terms-use,
 .link--footer-row-2-newsletter,
 .link--footer-terms-content-online-shopping,
@@ -170,6 +184,13 @@ padding: 0 20px;
 .link--footer-terms-content {
   text-decoration: none;
   color: black;
+}
+.wrapper--subtitle-collectors-club{
+  margin: 40px 0 0 30px;
+  font-family: "Lora";
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 .strong--footer-terms-content-subtitles-terms-use{
   font-family: "Lora";
@@ -198,7 +219,54 @@ margin-left: 20px;}
 
 
 
+.container--footer-terms-content-gold-profits-club-coleccionistas::before{
+  width: 18px;
+  content: "";
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/insignia-oro.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 16px;
+  z-index: 1;
+  margin-top: 18px;
+  padding-top: 6px;
+  padding-left: 7px;
 
+}
+.container--footer-terms-content-profits-club-coleccionistas::before{
+  width: 18px;
+  content: "";
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/insignia-plata.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 16px;
+  z-index: 1;
+  margin-top: 18px;
+  padding-top: 6px;
+  padding-left: 7px;
+}
+
+.container--footer-terms-content-gold-profits-club-coleccionistas,
+.container--footer-terms-content-profits-club-coleccionistas
+{
+  margin: 30px 25px 0;
+  height: auto;
+  font-size: 18px;
+  font-family: "lora";
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+.container--footer-terms-content-subtitles-club-coleccionistas{
+  margin: 30px 25px 0;
+  height: auto;
+  font-size: 18px;
+  font-family: "lora";
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #000;
+}
 .container--footer-terms-content-recomendations-block{
   margin: 0px 30px 0 55px;
   height: auto;

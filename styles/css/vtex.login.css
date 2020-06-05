@@ -33,6 +33,17 @@
     color: white;
     transition: all 0.6s;
 }
+.dontHaveAccount{
+    font-size:0 !important;
+}
+.dontHaveAccount::after{
+    font-size:14px;
+    color: #212529;
+    content: "¿NO TIENES UNA CUENTA? REGÍSTRATE";
+    opacity: 0.8;
+}
+
+
 
 
 .formTitle{

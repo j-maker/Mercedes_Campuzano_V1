@@ -62,12 +62,11 @@
 .sliderLayoutContainer--shelf {
   width: 100%;
   height: auto;
-  margin-right: 40px;
   padding-left: 0;
   margin-bottom: 30px;
 }
 .slide--shelf {
-  padding: 0 0px 0 30px;
+  padding: 0 15px;
 }
 
 .slideChildrenContainer--shelf {
@@ -95,11 +94,11 @@
   border-radius: 30px;
 }
 .sliderLeftArrow--shelf {
-  left: 60px;
+  left: -9px;
   border-radius: 30px;
 }
 .sliderRightArrow--shelf {
-  right: 30px;
+  right: -6px;
   border-radius: 30px;
 }
 

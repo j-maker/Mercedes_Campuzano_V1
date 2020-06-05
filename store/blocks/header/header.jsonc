@@ -429,7 +429,7 @@
     "props": {
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true,
+      /*"fullWidth": true,*/
       "blockClass": "row-2-wrapper",
       "colSizing": "auto"
     },
@@ -486,8 +486,8 @@
       "colSizing": "auto",
       "blockClass": "row-3-wrapper",
       "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
+      /*"fullWidth": true*/
     },
     "children": [
       "logo#desktop",
@@ -498,8 +498,8 @@
     "props": {
       "colSizing": "auto",
       "blockClass": "row-3-wrapper",
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
+      /*"fullWidth": true*/
     },
     "children": [
       "login#Mc",

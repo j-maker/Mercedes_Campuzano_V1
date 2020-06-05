@@ -24,11 +24,19 @@
   },
   "flex-layout.row#shelf-page-product-recomended": {
     "children": [
+      "flex-layout.col#shelf-page-product-recomended"
+    ],
+    "props": {
+      "blockClass":"home-wrapper-shelf",
+      "recommendation": "similars"
+    }
+  },
+  "flex-layout.col#shelf-page-product-recomended": {
+    "children": [
       "list-context.product-list#shelf"
     ],
     "props": {
-      "recommendation": "similars",
-      "fullWidth": true
+      "recommendation": "similars"
     }
   },
   "flex-layout.row#product-breadcrumb": {
