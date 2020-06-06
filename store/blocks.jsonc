@@ -1,13 +1,4 @@
-{ /*copy*/
-  /* Blocks can be defined both on the store/blocks.json file, and in any number of json
- * files inside the store/blocks directory, with any arbitrary directory structure.
- *
- * Additionally, all blocks files can support comments, such as this one, if given the
- * .jsonc file extension.
- *
- * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
- * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
- */
+{
   "store.orderplaced": {
     "blocks": [
       "order-placed"
@@ -44,8 +35,6 @@
       "stack-layout#prodsum",
       "product-summary-name",
       "product-rating-inline",
-      /*"product-summary-space",*/
-      /*"product-list-price#summary",*/
       "flex-layout.row#selling-price-savings",
       "product-summary-sku-selector",
       "product-installments#summary",
@@ -53,69 +42,42 @@
     ]
   },
   "product-summary-sku-selector": {
-    "props":{
-      "blockClass":"shelf-sku",
+    "props": {
+      "blockClass": "shelf-sku",
       "imageLabel": 3,
-      "initialSelection":"empty",
+      "initialSelection": "empty",
       "variationsSpacing": 3,
-      "maxItems":10,
+      "maxItems": 10,
       "showValueForVariation ": false,
-      "marginTop":10,
-      "hideImpossibleCombinations":true,
+      "marginTop": 10,
+      "hideImpossibleCombinations": true,
       "showVariationsLabels": false,
-      "showVariationsErrorMessage":false
+      "showVariationsErrorMessage": false
     }
   },
-  
-
-
-
-
-
-
-
-
-    "product-summary.shelf#home": {
-  "children": [
-    "stack-layout#prodsum",
-    "product-summary-name",
-    "product-rating-inline",
-    "flex-layout.row#selling-price-savings",
-    "product-installments#summary",
-    "flex-layout.row#buy-button-shelf"
-  ]
-},
-
-
-
-
-
-
-
-
-
-
-
-"product-summary-sku-selector#home": {
-  "props":{
-    "imageLabel": 3,
-    "initialSelection":"empty",
-    "variationsSpacing": 3,
-    "maxItems":10,
-    "showValueForVariation ": false,
-    "marginTop":10,
-    "hideImpossibleCombinations":true,
-    "showVariationsLabels": false,
-    "showVariationsErrorMessage":false
-  }
-},
-
-
-
-
-
-
-
+  "product-summary.shelf#home": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "flex-layout.row#buy-button-shelf"
+    ]
+  },
+  "product-summary-sku-selector#home": {
+    "props": {
+      "imageLabel": 3,
+      "initialSelection": "empty",
+      "variationsSpacing": 3,
+      "maxItems": 10,
+      "showValueForVariation ": false,
+      "marginTop": 10,
+      "hideImpossibleCombinations": true,
+      "showVariationsLabels": false,
+      "showVariationsErrorMessage": false
+    }
+  },
   "product-summary-image#shelf": {
     "props": {
       "showBadge": true,
@@ -165,10 +127,6 @@
       "rich-text#not-found"
     ]
   },
-
-
-
-
   "drawer#mobile": {
     "props": {
       "blockClass": "drawer-mobile",
@@ -192,7 +150,6 @@
       "minicart.v2"
     ]
   },
-
   "logo#drawer": {
     "props": {
       "blockClass": "logo-drawer",
@@ -210,14 +167,6 @@
       "blockClass": "login-drawer"
     }
   },
-/*  "minicart.v2#drawer": {
-    "props": {
-      "blockClass": "mini-drawer"
-    }
-  },
-*/
-
-
   "drawer#mobile-menu-1": {
     "props": {
       "blockClass": "mobile-menu",
@@ -240,8 +189,6 @@
       "menu-item#menu-1-7",
       "menu-item#menu-1-8",
       "menu-item#menu-1-9"
-
-
     ]
   },
   "drawer#mobile-menu-2": {
@@ -303,55 +250,42 @@
       "menu-item#menu-4-6"
     ]
   },
-  "link#mobile-menu-1": { 
-    "props": { 
-      "blockClass":"mobile-submenu-title",
+  "link#mobile-menu-1": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "/zapatos",
       "label": "Zapatos"
     }
   },
-  "link#mobile-menu-2": { 
-    "props": { 
-      "blockClass":"mobile-submenu-title",
+  "link#mobile-menu-2": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "/bolsos",
       "label": "Bolsos"
     }
   },
-  "link#mobile-menu-3": { 
-    "props": { 
-      "blockClass":"mobile-submenu-title",
+  "link#mobile-menu-3": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "/accesorios",
       "label": "Accesorios"
     }
   },
-  "link#mobile-menu-4": { 
-    "props": { 
-      "blockClass":"mobile-submenu-title",
+  "link#mobile-menu-4": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "/otros",
       "label": "Otros"
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-  /*texto con titulo y dos columnas*/
   "flex-layout.row#footer-terms-col": {
     "props": {
       "colSizing": "auto",
@@ -406,7 +340,6 @@
       "blockClass": "footer-terms-content"
     }
   },
-  /*texto con titulo y una columna*/
   "flex-layout.row#footer-terms-col-1": {
     "children": [
       "flex-layout.col#col-1-wrapper"
@@ -447,17 +380,9 @@
       "text": "Ingrese su texto aquí"
     }
   },
-
-
-
-
-
-
-
-
   "flex-layout.row#product-main": {
     "props": {
-      "blockClass":"product-main",
+      "blockClass": "product-main",
       "colGap": 7,
       "rowGap": 10,
       "marginTop": 0,
@@ -465,122 +390,116 @@
       "paddingTop": 4,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
   },
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    "minicart.v2": {
-      "children": ["minicart-base-content"]
-    },
-    "minicart-base-content": {
-      "blocks": ["minicart-empty-state"],
-      "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
-    },
-    "flex-layout.row#minicart-footer": {
-      "props": {
-        "blockClass": "minicart-footer"
-      },
-      "children": ["flex-layout.col#minicart-footer"]
-    },
-    "flex-layout.col#minicart-footer": {
-      "children": ["minicart-summary", "minicart-checkout-button","link#button" ]
-    },
-    "link#button": { 
-      "props": { 
-        "blockClass":"minicart-checkout-button",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "href": "https://mcampuzano22--mercedescampuzano.myvtex.com/checkout/#/cart",
-        "label": "FINALIZA TU COMPRA"
-      }
-    },
-
-
-    "minicart-product-list": {
-      "blocks": ["product-list#minicart"]
-    },
-    "product-list#minicart": {
-      "blocks": ["product-list-content-mobile"]
-    },
-    "minicart-summary": {
-      "blocks": ["checkout-summary.compact#minicart"]
-    },
-  
-    "checkout-summary.compact#minicart": {
-      "children": ["summary-totalizers#minicart"],
-      "props": {
-        "totalizersToShow": ["Items", "Discounts"]
-      }
-    },
-    "summary-totalizers#minicart": {
-      "props": {
-        "showTotal": true,
-        "showDeliveryTotal": false
-      }
-    },
-    "minicart-empty-state": {
-      "children": ["flex-layout.row#empty-state"]
-    },
-    "flex-layout.row#empty-state": {
-      "children": ["flex-layout.col#empty-state"]
-    },
-    "flex-layout.col#empty-state": {
-      "children": ["rich-text#empty-state"]
-    },
-    "rich-text#empty-state": {
-      "props": {
-        "text": "Tu carrito esta vacio!"
-      }
-    },
-
-    
-  /*"flex-layout.row#buy-button-shelf": {
+  "minicart.v2": {
+    "children": [
+      "minicart-base-content"
+    ]
+  },
+  "minicart-base-content": {
+    "blocks": [
+      "minicart-empty-state"
+    ],
+    "children": [
+      "minicart-product-list",
+      "flex-layout.row#minicart-footer"
+    ]
+  },
+  "flex-layout.row#minicart-footer": {
     "props": {
-      "blockClass":"buy-button-shelf"
+      "blockClass": "minicart-footer"
     },
     "children": [
-      "buy-button#product"
-  ]
+      "flex-layout.col#minicart-footer"
+    ]
   },
-  "buy-button#product":{
-    "props":{
-      "blockClass":"buy-button-shelf",
-      "text":"COMPRAR",
-      "shouldAddToCart":false,
-      "showTooltipOnSkuNotSelected":false
+  "flex-layout.col#minicart-footer": {
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button",
+      "link#button"
+    ]
+  },
+  "link#button": {
+    "props": {
+      "blockClass": "minicart-checkout-button",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "href": "https://mcampuzano22--mercedescampuzano.myvtex.com/checkout/#/cart",
+      "label": "FINALIZA TU COMPRA"
     }
-  }*/
-
+  },
+  "minicart-product-list": {
+    "blocks": [
+      "product-list#minicart"
+    ]
+  },
+  "product-list#minicart": {
+    "blocks": [
+      "product-list-content-mobile"
+    ]
+  },
+  "minicart-summary": {
+    "blocks": [
+      "checkout-summary.compact#minicart"
+    ]
+  },
+  "checkout-summary.compact#minicart": {
+    "children": [
+      "summary-totalizers#minicart"
+    ],
+    "props": {
+      "totalizersToShow": [
+        "Items",
+        "Discounts"
+      ]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": [
+      "flex-layout.row#empty-state"
+    ]
+  },
+  "flex-layout.row#empty-state": {
+    "children": [
+      "flex-layout.col#empty-state"
+    ]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "rich-text#empty-state"
+    ]
+  },
+  "rich-text#empty-state": {
+    "props": {
+      "text": "Tu carrito esta vacio!"
+    }
+  },
   "flex-layout.row#buy-button-shelf": {
     "children": [
-
       "buy-button#product"
     ],
-    "props":{
-      "blockClass":"buy-button-shelf",
-      "text":"COMPRAR YA"
+    "props": {
+      "blockClass": "buy-button-shelf",
+      "text": "COMPRAR YA"
     }
   },
-   "buy-button#product": {
+  "buy-button#product": {
     "props": {
-      "text":"COMPRAR YA",
+      "text": "COMPRAR YA",
       "isOneClickBuy": false,
       "showTooltipOnSkuNotSelected": false,
-      "shouldAddToCart":false
+      "shouldAddToCart": false
     }
   }
 }

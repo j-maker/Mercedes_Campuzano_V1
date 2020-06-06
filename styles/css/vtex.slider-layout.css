@@ -5,7 +5,7 @@
   border: 2px solid #9d884b;
   background: white;
 }
-.slideChildrenContainer--home-slider{
+.slideChildrenContainer--home-slider {
   display: block;
 }
 .sliderArrows--home-slider {
@@ -54,7 +54,7 @@
   margin: 0 20px;
   height: 280px;
 }
-.sliderTrackContainer--menu-slider{
+.sliderTrackContainer--menu-slider {
   height: 270px;
   margin: 0 10px;
 }
@@ -116,8 +116,7 @@
   .sliderRightArrow--home-slider {
     right: 15px;
   }
-  .slide--shelf
-  .slide--header-menu-slider {
+  .slide--shelf .slide--header-menu-slider {
     width: 0;
     height: 0;
   }

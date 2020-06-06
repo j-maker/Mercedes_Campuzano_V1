@@ -1,61 +1,59 @@
 {
-    "store.custom#about-us-mc":{
-        "path":"/nuestra-marca"       
+    "store.custom#about-us-mc": {
+        "path": "/nuestra-marca"
     },
-    "store.custom#policies":{
-        "path":"/politicas"       
+    "store.custom#policies": {
+        "path": "/politicas"
     },
-    "store.custom#policies-changes":{
-        "path":"/politicas-de-cambios"       
+    "store.custom#policies-changes": {
+        "path": "/politicas-de-cambios"
     },
-    "store.custom#terms-conditions-promotions":{
-        "path":"/terminos-y-condiciones-de-promociones"
+    "store.custom#terms-conditions-promotions": {
+        "path": "/terminos-y-condiciones-de-promociones"
     },
-    "store.custom#warranty":{
-        "path":"/nuestra-garantia"
+    "store.custom#warranty": {
+        "path": "/nuestra-garantia"
     },
-    "store.custom#recomendations":{
-        "path":"/recomendaciones-de-uso"
+    "store.custom#recomendations": {
+        "path": "/recomendaciones-de-uso"
     },
-    "store.custom#corporate-sales":{
-        "path":"/ventas-corporativas"
+    "store.custom#corporate-sales": {
+        "path": "/ventas-corporativas"
     },
-    "store.custom#work-with-us":{
-        "path":"/trabaja-con-nosotros"
+    "store.custom#work-with-us": {
+        "path": "/trabaja-con-nosotros"
     },
-    "store.custom#online-shopping":{
-        "path":"/como-comprar-online"
+    "store.custom#online-shopping": {
+        "path": "/como-comprar-online"
     },
-    "store.custom#terms-use":{
-        "path":"/terminos-de-uso"
+    "store.custom#terms-use": {
+        "path": "/terminos-de-uso"
     },
-    "store.custom#privacy-policies":{
-        "path":"/politicas-de-privacidad"
+    "store.custom#privacy-policies": {
+        "path": "/politicas-de-privacidad"
     },
-    "store.custom#consumer-statute":{
-        "path":"/estatuto-del-consumidor"
+    "store.custom#consumer-statute": {
+        "path": "/estatuto-del-consumidor"
     },
-    "store.custom#buy-insurance":{
-        "path":"/compra-segura"
+    "store.custom#buy-insurance": {
+        "path": "/compra-segura"
     },
-    "store.custom#care-and-health":{
-        "path":"/cuidado-y-salud"
+    "store.custom#care-and-health": {
+        "path": "/cuidado-y-salud"
     },
-    "store.custom#stores":{
-        "path":"/nuestras-tiendas"
+    "store.custom#stores": {
+        "path": "/nuestras-tiendas"
     },
-    "store.custom#collectors-club":{
-        "path":"/club-de-coleccionistas"
+    "store.custom#collectors-club": {
+        "path": "/club-de-coleccionistas"
     },
-    "store.custom#frequent-questions":{
-        "path":"/preguntas-frecuentes"
+    "store.custom#frequent-questions": {
+        "path": "/preguntas-frecuentes"
     },
-    "store.custom#contact-us":{
-        "path":"/contactanos"
+    "store.custom#contact-us": {
+        "path": "/contactanos"
     },
-    "store.custom#trends":{
-        "path":"/tendencias"
+    "store.custom#trends": {
+        "path": "/tendencias"
     }
-
-    
 }

@@ -1,136 +1,133 @@
-.container:hover{
-    opacity: 0.5;
+.container:hover {
+  opacity: 0.5;
 }
-.profileIcon{
-    height: 20px;
-    width: 13px;
-    padding-right: 0px;
-    overflow: visible !important;
-    padding-bottom: 5px;
-    fill-rule:"evenodd";
+.profileIcon {
+  height: 20px;
+  width: 13px;
+  padding-right: 0px;
+  overflow: visible !important;
+  padding-bottom: 5px;
+  fill-rule: "evenodd";
 }
-.content{
-    font-size: 12px;
-    margin: 0 ;
-    background-color: #f9efed;
-    margin: 0px auto;
-    padding: 0;
-    max-width: 100%;
-    height: auto;
-    box-sizing: border-box;
+.content {
+  font-size: 12px;
+  margin: 0;
+  background-color: #f9efed;
+  margin: 0px auto;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
 }
-.button{
-    margin: 10px;
+.button {
+  margin: 10px;
 }
-.backButton{
-    margin-right: auto;
+.backButton {
+  margin-right: auto;
 }
-.sendButton{
-    background: #E1D3C8;
+.sendButton {
+  background: #e1d3c8;
 }
-.sendButton:hover{
-    background: #d56e2f;
-    color: white;
-    transition: all 0.6s;
+.sendButton:hover {
+  background: #d56e2f;
+  color: white;
+  transition: all 0.6s;
 }
-.dontHaveAccount{
-    font-size:0 !important;
+.dontHaveAccount {
+  font-size: 0 !important;
 }
-.dontHaveAccount::after{
-    font-size:14px;
-    color: #212529;
-    content: "¿NO TIENES UNA CUENTA? REGÍSTRATE";
-    opacity: 0.8;
-}
-
-
-
-
-.formTitle{
-    font-family: "Lora";
-    font-size: 27px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-.formError{
-    font-size: 12px;
-    margin: 15px 0 ;
-    background-color: #f9efed;
-    color: #646464;
-    font-weight: bold;
+.dontHaveAccount::after {
+  font-size: 14px;
+  color: #212529;
+  content: "¿NO TIENES UNA CUENTA? REGÍSTRATE";
+  opacity: 0.8;
 }
 
-.pa2{
-    display: none;
+.formTitle {
+  font-family: "Lora";
+  font-size: 27px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.formError {
+  font-size: 12px;
+  margin: 15px 0;
+  background-color: #f9efed;
+  color: #646464;
+  font-weight: bold;
 }
 
-.arrowUp{
-    display: none;
+.pa2 {
+  display: none;
 }
-.optionsSticky{
-    display: none;
-}
-.contentFormVisible{
-    margin: 20px auto;
-    padding: 0 25px;
-    width: 445px;
-    height: auto;
-}
-.inputContainerEmail{
-    margin-bottom: 50px;
-}
-.formLinkContainer{
-display: flex;
-justify-content: center;
-color: #646464;
-font-size: 15px;
-}
-.forgotPasswordLink{
-    color: #646464;
-    font-family: "Montserrat";
-    font-size: 15px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    }
-    .dontHaveAccount{
-        color: #646464;
-        font-family: "Montserrat";
-        font-size: 15px;
-        margin: 20px 0;
-        text-transform: uppercase;
-        }
 
-.profileIcon--login-drawer{
-    width: 14px;
+.arrowUp {
+  display: none;
 }
-.label{
-    text-decoration: underline;
-}        
+.optionsSticky {
+  display: none;
+}
+.contentFormVisible {
+  margin: 20px auto;
+  padding: 0 25px;
+  width: 445px;
+  height: auto;
+}
+.inputContainerEmail {
+  margin-bottom: 50px;
+}
+.formLinkContainer {
+  display: flex;
+  justify-content: center;
+  color: #646464;
+  font-size: 15px;
+}
+.forgotPasswordLink {
+  color: #646464;
+  font-family: "Montserrat";
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.dontHaveAccount {
+  color: #646464;
+  font-family: "Montserrat";
+  font-size: 15px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
 
-    @media screen and (max-width:1024px) {
-.label{
+.profileIcon--login-drawer {
+  width: 14px;
+}
+.label {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .label {
     font-size: 0px;
-}
+  }
 
-.content{
+  .content {
     margin: 0;
     padding: 0;
-    width:100% !important;
-}
-.contentFormVisible{
+    width: 100% !important;
+  }
+  .contentFormVisible {
     width: 100%;
     height: auto;
     padding: 0px 20px;
-}
-.profileIcon--header-login{
-    padding: 0 0 10px 0 ;
+  }
+  .profileIcon--header-login {
+    padding: 0 0 10px 0;
     width: 13px;
-}
-.container{
+  }
+  .container {
     padding: 0px 5px 5px 0 !important;
-} 
-.buttonLink{
+  }
+  .buttonLink {
     width: 45px !important;
-    margin: 0 10px 0 0 ;
-}
+    margin: 0 10px 0 0;
+  }
 }

@@ -286,9 +286,7 @@
     64,
     96
   ],
-  "heights": [
-
-  ],
+  "heights": [],
   "sizes": [
     {
       "name": "small",
@@ -344,9 +342,8 @@
         "fontSize": "1.1rem",
         "textTransform": "initial",
         "letterSpacing": "0",
-        "marginTop":"0px",
-        "marginBottom":"0"
-        
+        "marginTop": "0px",
+        "marginBottom": "0"
       },
       "heading-6": {
         "fontFamily": "Montserrat, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
@@ -406,7 +403,5 @@
       }
     }
   },
-  "opacity": [
-
-  ]
+  "opacity": []
 }

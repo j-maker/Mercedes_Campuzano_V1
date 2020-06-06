@@ -28,76 +28,239 @@
     },
     "flex-layout.col#col-1-content-terms-frequent-questions": {
       "children": [
-        "rich-text#col-1-subtitle-1-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-1-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-2-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-2-content-terms-frequent-questions",
-        "rich-text#frequent-questions-content-1",
-        "rich-text#frequent-questions-content-2",
-        "rich-text#frequent-questions-content-3",
-        "rich-text#col-1-subtitle-3-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-3-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-4-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-4-content-terms-frequent-questions",
-        "rich-text#frequent-questions-content-4",
-        "rich-text#frequent-questions-content-5",
-        "rich-text#frequent-questions-content-6",
-        "rich-text#col-1-paragraph-4-1-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-5-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-5-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-6-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-6-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-7-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-7-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-8-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-8-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-9-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-9-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-10-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-10-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-11-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-11-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-12-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-12-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-13-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-13-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-14-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-14-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-15-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-15-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-16-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-16-content-terms-frequent-questions",
-        "rich-text#frequent-questions-content-7",
-        "rich-text#frequent-questions-content-8",
-        "rich-text#frequent-questions-content-9",
-        "rich-text#frequent-questions-content-10",
-        "rich-text#col-1-subtitle-17-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-17-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-18-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-18-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-19-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-19-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-20-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-20-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-21-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-21-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-22-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-22-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-23-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-23-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-24-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-24-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-25-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-25-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-26-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-26-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-27-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-27-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-28-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-28-content-terms-frequent-questions",
-        "rich-text#col-1-subtitle-29-content-terms-frequent-questions",
-        "rich-text#col-1-paragraph-29-content-terms-frequent-questions"
+        "sandbox#question-1",
+        "sandbox#question-2",
+        "sandbox#question-3",
+        "sandbox#question-4",
+        "sandbox#question-5",
+        "sandbox#question-6",
+        "sandbox#question-7",
+        "sandbox#question-8",
+        "sandbox#question-9",
+        "sandbox#question-10",
+        "sandbox#question-11",
+        "sandbox#question-12",
+        "sandbox#question-13",
+        "sandbox#question-14",
+        "sandbox#question-15",
+        "sandbox#question-16",
+        "sandbox#question-17",
+        "sandbox#question-18",
+        "sandbox#question-19",
+        "sandbox#question-20",
+        "sandbox#question-21",
+        "sandbox#question-22",
+        "sandbox#question-23",
+        "sandbox#question-24",
+        "sandbox#question-25",
+        "sandbox#question-26",
+        "sandbox#question-27",
+        "sandbox#question-28",
+        "sandbox#question-29"
       ]
+    },
+    "sandbox#question-1": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+        "initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>1. ¿Dónde puedo adquirir los productos Mercedes Campuzano?<span class='toggle-icon'></span></a><div class='accordion-content'><p>En cualquiera de nuestros puntos de venta ubicados en las ciudades de Bogotá, Medellín, Cartagena, Pereira, Rionegro, lledupar, Villavicencio, Barranquilla y Sincelejo</p>\n<p>Adicional puedes comprarlos a través de nuestra página web <a href='mercedescampuzano.com'><a href='mercedescampuzano.com'>mercedescampuzano.com</a></a></p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-2": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+        "initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>2. ¿Cómo puedo adquirir un crédito en Mercedes Campuzano?<span class='toggle-icon'></span></a><div class='accordion-content'><p>En Medellín, Pereira y Rionegro contamos con ventas a crédito con o sin cuota inicial, las cuales pueden ser canceladas o abonadas en cualquiera de nuestros puntos de venta. Los requisitos para su apertura son:</p><ul ><li class='list'>El titular debe ser mayor de edad y no presentar reportes negativos en las centrales de riesgo.</li><li class='list'>Presentarse personalmente en alguno de nuestros puntos de venta identificándose con su cédula original.</li><li class='list'b>Diligenciar de forma personal la solicitud de crédito y pagaré, estos documentos serán; suministrados en nuestros puntos de venta, esta información será puesta en análisis durante 5 minutos o menos y el sistema arrojará automáticamente el cupo otorgado.</li></ul></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-3": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>3. ¿Puedo realizar una solicitud de crédito por Internet?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Los cupos de crédito solo serán otorgados de forma presencial en nuestras tiendas; No aplica la venta a crédito para nuestro carrito de compras.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-4": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>4. ¿Garantía de nuestros productos Mercedes Campuzano?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Si el artículo presenta alguna irregularidad y/o defecto de fabricación y se tuvieron en cuenta todas las recomendaciones de cuidado y limpieza del producto; se debe diligenciar el formato 'Solicitud de Garantía' en nuestra tienda para empezar el proceso de garantía. Es importante la presentación de la factura para validar los datos de compra, así como presentar el artículo en mención. En caso de que tu producto no cumpla con los criterios de nuestra política de cambios y garantías:</p><ul ><li class='list'>El producto no debe estar modificado o alterado de su estado original</li><li class='list'>El producto debe estar en buen estado y limpio.</li><li class='list'>Accesorios no tienen cambio, ni los productos de nuestra sección de SALE o con descuento.</li></ul><p>Te informaremos con un correo electrónico la razón por la cual no procede el cambio o la garantía y el producto sera devuelto a la dirección de envío inicial.</p><p>Si deseas hacer el cambio a través de <a href='mercedescampuzano.com'>mercedescampuzano.com</a> sólo en el caso de que el producto haya sido comprado en <a href='www.mercedescampuzano.com'>www.mercedescampuzano.com</a> dentro de los doce días luego de haber recibido el producto, (verificar las condiciones de cambio) debes ponerte en contacto con el área de servicio al cliente de MERCEDES CAMPUZANO a nuestro celular (+57) 317 426 6793, a través de nuestro correo servicioalcliente@mercedescampuzano.com o a través de nuestro sitio web <a href='mercedescampuzano.com'>mercedescampuzano.com</a> en el formulario de ‘Contáctanos’ para informar el porque de la garantía.</p><p>Una vez radicada la solicitud de garantia con los datos necesarios para la misma, debes enviar el producto a la dirección indicada por uno de nuestros asesores.</p><p>Si tu solicitud de efectividad de la garantía no fuera aceptada después de haber sido evaluada por nuestra área encargada debido a la falta de conformidad con las condiciones indicadas anteriormente, nos pondremos en contacto contigo, dentro de los 15 días hábiles siguientes a la fecha de tu reclamación, para coordinar de nuesvo su envío con un flete por cobrar donde deberás pagar a la empresa transportadora en el momento en que se haga la entrega del producto.</p><p>Los costos de transporte y los demás que conlleve a la devolución serán cubiertos por el consumidor (cliente).</p><p><strong>Los productos de colección tienen una garantía de 60 días a partir de la fecha de compra. Los productos en promoción tienen garantía de 30 días a partir de la fecha de compra.</strong></p><p>Son causales de garantía: Despegue de suela, deterioro espontáneo de la capellada, desprendimiento de manija, cierres, forro interno del producto y daño en resortes o hebillas. No son causales de garantía: Rayas y vetas naturales del cuero o material de capellada, limpieza inadecuada del producto, manchas causadas por agentes usados en el proceso de curtido o manipulación del producto por talleres de reparación de calzado, desgaste o daño de los materiales de la capellada por uso inadecuado, fricciones frecuentes en un área específica o por tropezones con agentes externos o terceros.</p><p>En la línea de joyería y accesorios, los productos no tienen cambio y tienen una garantía de 30 días a partir de la fecha de compra, validando primero que hayan sido seguidas las recomendaciones de uso. El cliente deberá presentar el producto en cualquiera de nuestras tiendas, con la factura física o el número de cédula de quién realizó la compra y a partir de este momento y posterior a tramitar la solicitud de garantía nuestra empresa tendrá como máximo 15 días hábiles para responder formalmente a su reclamación.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-5": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>5. ¿Qué debo hacer para trabajar en Mercedes Campuzano?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Los procesos de selección en <strong>MERCEDES CAMPUZANO</strong> se realizan de acuerdo con las vacantes disponibles y principalmente para las temporadas de mayo y diciembre. Diligencie el formulario de solicitud de empleo ingresando a la opción trabaje con nosotros de <a href='mercedescampuzano.com'>mercedescampuzano.com</a> o entregue su hoja de vida en cualquiera de nuestros puntos de venta, o enviándola a ghumana@mercedescampuzano.com<a href='ghumana@mercedescampuzano.com'>ghumana@mercedescampuzano.com</a></p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-6": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>6. ¿Cómo comprar en mercedescampuzano.com?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Comprar en <a href='mercedescampuzano.com'>mercedescampuzano.com</a> es muy fácil, sólo debes seguir los siguientes pasos: para buscar el producto que quieres comprar puedes navegar a través de las categorías en nuestro menú de categorías o utilizar la barra de búsqueda. Una vez hayas elegido el producto que deseas, selecciona el color y la talla y agrégalo a tu bolsa de compras dando clic en el botón <strong>COMPRAR</strong></p><p>Una vez hayas agregado el producto puedes seguir navegando y agregando a la bolsa los productos que desees. Cuando hayas agregado todos los productos que deseas comprar, ve a tu bolsa de compras que está en la parte superior derecha. En el resumen que encontrarás, verifica que los productos que están en tu bolsa son los que deseas comprar (producto, color y talla) y haz clic en <strong>COMPRAR.</strong></p><p>Ingresa tu correo electrónico para continuar con el proceso o regístrate si no tienes cuenta con nosotros. Diligencia tus datos personales y datos de entrega. <strong>Elige el método de pago que desees.</strong> Puedes elegir tu medio de pago, <strong>tarjeta de crédito, PSE (tarjeta débito, cuenta de ahorros o cuenta corriente)</strong> Verifica el mensaje de confirmación de tu pago y espera el correo de confirmación de tu compra.</p><p>Recibe tu pedido en la puerta de tu casa u oficina.</p><p>Si tienes alguna duda también te puedes comunicar a través de nuestra línea de <strong>Servicio al cliente de MERCEDES CAMPUZANO (+57) 317 426 6793</strong> en horario de lunes a viernes de 8:00 am-5:30 pm, a través de nuestro correo <a href='servicioalcliente@mercedescampuzano.com'>servicioalcliente@mercedescampuzano.com,</a> o a través de nuestra página web <a href='mercedescampuzano.com'>mercedescampuzano.com</a> haciendo clic en Contáctanos.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-7": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>7. ¿Cuáles son los medios de pago que puedo utilizar en la tienda Online?<span class='toggle-icon'></span></a><div class='accordion-content'><p>En <a href='mercedescampuzano.com'>mercedescampuzano.com</a> puedes pagar con tarjeta de crédito, PSE (Cuenta de ahorros o cuenta corriente) de cualquier banco en Colombia.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-8": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>8. No logro finalizar la compra con mi tarjeta en la tienda Online ¿Por qué?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Antes de finalizar la compra asegúrate de haber ingresado los datos de tu tarjeta de crédito correctamente incluyendo nombre de tarjetahabiente, número de tarjeta, fecha de validez, y código de seguridad, en caso de estar haciendo el pago con PSE asegúrate de tener los permisos para realizar compras online a través de tu cuenta (para consultar los permisos debes comunicarte con tu entidad bancaria).\n\nSi no puedes proceder con tu pago comunícate a través de nuestra línea de Servicio al cliente de MERCEDES CAMPUZANO  <strong>(+57) 317 426 6793</strong> (en horario de lunes a viernes de <strong>8:00 am a 5:30 pm</strong>), o a través de nuestro correo <a href='servicioalcliente@mercedescampuzano.com'>servicioalcliente@mercedescampuzano.com</a>, o también a través de nuestra página web mercedescampuzano.com haciendo clic en ‘Contáctanos’.\n\nTe ayudaremos a resolver el inconveniente lo más pronto posible.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-9": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>9. ¿Puedo usar unos cupones de descuento? ¿Cómo lo hago?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Si tienes un bono de descuento, debes ingresar el código en el campo que dice <strong>'Bono de descuento'</strong> en la bolsa de compras; y automáticamente se descontará la cantidad establecida en el valor total de la compra. Escribe correctamente el código del bono, respeta las mayúsculas, minúsculas y los números.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-10": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>10. ¿Puedo utilizar varios medios de pago a la vez en la tienda online?<span class='toggle-icon'></span></a><div class='accordion-content'><p>No, sólo puedes utilizar un medio de pago por compra o utilizar un bono y pagar el excedente a través de tarjeta de crédito o botón PSE o pago de efectivo en Efecty, Gana, Baloto o Payu te fía. Sin embargo no puedes utilizar otros dos medios de pago para una misma compra **(Ej: tarjeta de crédito y PSE).</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-11": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>11. ¿Los precios incluyen IVA?<span class='toggle-icon'></span></a><div class='accordion-content'><p>El valor de todos los productos que ves en nuestra página de internet ya tiene incluido el valor del IVA.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-12": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>12. ¿Cuáles son las recomendaciones de navegador para comprar en mercedescampuzano.com?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Para un rendimiento óptimo del sitio, te recomendamos usar la última versión de cualquier navegador **(Explorer, Firefox, Chrome).</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-13": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>13. ¿Cómo comprar en mercedescampuzano.com con mi Smartphone?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Ingresa a <a href='mercedescampuzano.com'>mercedescampuzano.com</a> en el navegador de tu Smartphone y serás direccionado a nuestra versión móvil donde podrás comprar todo el portafolio de producto disponible en nuestra tienda virtual.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-14": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>14. ¿Cómo recibo ofertas especiales de mercedescampuzano.com?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Suscríbete en nuestra página <a href='mercedescampuzano.com'>mercedescampuzano.com</a> en la sección **Suscripción a Noticias** para que te enteres de nuestros eventos, promociones y noticias.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-15": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>15. ¿En qué otros sitios encuentro información de la marca?<span class='toggle-icon'></span></a><div class='accordion-content'><p>También puedes encontrar toda la información en nuestras redes sociales: **Facebook, Instagram y Twitter.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-16": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>16. Actualización de datos<span class='toggle-icon'></span></a><div class='accordion-content'><p>Cuando quieras actualizar la dirección de correspondencia o medio de pago ve a la sección Mi Cuenta y ahí tendrás las siguientes 4 opciones de ingreso.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-17": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>17. ¿Es seguro comprar en mercedescampuzano.com?<span class='toggle-icon'></span></a><div class='accordion-content'><p>TEXComprar en <a href='mercedescampuzano.com'>mercedescampuzano.com</a> es totalmente seguro.\n\nAdicionalmente en nuestra política de privacidad puedes consultar el manejo de tus datos personales, para consultarle haz clic aquí.TO</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-18": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>18. ¿Cuál es el tiempo y el costo del envío?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Para cualquier compra de zapatos, bolsos y accesorios en nuestra tienda Online el valor del envío dependerá del monto de la compra, si es inferior a $100.000 el valor del envío sera de $5.000 (cinco mil pesos) y si es superior a $100.000 el valor del envío sera de $10.000 (diez mil pesos).\n\nEl tiempo de entrega es aproximadamente de 3 a 5 días hábiles para ciudades principales y de 9 días hábiles o más para otros destinos. Si usted compro en evento o cinco días hábiles posteriores al evento el tiempo de entrega es de 3 a 10 días hábiles,</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-19": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>19. ¿Cómo hacer seguimiento de mi pedido?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Para hacer seguimiento a tu pedido puedes ingresar a la través del menú **“Mi cuenta - Órdenes”** o comunicarte a través de los diferentes canales de Servicio al Cliente de MERCEDES CAMPUZANO.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-20": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>20. ¿Qué hago si quiero cambiar la dirección de entrega o cometí un error en ésta al realizar la compra?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Debes comunicarte a través de nuestra línea de Servicio al cliente de MERCEDES CAMPUZANO a nuestro celular (+57) 317 426 6793, a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web <a href='mercedescampuzano.com'>mercedescampuzano.com</a> en el formulario de ‘Contáctanos’.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-21": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>21. ¿Qué hago si no estaba en el momento de la entrega?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Si no estás presente en el momento de la entrega para recibir tu pedido, la transportadora puede dejar tu producto con cualquier persona mayor de edad que se encuentre en el domicilio registrado en la factura en el lugar de envío, en el momento de la compra.\n\nSi no hay nadie para recibir el pedido, se realizará un nuevo intento de entrega al siguiente día hábil.\n\nLa transportadora realizará hasta 3 intentos de entrega y si no puede realizar la entrega del pedido éste será devuelto a nuestras bodegas.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-22": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>22. ¿Qué hago si mi producto no es el que pedí?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Si no recibes el producto que ordenaste, comunícate con nuestra línea de Servicio al Cliente de MERCEDES CAMPUZANO al celular **(+57) 317 426 6793** (en horario de lunes a viernes de **8:00 am a 5:30 pm**), a través de nuestro correo servicioalcliente@<a href='mercedescampuzano.com'>mercedescampuzano.com</a>, o a través de nuestra página web <a href='mercedescampuzano.com'>mercedescampuzano.com</a> en el formulario de ‘Contáctanos’.\n\nNos encargaremos de gestionar la devolución de tu producto y lo cambiaremos por el artículo correcto. Recuerda que el cambio no tiene ningún costo adicional.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-23": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>23. ¿Mercedes Campuzano hace entregas internacionales?**<span class='toggle-icon'></span></a><div class='accordion-content'><p>Actualmente <a href='mercedescampuzano.com'>mercedescampuzano.com</a> sólo realiza entregas en el territorio Colombiano, **sin embargo si estás en el exterior puedes comprar con tu tarjeta de crédito internacional y enviar tu pedido a una dirección en Colombia.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-24": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>24. ¿Dónde me puedo comunicar si mi pedido se demora más de lo normal?**<span class='toggle-icon'></span></a><div class='accordion-content'><p>Puedes comunicarte a través de nuestra línea de **Servicio al cliente de MERCEDES CAMPUZANO (+57) 317 426 6793** (en horario de lunes a viernes de **8:00 am a 5:30 pm),** a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web <a href='mercedescampuzano.com'>mercedescampuzano.com</a> en el formulario de ‘Contáctanos</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-25": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>25. ¿Puedo cambiar un producto?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Puedes solicitar el cambio de tu producto según los términos establecidos en nuestra política de cambios. La puedes consultar aquí.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-26": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>26. ¿Cuánto tiempo tengo para devolver o cambiar un producto?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Para realizar un cambio en nuestras tiendas físicas tienes hasta 30 días después de realizada la compra, para realizar el cambio a través de <a href='www.mercedescampuzano.com'>www.mercedescampuzano.com</a> tienes hasta **12 días** después de recibido el pedido, para ejercer el derecho de retracto y recibir tu dinero de vuelta tienes hasta 5 días hábiles después de la entrega de tu producto. Para consultar más información de nuestra política de cambios y devoluciones haz clic aquí.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-27": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>27. ¿Puedo solicitar el reembolso de mi pedido?<span class='toggle-icon'></span></a><div class='accordion-content'><p>De acuerdo con el derecho de retracto consagrado por la **ley 1480 de 2011 art. 47,** el término máximo para ejercer éste derecho, es de 5 días hábiles contados a partir de la entrega del producto. El producto deberá ser devuelto en las mismas condiciones en que lo recibiste. Los costos de transporte y demás, incurridos en la devolución serán asumidos por ti.Para gestionar la devolución de tu producto te debes comunicar con la línea de servicio al cliente de MERCEDES CAMPUZANO a través de nuestro celular **(+57 ) 317 426 6793,** a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web <a href='mercedescampuzano.com'>mercedescampuzano.com</a> en el formulario de ‘Contáctanos’.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-28": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>28. ¿Si quiero cambiar mi producto por otro y el que quiero cuesta menos, me devuelven el dinero?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Si, de querer cambiar tu compra por un producto de menor valor, realizaremos el reembolso de tu dinero según nuestras políticas de cambios y devoluciones.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
+    },
+    "sandbox#question-29": {
+      "props": {
+        "width": "100%",
+        "height": "50px",
+"initialContent":"<style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 10px;font-size: 19px;font-weight: bold;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';}.accordion-titulo.open {background: #d4c4a0;color: #fff; font-weight:500;}.accordion-content {display: none;padding: 10px 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 16px;text-align: justify;}.list, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>29. ¿Qué vigencia tiene el bono?<span class='toggle-icon'></span></a><div class='accordion-content'><p>El bono tendrá una validez de **12 meses después de expedido.**</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+      }
     },
     "rich-text#col-1-title-terms-frequent-questions": {
       "props": {
@@ -106,562 +269,5 @@
         "textPosition": "CENTER",
         "text": "PREGUNTAS FRECUENTES"
       }
-    },
-    "rich-text#col-1-subtitle-1-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**1. ¿Dónde puedo adquirir los productos Mercedes Campuzano?**"
-      }
-    },
-    "rich-text#col-1-paragraph-1-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "En cualquiera de nuestros puntos de venta ubicados en las ciudades de Bogotá, Medellín, Cartagena, Pereira, Rionegro, Valledupar, Villavicencio, Barranquilla y Sincelejo\n\nAdicional puedes comprarlos a través de nuestra página web mercedescampuzano.com"
-      }
-    },
-    "rich-text#col-1-subtitle-2-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**2. ¿Cómo puedo adquirir un crédito en Mercedes Campuzano?**"
-      }
-    },  
-    
-    "rich-text#col-1-paragraph-2-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "En Medellín, Pereira y Rionegro contamos con ventas a crédito con o sin cuota inicial, las cuales pueden ser canceladas o abonadas en cualquiera de nuestros puntos de venta. Los requisitos para su apertura son:"
-      }
-    },
-    "rich-text#frequent-questions-content-1": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El titular debe ser mayor de edad y no presentar reportes negativos en las centrales de riesgo.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-      "rich-text#frequent-questions-content-2": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Presentarse personalmente en alguno de nuestros puntos de venta identificándose con su cédula original.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-      "rich-text#frequent-questions-content-3": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Diligenciar de forma personal la solicitud de crédito y pagaré, estos documentos serán; suministrados en nuestros puntos de venta, esta información será puesta en análisis durante 5 minutos o menos y el sistema arrojará automáticamente el cupo otorgado.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      }, 
-      "rich-text#frequent-questions-content-4": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El producto no debe estar modificado o alterado de su estado original",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-      "rich-text#frequent-questions-content-5": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El producto debe estar en buen estado y limpio.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-      "rich-text#frequent-questions-content-6": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Accesorios no tienen cambio, ni los productos de nuestra sección de SALE o con descuento.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-      "rich-text#frequent-questions-content-7": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**Recibir la clave de acceso rápido por mail:** a tu correo te llegará una clave de 4 dígitos la cual debes digitar para confirmar tu identidad (Recuerda verificar el correo no deseado)",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-      "rich-text#frequent-questions-content-8": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**Ingresar con Facebook:** ingresa tu usuario y contraseña de Facebook y ya has ingresado.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-      "rich-text#frequent-questions-content-9": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**Ingresar con Google:** ingresa tu correo y contraseña de Gmail o Google y ya has ingresado.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-      "rich-text#frequent-questions-content-10": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**Ingresa con Mail y contraseña:** si ya tienes una contraseña para el sitio ingrésala en este espacio.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },  
-    "rich-text#col-1-subtitle-3-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**3. ¿Puedo realizar una solicitud de crédito por Internet?**\n\n"
-      }
-    },
-    "rich-text#col-1-paragraph-3-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Los cupos de crédito solo serán otorgados de forma presencial en nuestras tiendas; No aplica la venta a crédito para nuestro carrito de compras."
-      }
-    },
-    "rich-text#col-1-subtitle-4-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**4. ¿Garantía de nuestros productos Mercedes Campuzano?**\n\n"
-      }
-    },
-    "rich-text#col-1-paragraph-4-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Si el artículo presenta alguna irregularidad y/o defecto de fabricación y se tuvieron en cuenta todas las recomendaciones de cuidado y limpieza del producto; se debe diligenciar el formato 'Solicitud de Garantía' en nuestra tienda para empezar el proceso de garantía. Es importante la presentación de la factura para validar los datos de compra, así como presentar el artículo en mención. En caso de que tu producto no cumpla con los criterios de nuestra política de cambios y garantías:"
-      }
-    },
-    "rich-text#col-1-paragraph-4-1-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Te informaremos con un correo electrónico la razón por la cual no procede el cambio o la garantía y el producto sera devuelto a la dirección de envío inicial.\n\nSi deseas hacer el cambio a través de mercedescampuzano.com, sólo en el caso de que el producto haya sido comprado en www.mercedescampuzano.com dentro de los doce días luego de haber recibido el producto, (verificar las condiciones de cambio) debes ponerte en contacto con el área de servicio al cliente de MERCEDES CAMPUZANO a nuestro celular (+57) 317 426 6793, a través de nuestro correo servicioalcliente@mercedescampuzano.com o a través de nuestro sitio web mercedescampuzano.com en el formulario de ‘Contáctanos’ para informar el porque de la garantía.\n\nUna vez radicada la solicitud de garantia con los datos necesarios para la misma, debes enviar el producto a la dirección indicada por uno de nuestros asesores.\n\nSi tu solicitud de efectividad de la garantía no fuera aceptada después de haber sido evaluada por nuestra área encargada debido a la falta de conformidad con las condiciones indicadas anteriormente, nos pondremos en contacto contigo, dentro de los 15 días hábiles siguientes a la fecha de tu reclamación, para coordinar de nuevo su envío con un flete por cobrar donde deberás pagar a la empresa transportadora en el momento en que se haga la entrega del producto.\n\nLos costos de transporte y los demás que conlleve a la devolución serán cubiertos por el consumidor (cliente).\n\n**Los productos de colección tienen una garantía de 60 días a partir de la fecha de compra. Los productos en promoción tienen garantía de 30 días a partir de la fecha de compra.**\n\nSon causales de garantía: Despegue de suela, deterioro espontáneo de la capellada, desprendimiento de manija, cierres, forro interno del producto y daño en resortes o hebillas. No son causales de garantía: Rayas y vetas naturales del cuero o material de capellada, limpieza inadecuada del producto, manchas causadas por agentes usados en el proceso de curtido o manipulación del producto por talleres de reparación de calzado, desgaste o daño de los materiales de la capellada por uso inadecuado, fricciones frecuentes en un área específica o por tropezones con agentes externos o terceros.\n\nEn la línea de joyería y accesorios, los productos no tienen cambio y tienen una garantía de 30 días a partir de la fecha de compra, validando primero que hayan sido seguidas las recomendaciones de uso. El cliente deberá presentar el producto en cualquiera de nuestras tiendas, con la factura física o el número de cédula de quién realizó la compra y a partir de este momento y posterior a tramitar la solicitud de garantía nuestra empresa tendrá como máximo 15 días hábiles para responder formalmente a su reclamación."
-        }
-      },
-    "rich-text#col-1-subtitle-5-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**5. ¿Qué debo hacer para trabajar en Mercedes Campuzano?**"
-      }
-    },
-    "rich-text#col-1-paragraph-5-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Los procesos de selección en **MERCEDES CAMPUZANO** se realizan de acuerdo con las vacantes disponibles y principalmente para las temporadas de mayo y diciembre. Diligencie el formulario de solicitud de empleo ingresando a la opción trabaje con nosotros de mercedescampuzano.com o entregue su hoja de vida en cualquiera de nuestros puntos de venta, o enviándola a ghumana@mercedescampuzano.com"
-      }
-    },
-    "rich-text#col-1-subtitle-6-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**6. ¿Cómo comprar en mercedescampuzano.com?**"
-        }
-      },
-  
-    "rich-text#col-1-paragraph-6-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Comprar en mercedescampuzano.com es muy fácil, sólo debes seguir los siguientes pasos: para buscar el producto que quieres comprar puedes navegar a través de las categorías en nuestro menú de categorías o utilizar la barra de búsqueda. Una vez hayas elegido el producto que deseas, selecciona el color y la talla y agrégalo a tu bolsa de compras dando clic en el botón **COMPRAR.**\n\nUna vez hayas agregado el producto puedes seguir navegando y agregando a la bolsa los productos que desees. Cuando hayas agregado todos los productos que deseas comprar, ve a tu bolsa de compras que está en la parte superior derecha. En el resumen que encontrarás, verifica que los productos que están en tu bolsa son los que deseas comprar (producto, color y talla) y haz clic en **COMPRAR.**\n\nIngresa tu correo electrónico para continuar con el proceso o regístrate si no tienes cuenta con nosotros. Diligencia tus datos personales y datos de entrega. **Elige el método de pago que desees.** Puedes elegir tu medio de pago, **tarjeta de crédito, PSE (tarjeta débito, cuenta de ahorros o cuenta corriente)** Verifica el mensaje de confirmación de tu pago y espera el correo de confirmación de tu compra.\n\nRecibe tu pedido en la puerta de tu casa u oficina.\n\nSi tienes alguna duda también te puedes comunicar a través de nuestra línea de **Servicio al cliente de MERCEDES CAMPUZANO (+57) 317 426 6793,** en horario de lunes a viernes de 8:00 am-5:30 pm, a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web mercedescampuzano.com haciendo clic en Contáctanos.\n\n"
-      }
-    },
-    "rich-text#col-1-subtitle-7-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**7. ¿Cuáles son los medios de pago que puedo utilizar en la tienda Online?**"
-      }
-    },
-    "rich-text#col-1-paragraph-7-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "En mercedescampuzano.com puedes pagar con tarjeta de crédito, PSE (Cuenta de ahorros o cuenta corriente) de cualquier banco en Colombia."
-      }
-    },
-    "rich-text#col-1-subtitle-8-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**8. No logro finalizar la compra con mi tarjeta en la tienda Online ¿Por qué?**\n"
-      }
-    },
-    
-    "rich-text#col-1-paragraph-8-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Antes de finalizar la compra asegúrate de haber ingresado los datos de tu tarjeta de crédito correctamente incluyendo nombre de tarjetahabiente, número de tarjeta, fecha de validez, y código de seguridad, en caso de estar haciendo el pago con PSE asegúrate de tener los permisos para realizar compras online a través de tu cuenta (para consultar los permisos debes comunicarte con tu entidad bancaria).\n\nSi no puedes proceder con tu pago comunícate a través de nuestra línea de Servicio al cliente de MERCEDES CAMPUZANO  **(+57) 317 426 6793** (en horario de lunes a viernes de **8:00 am a 5:30 pm**), o a través de nuestro correo servicioalcliente@mercedescampuzano.com, o también a través de nuestra página web mercedescampuzano.com haciendo clic en ‘Contáctanos’.\n\nTe ayudaremos a resolver el inconveniente lo más pronto posible."
-      }
-    },
-    "rich-text#col-1-subtitle-9-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**9. ¿Puedo usar unos cupones de descuento? ¿Cómo lo hago?**\n"
-      }
-    }, 
-    "rich-text#col-1-paragraph-9-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Si tienes un bono de descuento, debes ingresar el código en el campo que dice **'Bono de descuento'** en la bolsa de compras; y automáticamente se descontará la cantidad establecida en el valor total de la compra. Escribe correctamente el código del bono, respeta las mayúsculas, minúsculas y los números.\n\n"
-      }
-    },
-    "rich-text#col-1-subtitle-10-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-subtitles-frequent-questions",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "**10. ¿Puedo utilizar varios medios de pago a la vez en la tienda online?**\n"
-      }
-    },
-    "rich-text#col-1-paragraph-10-content-terms-frequent-questions": {
-      "props": {
-        "blockClass": "footer-terms-content-policies",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "No, sólo puedes utilizar un medio de pago por compra o utilizar un bono y pagar el excedente a través de tarjeta de crédito o botón PSE o pago de efectivo en Efecty, Gana, Baloto o Payu te fía. Sin embargo no puedes utilizar otros dos medios de pago para una misma compra **(Ej: tarjeta de crédito y PSE).**"
-      }
-    },
-      "rich-text#col-1-subtitle-11-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**11. ¿Los precios incluyen IVA?**"
-        }
-      },
-      "rich-text#col-1-paragraph-11-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El valor de todos los productos que ves en nuestra página de internet ya tiene incluido el valor del IVA."
-        }
-      },
-      "rich-text#col-1-subtitle-12-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**12. ¿Cuáles son las recomendaciones de navegador para comprar en mercedescampuzano.com?**"
-        }
-      },  
-      
-      "rich-text#col-1-paragraph-12-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Para un rendimiento óptimo del sitio, te recomendamos usar la última versión de cualquier navegador **(Explorer, Firefox, Chrome).**"
-        }
-      },
-      "rich-text#col-1-subtitle-13-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**13. ¿Cómo comprar en mercedescampuzano.com con mi Smartphone?**\n\n"
-        }
-      },
-      "rich-text#col-1-paragraph-13-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Ingresa a mercedescampuzano.com en el navegador de tu Smartphone y serás direccionado a nuestra versión móvil donde podrás comprar todo el portafolio de producto disponible en nuestra tienda virtual."
-        }
-      },
-      "rich-text#col-1-subtitle-14-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**14. ¿Cómo recibo ofertas especiales de mercedescampuzano.com?**\n\n"
-        }
-      },
-      "rich-text#col-1-paragraph-14-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Suscríbete en nuestra página mercedescampuzano.com en la sección **Suscripción a Noticias** para que te enteres de nuestros eventos, promociones y noticias."
-        }
-      },
-      "rich-text#col-1-subtitle-15-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**15. ¿En qué otros sitios encuentro información de la marca?**"
-        }
-      },
-      "rich-text#col-1-paragraph-15-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "También puedes encontrar toda la información en nuestras redes sociales: **Facebook, Instagram y Twitter.**"
-        }
-      },
-      "rich-text#col-1-subtitle-16-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**16. Actualización de datos**"
-        }
-      },
-      "rich-text#col-1-paragraph-16-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Cuando quieras actualizar la dirección de correspondencia o medio de pago ve a la sección Mi Cuenta y ahí tendrás las siguientes 4 opciones de ingreso."
-        }
-      },
-      "rich-text#col-1-subtitle-17-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**17. ¿Es seguro comprar en mercedescampuzano.com?**"
-        }
-      },
-      "rich-text#col-1-paragraph-17-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Comprar en mercedescampuzano.com es totalmente seguro.\n\nAdicionalmente en nuestra política de privacidad puedes consultar el manejo de tus datos personales, para consultarle haz clic aquí."
-        }
-      },
-      "rich-text#col-1-subtitle-18-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**18. ¿Cuál es el tiempo y el costo del envío?**\n"
-        }
-      },
-      
-      "rich-text#col-1-paragraph-18-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Para cualquier compra de zapatos, bolsos y accesorios en nuestra tienda Online el valor del envío dependerá del monto de la compra, si es inferior a $100.000 el valor del envío sera de $5.000 (cinco mil pesos) y si es superior a $100.000 el valor del envío sera de $10.000 (diez mil pesos).\n\nEl tiempo de entrega es aproximadamente de 3 a 5 días hábiles para ciudades principales y de 9 días hábiles o más para otros destinos. Si usted compro en evento o cinco días hábiles posteriores al evento el tiempo de entrega es de 3 a 10 días hábiles,"
-        }
-      },
-      "rich-text#col-1-subtitle-19-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**19. ¿Cómo hacer seguimiento de mi pedido?**\n"
-        }
-      }, 
-      "rich-text#col-1-paragraph-19-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Para hacer seguimiento a tu pedido puedes ingresar a la través del menú **“Mi cuenta - Órdenes”** o comunicarte a través de los diferentes canales de Servicio al Cliente de MERCEDES CAMPUZANO.\n\n"
-        }
-      },
-      "rich-text#col-1-subtitle-20-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**20. ¿Qué hago si quiero cambiar la dirección de entrega o cometí un error en ésta al realizar la compra?**\n"
-        }
-      },
-      "rich-text#col-1-paragraph-20-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Debes comunicarte a través de nuestra línea de Servicio al cliente de MERCEDES CAMPUZANO a nuestro celular (+57) 317 426 6793, a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web mercedescampuzano.com en el formulario de ‘Contáctanos’."
-        }
-      },
-      "rich-text#col-1-subtitle-21-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**21. ¿Qué hago si no estaba en el momento de la entrega?**\n"
-        }
-      },
-      "rich-text#col-1-paragraph-21-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Si no estás presente en el momento de la entrega para recibir tu pedido, la transportadora puede dejar tu producto con cualquier persona mayor de edad que se encuentre en el domicilio registrado en la factura en el lugar de envío, en el momento de la compra.\n\nSi no hay nadie para recibir el pedido, se realizará un nuevo intento de entrega al siguiente día hábil.\n\nLa transportadora realizará hasta 3 intentos de entrega y si no puede realizar la entrega del pedido éste será devuelto a nuestras bodegas."
-        }
-      },
-      "rich-text#col-1-subtitle-22-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**22. ¿Qué hago si mi producto no es el que pedí?**"
-        }
-      },
-      "rich-text#col-1-paragraph-22-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Si no recibes el producto que ordenaste, comunícate con nuestra línea de Servicio al Cliente de MERCEDES CAMPUZANO al celular **(+57) 317 426 6793** (en horario de lunes a viernes de **8:00 am a 5:30 pm**), a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web mercedescampuzano.com en el formulario de ‘Contáctanos’.\n\nNos encargaremos de gestionar la devolución de tu producto y lo cambiaremos por el artículo correcto. Recuerda que el cambio no tiene ningún costo adicional."
-        }
-      },
-      "rich-text#col-1-subtitle-23-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**23. ¿Mercedes Campuzano hace entregas internacionales?**"
-        }
-      },
-      "rich-text#col-1-paragraph-23-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Actualmente mercedescampuzano.com sólo realiza entregas en el territorio Colombiano, **sin embargo si estás en el exterior puedes comprar con tu tarjeta de crédito internacional y enviar tu pedido a una dirección en Colombia.**"
-        }
-      },
-      "rich-text#col-1-subtitle-24-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**24. ¿Dónde me puedo comunicar si mi pedido se demora más de lo normal?**\n"
-        }
-      },
-      "rich-text#col-1-paragraph-24-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Puedes comunicarte a través de nuestra línea de **Servicio al cliente de MERCEDES CAMPUZANO (+57) 317 426 6793** (en horario de lunes a viernes de **8:00 am a 5:30 pm),** a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web mercedescampuzano.com en el formulario de ‘Contáctanos’."
-        }
-      },
-      "rich-text#col-1-subtitle-25-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**25. ¿Puedo cambiar un producto?**\n"
-        }
-      },
-      "rich-text#col-1-paragraph-25-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Puedes solicitar el cambio de tu producto según los términos establecidos en nuestra política de cambios. La puedes consultar aquí."
-        }
-      },
-      "rich-text#col-1-subtitle-26-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**26. ¿Cuánto tiempo tengo para devolver o cambiar un producto?**\n"
-        }
-      },
-      "rich-text#col-1-paragraph-26-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Para realizar un cambio en nuestras tiendas físicas tienes hasta 30 días después de realizada la compra, para realizar el cambio a través de www.mercedescampuzano.com tienes hasta **12 días** después de recibido el pedido, para ejercer el derecho de retracto y recibir tu dinero de vuelta tienes hasta 5 días hábiles después de la entrega de tu producto. Para consultar más información de nuestra política de cambios y devoluciones haz clic aquí."
-        }
-      },
-      "rich-text#col-1-subtitle-27-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**27. ¿Puedo solicitar el reembolso de mi pedido?**\n"
-        }
-      },
-      "rich-text#col-1-paragraph-27-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "De acuerdo con el derecho de retracto consagrado por la **ley 1480 de 2011 art. 47,** el término máximo para ejercer éste derecho, es de 5 días hábiles contados a partir de la entrega del producto. El producto deberá ser devuelto en las mismas condiciones en que lo recibiste. Los costos de transporte y demás, incurridos en la devolución serán asumidos por ti.Para gestionar la devolución de tu producto te debes comunicar con la línea de servicio al cliente de MERCEDES CAMPUZANO a través de nuestro celular **(+57 ) 317 426 6793,** a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web mercedescampuzano.com en el formulario de ‘Contáctanos’."
-        }
-      },
-      "rich-text#col-1-subtitle-28-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**28. ¿Si quiero cambiar mi producto por otro y el que quiero cuesta menos, me devuelven el dinero?**\n"
-        }
-      },
-      "rich-text#col-1-paragraph-28-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Si, de querer cambiar tu compra por un producto de menor valor, realizaremos el reembolso de tu dinero según nuestras políticas de cambios y devoluciones."
-        }
-      },
-      "rich-text#col-1-subtitle-29-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-subtitles-frequent-questions",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "**29. ¿Qué vigencia tiene el bono?**"
-        }
-      },
-      "rich-text#col-1-paragraph-29-content-terms-frequent-questions": {
-        "props": {
-          "blockClass": "footer-terms-content-policies",
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El bono tendrá una validez de **12 meses después de expedido.**"
-        }
-      }
+    }
   }

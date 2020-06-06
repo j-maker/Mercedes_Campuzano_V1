@@ -1,9 +1,8 @@
-
-.buttonText--buy-button-product{
+.buttonText--buy-button-product {
   font-size: 14px;
   font-weight: 500;
 }
-.buttonDataContainer--buy-button-product{
+.buttonDataContainer--buy-button-product {
   background: #d56e2f;
   color: #fff !important;
   font-size: 10px;
@@ -11,14 +10,13 @@
   width: 100%;
 }
 
-.buttonDataContainer--buy-button-shelf:hover{
+.buttonDataContainer--buy-button-shelf:hover {
   color: #fff;
   font-weight: 500;
 }
 
 @media screen and (max-width: 1024px) {
-  .buttonDataContainer--buy-button-shelf{
+  .buttonDataContainer--buy-button-shelf {
     padding: 7px 0px;
   }
-  
 }

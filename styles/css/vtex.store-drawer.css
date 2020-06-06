@@ -16,7 +16,7 @@
   opacity: 0;
   width: 0px;
 }
-.menuIcon--drawer-mobile{
+.menuIcon--drawer-mobile {
   opacity: 0.9;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .closeIcon--mobile-menu {
-  color:transparent;
+  color: transparent;
   width: 14px;
   content: "";
   background-image: url("https://img.icons8.com/material-sharp/24/000000/expand-arrow.png");

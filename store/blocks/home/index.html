@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+      $(".accordion-titulo").click(function(e){
+             
+            e.preventDefault();
+        
+            var contenido=$(this).next(".accordion-content");
+    
+            if(contenido.css("display")=="none"){ //open		
+              contenido.slideDown(250);			
+              $(this).addClass("open");
+            }
+            else{ //close		
+              contenido.slideUp(250);
+              $(this).removeClass("open");	
+            }
+    
+          });
+    });
+    </script>
+    
+    <style>
+  
+    .accordion-container {
+        width: 100%;
+        margin: 0 0 10px;
+        clear:both;
+    }
+    
+    .accordion-titulo {
+        position: relative;
+        display: block;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 300;
+        background: #fff;
+        color: #907c68;
+        text-decoration: none;
+        font-family: 'Lora';
+        font-weight: bold;
+    }
+    .accordion-titulo.open {
+        background: #d4c4a0;
+        color: #fff;
+    }
+    
+    .accordion-content {
+        display: none;
+        padding: 20px;
+        overflow: auto;
+    }
+    
+    .list, .accordion-content p{
+        margin:10px;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .list, p{
+        color: #69727b;
+    }
+    p a{text-decoration: none;color: black;
+    line-height: 1px;}
+    
+
+</style>    
+</head>
+<body>
+    <a href=""></a>
+     <strong></strong>
+            <div class="accordion-container">
+            
+                <a href="#" class="accordion-titulo">1. ¿Dónde puedo adquirir los productos Mercedes Campuzano?<span class="toggle-icon"></span></a>
+                <div class="accordion-content">
+                    <p>En cualquiera de nuestros puntos de venta ubicados en las ciudades de Bogotá, Medellín, Cartagena, Pereira, Rionegro, Valledupar, Villavicencio, Barranquilla y Sincelejo
+
+                    Adicional puedes comprarlos a través de nuestra página web mercedescampuzano.com</p>
+
+                    <ul class='list'><li >El titular debe ser mayor de edad y no presentar reportes negativos en las centrales de riesgo.</li><li>Presentarse personalmente en alguno de nuestros puntos de venta identificándose con su cédula original.</li><li>Diligenciar de forma personal la solicitud de crédito y pagaré, estos documentos serán; suministrados en nuestros puntos de venta, esta información será puesta en análisis durante 5 minutos o menos y el sistema arrojará automáticamente el cupo otorgado.</li></ul>
+                </div>
+                
+            </div>
+            <div class="accordion-container">
+            
+                <a href="#" class="accordion-titulo">1. ¿Dónde puedo adquirir los productos Mercedes Campuzano?<span class="toggle-icon"></span></a>
+                <div class="accordion-content">
+                    <p>En cualquiera de nuestros puntos de venta ubicados en las ciudades de Bogotá, Medellín, Cartagena, Pereira, Rionegro, Valledupar, Villavicencio, Barranquilla y Sincelejo
+
+                    Adicional puedes comprarlos a través de nuestra página web mercedescampuzano.com</p>
+                </div>
+                
+            </div>
+        
+<a href=""></a>
+
+</body>
+
+
+</html>
+
+<div class="accordion-container"><a href="#" class="accordion-titulo">1. ¿Dónde puedo adquirir los productos Mercedes Campuzano?<span class="toggle-icon"></span></a><div class="accordion-content"><p>En cualquiera de nuestros puntos de venta ubicados en las ciudades de Bogotá, Medellín, Cartagena, Pereira, Rionegro, lledupar, Villavicencio, Barranquilla y Sincelejo\n\nAdicional puedes comprarlos a través de nuestra página web mercedescampuzano.com</p></div></div>
+
+

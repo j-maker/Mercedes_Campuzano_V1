@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 .paragraph--home-text-1 {
   color: #000000;
   font-size: 16px;
@@ -73,16 +73,15 @@
   margin-top: 30px;
 }
 
-
-.container--footer-row-2-newsletter{
-justify-content: center;
-padding: 0 20px;
+.container--footer-row-2-newsletter {
+  justify-content: center;
+  padding: 0 20px;
 }
-.wrapper--footer-row-2-newsletter{
+.wrapper--footer-row-2-newsletter {
   width: 450px;
   margin-bottom: 20px;
 }
-.paragraph--footer-row-2-newsletter{
+.paragraph--footer-row-2-newsletter {
   line-height: 2;
   font-size: 11px;
   text-align: justify;
@@ -121,12 +120,12 @@ padding: 0 20px;
   margin: 0px 30px;
   height: auto;
 }
-.container--footer-contact-us{
+.container--footer-contact-us {
   width: 730px !important;
   justify-content: center;
   line-height: 2px;
   font-size: 16px;
-  color: #69727B;
+  color: #69727b;
 }
 .paragraph--footer-terms-content-terms-use-justify,
 .paragraph--footer-terms-content-buy-insurance,
@@ -162,12 +161,12 @@ padding: 0 20px;
   color: #69727b;
   font-weight: bold;
 }
-.strong--footer-terms-content-subtitles-frequent-questions{
+.strong--footer-terms-content-subtitles-frequent-questions {
   font-size: 18px;
   font-family: "Lora";
   color: #907c68;
 }
-.strong--footer-terms-content-subtitles-club-coleccionistas{
+.strong--footer-terms-content-subtitles-club-coleccionistas {
   font-size: 19px;
   font-family: "Lora";
   color: #907c68;
@@ -185,14 +184,14 @@ padding: 0 20px;
   text-decoration: none;
   color: black;
 }
-.wrapper--subtitle-collectors-club{
+.wrapper--subtitle-collectors-club {
   margin: 40px 0 0 30px;
   font-family: "Lora";
   font-size: 19px;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.strong--footer-terms-content-subtitles-terms-use{
+.strong--footer-terms-content-subtitles-terms-use {
   font-family: "Lora";
   font-size: 15px;
   text-align: justify !important;
@@ -200,26 +199,18 @@ padding: 0 20px;
   font-weight: 600;
   opacity: 0.7;
 }
-.paragraph--footer-terms-content-terms-use{
+.paragraph--footer-terms-content-terms-use {
   font-size: 14px;
   text-align: justify !important;
   color: #515151;
-margin-left: 20px;}
-.link--footer-row-2-newsletter{
+  margin-left: 20px;
+}
+.link--footer-row-2-newsletter {
   text-decoration: none;
   color: #9d884b;
 }
 
-
-
-
-
-
-
-
-
-
-.container--footer-terms-content-gold-profits-club-coleccionistas::before{
+.container--footer-terms-content-gold-profits-club-coleccionistas::before {
   width: 18px;
   content: "";
   background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/insignia-oro.png");
@@ -231,9 +222,8 @@ margin-left: 20px;}
   margin-top: 18px;
   padding-top: 6px;
   padding-left: 7px;
-
 }
-.container--footer-terms-content-profits-club-coleccionistas::before{
+.container--footer-terms-content-profits-club-coleccionistas::before {
   width: 18px;
   content: "";
   background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/insignia-plata.png");
@@ -248,8 +238,7 @@ margin-left: 20px;}
 }
 
 .container--footer-terms-content-gold-profits-club-coleccionistas,
-.container--footer-terms-content-profits-club-coleccionistas
-{
+.container--footer-terms-content-profits-club-coleccionistas {
   margin: 30px 25px 0;
   height: auto;
   font-size: 18px;
@@ -258,7 +247,7 @@ margin-left: 20px;}
   letter-spacing: 0.5px;
   color: #000;
 }
-.container--footer-terms-content-subtitles-club-coleccionistas{
+.container--footer-terms-content-subtitles-club-coleccionistas {
   margin: 30px 25px 0;
   height: auto;
   font-size: 18px;
@@ -267,7 +256,7 @@ margin-left: 20px;}
   letter-spacing: 0.5px;
   color: #000;
 }
-.container--footer-terms-content-recomendations-block{
+.container--footer-terms-content-recomendations-block {
   margin: 0px 30px 0 55px;
   height: auto;
   display: list-item;
@@ -275,11 +264,9 @@ margin-left: 20px;}
   text-align: justify;
   color: #515151;
 }
-.paragraph--footer-terms-content-recomendations-block{
-  margin: 0
+.paragraph--footer-terms-content-recomendations-block {
+  margin: 0;
 }
-
-
 
 .paragraph--footer-terms-content-subtitles,
 .paragraph--footer-terms-content {
@@ -303,7 +290,6 @@ margin-left: 20px;}
   color: black !important;
   font-weight: bold;
 }
-
 
 .container--desktop-fixed-help {
   margin-top: 5px;
@@ -348,9 +334,8 @@ margin-left: 20px;}
   margin: 0;
 }
 
-
 @media screen and (max-width: 1024px) {
-  .container--footer-row-2-newsletter{
+  .container--footer-row-2-newsletter {
     margin: 0 20px;
   }
   .container--home-footer-banner {
@@ -450,7 +435,7 @@ margin-left: 20px;}
   font-size: 28px;
   font-weight: 700;
 }
-.paragraph--tallas{
+.paragraph--tallas {
   margin: auto;
   font-size: 14px;
   text-decoration: underline;
@@ -458,7 +443,7 @@ margin-left: 20px;}
   text-align: center;
   margin-left: 5px;
 }
-.wrapper--tallas{
+.wrapper--tallas {
   cursor: pointer;
 }
 @media only screen and (min-width: 640px) {

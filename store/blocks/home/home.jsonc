@@ -1,7 +1,7 @@
 {
   "store.home": { 
     "blocks": [
-      "sandbox#home",
+      "sandbox#question-1",
       "list-context.image-list#home",
       "rich-text#new",
       "flex-layout.row#shelf",
@@ -20,6 +20,8 @@
     ]
   },
 
+
+  
 
 
 
