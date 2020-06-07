@@ -4,9 +4,9 @@
       "search-result-layout#title-search"
     ],
     "props": {
-      "context": {
-        "facetsBehavior": "static",
-        "maxItemsPerPage": 12,
+      "context": {  
+        "facetsBehavior": "dynamic",
+        "maxItemsPerPage": 36,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -18,8 +18,8 @@
     ],
     "props": {
       "context": {
-        "facetsBehavior": "static",
-        "maxItemsPerPage": 12,
+        "facetsBehavior": "dynamic",
+        "maxItemsPerPage": 36,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -31,8 +31,8 @@
     ],
     "props": {
       "context": {
-        "facetsBehavior": "static",
-        "maxItemsPerPage": 12,
+        "facetsBehavior": "dynamic",
+        "maxItemsPerPage": 36,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -44,8 +44,8 @@
     ],
     "props": {
       "context": {
-        "facetsBehavior": "static", 
-        "maxItemsPerPage": 12,
+        "facetsBehavior": "dynamic", 
+        "maxItemsPerPage": 36,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -64,7 +64,7 @@
       "flex-layout.row#result"
     ],
     "props": {
-      "pagination": "show-more",
+     /* "pagination": "show-more",*/
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "brands": true,
@@ -89,7 +89,7 @@
     ],
     "props": {
       "priceRange": false,
-      "pagination": "show-more",
+    /*  "pagination": "show-more",*/
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "brands": true,
@@ -192,7 +192,6 @@
   },
   "flex-layout.row#fetchmore": {
     "props": {
-      "priceRange": false,
       "marginTop": 3
     },
     "children": [
@@ -220,10 +219,10 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      "pagination": "show-more",
+      /*"pagination": "show-more",*/
       "mobileLayout": {
         "mode1": "small",
-        "mode2": "normal"
+        "mode2": "small"
       }
     }
   },
