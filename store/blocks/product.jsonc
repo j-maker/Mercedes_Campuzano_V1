@@ -217,6 +217,19 @@
       "imageLabel": 3
     }
   },
+  "sku-selector#shelf": {
+    "props": {
+      "initialSelection": "empty",
+      "variationsSpacing": 3,
+      "maxItems": 10,
+      "showValueForVariation ": false,
+      "marginTop": 10,
+      "hideImpossibleCombinations": true,
+      "showVariationsLabels": true,
+      "showVariationsErrorMessage": true,
+      "imageLabel": 3
+    }
+  },
   "product-price#product-details": {
     "props": {
       "showInstallments": true,

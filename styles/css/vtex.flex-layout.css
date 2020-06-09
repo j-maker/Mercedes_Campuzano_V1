@@ -347,7 +347,10 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
+.flexColChild--footer-terms-col-frequent-questions-col-wrapper{
+  width: 100%;
+}
   .flexRow--home-wrapper-shelf {
     padding: 0;
   }

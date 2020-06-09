@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+/*      "modal-trigger#popup10%",*/
       "list-context.image-list#home",
       "rich-text#new",
       "flex-layout.row#shelf",
@@ -19,7 +20,25 @@
     ]
   },
 
-
+  "modal-trigger#popup10%": {
+    "props":{
+      "trigger":"load",
+      "label":"cerrar"
+    },
+    "children": [
+      "modal-layout#pop"
+    ]
+  },
+  "modal-layout#pop": {
+    "children": [
+      "rich-text#modal-content"
+    ]
+  },
+  "rich-text#modal-content": {
+    "props": {
+      "text": "EN PRUEBAS"
+    }
+  },
   
 
 

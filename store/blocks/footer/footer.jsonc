@@ -551,11 +551,11 @@
     },
     "children": [
       "rich-text#footer-link-title-col-3",
-      "link#footer-interes-1-col-3",
+      "link#footer-interes-1-col-3"
       /*"link#footer-interes-2-col-3",
       "link#footer-interes-3-col-3",
       "link#footer-interes-4-col-3",*/
-      "link#footer-interes-5-col-3"
+      /*"link#footer-interes-5-col-3"*/
     ]
   },
   "rich-text#footer-link-title-col-3": {

@@ -11,14 +11,16 @@
 .container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
   opacity: 1;
 }
+.valueWrapper--shelf-product-sku,
 .valueWrapper--shelf-sku {
   padding: 5px;
 }
+.skuSelectorItem--shelf-product-sku,
 .skuSelectorItem--shelf-sku {
   width: auto;
   height: 27px;
 }
-
+.skuSelectorItem--shelf-product-sku,
 .SKUSelectorContainer--shelf-sku {
   margin-top: -20px;
 }
@@ -78,6 +80,7 @@
     height: 85px !important;
     margin: auto;
   }
+  .skuSelectorItem--shelf-product-sku,
   .skuSelectorItem--shelf-sku {
     width: auto;
     height: 20px;

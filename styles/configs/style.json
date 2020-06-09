@@ -131,7 +131,7 @@
     "text": {
       "action-primary": "",
       "action-secondary": "",
-      "link": "red",
+      "link": "#212529",
       "emphasis": "#f71963",
       "disabled": "#979899",
       "success": "#8bc34a",
@@ -189,8 +189,8 @@
       "muted-5": "#f2f4f5"
     },
     "hover-border": {
-      "action-primary": "#d56e2f",
-      "action-secondary": "#d56e2f",
+      "action-primary": "transparent",
+      "action-secondary": "transparent",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",

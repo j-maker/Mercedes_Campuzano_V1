@@ -1,6 +1,6 @@
 /*header-row-1*/
 .imageElement--header-1-icon {
-  margin-top: 5px;
+  margin-top: 4px;
   margin-right: 6px;
   width: 15px;
 }
@@ -343,6 +343,22 @@
   font-weight: bold;
   content: "COMPRAR YA";
 }
+
+
+.diagonalCross{
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px) {
   .newsletter--footer-row-2-newsletter {
