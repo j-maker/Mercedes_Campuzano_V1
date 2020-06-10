@@ -19,6 +19,7 @@
 .skuSelectorItem--shelf-sku {
   width: auto;
   height: 27px;
+  margin-bottom: 10px;
 }
 .skuSelectorItem--shelf-product-sku,
 .SKUSelectorContainer--shelf-sku {
@@ -69,6 +70,9 @@
 @media screen and (min-width: 1024px) {
   .element {
     padding: 5px;
+  }
+  .SKUSelectorContainer--shelf-sku{
+    margin: -15px auto;
   }
 }
 

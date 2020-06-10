@@ -347,7 +347,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width:768px) {
 .flexColChild--footer-terms-col-frequent-questions-col-wrapper{
   width: 100%;
 }

@@ -190,7 +190,7 @@
 }
 
 .skuSelectorSubcontainer--color {
-  display: none;
+  display: unset;
 }
 
 .pointerEventsNone {

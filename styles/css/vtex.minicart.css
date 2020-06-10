@@ -33,7 +33,7 @@
   border-radius: 10px;
 }
 .opened {
-  width: 460px;
+  width: 480px;
 }
 .minicartCheckoutButton {
   opacity: 0;
@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 1024px) {
   .opened {
-    width: 380px !important;
+    width: 100% !important;
   }
   .openIconContainer {
     padding: 0px;

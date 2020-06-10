@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+.paragraph--home-text-2,
 .paragraph--home-text-1 {
   color: #000000;
   font-size: 16px;
@@ -7,6 +8,7 @@
   letter-spacing: 0.1em;
   margin: 40px 0px;
 }
+.paragraph--home-text-2,
 .paragraph--home-text-1::after {
   content: "";
   display: block;
@@ -335,6 +337,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .container--home-text-2{
+    display: none;
+  }
   .container--footer-row-2-newsletter {
     margin: 0 20px;
   }
@@ -355,6 +360,7 @@
   .link--footer-row-3-contact-email {
     font-size: 13px;
   }
+  .container--home-text-2,
   .container--home-text-1 {
     width: 100%;
   }

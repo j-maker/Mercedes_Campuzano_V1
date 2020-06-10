@@ -36,27 +36,16 @@
       "product-summary-name",
       "product-rating-inline",
       "flex-layout.row#selling-price-savings",
-      "product-summary-sku-selector#shelf",
+      "product-summary-sku-selector",
       "product-installments#summary",
       "flex-layout.row#buy-button-shelf"
     ]
   },
-  "product-summary-sku-selector#shelf": {
-    "props": {
-      "blockClass": "shelf-product-sku",
-      "imageLabel": 0,
-      "initialSelection": "empty",
-      "variationsSpacing": 3,
-      "maxItems": 10,
-      "showValueForVariation ": false,
-      "marginTop": 10,
-      "hideImpossibleCombinations": true,
-      "showVariationsLabels": false,
-      "showVariationsErrorMessage": false
-    }
-  },
   "product-summary-sku-selector": {
-    "props": {
+   "props": {
+      "visibleVariations":[
+        "talla"
+      ],
       "blockClass": "shelf-sku",
       "imageLabel": 3,
       "initialSelection": "empty",
@@ -81,6 +70,9 @@
   },
   "product-summary-sku-selector#home": {
     "props": {
+      "visibleVariations":[
+        "color"
+      ],
       "imageLabel": 3,
       "initialSelection": "empty",
       "variationsSpacing": 3,

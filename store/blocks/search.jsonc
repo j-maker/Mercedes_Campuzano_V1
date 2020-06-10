@@ -6,7 +6,7 @@
     "props": {
       "context": {  
         "facetsBehavior": "dynamic",
-        "maxItemsPerPage": 36,
+        "maxItemsPerPage": 21,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -19,7 +19,7 @@
     "props": {
       "context": {
         "facetsBehavior": "dynamic",
-        "maxItemsPerPage": 36,
+        "maxItemsPerPage": 21,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -32,7 +32,7 @@
     "props": {
       "context": {
         "facetsBehavior": "dynamic",
-        "maxItemsPerPage": 36,
+        "maxItemsPerPage": 21,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -45,7 +45,7 @@
     "props": {
       "context": {
         "facetsBehavior": "dynamic", 
-        "maxItemsPerPage": 36,
+        "maxItemsPerPage": 21,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
