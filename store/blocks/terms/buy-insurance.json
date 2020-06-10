@@ -1,4 +1,5 @@
 {
+    
     "store.custom#buy-insurance": {
         "blocks": [
             "flex-layout.row#footer-terms-col-buy-insurance"
