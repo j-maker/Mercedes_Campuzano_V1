@@ -19,16 +19,6 @@
 /*      "flex-layout.row#desktop-fixed-help"*/
     ]
   },
-  "sandbox#home": {
-    "props": {
-/*      "width": "100%",
-      "height": "600px",*/
-      "initialContent": "<h1 id='test'>home</h1><script>window.dataLayer.push({'event': 'newLead','leadEmail': jhonatan@jumpdigital.co});</script>",
-      "allowCookies": true
-    }
-  },
-  /*      "initialContent": "<h1 id='test'>home</h1><script>console.log(props, document.cookie); window.addEventListener('message', function(e){ console.log('got message in home', window.props) });</script>",*/
- 
   "flex-layout.row#footer-row-2":{
     "props":{
       "blockClass":"footer-row-2-newsletter"
@@ -633,8 +623,8 @@
       "image#footer-8",
       "image#footer-9",
       "image#footer-10",
-      "image#footer-11"
-      /*"footer-row#footer-6"*/
+      "image#footer-11",
+      "footer-row#footer-6"
     ]
   },
   "image#footer-1": {

@@ -467,7 +467,7 @@
   },
   "summary-totalizers#minicart": {
     "props": {
-      "showTotal": true,
+      "showTotal": false,
       "showDeliveryTotal": true
     }
   },

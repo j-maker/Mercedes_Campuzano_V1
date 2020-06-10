@@ -189,10 +189,6 @@
   font-weight: 500;
 }
 
-.skuSelectorSubcontainer--color {
-  display: unset;
-}
-
 .pointerEventsNone {
   height: 30px;
 }
