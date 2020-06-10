@@ -402,6 +402,9 @@
     ]
   },
   "minicart.v2": {
+    "props":{
+      "backdropMode":"none"
+    },
     "children": [
       "minicart-base-content"
     ]
@@ -444,6 +447,7 @@
       "product-list#minicart"
     ]
   },
+
   "product-list#minicart": {
     "blocks": [
       "product-list-content-mobile"

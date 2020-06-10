@@ -103,9 +103,7 @@
   text-decoration: none;
   margin-left: 5px;
   color: black;
-}
-.label--footer-6:hover {
-  color: #b8b5b5;
+  cursor: default;
 }
 .link--store-shelf-maps {
   background: #e1d3c8;

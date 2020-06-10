@@ -13,100 +13,93 @@
       "flex-layout.row#footer-row-4",
       "flex-layout.row#footer-row-5",
       "flex-layout.row#footer-row-6",
-/*      "image#desktop-fixed-car",*/
+      /*      "image#desktop-fixed-car",*/
       /*"image#desktop-fixed-discount",*/
       "image#desktop-fixed-arrow-up"
-/*      "flex-layout.row#desktop-fixed-help"*/
+      /*      "flex-layout.row#desktop-fixed-help"*/
     ]
   },
-  "flex-layout.row#footer-row-2":{
-    "props":{
-      "blockClass":"footer-row-2-newsletter"
+  "flex-layout.row#footer-row-2": {
+    "props": {
+      "blockClass": "footer-row-2-newsletter"
     },
-    "children":[
+    "children": [
       "flex-layout.col#footer-row-2"
     ]
   },
-   "flex-layout.col#footer-row-2":{
-    "children":[
+  "flex-layout.col#footer-row-2": {
+    "children": [
       "newsletter",
       "rich-text#newsletter-terms"
-     /* "flex-layout.col#form"*/
+      /* "flex-layout.col#form"*/
     ]
   },
-  "rich-text#newsletter-terms": {  
-    "props": {  
-      "blockClass":"footer-row-2-newsletter",
-      "text": "Al suscribirte autorizas a recibir información y contenidos exclusivos de la marca Mercedes Campuzano. www.mercedescampuzano.com cuenta con rigurosos estándares de seguridad. Todos tus datos se mantendrán en estricta confidencialidad. Ver Política de seguridad. Si quieres dejar de recibir emails de Mercedescampuzano.com puedes solicitarlo al correo servicioalcliente@mecedescampuzano.com.",  
-      "textAlignment": "JUSTIFY",  
-      "textPosition": "JUSTIFY"  
-    }  
-  },  
+  "rich-text#newsletter-terms": {
+    "props": {
+      "blockClass": "footer-row-2-newsletter",
+      "text": "Al suscribirte autorizas a recibir información y contenidos exclusivos de la marca Mercedes Campuzano. www.mercedescampuzano.com cuenta con rigurosos estándares de seguridad. Todos tus datos se mantendrán en estricta confidencialidad. Ver Política de seguridad. Si quieres dejar de recibir emails de Mercedescampuzano.com puedes solicitarlo al correo servicioalcliente@mecedescampuzano.com.",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY"
+    }
+  },
   "flex-layout.col#form": {
     "children": [
-      "form"    
+      "form"
     ]
   },
-  "form": {  
-    "props": {  
-      "entity": "NL",  
-      "schema": [ "accepts_news" , "correo_electronico"]
-    },  
-    "children": [  
-      "rich-text#formTitle",  
-      "form-input.text#correo_electronico",  
-      "form-input.checkbox#accepts_news",  
-      "form-submit"  
-    ],  
-    "blocks": ["form-success"]  
-  },  
-  "form-success": {  
-    "children": [  
-      "rich-text#successSubmit"  
-    ]  
-  },  
-  "rich-text#formTitle": {  
-    "props": {  
-      "text": "SUSCRIBETE",  
-      "textAlignment": "CENTER",  
-      "textPosition": "CENTER"  
-    }  
-  },  
-
-  "rich-text#successSubmit": {  
-    "props": {  
-      "text": "Succesfully submitted the data!",  
-      "textAlignment": "CENTER",  
-      "textPosition": "CENTER"  
-    }  
-  },  
-  "form-input.text#correo_electronico": {  
-    "props": {  
-      "pointer": "#/properties/correo_electronico"  
-    }  
-  },  
-  "form-input.checkbox#accepts_news": {  
-    "props": {  
-      "pointer": "#/properties/accepts_news",  
-      "label": "Do you agree that this is the best form component in the whole wide world?"  
-    }  
-  },  
-  "form-submit": {  
-    "props": {  
-      "label": "ENVIAR"  
-    }  
+  "form": {
+    "props": {
+      "entity": "NL",
+      "schema": [
+        "accepts_news",
+        "correo_electronico"
+      ]
+    },
+    "children": [
+      "rich-text#formTitle",
+      "form-input.text#correo_electronico",
+      "form-input.checkbox#accepts_news",
+      "form-submit"
+    ],
+    "blocks": [
+      "form-success"
+    ]
   },
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#formTitle": {
+    "props": {
+      "text": "SUSCRIBETE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Succesfully submitted the data!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#correo_electronico": {
+    "props": {
+      "pointer": "#/properties/correo_electronico"
+    }
+  },
+  "form-input.checkbox#accepts_news": {
+    "props": {
+      "pointer": "#/properties/accepts_news",
+      "label": "Do you agree that this is the best form component in the whole wide world?"
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "ENVIAR"
+    }
+  },
   "flex-layout.row#desktop-fixed-help": {
     "props": {
       "colSizing": "auto",
@@ -311,14 +304,14 @@
       "blockClass": "redes",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-facebook-f-brands.png",
       "maxHeight": 24,
-      "href":"https://www.facebook.com/MERCECAMPUZANO/"
+      "href": "https://www.facebook.com/MERCECAMPUZANO/"
     }
   },
   "image#instagram": {
     "props": {
       "blockClass": "redes",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-instagram-brands.png",
-      "href":"https://www.instagram.com/mercedescampuzano/",
+      "href": "https://www.instagram.com/mercedescampuzano/",
       "maxHeight": 24
     }
   },
@@ -326,7 +319,7 @@
     "props": {
       "blockClass": "redes",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-twitter-brands.png",
-      "href":"https://twitter.com/mercecampuzano",
+      "href": "https://twitter.com/mercecampuzano",
       "maxHeight": 24
     }
   },
@@ -334,7 +327,7 @@
     "props": {
       "blockClass": "redes",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-pinterest-p-brands.png",
-      "url":"https://co.pinterest.com/mercedescampu/",
+      "url": "https://co.pinterest.com/mercedescampu/",
       "maxHeight": 24
     }
   },
@@ -621,9 +614,7 @@
       "image#footer-6",
       "image#footer-7",
       "image#footer-8",
-      "image#footer-9",
       "image#footer-10",
-      "image#footer-11",
       "footer-row#footer-6"
     ]
   },

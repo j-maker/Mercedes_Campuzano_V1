@@ -43,8 +43,8 @@
         "children": [
             "flex-layout.row#footer-media-images-row-1",
             "flex-layout.row#footer-media-images-row-2",
-            "flex-layout.row#footer-media-images-row-3"
-            /*"footer-row#footer-6"*/
+            "flex-layout.row#footer-media-images-row-3",
+            "footer-row#footer-6"
         ]
     },
     "flex-layout.row#footer-media-images-row-1": {
@@ -52,7 +52,6 @@
             "colSizing": "auto",
             "blockClass": "mobile-footer-6",
             "preserveLayoutOnMobile": true
-            /*"fullWidth": true*/
         },
         "children": [
             "flex-layout.col#spacer",
@@ -73,7 +72,6 @@
             "colSizing": "auto",
             "blockClass": "mobile-footer-6",
             "preserveLayoutOnMobile": true
-           /* "fullWidth": true*/
         },
         "children": [
             "flex-layout.col#spacer",
@@ -90,15 +88,10 @@
             "colSizing": "auto",
             "blockClass": "mobile-footer-6",
             "preserveLayoutOnMobile": true
-           /* "fullWidth": true*/
         },
         "children": [
             "flex-layout.col#spacer",
-            "image#footer-9",
-            "flex-layout.col#spacer",
             "image#footer-10",
-            "flex-layout.col#spacer",
-            "image#footer-11",
             "flex-layout.col#spacer"
         ]
     }
