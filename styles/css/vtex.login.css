@@ -103,7 +103,9 @@
 .label {
   text-decoration: underline;
 }
-
+.buttonLink:focus {
+  outline: 0px;
+}
 @media screen and (max-width: 1024px) {
   .label {
     font-size: 0px;

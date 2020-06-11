@@ -128,11 +128,11 @@
   font-weight: 500px;
   text-decoration: none;
   color: #fff;
-  padding: 13px 100px;
+  padding: 13px 120px;
   background: #d56e2f;
   position: fixed;
   bottom: 9px;
-  left: 26px;
+  left: 0px;
 }
 .link--minicart-checkout-button:hover {
   opacity: 0.5;
@@ -183,8 +183,7 @@
     font-size: 16px;
   }
   .link--minicart-checkout-button {
-    font-size: 14px;
-    padding: 10px 87px;
+    font-size: 12px;
   }
   .label--mobile-submenu-title {
     margin-left: 1.5rem;

@@ -19,17 +19,6 @@
       "iframe"
     ]
   },
-
-
-  "sandbox#menu": {
-    "props": {
-      "width": "200px",
-      "height": "600px",
-      "initialContent": "<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script type='text/javascript'>$(function(){$('.accordion-titulo').hover(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script><style>.accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding: 5px;font-size: 20px;font-weight: 300;background: #fff;color: #907c68;text-decoration: none;font-family: 'Lora';font-weight: bold;}.accordion-titulo.open {background: #d4c4a0;color: #fff;}.accordion-content {display: none;padding: 20px;overflow: auto;}.list, .accordion-content p{margin:10px;font-size: 18px;text-align: justify;}.list, p{color: #69727b;}p a{text-decoration: none;color: black;line-height: 1px;}</style><div class='accordion-container'></div><div class='accordion-container'><a href='https://mcampuzano22--mercedescampuzano.myvtex.com/zapatos' class='accordion-titulo'>AQUIIIIIIIIIII<span class='toggle-icon'></span></a><div class='accordion-content'><img src='https://mercedescampuzano.vtexassets.com/arquivos/mc-tacones.jpg' alt=''></div></div>",
-      "allowCookies": true
-    }
-  },
-
   "modal-trigger#popup10%": {
     "props":{
       "trigger":"load",

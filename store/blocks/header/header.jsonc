@@ -12,7 +12,8 @@
     ]
   },
   "header-layout.desktop": {
-    "children": [
+    "children": [     
+       "sandbox#banner-meta",
        "header-row#1-desktop",      /*CAMBIO */
       "header-row#2-desktop",
      "header-row#3-desktop"
