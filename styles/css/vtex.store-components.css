@@ -344,7 +344,9 @@
 .diagonalCross{
   border-radius: 20px;
 }
-
+.imageElement--share{
+  display: none;
+}
 
 
 

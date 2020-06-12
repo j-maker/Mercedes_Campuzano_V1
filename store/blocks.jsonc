@@ -534,7 +534,15 @@
     "props": {
       "width": "0px",
       "height": "0px",
-      "initialContent": "<meta property='og:title' content='Mercedes Campuzano' /><meta property='og:description' content='Descripción del sitio' /><meta property='og:url' content='https://www.mercedescampuzano.com/' /><meta property='og:site_name' content='Mercedes Campuzano Colombia' /><meta property='og:type' content='website' /><meta property='og:image' content='https://mercedescampuzano.vtexassets.com/arquivos/mercedescampuzano-favicon.png' />",
+      "initialContent": "<meta property='og:description' content='Descripción del sitio' /><meta property='og:url' content='https://www.mercedescampuzano.com/' /><meta property='og:site_name' content='Mercedes Campuzano Colombia' /><meta property='og:type' content='website' /><meta property='og:image' content='https://mercedescampuzano.vtexassets.com/arquivos/98135557_290600511982841_8585288121403397696_n.jpg' /></head><body><h1>Hi</h1></body>",
+      "allowCookies": true
+    }
+  },
+  "sandbox.product": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "initialContent": "<head><script id='ze-snippet' src='https://static.zdassets.com/ekr/snippet.js?key=a8c01b15-9dd6-45ec-8f5c-aee3297721f2'> </script></head>",
       "allowCookies": true
     }
   }

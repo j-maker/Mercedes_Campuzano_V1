@@ -19,6 +19,14 @@
       "iframe"
     ]
   },
+
+  "image#share":{
+    "props": {
+      "blockClass":"share",
+      "width": "100px",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-logo.png"
+    }
+  },
   "modal-trigger#popup10%": {
     "props":{
       "trigger":"load",
