@@ -1,7 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-/*      "modal-trigger#popup10%",*/
+/*      "flex-layout.row#form",
+      "modal-trigger#popup10%",*/
       "list-context.image-list#home",
       "rich-text#new",
       "flex-layout.row#shelf",
