@@ -1,3 +1,7 @@
+
+
+
+
 /*Header-row-2*/
 .flexRow--row-2-wrapper {
   width: 100%;
@@ -323,7 +327,7 @@
   padding: 0;
 }
 .flexRow--buy-button-shelf {
-  margin: 0;
+  margin: 25px 0 0 0 ;
   background: #e1d3c8;
 }
 .flexRow--buy-button-shelf:hover {

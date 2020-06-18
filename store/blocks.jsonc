@@ -34,10 +34,8 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "product-rating-inline",
       "flex-layout.row#selling-price-savings",
       "product-summary-sku-selector",
-      "product-installments#summary",
       "flex-layout.row#buy-button-shelf"
     ]
   },
