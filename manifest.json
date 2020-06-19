@@ -58,7 +58,6 @@
     "vtex.developer-docs-integration": "0.x",
     "vtex.broadcaster-worker": "0.x",
     "vtex.admin-login": "1.x",
-    "vtex.store-form": "0.x",
     "vtex.sandbox": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.product-customizer": "2.x",
@@ -70,7 +69,8 @@
     "vtex.product-price": "1.x",
     "vtex.search-graphql": "0.x",
     "vtex.search-resolver": "1.x",
-    "vtex.my-orders-app": "3.x"
+    "vtex.my-orders-app": "3.x",
+    "vtex.store-form": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
