@@ -466,11 +466,18 @@
       "blockClass": "submenu"
     },
     "children": [
-      "menu-item#menu-3-1",
-      "menu-item#menu-3-2",
+      /*"menu-item#menu-3-1",
+      "menu-item#menu-3-2",*/
+      
+      /*"menu-item#menu-3-4",*/
+      
+      "menu-item#menu-3-6",
+      "menu-item#menu-3-7",
+      "menu-item#menu-3-5",
+    /*  "menu-item#menu-3-8",
+      "menu-item#menu-3-9",*/
       "menu-item#menu-3-3",
-      "menu-item#menu-3-4",
-      "menu-item#menu-3-5"
+      "menu-item#menu-3-10"
     ]
   },
   "vtex.menu@2.x:menu#menu-3-2": {
@@ -479,11 +486,11 @@
       "blockClass": "submenu"
     },
     "children": [
-      "menu-item#menu-3-6",
+    /*  "menu-item#menu-3-6",
       "menu-item#menu-3-7",
       "menu-item#menu-3-8",
       "menu-item#menu-3-9",
-      "menu-item#menu-3-10"
+      "menu-item#menu-3-10"*/
     ]
   },
   "menu-item#menu-3-1": {
@@ -710,7 +717,7 @@
       "blockClass": "submenu"
     },
     "children": [
-      "menu-item#menu-4-2",
+      /*"menu-item#menu-4-2",*/
       "menu-item#menu-4-3",
       "menu-item#menu-4-4",
       "menu-item#menu-4-5",
@@ -723,7 +730,7 @@
       "blockClass": "submenu"
     },
     "children": [
-      "menu-item#menu-4-1"
+      /*"menu-item#menu-4-1"*/
     ]
   },
   "menu-item#menu-4-1": {

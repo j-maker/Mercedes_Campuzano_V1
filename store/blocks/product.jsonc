@@ -133,6 +133,7 @@
     "children": [
       "flex-layout.row#product-name",
       "flex-layout.row#selling-price",
+      "rich-text#price-sin-iva",
       "sku-selector",
       "flex-layout.row#size-guide",
       "product-assembly-options",
@@ -145,7 +146,14 @@
       "share#default"
     ]
   },
-
+  "rich-text#price-sin-iva": {
+    "props": {
+      "blockClass": "price-online",
+      "text": "El precio ya incluye el 19% de descuento por el dia sin IVA. Al entrar en tu carrito encontraras el precio final del producto discriminando el descuento aqui aplicado.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
 
 
 
