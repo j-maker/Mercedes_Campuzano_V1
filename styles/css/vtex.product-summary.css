@@ -81,13 +81,14 @@
     display: none;
   }
   .skuSelectorContainer {
-    height: 85px !important;
+    height: 14px !important;
     margin: auto;
   }
   .skuSelectorItem--shelf-product-sku,
   .skuSelectorItem--shelf-sku {
     width: auto;
     height: 20px;
+    margin-bottom: 0px;
   }
   .productBrand {
     font-size: 12px !important;

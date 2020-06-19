@@ -5,9 +5,18 @@
       "flex-layout.row#product-main",
       "flex-layout.row#description",
       "rich-text#recomended",
-      "flex-layout.row#shelf-page-product-recomended"
+      "shelf.relatedProducts"
     ]
   },
+  
+  
+
+
+
+
+
+
+
   "flex-layout.row#product": {
     "props": {
       "blockClass": "specifications"
@@ -28,7 +37,7 @@
     ],
     "props": {
       "blockClass":"home-wrapper-shelf",
-      "recommendation": "similars"
+      "recommendation": "views"
     }
   },
   "flex-layout.col#shelf-page-product-recomended": {
@@ -36,7 +45,7 @@
       "list-context.product-list#shelf"
     ],
     "props": {
-      "recommendation": "similars"
+      "recommendation": "views"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -217,8 +226,11 @@
       "imageLabel": 3
     }
   },
-  "sku-selector#shelf": {
+  "sku-selector#product": {
     "props": {
+      "visibleVariations":[
+        "talla"
+      ],
       "initialSelection": "empty",
       "variationsSpacing": 3,
       "maxItems": 10,

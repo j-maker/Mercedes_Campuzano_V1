@@ -1,0 +1,31 @@
+.relatedProducts--home-wrapper-shelf{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.shelfContentContainer--home-wrapper-shelf {
+    width: 1300px;
+}
+  .caretIcon--home-wrapper-shelf {
+    border: 1px solid #9d884b;
+    border-radius: 25px;
+    padding: 10px;
+    width: 50;
+    height: 50;
+    background: white !important;
+  }
+  .arrowLeft--home-wrapper-shelf {
+    left: -15px;
+    border-radius: 30px;
+  }
+  .arrowRight--home-wrapper-shelf {
+    right: -15px;
+    border-radius: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    
+    .shelfContentContainer--home-wrapper-shelf {
+      width: 90%;
+  }
+  }

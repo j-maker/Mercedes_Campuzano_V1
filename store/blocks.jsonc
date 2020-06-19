@@ -30,6 +30,24 @@
       "showInstallments": true
     }
   },
+
+
+  "product-summary.shelf#product": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "flex-layout.row#selling-price-savings",
+      "sku-selector#product",
+      "flex-layout.row#buy-button-shelf"
+    ]
+  },
+
+
+
+
+
+
+
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
@@ -60,10 +78,8 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "product-rating-inline",
-      "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
-      "flex-layout.row#buy-button-shelf"
+      "flex-layout.row#selling-price-savings",     
+      "flex-layout.row#buy-button-shelf-home"
     ]
   },
   "product-summary-sku-selector#home": {
@@ -502,6 +518,15 @@
       "text": "Tu carrito esta vacio!"
     }
   },
+  "flex-layout.row#buy-button-shelf-home": {
+    "children": [
+      "buy-button#product"
+    ],
+    "props": {
+      "blockClass": "buy-button-shelf-home",
+      "text": "COMPRAR YA"
+    }
+  },
   "flex-layout.row#buy-button-shelf": {
     "children": [
       "buy-button#product"
@@ -543,7 +568,25 @@
       "initialContent": "<head><script id='ze-snippet' src='https://static.zdassets.com/ekr/snippet.js?key=a8c01b15-9dd6-45ec-8f5c-aee3297721f2'> </script></head>",
       "allowCookies": true
     }
-  }
+  },
+  "shelf.relatedProducts": {
+    "props": {
+      "blockClass":"home-wrapper-shelf",
+        "recommendation": "view",
+        "productList": {
+            "showTitle":false,
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 1,
+              "phone": 1
+            },
+            "gap":"ph3",
+            "showPaginationDots":"never"  
+        }
+    },
+    "blocks":["product-summary.shelf"]
+}
+
 
 
 

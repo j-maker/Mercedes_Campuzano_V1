@@ -322,14 +322,20 @@
   transition: all 0.6s;
   opacity: 0.6;
 }
+.flexColChild--buy-button-shelf-home,
 .flexColChild--buy-button-shelf {
   margin: 0;
   padding: 0;
 }
-.flexRow--buy-button-shelf {
-  margin: 25px 0 0 0 ;
+.flexRow--buy-button-shelf-home {
+  margin: 0 ;
   background: #e1d3c8;
 }
+.flexRow--buy-button-shelf {
+  margin-top: 16px ;
+  background: #e1d3c8;
+}
+.flexRow--buy-button-shelf-home:hover,
 .flexRow--buy-button-shelf:hover {
   transition: all 0.6s;
   background: #d56e2f;
@@ -352,6 +358,12 @@
 }
 
 @media screen and (max-width:768px) {
+  .flexRow--buy-button-shelf-home {
+    margin:0 ;
+  }
+  .flexRow--buy-button-shelf {
+    margin: 60px 0 0 0 ;
+  }
 .flexColChild--footer-terms-col-frequent-questions-col-wrapper{
   width: 100%;
 }

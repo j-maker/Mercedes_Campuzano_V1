@@ -359,6 +359,9 @@
 
 
 @media screen and (max-width: 1024px) {
+  .skuSelectorNameContainer{
+    margin: 0;
+  }
   .newsletter--footer-row-2-newsletter {
     background: #f9f9f9;
   }
