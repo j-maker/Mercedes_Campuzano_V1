@@ -64,7 +64,7 @@
 
 
 
-
+/*
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#did-you-mean",
@@ -99,7 +99,7 @@
       "horizontalAlignment": "center"
     }
   },
-
+*/
 
 
 
@@ -137,14 +137,14 @@
       "search-not-found-layout"
     ]
   },
-/*  "search-result-layout.desktop": {
+  "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
     "props": {
       "priceRange": false,
-    /*  "pagination": "show-more",
+    /*  "pagination": "show-more",*/
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "brands": true,
@@ -153,7 +153,7 @@
         "mode2": "normal"
       }
     }
-  },*/
+  },
   "search-bar#search-result": {
     "props": {
       "priceRange": false,

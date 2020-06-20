@@ -70,8 +70,7 @@
     "vtex.search-graphql": "0.x",
     "vtex.search-resolver": "1.x",
     "vtex.my-orders-app": "3.x",
-    "vtex.store-form": "0.x",
-    "vtex.search": "1.x"
+    "vtex.store-form": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

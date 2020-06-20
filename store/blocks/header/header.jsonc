@@ -509,14 +509,9 @@
     ]
   },
   "search-bar":{
-  /*  "blocks": ["autocomplete-result-list.v2"],*/
     "props":{
       "blockClass":"mobile-search-bar"
-      /*"openAutocompleteOnFocus": true*/
     }
     
-  },
-  "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
   }
 }

@@ -151,7 +151,6 @@
 
 
 
-
   "flex-layout.row#buy-button-product": {
     "props": {
       "blockClass": "buy-button-product",
