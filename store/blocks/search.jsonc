@@ -58,6 +58,61 @@
       "search-not-found-layout"
     ]
   },
+
+
+
+
+
+
+
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "search-result-layout.desktop#title-search": {
     "children": [
       "flex-layout.row#searchbread",
@@ -82,14 +137,14 @@
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop": {
+/*  "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
     "props": {
       "priceRange": false,
-    /*  "pagination": "show-more",*/
+    /*  "pagination": "show-more",
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "brands": true,
@@ -98,7 +153,7 @@
         "mode2": "normal"
       }
     }
-  },
+  },*/
   "search-bar#search-result": {
     "props": {
       "priceRange": false,

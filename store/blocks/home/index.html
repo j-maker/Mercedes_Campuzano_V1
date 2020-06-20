@@ -1,12 +1,601 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Confirmación de Reserva - BMW</title>
+    <style type="text/css">
+        #outlook a {
+            padding: 0;
+        }
+
+        /* Force Outlook to provide a "view in browser" menu link. */
+
+        body {
+            height: 100% !important;
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+        }
+
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        /* Prevent WebKit and Windows mobile changing default text sizes */
+
+        table {
+            border-collapse: collapse !important;
+            table-layout: fixed;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        /* Remove spacing between tables in Outlook 2007 and up */
+
+        img {
+            line-height: 100%;
+            outline: none;
+            border: 0;
+            border: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* Allow smoother rendering of resized image in Internet Explorer */
+
+        a img {
+            border: none;
+            display: block;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            text-decoration: none !important;
+        }
+
+        p {
+            margin: 0px 0px !important;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        /* Force Hotmail to display emails at full width */
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        /* Force Hotmail to display normal line spacing.  */
+
+        #backgroundTable {
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+            line-height: 100% !important;
+        }
+
+        .appleBody a {
+            color: #68440a;
+            text-decoration: none;
+        }
+
+        .appleFooter a {
+            color: #999999;
+            text-decoration: none;
+        }
+
+        /* Constrain email width for small screens */
+
+        @media screen and (max-width: 640px) {
+            table[class="container"] {
+                width: 100% !important;
+            }
+
+            td[class="container"] {
+                display: inline-block;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                width: 100% !important;
+            }
+
+            td.container {
+                display: inline-block;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                width: 100% !important;
+            }
+
+            td[class="code-wrapper"] {
+                padding: 0 5% !important;
+            }
+
+            td[class="code"] {
+                font-size: 18px !important;
+            }
+
+            td.one-two {
+                width: 50% !important;
+                display: inline-block;
+                text-align: center !important;
+                padding: 0 !important;
+                line-height: 1;
+                border: none !important;
+            }
+
+            table.one-third {
+                width: 33.33333% !important;
+                display: inline-block;
+                text-align: center !important;
+                padding: 0 !important;
+                line-height: 1;
+                border: none !important;
+            }
+
+            td.one-third {
+                width: 33.33333% !important;
+                display: inline-block;
+                text-align: center !important;
+                padding: 0 !important;
+                line-height: 1;
+                border: none !important;
+            }
+
+            td.two-third {
+                width: 66.66666% !important;
+                display: inline-block;
+                text-align: center !important;
+                padding: 0 !important;
+                line-height: 1;
+                border: none !important;
+            }
+
+            table.two-third {
+                width: 66.66666% !important;
+                display: inline-block;
+                text-align: center !important;
+                padding: 0 !important;
+                line-height: 1;
+                border: none !important;
+            }
+
+            td.one-four {
+                width: 33.3333% !important;
+                display: inline-block;
+                text-align: center !important;
+                padding: 0 !important;
+                line-height: 1;
+                border: none !important;
+            }
+
+            td.hide-mobile {
+                display: none !important;
+            }
+
+            .center-mobile {
+                text-align: center !important;
+            }
+        }
+
+        /*@media only screen and (max-width: 480px) {
+            h4{ font-size: 18px !important; margin: 7px auto; text-align: left !important;color:#61AB30;}
+            a[href^="tel"], a[href^="sms"] {text-decoration: none;color: #ffffff;pointer-events: none;cursor: default;}
+            .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {text-decoration: default; color: #ffffff !important;pointer-events: auto;cursor: default;}
+            table[class="devicewidth"] {width: 300px!important;text-align:left!important; text-align: left;}
+            table[class="devicewidthinner"] {width: 280px!important;text-align:left!important; margin-top: 15px; margin-bottom: 10px; table-layout: fixed;}
+            td.one-two{
+                width: 100% !important;
+                display: inline-block;
+                float: left;
+                text-align: center !important;
+                padding: 0 !important;
+                line-height: 1;
+                border: none !important;
+            }
+            td.one-third{
+                width: 100% !important;
+                display: inline-block;
+                float: left;
+                text-align: center !important;
+                padding: 0 !important;
+                line-height: 1;
+                border: none !important;
+            }
+        }*/
+    </style>
 </head>
-<body>
-    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a8c01b15-9dd6-45ec-8f5c-aee3297721f2"> </script>
+
+<body bgcolor="#FFFFFF"
+    style="margin: 0; padding: 0; font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+
+    <!-- <table border="0" class="container" cellpadding="0" cellspacing="0" width="100%" align="center">
+    <tr>
+        <td></td>
+    </tr>
+</table> -->
+
+    <!-- HEADER -->
+    <table border="0" class="container" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#FFFFFF">
+        <tr>
+            <td>
+                <table border="0" class="container" cellpadding="0" cellspacing="0" width="660" align="center"
+                    style="background-color:#FFF">
+                    <tr>
+                        <td bgcolor="#fff" class="top-bar" width="100%" valign="middle">
+                            <table border="0" class="container" cellpadding="0" cellspacing="0" width="660"
+                                align="center">
+                                <img src="https://bmwco.vtexassets.com/arquivos/bmw-shop-email-hero.jpg" width="100%" />
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- /HEADER -->
+    <!--CONTENT-->
+
+    <!-- CONTENT -->
+    <table border="0" class="container" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#FFFFFF">
+        <tr>
+            <td bgcolor="#FFFFFF" align="center" style="padding:5px 10px;">
+                <table border="0" class="container" cellpadding="0" cellspacing="0" width="620" align="center">
+                    <tr>
+                        <td style="height: 10px;">&nbsp;</td>
+                    </tr>
+                    <!-- Greeting -->
+                    <tr>
+                        <td class="center-mobile" style="text-align:left;">
+                            <table border="0" class="container" cellpadding="" cellspacing="0" width="100%" align="center">
+                                <tr>
+                                    <td align="center" class="container center-mobile" valign="top">
+                                        <h1 class="center-mobile" style="font-size: 18px; line-height: 35px; font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#101010; text-align:left; text-transform: capitalize; font-weight:normal; margin:0; padding:0;">¡Hola, <strong>{{orders.0.clientProfileData.firstName}}!</strong></h1><br>
+                                        <p class="center-mobile" style="font-size:15px;color:#454545; line-height: 35px; text-align: center; font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0; padding:0;"><strong>Pedido No. {{orders.0.orderId}}</strong></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- /Greeting -->
+                    <!--ORDER STEP-->
+                    
+                    <tr>
+                        <td align="center" style="padding:20px 0">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" height="35" align="center"
+                                valign="top">
+                                <tbody>
+                                    <tr>
+                                        <td class="one-two"
+                                            style="font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center; font-size:14px; text-transform:uppercase; "
+                                            valign="top">
+                                            <img src="https://bmwco.vtexassets.com/arquivos/bmw-email-process-1-active.png"
+                                                style="display: block; border:none; margin:0 auto;" width="70" />
+                                            <p
+                                                style="font-size: 14px; text-align: center; display: block;text-transform:capitalize; font-weight: normal; line-height: 20px;color:#0066B3;">
+                                                Reservación</p>
+                                            <p
+                                                style="font-size: 14px; text-align: center; display: block;text-transform:lowercase; line-height: 18px;color:#0066B3;">
+                                                Realizada</p>
+                                        </td>
+
+                                        <td class="one-two"
+                                            style=" color:#211915;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center; font-size:14px;text-transform:uppercase;"
+                                            valign="top">
+                                            <img src="https://bmwco.vtexassets.com/arquivos/bmw-email-process-2.png"
+                                                style="display: block; border:none; margin:0 auto;" width="70" />
+                                            <p
+                                                style="font-size: 14px; text-align: center; display: block;text-transform:capitalize; font-weight: normal; line-height: 20px;color:#999999;">
+                                                Separación Cancelada</p>
+                                        </td>
+
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!--ORDER STEP-->
+                    <!--ORDER DESCRIPTION-->
+                    <tr>
+                        <td style="height: 5px;display: block;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="font-size:15px; text-align: center; color:#191919;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0; padding:0">
+                            <p>{{clientProfileData.firstName}}</p><br />
+                            {{#each paymentData.transactions.0.payments}}
+                                {{#eq group "promissory"}}
+                                    <p style="display:block; text-align: justify;">
+                                        Queremos informarte que el pago del abono no ha sido confirmado, por lo cual la solicitud de separación de tu BMW<strong> {{../orderId}} </strong>  ha sido cancelada.
+                                    </p><br />
+                                    <p style="display:block; text-align: justify;">
+                                        Lamentamos que no hayas podido completar el proceso de separación. 
+                                    </p><br />
+                                    <p style="display:block; text-align: justify;">
+                                        Te invitamos a ingresar nuevamente a www.bmw.com.co y realizar el proceso. 
+                                    </p><br />
+                                    <p style="display: inline-block; text-align: justify;">
+                                        ¡Te esperamos! 
+                                    </p><br />
+                                {{else}}
+                                    <p style="display:block; text-align: justify;">
+                                        Queremos informarte que la solicitud de separación de tu BMW correspondiente al N° <strong> {{orderId}} </strong>  ha sido cancelada.
+                                    </p><br />
+                                    <p style="display:block; text-align: justify;">
+                                        Es posible que tu pago no haya sido aprobado por tu entidad bancaria. Comunícate con esta y asegúrate de tener tu cuenta habilitada para realizar pagos por PSE por un monto de $1.000.000 (Un millón de pesos) o superior. Una vez completes dicho proceso, te invitamos a ingresar nuevamente a <a href="https://www.nuevamazdacx30.com.co"  style="color: #191919;">www.nuevamazdacx30.com.co</a> y hacer tu solicitud de separación.
+                                    </p><br />
+                                {{/eq}}
+                            {{/each}}<br /><br />
+                              <p style="display:block; text-align: justify;">
+                                Si tienes alguna duda puedes comunicarte a nuestras líneas de atención al cliente (1) 328 8640, 018000 11 25 95, marca desde tu celular
+                              <a href="tel:#869">#869</a> o escríbenos a <a href="mailto:reservas@mazda.co ">reservas@mazda.co </a> <br> <br>
+                              También puedes intentar realizar tu separación nuevamente, haciendo click <strong><a href="https://www.bmw.com.co">aquí</a></strong>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 5px;display: block;">&nbsp;</td>
+                    </tr>
+                    <!--.ORDER DESCRIPTION-->
+
+                    <!--ORDER INFO-->
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="color:#211915; background: #ffffff; font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 10px;">
+                            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="container" width="50%"
+                                        style="font-size:16px;color:#101010;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0;text-transform:uppercase; font-weight:bold; padding-bottom:10px;">
+                                        Información de tu separación</td>
+                                    <td class="container" width="50%"
+                                        style="font-size:16px;color:#211915;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0; padding-bottom:10px;">
+                                        &nbsp;</td>
+                                </tr>
+                                <tr>
+<td class="container" width="50%" align="left"
+                                        style="font-size:16px;color:#211915; padding: 8px 10px; font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;"
+                                        valign="top">
+                                        <div class="center-mobile">
+                                            <strong>Fecha de separación</strong><br /><span
+                                                style="color:#454545;text-transform:capitalize;">{{formatDate orders.0.creationDate}}</span>
+                                            <hr style="height:1px;border:none;" />
+                                            <strong>Número de separación</strong><br /><span
+                                                style="color:#454545;text-transform:capitalize;">{{orders.0.orderId}}</span><br /><br />
+                                            <strong>Medio de pago</strong><br />
+                                            {{#each orders.0.paymentData.transactions.0.payments}}
+                                            {{#eq paymentSystemName "Vale"}}
+                                            <span style="color:#454545;text-transform:capitalize;">Cupón por:
+                                                {{formatCurrencyWithoutDecimals value}}</span><br /> {{else}}
+                                            <span style="color:#454545;text-transform:capitalize;">{{paymentSystemName}}
+                                                - {{#if lastDigits}}{{lastDigits}}{{/if}}</span><br /><br />
+
+                                            <span style="color:#333;text-transform:capitalize;"> <strong>Valor
+                                                    reserva</strong> <br> ${{formatCurrency value}}</span><br />
+                                                {{#eq group "creditCard"}}
+                                                    {{#if installments}}Cuota(s): <span style="color:#454545;text-transform:capitalize;">{{installments}}</span><br />{{/if}}
+                                                {{/eq}}
+                                            {{/eq}}
+                                        {{/each}}
+                                            <hr style="height:1px;border:none;" /><br />
+                                            <table width="100%" align="left" border="0" cellspacing="0" cellpadding="0"
+                                                style="font-size:16px;color:#211915;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; ">
+                                                <tr>
+                                                    <td class="center-mobile" align="left">
+                                                        <strong>TOTAL</strong><br /><strong
+                                                            style="font-size:15px; color:#333">${{formatCurrency orders.0.value}}</strong>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                    <td class="container center-mobile" width="50%" align="left" style="font-size:16px;color:#211915;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:0px 20px;" valign="top">
+                                        {{#if orders.0.giftRegistryData}}
+                                            <strong>Nombre:</strong><br /><span style="color:#454545;text-transform:capitalize;">{{orders.0.giftRegistryData.description}}</span><br />
+                                        {{else}}
+                                            {{#each orders}}
+                                            <strong>Concesionario:</strong><br />
+                                            <span style="color:#454545;text-transform:capitalize;">
+                                                ({{shippingData.address.addressId}}) 
+                                                
+                                                {{#each shippingData.logisticsInfo.0.slas}}
+                                                {{#eq ../shippingData.address.addressId pickupStoreInfo.address.addressId}}
+                                                {{pickupStoreInfo.friendlyName}}
+                                                {{/eq}}
+                                                {{/each}}
+                                            </span><br />
+                                            <strong>Teléfono Concesionario:</strong><br />
+                                            <span style="color:#454545;text-transform:capitalize;">
+                                                {{#each shippingData.logisticsInfo.0.slas}}
+                                                {{#eq ../shippingData.address.addressId pickupStoreInfo.address.addressId}}
+                                                {{pickupStoreInfo.additionalInfo}}
+                                                {{/eq}}
+                                                {{/each}}
+                                            </span><br />
+                                            <strong>Dirección Concesionario:</strong><br /><span style="color:#454545;text-transform:capitalize;">{{shippingData.address.street}}, {{shippingData.address.neighborhood}}</span><br />
+                                            <strong>Ciudad:</strong><br /><span style="color:#454545;text-transform:capitalize;">{{shippingData.address.city}} - {{shippingData.address.state}}</span><br />
+                                            {{orders.0.sellers.name}}
+                                            {{/each}}
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="font-size:16px; padding: 10px; color:#101010;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0;font-weight:bold; text-transform: uppercase;">
+                            Detalles del vehiculo reservado</td>
+                    </tr>
+                    <tr>
+                                    <td align="left" width="100%" class="mobile-full">
+                                        {{#each orders}} {{#each items}}
+                                        <table class="container" cellspacing="0" cellpadding="5"
+                                            style="background:#FFF;border:none; color:#454545; font-size:14px; border-collapse:collapse; table-layout:fixed;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; "
+                                            width="100%">
+                                            <tr>
+                                                <td width="50%" align="center" class="devicewidth">
+                                                    <a href="#link{{detailUrl}}" target="_blank"><img
+                                                            src="{{replace imageUrl '240-336' '640-896'}}" width="100%"
+                                                            border="0" style="width:100%" alt="Img - {{name}}" /></a>
+                                                    <a href="https://store.mazda.com.co{{detailUrl}}" target="_blank"
+                                                        style="width: 80%; color:#FFF; background-color: #0066B3; text-decoration: none; font-weight:normal;font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:22px;line-height:25px; height: 28px; padding: 10px 20px; display: inline-block;">Ver
+                                                        más</a><br />
+                                                </td>
+                                                <td width="50%"
+                                                    style="font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; padding-left:10px;"
+                                                    class="devicewidth" valign="top">
+                                                    <span
+                                                        style="color:#211915;line-height:20px; font-size: 18px; font-weight:bold;">{{name}}</span><br />&nbsp;<br />
+                                                    <span
+                                                        style="font-size:16px; color:#211915; font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong>Cantidad:</strong>
+                                                        {{quantity}}</span><br /><br />
+                                                        
+                                                    <span
+                                                        style="font-size:16px; color:#211915;"><strong>Valor de reserva:</strong>
+                                                        ${{formatCurrency sellingPrice}}</span><br />&nbsp;<br />
+                                                    {{#each bundleItems}} {{#if name}}
+                                                    <span
+                                                        style="font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;">{{name}}</span><br />
+                                                    <span
+                                                        style="font-family:'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;">${{formatCurrency price}}</span><br />
+                                                    {{/if}} {{/each}}
+                                                    
+                                                    
+                                                    
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        {{/each}} {{/each}}
+                                    </td>
+                                </tr>
+                    <tr>
+                        <td align="left" class="center-mobile"
+                            style="font-size:14px;color:#101010;font-family:Arial, sans-serif, 'Segoe UI', 'Helvetica Neue', Helvetica;  margin:0; padding:10px 10px; text-align: center;">
+                            <p
+                                style="font-size:14px;color:#454545;font-family: Arial, sans-serif, 'Segoe UI', 'Helvetica Neue', Helvetica; margin:0; padding:0; text-align: justify;">
+                                Para mayor información comuníquese con nosotros al (1) 6578080 en Bogotá, en nuestro
+                                canal virtual de <span style="text-decoration: underline;"><a href="">WhatsApp</a></span> o escribanos al correo <span style="text-decoration: underline;"><a href="info@autogermana.com.co">info@autogermana.com.co</a></span></p><br />
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- /CONTENT -->
+
+    <!--FOOTER-->
+    <table border="0" class="container" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF"
+        style="font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;">
+        <tr>
+            <td bgcolor="#FFFFFF" align="center">
+                <table border="0" class="container" cellpadding="3" cellspacing="0" width="660" align="center"
+                    style="background-color:#AAA;">
+                    <tbody>
+                        <tr>
+                            <td class="container" colspan="4"
+                                style="height: 10px;line-height: 10px; background-color:#AAA; ">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="one-two" width="auto" align="center" style="padding:0 0px;">
+                                <a href="#link" target="_blank"
+                                    style="font-family: Helvetica, Arial, sans-serif; text-decoration:none; outline:none; font-size:14px; color:#fff; line-height:15px; display:block; ">Preguntas
+                                    frecuentes</a>
+                            </td>
+                            <td class="one-two" width="auto" align="center" style="padding:0 auto;">
+                                <a href="http://store.mazda.com.co/info/terminos-y-condiciones/" target="_blank"
+                                    style="font-family: Helvetica, Arial, sans-serif; text-decoration:none; outline:none; font-size:14px; color:#fff; line-height:15px; display:block;">Términos
+                                    y condiciones</a>
+                            </td>
+                            <td class="one-two" width="auto" align="center" style="padding:0 auto;">
+                                <a href="http://store.mazda.com.co/info/aviso-legal/" target="_blank"
+                                    style="font-family: Helvetica, Arial, sans-serif; text-decoration:none; outline:none; font-size:14px; color:#fff; line-height:15px; display:block;">Aviso
+                                    Legal</a>
+                            </td>
+                            <td class="one-two" width="auto" align="center" style="padding:0 auto;">
+                                <a href="http://store.mazda.com.co/info/aviso-legal/" target="_blank"
+                                    style="font-family: Helvetica, Arial, sans-serif; text-decoration:none; outline:none; font-size:14px; color:#fff; line-height:15px; display:block;">
+                                    Separa en Bmw-store.com.co</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="container" colspan="4" style="height: 10px;line-height: 10px;">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--Footer redes sociales-->
+                <table align="center" border="0" class="container" cellpadding="0" width="660"
+                    style="font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif; background-color: #AAA;  ">
+                    <tbody>
+                        <tr>
+                            <td width="25%" class="hide-mobile" style="text-align:center"></td>
+                            <td width="50%" class="container"
+                                style=" font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif; background-color: #AAA; ; text-align:center; color:#fff; padding:10px 0; font-size: 14px; text-transform: none; font-weight: normal; width: 400px;">
+                                Lo invitamos a visitar nuestras redes sociales y conocer más sobre nuestras ofertas y
+                                novedades<br />&nbsp;<br />
+                                <span style="margin: auto 20px;"><a href="https://www.facebook.com/Autogermana-BMW-MINI-BMW-Motorrad-131439336930308" target="_blank"><img width="28"
+                                        src="https://bmwco.vtexassets.com/arquivos/bmw-facebook (3).png" alt="Facebook"
+                                        style="display: inline-block; "></a></span>
+                                        <span style="margin: auto 20px;"><a href="https://www.instagram.com/bmw_col/?hl=en" target="_blank"><img width="28"
+                                        src="https://bmwco.vtexassets.com/arquivos/bmw-instagram.png"
+                                        alt="Facebook" style="display: inline-block; "></a></span>
+                                        <span style="margin: auto 20px;"><a href="https://twitter.com/bmwcolombia?lang=en" target="_blank"><img width="28"
+                                        src="https://bmwco.vtexassets.com/arquivos/bmw-twitter.png"
+                                        alt="Instagram" style="display: inline-block; "></a></span>
+                                        <span style="margin: auto 20px;"><a href="https://www.youtube.com/channel/UCoMO5BbsY52yq_551E-DvOw" target="_blank"><img width="28"
+                                        src="https://bmwco.vtexassets.com/arquivos/bmw-whatsapp.png" alt="Instagram"
+                                        style="display: inline-block; "></a></span>
+                            </td>
+                            <td class="hide-mobile" width="25%" style="text-align:center"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--/Footer redes sociales-->
+                <table border="0" class="container" cellpadding="0" cellspacing="0" width="660" align="center">
+                    <tbody>
+                        <tr>
+                            <td align="center" valign="top"
+                                style="font-size: 10px; color: rgb(102, 102, 102); font-family: verdana; text-decoration: none; line-height: 12px; height: 50px; padding:15px 25px 15px 25px; background-color: #AAA; ">
+                                <div>
+                                    <p
+                                        style="font-size:14px;color:#fff;font-family: Arial, sans-serif, 'Segoe UI', 'Helvetica Neue', Helvetica; margin:0; padding:0; text-align: justify; line-height: 20px;">
+                                        Este correo electrónico fue enviado desde una dirección utilizada sólo para
+                                        notifícaciones que no puede aceptar correo entrante. Po favor no responda a este
+                                        mensaje.<br /> Este correo ha sido enviado con autorización otorgada por
+                                        Autogermana S.A.S para el tratamiento de datos personales. Para consultar
+                                        nuestra política general de tratamiento de datos personales ingrese aquí.</p>
+                                    <br />
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- /FOOTER -->
 </body>
+
 </html>
