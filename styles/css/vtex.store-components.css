@@ -559,4 +559,8 @@
     padding: 0;
     border: none;
   }
+  .autoCompleteOuterContainer--mobile-search-bar{
+    margin: 10px;
+    border: 4px solid #E1D3C8;
+  }
 }
