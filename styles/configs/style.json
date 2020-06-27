@@ -252,7 +252,7 @@
     },
     "active-on": {
       "action-primary": "#ffffff",
-      "action-secondary": "red",
+      "action-secondary": "#212529",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "transparent",
