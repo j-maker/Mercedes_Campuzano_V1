@@ -13,10 +13,8 @@
       "flex-layout.row#footer-row-4",
       "flex-layout.row#footer-row-5",
       "flex-layout.row#footer-row-6",
-      /*"image#desktop-fixed-car",*/
       /*"image#desktop-fixed-discount",*/
       "image#desktop-fixed-arrow-up"
-      /*"flex-layout.row#desktop-fixed-help"*/
     ]
   },
   "flex-layout.row#footer-row-2": {
@@ -31,7 +29,6 @@
     "children": [
       "newsletter",
       "rich-text#newsletter-terms"
-      /* "flex-layout.col#form"*/
     ]
   },
   "rich-text#newsletter-terms": {
@@ -94,7 +91,7 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#footer-row-1-1"
+      "flex-layout.col#footer-row-1-1"
     ]
   },
   "flex-layout.col#spacer": {
@@ -102,13 +99,23 @@
       "width": "grow"
     }
   },
+  "flex-layout.col#footer-row-1-1": {
+    "props": {
+      "colSizing": "auto",
+      "width": "100%",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.row#footer-row-1-1"
+    ]
+  },
   "flex-layout.row#footer-row-1-1": {
     "props": {
       "colSizing": "auto",
       "width": "100%",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
-      /*"fullWidth": true*/
     },
     "children": [
       "flex-layout.col#spacer",
@@ -206,7 +213,6 @@
   },
   "flex-layout.row#footer-row-4": {
     "props": {
-      /*"fullWidth": true,*/
       "blockClass": "footer-row-4"
     },
     "children": [
@@ -232,7 +238,6 @@
       "colSizing": "auto",
       "blockClass": "footer-row-4-redes",
       "preserveLayoutOnMobile": true
-      /*"fullWidth": true*/
     },
     "children": [
       "image#facebook",
@@ -395,7 +400,6 @@
     },
     "children": [
       "rich-text#footer-link-title-col-2",
-      /*"link#footer-interes-2-col-2",*/
       "link#footer-interes-2-col-2",
       "link#footer-interes-3-col-2",
       "link#footer-interes-4-col-2",
@@ -477,10 +481,6 @@
     "children": [
       "rich-text#footer-link-title-col-3",
       "link#footer-interes-1-col-3"
-      /*"link#footer-interes-2-col-3",
-      "link#footer-interes-3-col-3",
-      "link#footer-interes-4-col-3",*/
-      /*"link#footer-interes-5-col-3"*/
     ]
   },
   "rich-text#footer-link-title-col-3": {
@@ -545,7 +545,6 @@
       "colSizing": "auto",
       "blockClass": "footer-6-1-wrapper",
       "preserveLayoutOnMobile": true
-      /*"fullWidth": true*/
     },
     "children": [
       "image#footer-1",

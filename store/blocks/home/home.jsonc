@@ -1,7 +1,7 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-/*      "flex-layout.row#form",
+      /*"flex-layout.row#form",
       "modal-trigger#popup10%",*/
       "list-context.image-list#home",
       "rich-text#new",
@@ -12,26 +12,25 @@
       "rich-text#sale",
       "flex-layout.row#shelf-sale",
       "link#all-1",
-      "flex-layout.row#home-row-3", /*row2*/
+      "flex-layout.row#home-row-3",
       "rich-text#store",
       "flex-layout.row#social-networks",
-      "flex-layout.row#home-row-4", /*row2*/
+      "flex-layout.row#home-row-4",
       "rich-text#iframe",
       "iframe"
     ]
   },
-
-  "image#share":{
+  "image#share": {
     "props": {
-      "blockClass":"share",
+      "blockClass": "share",
       "width": "100px",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-logo.png"
     }
   },
   "modal-trigger#popup10%": {
-    "props":{
-      "trigger":"load",
-      "label":"cerrar"
+    "props": {
+      "trigger": "load",
+      "label": "cerrar"
     },
     "children": [
       "modal-layout#pop"
@@ -47,46 +46,29 @@
       "text": "EN PRUEBAS"
     }
   },
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   "iframe": {
     "props": {
-      "blockClass":"iframe",
+      "blockClass": "iframe",
       "src": "https://my.matterport.com/show/?m=QkpQiCwkhjo",
-      "width":"1050",
-      "height":"480",
-      "title":"exampleStaticPageName iframe wrapper for"
-      }
+      "width": "1050",
+      "height": "480",
+      "title": "exampleStaticPageName iframe wrapper for"
+    }
   },
-  "flex-layout.row#social-networks":{
-    "props":{
-      "blockClass":"social-networks"
+  "flex-layout.row#social-networks": {
+    "props": {
+      "blockClass": "social-networks"
     },
-    "children":[
+    "children": [
       "list-context.image-list#social-networks"
     ]
   },
-"list-context.image-list#social-networks": {
-    "children": ["slider-layout#social-networks"],
+  "list-context.image-list#social-networks": {
+    "children": [
+      "slider-layout#social-networks"
+    ],
     "props": {
-      "blockClass":"social-networks",
+      "blockClass": "social-networks",
       "height": 180,
       "width": 180,
       "images": [
@@ -96,7 +78,7 @@
         },
         {
           "image": "https://mercedescampuzano.vtexassets.com/arquivos/101029320_247692696334998_6958465212469855937_n.jpg",
-                    "description": "something something"
+          "description": "something something"
         },
         {
           "image": "https://mercedescampuzano.vtexassets.com/arquivos/100997183_284124092978035_2441005283126824088_n.jpg",
@@ -215,13 +197,13 @@
   },
   "slider-layout#social-networks": {
     "props": {
-      "blockClass":"social-networks",
+      "blockClass": "social-networks",
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": false
       },
-      "showNavigationArrows":"always",
-      "showPaginationDots":"never",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
       "itemsPerPage": {
         "desktop": 6,
         "tablet": 1,
@@ -231,34 +213,38 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["flex-layout.col#shelf"],
+    "children": [
+      "flex-layout.col#shelf"
+    ],
     "props": {
-      "blockClass":"home-wrapper-shelf"
-/*      "fullWidth":true*/
+      "blockClass": "home-wrapper-shelf"
     }
   },
   "flex-layout.col#shelf": {
-    "children": ["list-context.product-list#shelf"]
-    /*"props": {
-      "fullWidth":true
-    }*/
+    "children": [
+      "list-context.product-list#shelf"
+    ]
   },
   "flex-layout.row#shelf-sale": {
-    "children": ["flex-layout.col#shelf-sale"],
+    "children": [
+      "flex-layout.col#shelf-sale"
+    ],
     "props": {
-      "blockClass":"home-wrapper-shelf"
-       /*"fullWidth":true*/
+      "blockClass": "home-wrapper-shelf"
     }
   },
   "flex-layout.col#shelf-sale": {
-    "children": ["list-context.product-list#sale"]
-    /*"props": {
-       "fullWidth":true
-    }*/
+    "children": [
+      "list-context.product-list#sale"
+    ]
   },
   "list-context.product-list#shelf": {
-    "blocks": ["product-summary.shelf#home"],
-    "children": ["slider-layout#shelf-home"],
+    "blocks": [
+      "product-summary.shelf#home"
+    ],
+    "children": [
+      "slider-layout#shelf-home"
+    ],
     "props": {
       "collection": "140",
       "orderBy": "OrderByTopSaleDESC"
@@ -271,15 +257,18 @@
         "tablet": 3,
         "phone": 2
       },
-      "showPaginationDots":"never",
+      "showPaginationDots": "never",
       "infinite": true,
-     /* "fullWidth": false,*/
       "blockClass": "shelf"
     }
   },
   "list-context.product-list#sale": {
-    "blocks": ["product-summary.shelf#home"],
-    "children": ["slider-layout#sale"],
+    "blocks": [
+      "product-summary.shelf#home"
+    ],
+    "children": [
+      "slider-layout#sale"
+    ],
     "props": {
       "collection": "144",
       "orderBy": "OrderByPriceDESC"
@@ -292,15 +281,15 @@
         "tablet": 3,
         "phone": 2
       },
-      "showPaginationDots":"never",
+      "showPaginationDots": "never",
       "infinite": true,
-  /*    "fullWidth": false,*/
       "blockClass": "shelf"
     }
   },
-
-"list-context.image-list#home": {
-    "children": ["slider-layout#home"],
+  "list-context.image-list#home": {
+    "children": [
+      "slider-layout#home"
+    ],
     "props": {
       "height": 600,
       "images": [
@@ -312,20 +301,20 @@
         {
           "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-mom_mixandmatch_mayo.jpg",
           "description": "Sale",
-          "src":"/144?map=productClusterIds"
+          "src": "/144?map=productClusterIds"
         }
       ]
     }
   },
   "slider-layout#home": {
     "props": {
-      "blockClass":"home-slider",
+      "blockClass": "home-slider",
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": false
       },
-      "showNavigationArrows":"always",
-      "showPaginationDots":"",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
@@ -334,301 +323,309 @@
       "infinite": true
     }
   },
-
-  "rich-text#iframe": { 
-    "props": { 
-      "blockClass":"home-text-1",
+  "rich-text#iframe": {
+    "props": {
+      "blockClass": "home-text-1",
       "text": "HAZ UN RECORRIDO VIRTUAL DE NUESTRA TIENDA DE EL TESORO",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-  "rich-text#new": { 
-    "props": { 
-      "blockClass":"home-text-1",
+  "rich-text#new": {
+    "props": {
+      "blockClass": "home-text-1",
       "text": "LO NUEVO",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-  "link#all": { 
-    "props": { 
-      "blockClass":"home-text-all",
+  "link#all": {
+    "props": {
+      "blockClass": "home-text-all",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "href": "/140?map=productClusterIds",
       "label": "  VER TODO "
     }
   },
-  "link#all-1": { 
-    "props": { 
-      "blockClass":"home-text-all",
+  "link#all-1": {
+    "props": {
+      "blockClass": "home-text-all",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "href": "/144?map=productClusterIds",
       "label": "  VER TODO "
     }
   },
-  "rich-text#sale": { 
-    "props": { 
-      "blockClass":"home-text-1",
+  "rich-text#sale": {
+    "props": {
+      "blockClass": "home-text-1",
       "text": "SALE",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-  "rich-text#store": { 
-    "props": { 
-      "blockClass":"home-text-2",
+  "rich-text#store": {
+    "props": {
+      "blockClass": "home-text-2",
       "text": "TIENDA EN REDES",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-
-
-
-
-  "flex-layout.row#home-row-1":{
-    "children":[
+  "flex-layout.row#home-row-1": {
+    "children": [
+      "flex-layout.col#home-row-1"
+    ]
+  },
+  "flex-layout.col#home-row-1": {
+    "children": [
       "flex-layout.row#home-row-1-wrapper"
     ]
   },
-  "flex-layout.row#home-row-1-wrapper":{
-    "props":{
-      "colSizing":"auto",
-      "blockClass":"home-row-1-wrapper"
+  "flex-layout.row#home-row-1-wrapper": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "home-row-1-wrapper"
     },
-    "children":[
+    "children": [
       "image#home-row-1-wrapper-image-1",
       "image#home-row-1-wrapper-image-2"
     ]
   },
-  "image#home-row-1-wrapper-image-1":{
+  "image#home-row-1-wrapper-image-1": {
     "props": {
-      "blockClass":"home-row-1-wrapper-image-1",
+      "blockClass": "home-row-1-wrapper-image-1",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home1-Nueva-coleccion-min.jpg",
-      "url":"/140?map=productClusterIds"
+      "url": "/140?map=productClusterIds"
     }
   },
-  "image#home-row-1-wrapper-image-2":{
+  "image#home-row-1-wrapper-image-2": {
     "props": {
-      "blockClass":"home-row-1-wrapper-image-2",
+      "blockClass": "home-row-1-wrapper-image-2",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home2-tendencias-min.jpg",
-      "url":"/tendencias"
+      "url": "/tendencias"
     }
   },
-
-
-
-
-
-  "flex-layout.row#home-row-2":{
-    "children":[
+  "flex-layout.row#home-row-2": {
+    "children": [
+      "flex-layout.col#home-row-2"
+    ]
+  },
+  "flex-layout.col#home-row-2": {
+    "children": [
       "flex-layout.row#home-row-2-wrapper"
     ]
   },
-  "flex-layout.row#home-row-2-wrapper":{
-    "props":{
-      "blockClass":"home-row-1-wrapper"
+  "flex-layout.row#home-row-2-wrapper": {
+    "props": {
+      "blockClass": "home-row-1-wrapper"
     },
-    "children":[
+    "children": [
       "flex-layout.col#home-col-2-1-wrapper",
       "flex-layout.col#home-col-2-2-wrapper"
     ]
   },
-  "flex-layout.col#home-col-2-1-wrapper":{
-    "props":{
-      "colSizing":"auto",
-      "blockClass":"home-col-2-1-wrapper"
-
+  "flex-layout.col#home-col-2-1-wrapper": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "home-col-2-1-wrapper"
     },
-    "children":[
+    "children": [
       "image#home-col-1-wrapper-image-1",
       "image#home-col-1-wrapper-image-2"
     ]
   },
-  "flex-layout.col#home-col-2-2-wrapper":{
-    "props":{
-      "colSizing":"auto",
-      "blockClass":"home-col-2-1-wrapper"
+  "flex-layout.col#home-col-2-2-wrapper": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "home-col-2-1-wrapper"
     },
-    "children":[
+    "children": [
       "image#home-col-2-wrapper-image-1",
       "image#home-col-2-wrapper-image-2",
       "image#home-col-2-wrapper-image-3"
     ]
   },
-  "image#home-col-1-wrapper-image-1":{
+  "image#home-col-1-wrapper-image-1": {
     "props": {
-      "blockClass":"home-col-wrapper-image-1",
+      "blockClass": "home-col-wrapper-image-1",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home3-bono-min.jpg"
     }
   },
-  "image#home-col-1-wrapper-image-2":{
+  "image#home-col-1-wrapper-image-2": {
     "props": {
-      "blockClass":"home-col-1-wrapper-image-2",
+      "blockClass": "home-col-1-wrapper-image-2",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home10. venta-corporativas.jpg"
     }
   },
-  "image#home-col-2-wrapper-image-1":{
+  "image#home-col-2-wrapper-image-1": {
     "props": {
-      "blockClass":"home-col-2-wrapper-image",
+      "blockClass": "home-col-2-wrapper-image",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home4-zapatos-min.jpg"
     }
   },
-  "image#home-col-2-wrapper-image-2":{
+  "image#home-col-2-wrapper-image-2": {
     "props": {
-      "blockClass":"home-col-2-wrapper-image",
+      "blockClass": "home-col-2-wrapper-image",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home5-bolsos-min.jpg"
     }
   },
-  "image#home-col-2-wrapper-image-3":{
+  "image#home-col-2-wrapper-image-3": {
     "props": {
-      "blockClass":"home-col-2-wrapper-image",
+      "blockClass": "home-col-2-wrapper-image",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home6-accesorios-min.jpg"
     }
   },
-
-
-
-  "flex-layout.row#home-row-3":{
-    "children":[
+  "flex-layout.row#home-row-3": {
+    "children": [
+      "flex-layout.col#home-row-3"
+    ]
+  },
+  "flex-layout.col#home-row-3": {
+    "children": [
       "flex-layout.row#home-row-3-wrapper"
     ]
   },
-  "flex-layout.row#home-row-3-wrapper":{
-    "props":{
-      "blockClass":"home-row-1-wrapper"
+  "flex-layout.row#home-row-3-wrapper": {
+    "props": {
+      "blockClass": "home-row-1-wrapper"
     },
-    "children":[
+    "children": [
       "flex-layout.col#home-col-3-1-wrapper",
       "flex-layout.col#home-col-3-2-wrapper"
     ]
   },
-  "flex-layout.col#home-col-3-1-wrapper":{
-    "props":{
-      "blockClass":"home-col-2-1-wrapper"
+  "flex-layout.col#home-col-3-1-wrapper": {
+    "props": {
+      "blockClass": "home-col-2-1-wrapper"
     },
-    "children":[
+    "children": [
       "image#home-col-3-wrapper-image-1"
     ]
   },
-  "flex-layout.col#home-col-3-2-wrapper":{
-    "props":{
-      "blockClass":"home-col-2-1-wrapper"
+  "flex-layout.col#home-col-3-2-wrapper": {
+    "props": {
+      "blockClass": "home-col-2-1-wrapper"
     },
-    "children":[
+    "children": [
       "image#home-col-3-wrapper-image-2",
       "image#home-col-3-wrapper-image-3"
     ]
   },
-  "image#home-col-3-wrapper-image-1":{
+  "image#home-col-3-wrapper-image-1": {
     "props": {
-      "blockClass":"home-col-3-wrapper-image-1",
+      "blockClass": "home-col-3-wrapper-image-1",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home7-BANNER-BLOG.jpg",
       "href": "/zapatos?map=c,specificationFilter_45&query=/Zapatos/Sandalias%20de%20plataforma"
     }
   },
-  "image#home-col-3-wrapper-image-2":{
+  "image#home-col-3-wrapper-image-2": {
     "props": {
-      "blockClass":"home-col-3-wrapper-image",
+      "blockClass": "home-col-3-wrapper-image",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home8-sale-banner-pagina.jpg",
-      "url":"/144?map=productClusterIds"
+      "url": "/144?map=productClusterIds"
     }
   },
-  "image#home-col-3-wrapper-image-3":{
+  "image#home-col-3-wrapper-image-3": {
     "props": {
-      "blockClass":"home-col-3-wrapper-image",
+      "blockClass": "home-col-3-wrapper-image",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home9-juego_geometrico.png",
-      "url":"/club-de-coleccionestas"
+      "url": "/club-de-coleccionestas"
     }
   },
-
-  "flex-layout.row#home-row-4":{
-    "children":[
-      "flex-layout.row#home-row-4-wrapper"
+  "flex-layout.row#home-row-4": {
+    "children": [
+      "flex-layout.col#home-row-4"
     ]
   },
-  "flex-layout.row#home-row-4-wrapper":{
-    "props":{
-      "blockClass":"home-row-4-wrapper",
+  "flex-layout.col#home-row-4": {
+    "children": [
+      "flex-layout.row#home-row-4-wrapper"
+    ],
+    "props": {
+      "blockClass": "home-row-4-wrapper",
       "preserveLayoutOnMobile": true
-   /*   "fullWidth": true*/
+    }
+  },
+  "flex-layout.row#home-row-4-wrapper": {
+    "props": {
+      "blockClass": "home-row-4-wrapper",
+      "preserveLayoutOnMobile": true
     },
-    "children":[
+    "children": [
       "flex-layout.col#home-col-4-1-wrapper",
       "flex-layout.col#home-col-4-2-wrapper",
       "flex-layout.col#home-col-4-3-wrapper"
     ]
   },
-  "flex-layout.col#home-col-4-1-wrapper":{
-    "props":{
-      "blockClass":"home-col-4-wrapper"
-    },
-    "children":[
-      "image#home-col-4-wrapper-image-1",
-      "rich-text#home-footer-banner-1"      
-    ]
-  },
-  "flex-layout.col#home-col-4-2-wrapper":{
-    "props":{
-      "blockClass":"home-col-4-wrapper"
-    },    
-    "children":[
-      "image#home-col-4-wrapper-image-2",
-      "rich-text#home-footer-banner-2"      
-    ]
-  },
-  "flex-layout.col#home-col-4-3-wrapper":{
-    "props":{
-      "blockClass":"home-col-4-wrapper"
-    },    
-    "children":[
-      "image#home-col-4-wrapper-image-3",
-      "rich-text#home-footer-banner-3"      
-    ]
-  },
-  "image#home-col-4-wrapper-image-1":{
+  "flex-layout.col#home-col-4-1-wrapper": {
     "props": {
-      "blockClass":"home-4-wrapper-image",
+      "blockClass": "home-col-4-wrapper"
+    },
+    "children": [
+      "image#home-col-4-wrapper-image-1",
+      "rich-text#home-footer-banner-1"
+    ]
+  },
+  "flex-layout.col#home-col-4-2-wrapper": {
+    "props": {
+      "blockClass": "home-col-4-wrapper"
+    },
+    "children": [
+      "image#home-col-4-wrapper-image-2",
+      "rich-text#home-footer-banner-2"
+    ]
+  },
+  "flex-layout.col#home-col-4-3-wrapper": {
+    "props": {
+      "blockClass": "home-col-4-wrapper"
+    },
+    "children": [
+      "image#home-col-4-wrapper-image-3",
+      "rich-text#home-footer-banner-3"
+    ]
+  },
+  "image#home-col-4-wrapper-image-1": {
+    "props": {
+      "blockClass": "home-4-wrapper-image",
       "src": "https://mercedescampuzano.vtexassets.com/assets/vtex.file-manager-graphql/images/shipping-fast-solid-black___3c853e3e3663bf7b1a6cc6cbe1a2a9a3.png",
       "maxHeight": ""
     }
   },
-  "rich-text#home-footer-banner-1": { 
-    "props": { 
-      "blockClass":"home-footer-banner",
+  "rich-text#home-footer-banner-1": {
+    "props": {
+      "blockClass": "home-footer-banner",
       "text": "**Pago Contra Entrega**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-  "image#home-col-4-wrapper-image-2":{
+  "image#home-col-4-wrapper-image-2": {
     "props": {
-      "blockClass":"home-4-wrapper-image",
+      "blockClass": "home-4-wrapper-image",
       "src": "https://mercedescampuzano.vtexassets.com/assets/vtex.file-manager-graphql/images/credit-card-regular-black___7711ed65a799c7dd2ebcc2bb07bf3a47.png",
       "maxHeight": ""
     }
   },
-  "rich-text#home-footer-banner-2": { 
-    "props": { 
-      "blockClass":"home-footer-banner",
+  "rich-text#home-footer-banner-2": {
+    "props": {
+      "blockClass": "home-footer-banner",
       "text": "**Cambios hasta 90 días**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-    "image#home-col-4-wrapper-image-3":{
+  "image#home-col-4-wrapper-image-3": {
     "props": {
-      "blockClass":"home-4-wrapper-image",
+      "blockClass": "home-4-wrapper-image",
       "src": "https://mercedescampuzano.vtexassets.com/assets/vtex.file-manager-graphql/images/sync-alt-solid-black___122911d2aade6f86bd276b610a7baa45.png",
       "maxHeight": ""
     }
   },
-  "rich-text#home-footer-banner-3": { 
-    "props": { 
-      "blockClass":"home-footer-banner",
+  "rich-text#home-footer-banner-3": {
+    "props": {
+      "blockClass": "home-footer-banner",
       "text": "**Devoluciones gratis**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"

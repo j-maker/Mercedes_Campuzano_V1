@@ -4,7 +4,7 @@
       "search-result-layout#title-search"
     ],
     "props": {
-      "context": {  
+      "context": {
         "facetsBehavior": "dynamic",
         "maxItemsPerPage": 15,
         "skusFilter": "ALL",
@@ -44,7 +44,7 @@
     ],
     "props": {
       "context": {
-        "facetsBehavior": "dynamic", 
+        "facetsBehavior": "dynamic",
         "maxItemsPerPage": 15,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
@@ -58,68 +58,12 @@
       "search-not-found-layout"
     ]
   },
-
-
-
-
-
-
-/*
-  "search-result-layout.desktop": {
-    "children": [
-      "flex-layout.row#did-you-mean",
-      "flex-layout.row#suggestion",
-      "flex-layout.row#banner-one",
-      "flex-layout.row#result"
-    ],
-    "props": {
-      "pagination": "show-more",
-      "preventRouteChange": true,
-      "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
-      }
-    }
-  },
-
-  "flex-layout.row#did-you-mean": {
-    "children": ["did-you-mean"]
-  },
-  "flex-layout.row#suggestion": {
-    "children": ["search-suggestions"]
-  },
-  "flex-layout.row#banner-one": {
-    "children": ["search-banner#one"]
-  },
-
-  "search-banner#one": {
-    "props": {
-      "area": "one",
-      "blockClass": "myBanner",
-      "horizontalAlignment": "center"
-    }
-  },
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
   "search-result-layout.desktop#title-search": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
     "props": {
-     /* "pagination": "show-more",*/
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "brands": true,
@@ -132,7 +76,7 @@
   },
   "search-result-layout": {
     "blocks": [
-      "search-result-layout.desktop",
+      "search-result-layout.desktop",   
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
@@ -144,7 +88,6 @@
     ],
     "props": {
       "priceRange": false,
-    /*  "pagination": "show-more",*/
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "brands": true,
@@ -274,7 +217,6 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      /*"pagination": "show-more",*/
       "mobileLayout": {
         "mode1": "small",
         "mode2": "small"

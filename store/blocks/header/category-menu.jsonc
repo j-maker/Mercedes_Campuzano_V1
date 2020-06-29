@@ -286,7 +286,7 @@
       },
       "infinite": true
     }
-  }, 
+  },
   "menu-item#menu-2": {
     "props": {
       "blockClass": "header-menu-2",
@@ -335,8 +335,7 @@
       "orientation": "vertical",
       "blockClass": "submenu"
     },
-    "children": [
-    ]
+    "children": []
   },
   "menu-item#menu-2-1": {
     "props": {
@@ -750,7 +749,6 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-
         "noFollow": false,
         "tagTitle": "Bono Regalo",
         "text": "Bono Regalo"
@@ -822,7 +820,6 @@
       "blockClass": "submenu"
     }
   },
-  
   "list-context.image-list#menu-slider-4": {
     "children": [
       "slider-layout#menu-slider-4"
@@ -854,8 +851,6 @@
       "infinite": true
     }
   },
-
-
   "vtex.menu@2.x:menu#category-menu-mobile": {
     "props": {
       "experimentalOptimizeRendering": false,
@@ -872,46 +867,46 @@
       "link#row-3-4"
     ]
   },
-  "flex-layout.row#menu-mobile-1":{
-    "props":{
-      "blockClass":"menu-mobile",
-      "colSizing":"auto"
+  "flex-layout.row#menu-mobile-1": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "colSizing": "auto"
     },
-    "children":[
+    "children": [
       "menu-item#menu-mobile-1",
       "drawer#mobile-menu-1"
     ]
   },
-  "flex-layout.row#menu-mobile-2":{
-    "props":{
-      "blockClass":"menu-mobile",
-      "colSizing":"auto"
+  "flex-layout.row#menu-mobile-2": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "colSizing": "auto"
     },
-    "children":[
+    "children": [
       "menu-item#menu-mobile-2",
       "drawer#mobile-menu-2"
     ]
   },
-  "flex-layout.row#menu-mobile-3":{
-    "props":{
-      "blockClass":"menu-mobile",
-      "colSizing":"auto"
+  "flex-layout.row#menu-mobile-3": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "colSizing": "auto"
     },
-    "children":[
+    "children": [
       "menu-item#menu-mobile-3",
       "drawer#mobile-menu-3"
     ]
   },
-  "flex-layout.row#menu-mobile-4":{
-    "props":{
-      "blockClass":"menu-mobile",
-      "colSizing":"auto"
+  "flex-layout.row#menu-mobile-4": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "colSizing": "auto"
     },
-    "children":[
+    "children": [
       "menu-item#menu-mobile-4",
       "drawer#mobile-menu-4"
     ]
-  },  
+  },
   "menu-item#menu-mobile-1": {
     "props": {
       "blockClass": "header-menu-2",
@@ -937,8 +932,7 @@
       "width": "auto",
       "orientation": "horizontal"
     },
-    "children": [
-    ]
+    "children": []
   },
   "menu-item#menu-mobile-2": {
     "props": {

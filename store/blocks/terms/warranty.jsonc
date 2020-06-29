@@ -1,29 +1,29 @@
 {
   "store.custom#warranty": {
-      "blocks": [  
-          "flex-layout.row#warranty"
-      ]
+    "blocks": [
+      "flex-layout.row#warranty"
+    ]
   },
   "flex-layout.row#warranty": {
-    "props":{
-      "colSizing":"auto",
-      "blockClass":"about-us"
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "about-us"
     },
-    "children":[
+    "children": [
       "flex-layout.col#warranty-wrapper"
     ]
   },
-  "flex-layout.col#warranty-wrapper":{
-    "props":{
-      "blockClass":"footer-terms-col-wrapper"
+  "flex-layout.col#warranty-wrapper": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
     },
-    "children":[
-    "flex-layout.row#warranty-title",
-    "flex-layout.row#warranty-content"  
-  ]
+    "children": [
+      "flex-layout.row#warranty-title",
+      "flex-layout.row#warranty-content"
+    ]
   },
-  "flex-layout.row#warranty-title":{
-    "children":[
+  "flex-layout.row#warranty-title": {
+    "children": [
       "rich-text#title-warranty"
     ]
   },
@@ -35,8 +35,8 @@
       "text": "NUESTRA GARANTÍA"
     }
   },
-  "flex-layout.row#warranty-content":{
-    "children":[
+  "flex-layout.row#warranty-content": {
+    "children": [
       "rich-text#warranty-content-1",
       "rich-text#warranty-content-2"
     ]

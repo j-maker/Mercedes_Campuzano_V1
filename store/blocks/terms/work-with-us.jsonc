@@ -1,63 +1,60 @@
 {
-    "store.custom#work-with-us": {
-        "blocks": [  
-            "flex-layout.row#work-with-us"
-            /*formulario-hoja-de-vida*/
-        ]
+  "store.custom#work-with-us": {
+    "blocks": [
+      "flex-layout.row#work-with-us"
+    ]
+  },
+  "flex-layout.row#work-with-us": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "about-us"
     },
- 
-        "flex-layout.row#work-with-us": {
-          "props":{
-            "colSizing":"auto",
-            "blockClass":"about-us"
-          },
-          "children":[
-            "flex-layout.col#work-with-us"
-          ]
-        },
-        "flex-layout.col#work-with-us":{
-          "props":{
-            "blockClass":"footer-terms-col-wrapper"
-          },
-          "children":[
-          "flex-layout.row#work-with-us-title",
-          "flex-layout.row#work-with-us-content"
-        ]
-        },
-        "flex-layout.row#work-with-us-title":{
-          "children":[
-            "rich-text#title-work-with-us"
-          ]
-        },
-        "rich-text#title-work-with-us": {
-          "props": {
-            "blockClass": "footer-terms-title",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "TRABAJA CON NOSOTROS"
-          }
-        },
-        "flex-layout.row#work-with-us-content":{
-          "children":[
-            "rich-text#work-with-us-content-1",
-            "rich-text#work-with-us-content-2"
-          ]
-        },
-        "rich-text#work-with-us-content-1": {
-          "props": {
-            "textAlignment": "JUSTIFY",
-            "textPosition": "JUSTIFY",
-            "text": "Mercedes Campuzano con un comprometido equipo de Vendedoras, Cajeras y Auxiliares de almacén capacitados en atención al cliente, para ofrecer un servicio cada vez más oportuno y especializado. Si está interesado en hacer parte de nuestro grupo de trabajo, diligencie por favor el formulario según su campo de interés.\n\n **Perfil Vendedoras y Cajeras** \n\n Mujeres con un nivel de escolaridad mínimo de secundaria, mayores de 18 años, con excelente presentación personal, sólidos valores familiares, fluidez para hablar, simpáticas, proactivas, con orientación por el servicio al cliente, que cuenten con disponibilidad de tiempo completo y puedan cumplir con los horarios establecidos por los centros comerciales.",
-            "blockClass": "footer-terms-content-subtitles"
-          }
-        },
-        "rich-text#work-with-us-content-2": {
-          "props": {
-            "textAlignment": "JUSTIFY",
-            "textPosition": "JUSTIFY",
-            "text": "**Perfil Auxiliares de Almacén** \n\n Hombres con un nivel de escolaridad mínimo de secundaria, mayores de 18 años, con excelente presentación personal, sólidos valores familiares, proactivos, con sentido de colaboración, que cuenten con disponibilidad de tiempo completo y puedan cumplir con los horarios establecidos por los centros comerciales.",
-            "blockClass": "footer-terms-content-subtitles"
-          }
-        }
-      }
-    
+    "children": [
+      "flex-layout.col#work-with-us"
+    ]
+  },
+  "flex-layout.col#work-with-us": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
+    },
+    "children": [
+      "flex-layout.row#work-with-us-title",
+      "flex-layout.row#work-with-us-content"
+    ]
+  },
+  "flex-layout.row#work-with-us-title": {
+    "children": [
+      "rich-text#title-work-with-us"
+    ]
+  },
+  "rich-text#title-work-with-us": {
+    "props": {
+      "blockClass": "footer-terms-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TRABAJA CON NOSOTROS"
+    }
+  },
+  "flex-layout.row#work-with-us-content": {
+    "children": [
+      "rich-text#work-with-us-content-1",
+      "rich-text#work-with-us-content-2"
+    ]
+  },
+  "rich-text#work-with-us-content-1": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Mercedes Campuzano con un comprometido equipo de Vendedoras, Cajeras y Auxiliares de almacén capacitados en atención al cliente, para ofrecer un servicio cada vez más oportuno y especializado. Si está interesado en hacer parte de nuestro grupo de trabajo, diligencie por favor el formulario según su campo de interés.\n\n **Perfil Vendedoras y Cajeras** \n\n Mujeres con un nivel de escolaridad mínimo de secundaria, mayores de 18 años, con excelente presentación personal, sólidos valores familiares, fluidez para hablar, simpáticas, proactivas, con orientación por el servicio al cliente, que cuenten con disponibilidad de tiempo completo y puedan cumplir con los horarios establecidos por los centros comerciales.",
+      "blockClass": "footer-terms-content-subtitles"
+    }
+  },
+  "rich-text#work-with-us-content-2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**Perfil Auxiliares de Almacén** \n\n Hombres con un nivel de escolaridad mínimo de secundaria, mayores de 18 años, con excelente presentación personal, sólidos valores familiares, proactivos, con sentido de colaboración, que cuenten con disponibilidad de tiempo completo y puedan cumplir con los horarios establecidos por los centros comerciales.",
+      "blockClass": "footer-terms-content-subtitles"
+    }
+  }
+}

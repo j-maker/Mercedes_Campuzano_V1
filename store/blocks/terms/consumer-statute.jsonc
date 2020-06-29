@@ -1,48 +1,47 @@
 {
-    "store.custom#consumer-statute": {
-      "blocks": [
-        "flex-layout.row#footer-terms-col-1-consumer-statute"
-      ]
+  "store.custom#consumer-statute": {
+    "blocks": [
+      "flex-layout.row#footer-terms-col-1-consumer-statute"
+    ]
+  },
+  "flex-layout.row#footer-terms-col-1-consumer-statute": {
+    "children": [
+      "flex-layout.col#col-1-wrapper-consumer-statute"
+    ]
+  },
+  "flex-layout.col#col-1-wrapper-consumer-statute": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
     },
-    "flex-layout.row#footer-terms-col-1-consumer-statute": {
-      "children": [
-        "flex-layout.col#col-1-wrapper-consumer-statute"
-      ]
-    },
-  
-    "flex-layout.col#col-1-wrapper-consumer-statute": {
-      "props": {
-        "blockClass": "footer-terms-col-wrapper"
-      },
-      "children": [
-        "flex-layout.row#col-1-title-consumer-statute",
-        "flex-layout.row#col-1-content-consumer-statute"
-      ]
-    },
-    "flex-layout.row#col-1-title-consumer-statute": {
-      "children": [
-        "rich-text#col-1-title-consumer-statute"
-      ]
-    },
-    "flex-layout.row#col-1-content-consumer-statute": {
-      "children": [
-        "rich-text#col-1-content-consumer-statute"
-      ]
-    },
-    "rich-text#col-1-title-consumer-statute": {
-      "props": {
-        "blockClass": "footer-terms-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "ESTATUTO DEL CONSUMIDOR"
-      }
-    },
-    "rich-text#col-1-content-consumer-statute": {
-      "props": {
-        "blockClass": "footer-terms-content",
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Para toda la información sobre el Estatuto del Consumidor dar clic en el Link \n\nhttp://www.sic.gov.co/proteccion-del-consumidor"
-      }
+    "children": [
+      "flex-layout.row#col-1-title-consumer-statute",
+      "flex-layout.row#col-1-content-consumer-statute"
+    ]
+  },
+  "flex-layout.row#col-1-title-consumer-statute": {
+    "children": [
+      "rich-text#col-1-title-consumer-statute"
+    ]
+  },
+  "flex-layout.row#col-1-content-consumer-statute": {
+    "children": [
+      "rich-text#col-1-content-consumer-statute"
+    ]
+  },
+  "rich-text#col-1-title-consumer-statute": {
+    "props": {
+      "blockClass": "footer-terms-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "ESTATUTO DEL CONSUMIDOR"
     }
+  },
+  "rich-text#col-1-content-consumer-statute": {
+    "props": {
+      "blockClass": "footer-terms-content",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Para toda la información sobre el Estatuto del Consumidor dar clic en el Link \n\nhttp://www.sic.gov.co/proteccion-del-consumidor"
+    }
+  }
 }

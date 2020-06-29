@@ -1,80 +1,77 @@
 {
-    "store.custom#about-us-mc": {
-        "blocks": [  
-            "flex-layout.row#about-us"
-        ]
+  "store.custom#about-us-mc": {
+    "blocks": [
+      "flex-layout.row#about-us"
+    ]
+  },
+  "flex-layout.row#about-us": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "about-us"
     },
-    "flex-layout.row#about-us": {
-      "props":{
-        "colSizing":"auto",
-        "blockClass":"about-us"
-      },
-      "children":[
-        "flex-layout.col#about-us-wrapper"
-      ]
+    "children": [
+      "flex-layout.col#about-us-wrapper"
+    ]
+  },
+  "flex-layout.col#about-us-wrapper": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
     },
-    "flex-layout.col#about-us-wrapper":{
-      "props":{
-        "blockClass":"footer-terms-col-wrapper"
-      },
-      "children":[
+    "children": [
       "flex-layout.row#about-us-title",
       "flex-layout.row#about-us-content",
-      "flex-layout.row#about-us-image"  
+      "flex-layout.row#about-us-image"
     ]
+  },
+  "flex-layout.row#about-us-title": {
+    "props": {},
+    "children": [
+      "rich-text#title-about-us"
+    ]
+  },
+  "rich-text#title-about-us": {
+    "props": {
+      "blockClass": "footer-terms-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "NUESTRA MARCA"
+    }
+  },
+  "flex-layout.row#about-us-content": {
+    "children": [
+      "rich-text#about-us-content-1",
+      "rich-text#about-us-content-2"
+    ]
+  },
+  "rich-text#about-us-content-1": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La marca **MERCEDES CAMPUZANO** nace en el año 2005 en la ciudad de Medellín, ofreciendo a sus clientes zapatos, bolsos y accesorios para mujeres clásicas, modernas, adolescentes, jóvenes o adultas, una amplia oferta de artículos de moda y de permanencia, los cuales son constantemente renovados y siempre asequibles. \n \n Nuestra marca diseña y comercializa zapatos, bolsos y accesorios femeninos que se caracterizan por sus estilos distintivos y de vanguardia, manufactura artesanal, mucho color, opciones para cada ocasión y un excelente valor para nuestros consumidores.",
+      "blockClass": "footer-terms-content"
+    }
+  },
+  "rich-text#about-us-content-2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La creatividad en movimiento es lo que nos inspira a diseñar zapatos, bolsos y accesorios para todas las mujeres que como nosotras sueñan con ser verdaderas coleccionistas.\n \n Creemos en: la calidad, la variedad, las mejores tendencias, el buen gusto, la feminidad, la funcionalidad, el talento de nuestros artesanos Colombianos, la pasión por lo que hacemos, la responsabilidad hacia nuestros clientes.",
+      "blockClass": "footer-terms-content"
+    }
+  },
+  "flex-layout.row#about-us-image": {
+    "props": {
+      "blockClass": "about-us-content"
     },
-    "flex-layout.row#about-us-title":{
-      "props":{
-
-      },
-      "children":[
-        "rich-text#title-about-us"
-      ]
-    },
-    "rich-text#title-about-us": {
-      "props": {
-        "blockClass": "footer-terms-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "NUESTRA MARCA"
-      }
-    },
-    "flex-layout.row#about-us-content":{
-      "children":[
-        "rich-text#about-us-content-1",
-        "rich-text#about-us-content-2"
-      ]
-    },
-    "rich-text#about-us-content-1": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "La marca **MERCEDES CAMPUZANO** nace en el año 2005 en la ciudad de Medellín, ofreciendo a sus clientes zapatos, bolsos y accesorios para mujeres clásicas, modernas, adolescentes, jóvenes o adultas, una amplia oferta de artículos de moda y de permanencia, los cuales son constantemente renovados y siempre asequibles. \n \n Nuestra marca diseña y comercializa zapatos, bolsos y accesorios femeninos que se caracterizan por sus estilos distintivos y de vanguardia, manufactura artesanal, mucho color, opciones para cada ocasión y un excelente valor para nuestros consumidores.",
-        "blockClass": "footer-terms-content"
-      }
-    },
-    "rich-text#about-us-content-2": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "La creatividad en movimiento es lo que nos inspira a diseñar zapatos, bolsos y accesorios para todas las mujeres que como nosotras sueñan con ser verdaderas coleccionistas.\n \n Creemos en: la calidad, la variedad, las mejores tendencias, el buen gusto, la feminidad, la funcionalidad, el talento de nuestros artesanos Colombianos, la pasión por lo que hacemos, la responsabilidad hacia nuestros clientes.",
-        "blockClass": "footer-terms-content"
-      }
-    },
-    "flex-layout.row#about-us-image":{
-      "props":{
-        "blockClass": "about-us-content"
-       /* "fullWidth": true*/
-      },
-      "children":[
-        "image#about-us-image"
-      ]
-    },
-    "image#about-us-image":{
-      "props": {
-        "blockClass":"about-us-image",
-        "src": "https://mercedescampuzano.vtexassets.com/arquivos/footer-nuestra-marca-min.jpg",
-        "maxHeight": ""
-      }
+    "children": [
+      "image#about-us-image"
+    ]
+  },
+  "image#about-us-image": {
+    "props": {
+      "blockClass": "about-us-image",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/footer-nuestra-marca-min.jpg",
+      "maxHeight": ""
     }
   }
+}

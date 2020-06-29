@@ -347,12 +347,12 @@
     font-size: 13px;
   }
   .container--row-6-2-copy {
-    margin-top: 80px;
+    margin-top: 0;
     padding-bottom: 0px;
   }
   .paragraph--row-6-2-copy {
     font-size: 12px;
-    margin: 30px 80px 5px 80px;
+    margin: 0px 80px 5px 80px;
   }
   .paragraph--footer-row-3-contact {
     text-decoration: none;

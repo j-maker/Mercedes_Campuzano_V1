@@ -24,8 +24,8 @@
         ]
     },
     "flex-layout.row#trends-content": {
-        "props":{
-            "blockClass":"tendencias-content"
+        "props": {
+            "blockClass": "tendencias-content"
         },
         "children": [
             "image#trends-1",

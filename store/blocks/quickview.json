@@ -8,7 +8,6 @@
       "blockClass": "quickview"
     }
   },
-
   "modal-layout#quickview": {
     "children": [
       "modal-header#quickview",
@@ -23,7 +22,6 @@
       "blockClass": "quickview"
     }
   },
-
   "modal-content#quickview": {
     "children": [
       "vtex.store-components:product-name",
@@ -61,7 +59,6 @@
       "blockClass": "addToCartRow"
     }
   },
-
   "flex-layout.col#quickview-product-quantity": {
     "children": [
       "product-summary-quantity#quickview"
@@ -81,7 +78,6 @@
       "width": "grow"
     }
   },
-
   "flex-layout.row#quickview-actions-2": {
     "children": [
       "link.product#button-pdp"
@@ -134,7 +130,7 @@
       "blockClass": "quickview"
     }
   },
-  "product-images#quickview" : {
+  "product-images#quickview": {
     "props": {
       "blockClass": "quickview",
       "showNavigationArrows": true

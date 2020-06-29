@@ -30,8 +30,6 @@
       "showInstallments": true
     }
   },
-
-
   "product-summary.shelf#product": {
     "children": [
       "stack-layout#prodsum",
@@ -41,13 +39,6 @@
       "flex-layout.row#buy-button-shelf"
     ]
   },
-
-
-
-
-
-
-
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
@@ -58,8 +49,8 @@
     ]
   },
   "product-summary-sku-selector": {
-   "props": {
-      "visibleVariations":[
+    "props": {
+      "visibleVariations": [
         "talla"
       ],
       "blockClass": "shelf-sku",
@@ -78,13 +69,13 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "flex-layout.row#selling-price-savings",     
+      "flex-layout.row#selling-price-savings",
       "flex-layout.row#buy-button-shelf-home"
     ]
   },
   "product-summary-sku-selector#home": {
     "props": {
-      "visibleVariations":[
+      "visibleVariations": [
         "color"
       ],
       "imageLabel": 3,
@@ -416,8 +407,8 @@
     ]
   },
   "minicart.v2": {
-    "props":{
-      "backdropMode":"none"
+    "props": {
+      "backdropMode": "none"
     },
     "children": [
       "minicart-base-content"
@@ -444,14 +435,13 @@
     "children": [
       "minicart-summary",
       "flex-layout.row#button-minicart"
-      
     ]
   },
-  "flex-layout.row#button-minicart":{
-    "props":{
-      "blockClass":"minicart"
+  "flex-layout.row#button-minicart": {
+    "props": {
+      "blockClass": "minicart"
     },
-    "children":[
+    "children": [
       "minicart-checkout-button",
       "link#button"
     ]
@@ -470,7 +460,6 @@
       "product-list#minicart"
     ]
   },
-
   "product-list#minicart": {
     "blocks": [
       "product-list-content-mobile"
@@ -544,50 +533,23 @@
       "shouldAddToCart": false
     }
   },
-  "sandbox#Zendesk": {
-    "props": {
-      "blockClass":"Zendesk",
-      "width": "150px",
-      "height": "150px",
-      "initialContent": "<script id='ze-snippet' src='https://static.zdassets.com/ekr/snippet.js?key=a8c01b15-9dd6-45ec-8f5c-aee3297721f2'> </script>",
-      "allowCookies": true
-    }
-  },
-  "sandbox#banner-meta": {
-    "props": {
-      "width": "0px",
-      "height": "0px",
-      "initialContent": "<meta property='og:description' content='Descripción del sitio' /><meta property='og:url' content='https://www.mercedescampuzano.com/' /><meta property='og:site_name' content='Mercedes Campuzano Colombia' /><meta property='og:type' content='website' /><meta property='og:image' content='https://mercedescampuzano.vtexassets.com/arquivos/98135557_290600511982841_8585288121403397696_n.jpg' /></head><body><h1>Hi</h1></body>",
-      "allowCookies": true
-    }
-  },
-  "sandbox.product": {
-    "props": {
-      "width": "100%",
-      "height": "600px",
-      "initialContent": "<head><script id='ze-snippet' src='https://static.zdassets.com/ekr/snippet.js?key=a8c01b15-9dd6-45ec-8f5c-aee3297721f2'> </script></head>",
-      "allowCookies": true
-    }
-  },
   "shelf.relatedProducts": {
     "props": {
-      "blockClass":"home-wrapper-shelf",
-        "recommendation": "view",
-        "productList": {
-            "showTitle":false,
-            "itemsPerPage": {
-              "desktop": 4,
-              "tablet": 1,
-              "phone": 1
-            },
-            "gap":"ph3",
-            "showPaginationDots":"never"  
-        }
+      "blockClass": "home-wrapper-shelf",
+      "recommendation": "view",
+      "productList": {
+        "showTitle": false,
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+        },
+        "gap": "ph3",
+        "showPaginationDots": "never"
+      }
     },
-    "blocks":["product-summary.shelf"]
-}
-
-
-
-
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  }
 }

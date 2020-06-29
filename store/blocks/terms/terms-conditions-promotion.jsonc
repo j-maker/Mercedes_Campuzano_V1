@@ -5,8 +5,8 @@
         ]
       },
       "flex-layout.row#footer-terms-conditions-promotions": {
-        "props":{
-          "blockClass":"footer-terms-conditions-promotions"
+        "props": {
+          "blockClass": "footer-terms-conditions-promotions"
         },
         "children": [
           "flex-layout.col#col-1-wrapper-terms-conditions-promotions"
@@ -83,8 +83,7 @@
           "textPosition": "JUSTIFY",
           "text": "**BLACK FRIDAY NOVIEMBRE 2019**"
         }
-      },  
-      
+      },
       "rich-text#col-1-paragraph-2-content-terms-conditions-promotions": {
         "props": {
           "blockClass": "footer-terms-content-policies",
@@ -147,7 +146,6 @@
           "allowCookies": true
         }
       },
-    
       "rich-text#col-1-paragraph-6-content-terms-conditions-promotions": {
         "props": {
           "blockClass": "footer-terms-content-policies",
@@ -180,7 +178,6 @@
           "text": "**Durante la Cuarentena.**\n"
         }
       },
-      
       "rich-text#col-1-paragraph-8-content-terms-conditions-promotions": {
         "props": {
           "blockClass": "footer-terms-content-policies",
@@ -196,7 +193,7 @@
           "textPosition": "JUSTIFY",
           "text": "**MOM MIX & MATCH**\n"
         }
-      }, 
+      },
       "rich-text#col-1-paragraph-9-content-terms-conditions-promotions": {
         "props": {
           "blockClass": "footer-terms-content-policies",

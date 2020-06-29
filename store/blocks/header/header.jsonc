@@ -12,11 +12,10 @@
     ]
   },
   "header-layout.desktop": {
-    "children": [     
-      "image#share",
-       "header-row#1-desktop",      /*CAMBIO */
+    "children": [
+      "header-row#1-desktop",
       "header-row#2-desktop",
-     "header-row#3-desktop"
+      "header-row#3-desktop"
     ]
   },
   "header-row#1-desktop": {
@@ -26,16 +25,15 @@
     },
     "children": [
       "header-row#info-1",
-      /*"header-row#info-2",*/
       "header-row#info-3",
       "header-row#info-4",
       "header-row#info-5",
       "header-row#info-6"
     ]
   },
-  "header-row#spacer":{
-    "props":{
-      "width":"grow"
+  "header-row#spacer": {
+    "props": {
+      "width": "grow"
     }
   },
   "header-row#info-1": {
@@ -181,7 +179,6 @@
       "label": "BONO REGALO"
     }
   },
-
   "header-row#2-desktop": {
     "props": {
       "blockClass": "header-2-wrapper",
@@ -239,20 +236,19 @@
   "link#contact-1": {
     "props": {
       "blockClass": "header-2-link",
-      "hred":"https://api.whatsapp.com/send?phone=573174266793",
+      "hred": "https://api.whatsapp.com/send?phone=573174266793",
       "label": "Compras: 317 4266793"
     }
   },
-  /*Header Row 3*/
-      "flex-layout.row#3-desktop": {
-        "props": {
-          "colSizing": "auto",
-          "blockClass": "row-3-wrapper"
-        },
-        "children": [
-          "vtex.menu@2.x:menu#category-menu"
-        ]
-      },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "row-3-wrapper"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
   "header-row#3-desktop": {
     "props": {
       "colSizing": "auto",
@@ -263,7 +259,6 @@
       "flex-layout.row#3-desktop"
     ]
   },
-
   "link#row-3-1": {
     "props": {
       "blockClass": "row-3-links",
@@ -300,8 +295,6 @@
       "minicart.v2"
     ]
   },
-
-
   "logo#desktop": {
     "props": {
       "blockClass": "row-3-logo",
@@ -323,39 +316,21 @@
     "children": [
       "header-row#3-mobile"
     ]
-
   },
   "login#Mc": {
     "props": {
-      "labelClasses":"blockClass",
-      "accountOptionsButtonBehavior":"link",
-      "proveedorPasswordButtonLabel":"Ingresa tu contraseña",
-      "optionsTitle":"INICIA SESIÓN",
-      "emailAndPasswordTitle":"INICIA SESIÓN",
-      "accessCodeTitle":"INGRESA TU CORREO",
-      "showIconProfile":true,
-      "iconLabel":"INICIA SESIÓN",
-      "invalidIdentifierError":"Usuario o Contraseña incorrecta",
-      "showPasswordVerificationIntoTooltip":false
-      /*"logInButtonBehavior": "link"*/
-
-
- /*  
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPraceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "defaultOption": 1
-     "logInButtonBehavior":"link"
-     "blockClass":"header-login",*/
+      "labelClasses": "blockClass",
+      "accountOptionsButtonBehavior": "link",
+      "proveedorPasswordButtonLabel": "Ingresa tu contraseña",
+      "optionsTitle": "INICIA SESIÓN",
+      "emailAndPasswordTitle": "INICIA SESIÓN",
+      "accessCodeTitle": "INGRESA TU CORREO",
+      "showIconProfile": true,
+      "iconLabel": "INICIA SESIÓN",
+      "invalidIdentifierError": "Usuario o Contraseña incorrecta",
+      "showPasswordVerificationIntoTooltip": false
     }
   },
-
-
-
-
-
   "header-row#1-mobile": {
     "props": {
       "colSizing": "auto",
@@ -363,61 +338,12 @@
     },
     "children": [
       "header-row#info-1",
-      /*"header-row#info-2"*/
       "header-row#info-3",
       "header-row#info-4",
       "header-row#info-5",
       "header-row#info-6"
-     ]
-  },
-/*  "header-row#mobile-info-1": {
-    "props": {
-      "blockClass": "header-1-info"
-    },
-    "children": [
-      "image#header-1"
     ]
   },
-  "header-row#mobile-info-2": {
-    "props": {
-      "blockClass": "header-1-info"
-    },
-    "children": [
-      "image#header-2"
-    ]
-  },
-  "header-row#mobile-info-3": {
-    "props": {
-      "blockClass": "header-1-info"
-    },
-    "children": [
-      "image#header-3"
-    ]
-  },
-  "header-row#mobile-info-4": {
-    "props": {
-      "blockClass": "header-1-info"
-    },
-    "children": [
-      "image#header-4"
-    ]
-  },
-  "header-row#mobile-info-5": {
-    "props": {
-      "blockClass": "header-1-info"
-    },
-    "children": [
-      "image#header-5"
-    ]
-  },
-  "header-row#mobile-info-6": {
-    "props": {
-      "blockClass": "header-1-info"
-    },
-    "children": [
-      "image#header-6"
-    ]
-  },*/
   "header-row#2-mobile": {
     "props": {
       "blockClass": "header-2-wrapper"
@@ -430,7 +356,6 @@
     "props": {
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      /*"fullWidth": true,*/
       "blockClass": "row-2-wrapper",
       "colSizing": "auto"
     },
@@ -488,7 +413,6 @@
       "blockClass": "row-3-wrapper",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
-      /*"fullWidth": true*/
     },
     "children": [
       "logo#desktop",
@@ -500,7 +424,6 @@
       "colSizing": "auto",
       "blockClass": "row-3-wrapper",
       "preserveLayoutOnMobile": true
-      /*"fullWidth": true*/
     },
     "children": [
       "login#Mc",
@@ -508,10 +431,9 @@
       "drawer#mobile"
     ]
   },
-  "search-bar":{
-    "props":{
-      "blockClass":"mobile-search-bar"
+  "search-bar": {
+    "props": {
+      "blockClass": "mobile-search-bar"
     }
-    
   }
 }
