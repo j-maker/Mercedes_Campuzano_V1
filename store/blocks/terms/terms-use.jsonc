@@ -1,945 +1,931 @@
 {
-    "store.custom#terms-use": {
-        "blocks": [  
-            "flex-layout.row#footer-terms-use"
-        ]
+  "store.custom#terms-use": {
+    "blocks": [
+      "flex-layout.row#footer-terms-use"
+    ]
+  },
+  "flex-layout.row#footer-terms-use": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "about-us"
     },
-    "flex-layout.row#footer-terms-use": {
-        "props": {
-          "colSizing": "auto",
-          "blockClass": "about-us"
-        },
-        "children": [
-          "flex-layout.col#terms-use-wrapper"
-        ]
-      },
-      "flex-layout.col#terms-use-wrapper": {
-        "props": {
-          "blockClass": "footer-terms-col-wrapper"
-        },
-        "children": [
-          "flex-layout.row#terms-use-title",
-          "flex-layout.row#terms-use-content"
-        ]
-      },
-      "flex-layout.row#terms-use-title": {
-        "props": {},
-        "children": [
-          "rich-text#title-terms-use"
-        ]
-      },
-      "rich-text#title-terms-use": {
-        "props": {
-          "blockClass": "footer-terms-title",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "TÉRMINOS DE USO"
-        }
-      },
-      "flex-layout.row#terms-use-content": {
-        "props":{
-          "blockClass":"terms-use-content-left"
-        },
-        "children": [
-            "flex-layout.col#terms-use-content-left",
-            "flex-layout.col#terms-use-content-right"
-        ]
-      },
-      "flex-layout.col#terms-use-content-left":{
-        "children":[
-            "rich-text#terms-use-content-subtitle-left",
-            "rich-text#terms-use-content-left",
-            "rich-text#terms-use-content-1-subtitle-left",
-            "rich-text#terms-use-content-1-left",
-            "rich-text#terms-use-content-2-subtitle-left",
-            "rich-text#terms-use-content-2-left",
-            "rich-text#terms-use-content-3-subtitle-left",
-            "rich-text#terms-use-content-3-left",
-            "flex-layout.col#terms-use-content-1",
-            "flex-layout.col#terms-use-content-2",
-            "flex-layout.col#terms-use-content-3",
-            "rich-text#terms-use-content-4-subtitle-left",
-            "rich-text#terms-use-content-4-left",
-            "rich-text#terms-use-content-5-subtitle-left",
-            "rich-text#terms-use-content-5-left",
-            "rich-text#terms-use-content-6-subtitle-left",
-            "rich-text#terms-use-content-6-left",
-            "flex-layout.col#terms-use-content-4",
-            "rich-text#terms-use-content-6-1-left",
-            "rich-text#terms-use-content-7-subtitle-left",
-            "rich-text#terms-use-content-7-left",
-            "rich-text#terms-use-content-8-subtitle-left",
-            "rich-text#terms-use-content-8-left",
-            "rich-text#terms-use-content-9-subtitle-left",
-            "rich-text#terms-use-content-9-left",
-            "rich-text#terms-use-content-10-subtitle-left",
-            "rich-text#terms-use-content-10-left",
-            "rich-text#terms-use-content-11-subtitle-left",
-            "rich-text#terms-use-content-11-left",
-            "rich-text#terms-use-content-12-subtitle-left",
-            "rich-text#terms-use-content-12-left",
-            "rich-text#terms-use-content-13-subtitle-left",
-            "rich-text#terms-use-content-13-left",
-            "rich-text#terms-use-content-14-subtitle-left",
-            "rich-text#terms-use-content-14-left",
-            "rich-text#terms-use-content-15-subtitle-left",
-            "rich-text#terms-use-content-15-left",
-            "rich-text#terms-use-content-16-subtitle-left",
-            "rich-text#terms-use-content-16-left",
-            "rich-text#terms-use-content-17-subtitle-left",
-            "rich-text#terms-use-content-17-left"
-        ]
-      },
-      "flex-layout.col#terms-use-content-1":{
-        "children":[
-          "rich-text#terms-use-content-1-subtitle",
-          "rich-text#terms-use-content-1",
-          "rich-text#terms-use-content-2",
-          "rich-text#terms-use-content-3",
-          "rich-text#terms-use-content-4"
-        ]
-      },      
-      "flex-layout.col#terms-use-content-2":{
-        "children":[
-          "rich-text#terms-use-content-2-subtitle",
-          "rich-text#terms-use-content-2-1",
-          "rich-text#terms-use-content-2-2"
-        ]
-      },      
-      "flex-layout.col#terms-use-content-3":{
-        "children":[
-          "rich-text#terms-use-content-3-subtitle",
-          "rich-text#terms-use-content-3-1",
-          "rich-text#terms-use-content-3-2",
-          "rich-text#terms-use-content-3-3",
-          "rich-text#terms-use-content-3-4"
-        ]
-      },
-      "rich-text#terms-use-content-1-subtitle": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "1.Tarjetas crédito:",
-          "blockClass": "footer-terms-content-terms-use-justify"
-        }
-      },      
-      "rich-text#terms-use-content-1": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Visa.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },      
-      "rich-text#terms-use-content-2": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Dinners.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },      
-      "rich-text#terms-use-content-3": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Master Card.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },
-      "rich-text#terms-use-content-4": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "American Express.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },
-
-      "rich-text#terms-use-content-2-subtitle": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "2.Tarjetas débito.",
-          "blockClass": "footer-terms-content-terms-use-justify"
-        }
-      },
-      "rich-text#terms-use-content-2-1": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Maestro.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },      
-      "rich-text#terms-use-content-2-2": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Electron.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },      
-      "rich-text#terms-use-content-3-subtitle": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "3.Pago en efectivo en entidades autorizada.",
-          "blockClass": "footer-terms-content-terms-use-justify"
-        }
-      },
-      "rich-text#terms-use-content-3-1": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Efecty.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },      
-      "rich-text#terms-use-content-3-2": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Gana.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },      
-      "rich-text#terms-use-content-3-3": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Baloto.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },
-      "rich-text#terms-use-content-3-4": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Paga Todo.",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },
-      "flex-layout.col#terms-use-content-4":{
-        "children":[
-          "rich-text#terms-use-content-4-1",
-          "rich-text#terms-use-content-4-2",
-          "rich-text#terms-use-content-4-3"
-        ]
-      },
-      "rich-text#terms-use-content-4-1": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "\n\nEn los contratos de suministro de bienes o servicios cuyo precio esté sujeto a fluctuaciones de coeficientes del mercado financiero que el productor no pueda controlar.\n\n",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },      
-      "rich-text#terms-use-content-4-2": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "\n\nEn los contratos de suministro de bienes confeccionados conforme a las especificaciones del consumidor o claramente personalizados\n\n",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },      
-      "rich-text#terms-use-content-4-3": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "En los contratos de adquisición de bienes de uso personal\n\n",
-          "blockClass": "footer-terms-content-recomendations-block"
-        }
-      },
-      "rich-text#terms-use-content-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**TÉRMINOS DEL CONTRATO**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Por favor lea cuidadosamente el contenido de los siguientes textos. Por el uso de este sitio, acepta los Términos de Uso, Términos del Contrato y Políticas de Privacidad aquí contenidos.\n\n El Contrato entre el cliente y MC HORMAS Y ZAPATOS S.A.S. se entiende perfeccionado cuando una oferta de compra formulada en el sitio web y realizada por MC HORMAS Y ZAPATOS S.A.S., sea aceptada por el cliente. El contrato estará regido por los términos definidos en el presente texto, los cuales rigen la venta de los productos que se realice mediante la utilización de este sitio por parte de MC HORMAS Y ZAPATOS S.A.S. o cualesquiera de sus filiales, subsidiarias o asociadas de negocios que aparezcan en la factura correspondiente. Nuestros servicios están disponibles sólo para aquellos individuos que tengan capacidad legal para contratar, según lo dispuesto por la legislación colombiana vigente. Si El cliente no tiene capacidad legal para contratar, le solicitamos que no utilice nuestros servicios; MC HORMAS Y ZAPATOS S.A.S. no se hará responsable por los perjuicios causados por hechos de los incapaces en virtud de la mala vigilancia de los mismos por parte de sus responsables legales en virtud de los artículos 2347 al 2349 del código civil colombiano.",
-          "blockClass": "footer-terms-content-terms-use-justify"
-        }
-      },
-       "rich-text#terms-use-content-1-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**1. Independencia de Disposiciones.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-1-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "En caso de que una o más de las disposiciones contenidas en este documento sean consideradas nulas, ilegales o ineficaces en cualquier aspecto, la validez, legalidad y exigibilidad o eficacia del resto de las disposiciones del presente documento, no se verán afectadas o anuladas por dicha circunstancia.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-2-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**2. Presentación de Oferta.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-2-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS S.A.S. a través de mercedescampuzano.com, formula la oferta de los diferentes productos que se anuncian y/o describen en este sitio web ('Sitio'). Para efectos de que exista una oferta de compra válida por parte de MC HORMAS Y ZAPATOS S.A.S., se requiere del diligenciamiento por parte del cliente de una forma electrónica disponible en la página web, en la cual se hará constar los datos personales del cliente, la selección de los productos deseados, la forma en que procederá a su pago, los datos que dependiendo de la forma de pago sean necesarios para efectuar el mismo, así como los demás datos que MC HORMAS Y ZAPATOS S.A.S. considere necesarios para que se pueda proceder a realizar la compra por este medio.\n\nLa oferta realizada por MC HORMAS Y ZAPATOS S.A.S. para entenderse perfeccionada se encuentra condicionada en sus efectos a tres circunstancias:\n\nQue se diligencie la forma electrónica mencionada y que ésta sea recibida y aprobada por MC HORMAS Y ZAPATOS S.A.S.\n\nQue exista disponibilidad del producto deseado y ofrecido por parte de MC HORMAS Y ZAPATOS S.A.S. al momento de la aprobación de la forma electrónica referida por parte de MC HORMAS Y ZAPATOS S.A.S.\n\nQue se haya hecho efectivo por parte del cliente el anticipo por el 100% del valor de la mercancía seleccionada por el cliente.\n\nQue el cliente haya aceptado los Términos de Uso, Términos del Contrato y Políticas de Privacidad de este sitio.\n\nUna vez cumplidas estas condiciones la oferta se entenderá perfecta y será obligatoria para MC HORMAS Y ZAPATOS S.A.S., éste procederá de conformidad generando en el sistema una orden de compra e informando al cliente, mediante aviso en el sitio y mediante correo electrónico, que su orden de compra fue registrada en el sistema con un número específico, con el cuál el cliente podrá hacer seguimiento al estado de su pedido.\n\nMC HORMAS Y ZAPATOS S.A.S. se reserva el derecho de modificar los precios de los productos en cualquier momento previo a la aceptación de la oferta por parte del cliente, sin necesidad de avisar dicho cambio de ninguna manera.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-3-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**3. Condiciones de Pago.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-3-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "La presente oferta está condicionada a que el cliente haya elegido y aceptado los términos y condiciones de pago que el sistema le presenta, según los medios de pago que se encuentran establecidos específicamente en el sitio y a que el cliente haya hecho efectivo el anticipo respectivo por un valor equivalente al 100% del valor de la mercancía seleccionada.\n\nAun cuando MC HORMAS Y ZAPATOS S.A.S. ponga a disposición del cliente un sistema de conexión segura para la realización de todas las ofertas de compra, en ningún caso MC HORMAS Y ZAPATOS S.A.S. será responsable por los fallos en las comunicaciones de las entidades bancarias o de crédito, así como tampoco de los daños causados a los usuarios con ocasión de una acción u omisión de dichas entidades. Una vez que MC HORMAS Y ZAPATOS S.A.S. verifique el pago del 100% del anticipo y el cumplimiento de las demás condiciones a que está sujeta la presente oferta, se entenderá perfeccionado el contrato de compra. En todo caso, no obstante haberse verificado el pago del anticipo mencionado, de no cumplirse con las demás condiciones establecidas en el numeral segundo del presente escrito, el contrato no se entiende perfeccionado y por tanto MC HORMAS Y ZAPATOS S.A.S. se compromete a restituirle al usuario, sin ningún tipo de interés o rendimiento, el valor cancelado por concepto del anticipo entregado.\n\nEl pago se efectuará única y exclusivamente por los siguientes medios:\n\nPARÁGRAFO: Antes de la aceptación por parte nuestra de cualquier oferta de compra, el cliente deberá elegir los términos y condiciones de pago del precio correspondiente, según los medios de pago que se encuentran ya específicamente establecidos en este sitio. Aún cuando MC HORMAS Y ZAPATOS S.A.S. ponga a disposición del cliente un sistema de conexión segura para toda la realización de todas las ofertas de compra, en ningún caso será responsable por los fallos en las comunicaciones de las entidades bancarias o de crédito, así como tampoco de los daños causados a los usuarios con ocasión de una acción u omisión de dichas entidades.\n\n",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-4-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**4. Cargos por Envío e Impuestos.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-4-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS S.A.S. será responsable durante el transporte de la mercancía por los gastos de manejo y seguro de los productos que se adquieran en mercedescampuzano.com\n\nAsí mismo, el cliente será responsable de todos los impuestos sobre ventas, impuestos al valor agregado y cualesquiera otros impuestos y gravámenes que se ocasionen por cada oferta de compra aceptada. Todos los impuestos causados por la compra serán liquidados desde el momento en que el cliente acepta la oferta de compra en este sitio, y por tanto podrá conocer el valor exacto a pagar a favor de MC HORMAS Y ZAPATOS S.A.S., el cuál incluirá los conceptos mencionados.\n\nNo se cobrará al cliente el valor del envío de la mercancía adquirida en mercedescampuzano.com cuando el Cliente adquiera zapatos o bolsos y el valor de la compra supere cien mil pesos ($100.000.oo) M/L. En ese caso el valor del trasporte de la mercancía será asumido por MC HORMAS Y ZAPATOS S.A.S.\n\n",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-5-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**5. Precio.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-5-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El valor total de la compra estará compuesto de los siguientes rubros a cargo del cliente: valor del producto, impuestos y gastos de transporte si fuere el caso.\n\nPARÁGRAFO PRIMERO: MC HORMAS Y ZAPATOS S.A.S. se compromete a revisar constantemente y a actualizar los precios que se mencionan en la página web y a su vez, nuestro cliente y/o usuario, debe estar atento en caso de presentarse alguna fluctuación en los mismos.\n\nPARÁGRAFO SEGUNDO: MC HORMAS Y ZAPATOS S.A.S. informará o publicará la tarifa de transporte y envío que tendrán los bienes los cuáles se generarán dependiendo de los costos, rubros y políticas de la empresa transportadora, las cuáles son independientes autónomas y ajenas a MC HORMAS Y ZAPATOS S.A.S. Dentro del costo del flete se deberá tener en cuenta el lugar del territorio colombiano al cual se deban enviar los productos adquiridos, el tamaño y el peso de los mismos.\n\n",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-6-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**6. Derecho de retracto.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-6-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El consumidor deberá devolver el producto a MC HORMAS Y ZAPATOS S.A.S. por los mismos medios y en las mismas condiciones en que lo recibió. Los costos de transporte y los demás que conlleve la devolución del bien serán cubiertos por el consumidor. El término máximo para ejercer el derecho de retracto será de cinco (5) días hábiles contados a partir de la entrega del bien o de la celebración del contrato en caso de la prestación de servicios.\n\nSe exceptúan del siguiente caso y según el objeto social que desempeña MC HORMAS Y ZAPATOS S.A.S., los siguientes casos:\n\n",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-6-1-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS S.A.S. deberá devolverle en dinero al consumidor todas las sumas pagadas sin que proceda a hacer descuentos o retenciones por concepto alguno. En todo caso la devolución del dinero al consumidor no podrá exceder de treinta (30) días calendario desde el momento en que ejerció el derecho.",
-          "blockClass": "footer-terms-content-terms-use"
-        
-        }
-      },
-      "rich-text#terms-use-content-7-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**7. Reversión del pago**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-7-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "La ley dispone que en las ventas efectuadas mediante mecanismos de comercio electrónico, tales como Internet, y se haya utilizado para realizar el pago una tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico, los participantes del proceso de pago deberán reversar los pagos que solicite el consumidor cuando sea objeto de fraude, o corresponda a una operación no solicitada, o el producto adquirido no sea recibido, o el producto entregado no corresponda a lo solicitado o sea defectuoso.\n\nPara que proceda la reversión del pago, dentro los cinco (5) días hábiles siguientes a la fecha en que el consumidor tuvo noticia de la operación fraudulenta o no solicitada o que debió haber recibido el producto o lo recibió defectuoso o sin que correspondiera a lo solicitado, el consumidor deberá presentar queja ante el MC HORMAS Y ZAPATOS S.A.S. y devolver el producto, cuando sea procedente, y notificar de la reclamación al emisor del instrumento de pago electrónico utilizado para realizar la compra, el cuál, en conjunto con los demás participantes del proceso de pago, procederán a reversar la transacción al comprador.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-8-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**8. Remisión de los productos.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-8-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El envío de los productos se realizará únicamente dentro del territorio colombiano, a través de correo certificado, en un plazo máximo de nueve (9) días hábiles, contados a partir de la aceptación de la oferta, siempre y cuando no medie ningún caso fortuito o fuerza mayor, entre los cuáles se encuentra a manera de ejemplo, hechos del hombre o de la naturaleza, como huelgas, paros, revoluciones, rebelión sedición, asonada, atentados, cortes de fluidos, derrumbes, terremotos, avalanchas, desbordamientos, caídas de puentes, entre otros.\n\nPARÁGRAFO PRIMERO: El lugar de envío será a dirección señalada por el cliente en la oferta que este elabore en el formato destinado para tal fin, el cuál podrá ser el mismo lugar de habitación del comprador u otro que este designe. Se entiende que cualquier persona que se encuentre en el domicilio donde se debe realizar la entrega, se encuentra debidamente autorizado por el cliente para recibir su pedido, por lo que MC HORMAS Y ZAPATOS S.A.S. queda exonerado de cualquier responsabilidad al momento de la entrega, siempre y cuando la misma se haga en el domicilio registrado al momento de la compra en el sitio web.\n\n PARÁGRAFO SEGUNDO: La empresa transportadora tendrá la obligación de hacer máximo dos (3) intentos de entrega de los productos adquiridos. En caso que los intentos de entrega resulten infructuosos, retornarán los bienes a la fábrica y se procederá a la devolución de los dineros consignados, salvo el valor del envío, sin ningún tipo de interés, retribución o suma adicional y sin importar la causa u origen que pueda tener la devolución. Igualmente se considera entrega infructuosa si el destinatario del producto es menor de catorce (14) años y no se encuentra acompañado de un padre, tutor o acudiente que firme junto con el destinatario el recibido del producto.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-9-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**9. Factura.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-9-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "La factura se remitirá junto con el producto adquirido a la dirección mencionada por el cliente.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-10-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**10. Transmisión de la propiedad.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-10-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "La transmisión de la propiedad se realiza tan pronto como MC HORMAS Y ZAPATOS S.A.S. coloque el bien o el producto en manos de la empresa transportadora, para ser remitido al cliente o a la persona que este designe.\n\nPARÁGRAFO PRIMERO: No obstante lo anterior, el cliente o destinatario del bien o producto, deberá abstenerse de recibir el mismo inmediatamente, en caso de que el empaque o embalaje del producto, presente daños, rupturas, aberturas u otras similares, dejando la debida anotación o constancia de ese hecho.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-11-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**11. Embajale de los productos**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-11-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Nuestro cliente acepta que los productos sean empacados y presentados en bolsa plástica y/o caja de cartón que cumple con las condiciones necesarias para la conservación adecuada del producto.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-12-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**12. Comentarios.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-12-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS S.A.S. se reserva el derecho de publicar o abstenerse de publicar cualquiera de los comentarios efectuados por los usuarios de nuestra página web a los productos. En este mismo sentido, en cualquier momento podrá un comentario ser retirado de la página web mencionada.\n\nPARÁGRAFO ÚNICO: Todo comentario que se publique, deberá ser efectuado con un lenguaje cordial, respetuoso y relacionado con el objeto sobre el cuál se comenta.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-13-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**13. Responsabilidad limitada.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-13-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Sin perjuicio de lo determinado en las normas imperativas de la Legislación Colombiana aplicable, MC HORMAS Y ZAPATOS S.A.S. no asume responsabilidad alguna, incluyendo cualquier responsabilidad por cualquier daño o perjuicio, incluyendo mas no limitado la pérdida de información o utilidades, existencia de virus, resultados del uso o la incapacidad para usar el material en este sitio, oportunidades de negocios perdidas, o cualquier otro daño, aun cuando el usuario nos haya avisado acerca de la posibilidad de tales daños, o por cualquier reclamo de terceros, salvo lo que expresamente aquí se estipula.\n\nBajo los términos aquí señalados, MC HORMAS Y ZAPATOS S.A.S. no asume ninguna responsabilidad por la información que se suministra en la página, incluyendo pero sin limitarse a la referente a productos y/o servicios, notas de interés, opiniones, consejos prácticos y solución de inquietudes. MC HORMAS Y ZAPATOS S.A.S. no asume responsabilidad alguna por la imposibilidad de, o por problemas en, la utilización del sitio o de alguna de las páginas que lo conforman, incluyendo pero sin limitarse a eventos tales como problemas en el servidor o en la conexión, interrupciones en su comunicación, problemas técnicos. En caso de que el uso del material de este sitio dé como resultado la necesidad de dar servicio a, reparar o corregir equipo o información, el usuario asume cualquier costo derivado de ello.\n\nPARÁGRAFO PRIMERO: La responsabilidad de MC HORMAS Y ZAPATOS S.A.S. se limitará en una cuantía idéntica al valor del producto adquirido, o en su defecto, al valor del producto solicitado por el cliente.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-14-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**14. Origen de los fondos**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-14-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El cliente solemnemente declara y sostiene:\n\n a. Los recursos con los cuales efectuó la compra, provienen de operación, oficio, profesión actividad o negocio lícito.\n\nb. Los dineros con los que efectuó la compra NO fueron obtenidos en virtud de cualquier tipo de conducta que esté consagrada en la ley colombiana como falta constitutiva de infracción penal.\n\n c. Nunca he permitido que terceras personas utilicen mis cuentas o mis tarjetas de crédito o débito para consignar o administrar dineros que desconozca su origen o provengan de conductas contrarias a la ley y especialmente a la ley penal.\n\nd. Eximo a MC HORMAS Y ZAPATOS S.A.S. de toda responsabilidad por la información errónea, falsa, inexacta que se hubiese suministrado en este documento o por la violación del mismo, de tal suerte que seré el único responsable por ello.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-15-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**15. Perfeccionamiento y Transferencia de Propiedad**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-15-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El perfeccionamiento del contrato se presenta cuando el cliente acepta la oferta de compra presentada por MC HORMAS Y ZAPATOS S.A.S., dicho perfeccionamiento del contrato se entiende hecho cuando MC HORMAS Y ZAPATOS S.A.S. procede al embarque de los respectivos productos seleccionados por el cliente.\n\nUna vez perfeccionado el contrato en los términos anteriormente mencionados no se podrán realizar cancelaciones de los pedidos, de hacerse, dará lugar al incumplimiento del contrato por parte del cliente y dará lugar a que MC HORMAS Y ZAPATOS S.A.S. interponga las acciones legales a que tiene derecho en virtud de dicho incumplimiento. Lo anterior sin perjuicio del derecho de retracto a favor del comprador ejercido de conformidad con la ley.\n\nEn caso de que el cliente elija más de un producto en el sitio y uno o más de esos productos no cumplan con la condición de disponibilidad por parte de MC HORMAS Y ZAPATOS S.A.S., se entenderá perfeccionado el contrato por las mercancías que si se encuentran disponibles, se informará al cliente, mediante aviso en el sitio, de la no disponibilidad de las demás y se generará la orden de compra y la correspondiente factura de conformidad con los productos disponibles.\n\nEn los eventos de pago contra entrega, la propiedad sobre los productos se transmitirá al cliente desde el momento en que los mismos sean cancelados por éste en el lugar de entrega. En el evento que el precio de los productos objeto de una oferta de compra no sea pagado, se entenderá que existe incumplimiento del contrato, lo cuál es causal para darlo por terminado por parte de MC HORMAS Y ZAPATOS S.A.S. asumiendo el cliente el valor de la devolución de dichos productos al respectivo depósito, así como el monto de los perjuicios derivados de dicho incumplimiento. En los eventos de pago por los demás medios posibles, de acuerdo a lo establecido en este sitio, la propiedad sobre los productos se transmitirá al cliente desde el mismo momento del perfeccionamiento del contrato, es decir, desde que los mismos se embarquen desde los depósitos y/o almacenes autorizados de MC HORMAS Y ZAPATOS S.A.S. en la República de Colombia.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-16-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**16. Entrega de los Productos**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-16-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS S.A.S. se compromete a realizar entregas exclusivamente dentro del territorio colombiano, en las zonas y lugares a los que tenga acceso de acuerdo a su red de distribución, y por consiguiente el perfeccionamiento del contrato de compraventa está condicionado a que el domicilio registrado por el cliente para realizar la entrega, se encuentre dentro de las zonas geográficas habilitadas por MC HORMAS Y ZAPATOS S.A.S., las cuáles se indican el sitio. De no encontrarse un municipio del territorio colombiano en la lista que despliega el sitio para el efecto, deberá entenderse que no se tiene esa zona geográfica habilitada y que por tanto no se entenderá celebrado el contrato al no cumplirse la condición mencionada para su perfeccionamiento y en consecuencia no se procederá al envío de las mercancías.\n\nLos productos objeto de la compraventa serán entregados en el domicilio que el cliente haga constar en el formulario electrónico que le presenta el sitio, dentro de un plazo máximo de cinco (5) días hábiles, contados a partir de la fecha en que se envíe por parte de MC HORMAS Y ZAPATOS S.A.S. la confirmación de la orden de compra que genera el sistema y siempre y cuando se hayan determinado por anticipado los términos y condiciones de pago y no se presenten causas ajenas a la voluntad de MC HORMAS Y ZAPATOS S.A.S. que pudieran retrasar la entrega, como cualquier evento de caso fortuito o fuerza mayor. Se entiende que cualquier persona que se encuentre en el domicilio donde debe realizarse la entrega, se encuentra debidamente autorizado por el cliente para recibir su pedido, y por tanto MC HORMAS Y ZAPATOS S.A.S. queda exonerado de cualquier responsabilidad por la entrega que realizare, siempre que la misma se haga en el domicilio registrado en nuestro sitio. Si nadie recibe el pedido en el domicilio señalado, MC HORMAS Y ZAPATOS S.A.S. procederá a la devolución de los productos al respectivo depósito, y el cliente estará en la obligación de contactarnos en un término máximo de cinco (5) días calendario para que procedamos a su reenvío, en cuyo caso, los gastos generados por el mismo, correrán por cuenta del cliente, y hasta tanto los mismos no sean cancelados, MC HORMAS Y ZAPATOS S.A.S. no estará en obligación de hacer nuevamente el despacho. Si el cliente no procede a solicitar el reenvío en el término indicado, o no cancela el valor adicional por el reenvío, MC HORMAS Y ZAPATOS S.A.S. podrá desistir del negocio, y estará obligado sólo a restituir el monto pagado por los productos, descontando el valor de los gastos incurridos por transporte.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-17-subtitle-left": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**17. Productos y/o servicios.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-17-left": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Es política de MC HORMAS Y ZAPATOS S.A.S. la actualización y revisión constante de los productos que se exhiben en este sitio. MC HORMAS Y ZAPATOS S.A.S. puede modificar y descontinuar productos en cualquier momento. MC HORMAS Y ZAPATOS S.A.S. se obliga a despachar productos de las mismas características de calidad que normalmente se exhiben en sus puntos de venta, sin embargo los colores de los productos que el cliente ve en su monitor dependen del mismo, por lo tanto MC HORMAS Y ZAPATOS S.A.S. no garantiza que el color que muestre el monitor del cliente sea exactamente igual al color real del producto.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-
-
-
-
-
-
-
-
-
-      "flex-layout.col#terms-use-content-right":{
-
-        "children":[
-            "rich-text#terms-use-content-18-subtitle-right",            
-            "rich-text#terms-use-content-18-right",
-            "rich-text#terms-use-content-19-subtitle-right",            
-            "rich-text#terms-use-content-19-right",
-            "rich-text#terms-use-content-20-subtitle-right",            
-            "rich-text#terms-use-content-20-right",
-            "rich-text#terms-use-content-21-subtitle-right",            
-            "rich-text#terms-use-content-21-right",
-            "rich-text#terms-use-content-subtitle-right",
-            "rich-text#terms-use-content-right",
-            "rich-text#terms-use-content-1-subtitle-right",            
-            "rich-text#terms-use-content-1-right",
-            "rich-text#terms-use-content-2-subtitle-right",            
-            "rich-text#terms-use-content-2-right",
-            "rich-text#terms-use-content-3-subtitle-right",            
-            "rich-text#terms-use-content-3-right",
-            "rich-text#terms-use-content-4-subtitle-right",            
-            "rich-text#terms-use-content-4-right",
-            "rich-text#terms-use-content-5-subtitle-right",            
-            "rich-text#terms-use-content-5-right",
-            "rich-text#terms-use-content-6-subtitle-right",            
-            "rich-text#terms-use-content-6-right",
-            "rich-text#terms-use-content-7-subtitle-right",            
-            "rich-text#terms-use-content-7-right",
-            "rich-text#terms-use-content-8-subtitle-right",            
-            "rich-text#terms-use-content-8-right",
-            "rich-text#terms-use-content-9-subtitle-right",            
-            "rich-text#terms-use-content-9-right",
-            "rich-text#terms-use-content-10-subtitle-right",            
-            "rich-text#terms-use-content-10-right",
-            "rich-text#terms-use-content-11-subtitle-right",            
-            "rich-text#terms-use-content-11-right",
-            "rich-text#terms-use-content-12-subtitle-right",            
-            "rich-text#terms-use-content-12-right",
-            "rich-text#terms-use-content-13-subtitle-right",            
-            "rich-text#terms-use-content-13-right",
-            "rich-text#terms-use-content-14-subtitle-right",            
-            "rich-text#terms-use-content-14-right",
-            "rich-text#terms-use-content-15-subtitle-right",            
-            "rich-text#terms-use-content-15-right",
-            "rich-text#terms-use-content-16-subtitle-right",            
-            "rich-text#terms-use-content-16-right"
-          
-          ]
-      },
-      "rich-text#terms-use-content-18-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**18. Devoluciones y Cambios.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-18-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS S.A.S. procederá a efectuar devoluciones de dinero por concepto de mercancía comprada en el sitio, siempre y cuando la solicitud de devolución se presente al Representante de servicio al cliente dentro de los 5 días hábiles siguientes a la recepción del producto. En los casos en que la solicitud de devolución se efectúe por fuera del plazo anteriormente señalado, MC HORMAS Y ZAPATOS S.A.S. no se encuentra obligado a aceptar devoluciones de producto, salvo defectos de calidad del mismo.\n\nMC HORMAS Y ZAPATOS S.A.S. asumirá el 100% de los fletes requeridos para la devolución del producto en las ciudades principales. Se reconocerá al cliente que efectúe la devolución únicamente el valor del artículo que se devuelve, dicha devolución se hará cargando el valor del artículo a la tarjeta de crédito o débito que el cliente haya registrado en el sitio y con la cual haya efectuado la compra o por medio de un bono que se enviará al cliente vía email.\n\nLa solicitud de cambio o devolución la deberá hacer el cliente a través de “servicio al cliente” quien para el efecto ha designado la siguiente línea telefónica 018000 41 36 58, a través de la cual se le indicará al cliente el procedimiento a seguir para efectuar devoluciones. Estas solicitudes también podrán hacerse directamente en los puntos de venta de formato MERCEDES CAMPUZANO y franquicias en las cuáles se le indicará al cliente el procedimiento a seguir para efectuar cambios o devoluciones solicitados.\n\nNo se podrán efectuar cambios o devoluciones de productos adquiridos a través del sitio, en los diferentes almacenes de cadena en donde se comercializan los productos de la marca MERCEDES CAMPUZANO.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-
-      "rich-text#terms-use-content-19-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**19. Otros Documentos.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-19-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Estos términos no pueden ser alterados, complementados o enmendados por medio del uso de ningún otro documento. Todo intento de alterar, complementar o enmendar este documento o de presentar o aceptar una oferta de compra de producto(s) que esté sujeta a términos y condiciones adicionales o distintos, no tendrá ningún efecto, salvo que se haya acordado de manera distinta mediante convenio por escrito firmado por el cliente y MC HORMAS Y ZAPATOS S.A.S.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-20-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**20. Legislación Aplicable y Jurisdicción.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-20-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Estos términos y condiciones de venta se regirán e interpretarán de acuerdo con las leyes de la República de Colombia. Cualquier controversia que derive de este documento se someterá a los tribunales del Municipio de Medellín (Colombia), y tanto MC HORMAS Y ZAPATOS S.A.S. como el cliente renuncian expresamente a cualquier otro fuero que pudiera corresponderles en razón de su domicilio presente o futuro.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-21-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**21. Opciones en caso de problemas en la entrega.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-21-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Si MERCEDESCAMPUZANO.COM descubre antes de celebrar el contrato que no puede suministrar los productos pedidos, podrá ofrecerle un producto equivalente en términos de calidad, precio y función. Usted no estará obligado a aceptar el producto de sustitución. Si así lo desea, usted podrá devolverlo en el plazo de 30 días y MERCEDESCAMPUZANO.COM correrá con los gastos (obviamente, seguirá existiendo su derecho de cancelación o devolución). Si MERCEDESCAMPUZANO.COM descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**TÉRMINOS DE USO**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Por favor lee cuidadosamente el contenido de los siguientes textos. Por el uso de este sitio, aceptas los Términos de Uso, Términos del Contrato y Políticas de Privacidad aquí contenidos.",
-          "blockClass": "footer-terms-content-terms-use-justify"
-        }
-      },
-      "rich-text#terms-use-content-1-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**1. Las partes.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-1-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Entre el cliente y/o usuario, quien actúa directamente, si es una persona natural o por medio de una persona debidamente facultada para actuar a nombre y representación, en caso de ser una persona jurídica, y de otro lado MERCEDES CAMPUZANO, marca nacional perteneciente a MC HORMAS Y ZAPATOS S.A.S., sociedad comercial debidamente constituida bajo las leyes colombianas, que cuenta con un sitio web mercedescampuzano.com, celebran el presente contrato de conformidad con los términos y condiciones de uso que hacen parte integral de este contrato.\n\nMC HORMAS Y ZAPATOS S.A.S., en todo caso presumirá de buena fe que está contratando directamente con el cliente o con su representante legal debidamente facultado para efectuar este tipo de operaciones y ninguna responsabilidad deberá asumir MC HORMAS Y ZAPATOS S.A.S. por suplantación personal que realice cualquier cliente y/o usuario.\n\nPARÁGRAFO PRIMERO: Para realizar cualquier compra, es requisito esencial registrarse, identificarse y presentarse como usuario en la página web, actividades que se realizan por medio de una cuenta de correo electrónico y una clave secreta del cliente, la cual es de carácter personal, intransferible y de responsabilidad exclusiva y excluyente del cliente.\n\nPARÁGRAFO SEGUNDO: Es responsabilidad del cliente cualquier uso que de la clave suministrada se realice, la cual no podrá ser transferida o revelada a terceros bajo ningún motivo. Así mismo, el cliente deberá adoptar todas las medidas de seguridad necesarias para evitar el mal uso o el conocimiento de esta por parte de terceros. Se recomienda efectuar el cambio de clave de manera periódica.\n\nPARÁGRAFO TERCERO: En caso de pérdida, olvido o exposición a terceros de la clave, deberá remitirse a la sección de autenticación del sitio en donde hay un link recordar contraseña, en donde siguiendo las instrucciones, el cliente podrá recuperar su contraseña, a través de su correo electrónico o cambiar la clave. Si por algún motivo no logra solucionar el inconveniente debe escribir al email: servicioalcliente@mercedescampuzano.com",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-2-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**2. La actividad.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-2-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS S.A.S., pondrá a disposición de los clientes, los colores en los que pueden adquirir los productos. Estos se exhibirán de la manera más real posible, sin embargo hay que tener en cuenta que con cada equipo/computador, el color que se elija podrá variar, por lo que la empresa no se hace responsable de este hecho si el cliente solicitara cambio por error en la selección del color.\n\n",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-3-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**3. Aceptación de Términos.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-3-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Al acceder, hojear y/o usar este sitio, el usuario admite haber leído y entendido estos Términos de Uso y está de acuerdo en sujetarse a los mismos y cumplir con todas las leyes y reglamentos aplicables que hagan parte de la Legislación Colombiana. Además, cuando el usuario utilice cualquier servicio suministrado en este sitio, por ejemplo, buzones de sugerencias y concursos, estará sujeto a las reglas, guías, políticas, términos y condiciones aplicables a dicho servicio. En caso de que el usuario no esté de acuerdo con estos términos, favor abstenerse de usar este sitio. Este sitio es controlado y operado por MC HORMAS Y ZAPATOS S.A.S. desde sus oficinas ubicadas en Medellín, Colombia. MC HORMAS Y ZAPATOS S.A.S. no se responsabiliza de que el material en este sitio sea apropiado o esté disponible para su uso en otros lugares, estando prohibido su acceso desde territorios donde su contenido sea ilegal. Aquellos que decidan acceder a este sitio desde otros lugares lo harán bajo su propia iniciativa y es su responsabilidad el sujetarse a las leyes locales que sean aplicables. Cualquier reclamo con relación a, y al uso de, este sitio y el material en él contenido está regulado por las leyes de Colombia. Estos términos y condiciones están sujetos a cambios sin previo aviso en cualquier momento, bajo la sola voluntad de MC HORMAS Y ZAPATOS S.A.S., y a partir de la fecha de modificación de estos términos y condiciones, todas las operaciones que se celebren entre MC HORMAS Y ZAPATOS S.A.S. y el usuario se regirán por el documento modificado.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-4-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**4. Encabezados.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-4-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Los encabezados de las cláusulas de estos Términos y Condiciones son únicamente para facilitar la consulta y no forman parte de los mismos, y de ellos no se podrán inferir o derivar ningún significado o interpretación.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-5-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**5. Independencia de Disposiciones**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-5-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "En caso de que una o más de las disposiciones contenidas en estos Términos y Condiciones sean consideradas nulas, ilegales o ineficaces en cualquier aspecto, la validez, legalidad, exigibilidad o eficacia del resto de las disposiciones aquí contenidas no se verán afectadas o anuladas por dicha circunstancia.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },      
-      "rich-text#terms-use-content-6-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**6. mercedescampuzano.com**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-6-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "mercedescampuzano.com es un sitio web dedicado al comercio electrónico mediante la venta de productos que se entregan exclusivamente en el territorio de la República de Colombia. El dominio mercedescampuzano.com es de propiedad de la sociedad MC HORMAS Y ZAPATOS S.A.S. sociedad comercial constituida bajo las leyes colombianas, cuya actividad principal es la comercialización de calzado y productos afines a través de su marca MERCEDES CAMPUZANO.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-7-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**7. Revisión de los términos.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-7-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS S.A.S. puede en cualquier momento revisar estos Términos de Uso aquí contenidos, por medio del reajuste de este anuncio. Al usar mercedescampuzano.com, el usuario conviene en darse por obligado por cualquiera de tales revisiones, las cuales estarán vigentes a partir del momento en que las mismas sean accesibles por los usuarios, debiendo entonces visitar periódicamente esta página para determinar los términos vigentes en ese momento a los cuales el usuario estará obligado en el evento que decida utilizar este Sitio.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },      
-      "rich-text#terms-use-content-8-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**8. Propiedad industrial.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-8-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Todas las marcas, enseñas, logos, nombres y cualesquiera otros signos distintivos, así como los modelos de utilidad y/o diseños industriales y demás elementos de propiedad industrial o intelectual insertados, usados y/o desplegados en este Sitio son Propiedad exclusiva de MC HORMAS Y ZAPATOS S.A.S. y en algunos casos son de propiedad de terceros que han autorizado expresamente a MC HORMAS Y ZAPATOS S.A.S. para su uso y/o explotación. Igualmente, en algunos casos el uso de propiedad Industrial de terceros ha sido autorizado por la ley de manera general, y en consecuencia su uso no requiere de autorización previa y expresa de su titular. Nada en mercedescampuzano.com podrá ser interpretado como concesión u otorgamiento a cualquier título de autorizaciones, licencias o cualquier otro derecho para usar o disponer de cualquier forma de la Propiedad Industrial, sin el permiso por escrito de MC HORMAS Y ZAPATOS S.A.S. o del titular de los derechos de la misma. Cualquier uso no autorizado constituirá una violación a los presentes Términos y Condiciones y a las normas vigentes nacionales e internacionales sobre Propiedad Industrial.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-9-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**9. Derechos de Autor.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-9-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Todo el material informático, gráfico, publicitario, fotográfico, de multimedia, audiovisual y/o de diseño, así como todos los contenidos, textos y bases de datos puestos a su disposición y/o alcance en este Sitio son de propiedad exclusiva de MC HORMAS Y ZAPATOS S.A.S., o en algunos casos, de terceros que han autorizado a MC HORMAS Y ZAPATOS S.A.S. su uso y/o explotación (en adelante “los Contenidos”). Igualmente, el uso en mercedescampuzano.com de algunos Contenidos de propiedad de terceros se encuentra expresamente autorizado por la ley. Todos los Contenidos en mercedescampuzano.com están protegidos por las normas sobre propiedad intelectual y por todas las normas nacionales e internacionales que le sean aplicables.\n\nExceptuando lo expresamente estipulado en estos Términos y Condiciones, queda prohibido todo acto de copia, reproducción, modificación, creación de trabajos derivados, venta o distribución, exhibición de los Contenidos, de ninguna manera o por ningún medio, incluyendo, más no limitado a, medios electrónicos, mecánicos, de fotocopiado, de grabación o de cualquier otra índole, sin el permiso previo por escrito de MC HORMAS Y ZAPATOS S.A.S. como titular de dichos derechos. En ningún caso estos Términos y Condiciones confieren derechos, licencias y/o autorizaciones para realizar los actos anteriormente descritos. Cualquier uso no autorizado de los Contenidos constituirá una violación a los presentes Términos y Condiciones y a las normas vigentes sobre propiedad intelectual. MC HORMAS Y ZAPATOS SAS. Otorga al usuario una licencia y derecho personal, intransferible y no exclusivo para desplegar mercedescampuzano.com en pantalla de un computador ordenador o dispositivo PDA bajo su control, y para emplear los Contenidos de propiedad de MC HORMAS Y ZAPATOS S.A.S. únicamente para uso personal, no comercial, e intransferible, con la condición de que el usuario no modifique de ninguna forma los Contenidos y que conserve todas las leyendas de derechos de propiedad intelectual y de otro tipo de propiedad contenidas en los mismos. Esta licencia no se extiende a la Propiedad Industrial de MC HORMAS Y ZAPATOS S.A.S. o de terceros, y termina automáticamente ante el incumplimiento del usuario de cualquiera de las previsiones de estos Términos y Condiciones. MC HORMAS Y ZAPATOS S.A.S. otorga al usuario una licencia y derecho personal e intransferible y no exclusivo para utilizar el código objeto (no el código fuente) del software de mercedescampuzano.com en un solo computador pantalla u ordenador, y siempre que no copie, modifique, cree, distribuya, reproduzca o exhiba un trabajo derivado de ello, invierta el proceso, invierta el montaje o de algún modo intente descubrir algún código de acceso, vender, ceder, sublicenciar, prestar garantía o transferir cualquier derecho en el software de mercedescampuzano.com. El usuario se obliga por los presentes Términos y Condiciones a no modificar el software del Sitio de ninguna manera.\n\nSignos distintivos\n\nLos signos distintivos de MERCEDES CAMPUZANO y cualquier otro exhibido en esta página, es de titularidad de MC HORMAS Y ZAPATOS S.A.S. Bajo ningún supuesto se podrá considerar que se permite el uso o se está concediendo una licencia cualquiera que sea su carácter, sobre las marcas, nombres comerciales, enseñas o lemas. Por lo tanto, se considera expresamente prohibido el uso de los mismos, so pena de verse incurso en las responsabilidades civiles y penales a que haya lugar.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },      
-      "rich-text#terms-use-content-10-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**10. Formación y perfeccionamiento.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-10-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "El contrato de compraventa de productos de MC HORMAS Y ZAPATOS S.A.S., se perfecciona solamente cuando el cliente en atención a la invitación a ofrecer realizada por MC HORMAS Y ZAPATOS S.A.S. presente la oferta de compra mediante la selección del producto y efectúe el pago según las modalidades de pago ofrecidas en la página.\n\nEn ningún caso, MC HORMAS Y ZAPATOS S.A.S. estará obligado bajo ningún supuesto a aceptar una oferta de compra. PARÁGRAFO ÚNICO: Si la compra que se pretende efectuar llegare a superar una cantidad de veinte (20) productos, MC HORMAS Y ZAPATOS S.A.S. se reserva la potestad de enviar esta oferta de compra al canal de negocios empresariales de la empresa por considerarse una venta institucional, con el fin de evitar la comercialización indebida de productos.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },     
-      "rich-text#terms-use-content-11-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**11. Linking, Deeplinking y Framing**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-11-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "MC HORMAS Y ZAPATOS SAS. Prohíbe el uso de los nombre y/o logotipos, marcas y cualesquiera otros signos distintivos de su propiedad como enlaces hipertextuales o de cualquier otra forma ('links') direccionados a sitios en Internet cuyo URL sea diferente de http://www.mercedescampuzano.com, a menos que el establecimiento de un enlace de tal naturaleza sea aprobado por MC HORMAS Y ZAPATOS S.A.S. por escrito en cuyo caso deberá atenerse a los criterios y manuales de diseño y publicidad establecidos por MC HORMAS Y ZAPATOS S.A.S. - MC HORMAS Y ZAPATOS S.A.S. se reserva el derecho de solicitar el retiro o retirar enlaces que hayan sido establecidos en sitios web sin su expresa y previa autorización. El establecimiento en páginas no controladas por MC HORMAS Y ZAPATOS S.A.S. de enlaces a subdirectorios dentro del URL http://MERCEDESCAMPUZANO.COM (Deeplinking) queda prohibido. El despliegue, uso, exhibición, copia o cualquier otra forma de reproducción del Sitio http://www.mercedescampuzano.com o de cualquiera de sus subdirectorios y/o páginas, en sitios no controlados por MC HORMAS Y ZAPATOS S.A.S. (“Framing”) queda expresamente prohibido. La inobservancia de estas prohibiciones será una violación a los derechos de propiedad intelectual sobre los Contenidos y a los derechos sobre la Propiedad Industrial.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },  
-      "rich-text#terms-use-content-12-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**12. Consultas.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-12-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Cualquier pregunta relacionada con el uso de marcas, enseñas, logos, signos distintivos y en general de cualquier elemento de Propiedad Industrial del Sitio, así como las relacionadas con el uso de los Contenidos o con el establecimiento de Links hacia el URL http://www.mercedescampuzano.com podrá ser hecha a MC HORMAS Y ZAPATOS S.A.S. en Colombia al teléfono (574) 2661822. Su uso, en contravención de lo aquí dispuesto, dará lugar a las acciones civiles y penales correspondientes.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },      
-      "rich-text#terms-use-content-13-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**13. Exoneración y Garantías.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-13-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "De conformidad con la Ley de la República de Colombia, el material contenido en este Sitio, incluyendo sin limitación, textos, gráficos y vínculos (links), son suministrados sobre la base de 'tal como es' ('as is), sin haber de por medio garantías de cualquier tipo, ya sea expresas o implícitas, incluyendo, mas no limitado a, garantías de comerciabilidad, adecuación para un propósito particular, no contravención u otra violación de derechos. MC HORMAS Y ZAPATOS S.A.S. no garantiza el uso, validez, precisión o confiabilidad de, o los resultados del uso de, o cualquier otra situación con respecto a, el material en este Sitio o cualquier sitio web enlazado con este Sitio **MERCEDESCAMPUZANO.COM advierte** a sus clientes que la información de este sitio web puede contener errores o inexactitudes, no estar completa o actualizada. Por ello, MC HORMAS Y ZAPATOS S.A.S. se reserva el derecho de corregir cualquier error, omisión o inexactitud, cambiar o actualizar la misma en cualquier momento y sin previo aviso. Adicionalmente, se advierte que el precio que se deberá pagar por cada artículo adquirido será el precio vigente en el Almacén al momento de hacerse el despacho para la entrega.\n\nOfrecemos disculpas por cualquier inconveniente que esto pueda causar",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },      
-      "rich-text#terms-use-content-14-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**14. Responsabilidad Limitada.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-14-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Sin perjuicio de lo determinado en las normas imperativas de la Legislación Colombiana aplicable, MC HORMAS Y ZAPATOS S.A.S. no asume responsabilidad alguna, incluyendo cualquier responsabilidad por cualquier daño o perjuicio, incluyendo mas no limitado a, pérdida de información o utilidades, existencia de virus, resultados del uso o la incapacidad para usar el material en este Sitio, oportunidades de negocios perdidas, o cualquier otro daño, aun cuando el usuario nos haya avisado acerca de la posibilidad de tales daños, o por cualquier reclamo de terceros, salvo lo que expresamente aquí se estipula. Bajo los términos aquí señalados, MC HORMAS Y ZAPATOS S.A.S. no asume ninguna responsabilidad por la información que se suministra en la página, incluyendo pero sin limitarse a la referente a productos, notas de interés, opiniones, consejos prácticos y solución de inquietudes. MC HORMAS Y ZAPATOS S.A.S. no asume responsabilidad alguna por la imposibilidad de, o por problemas en, la utilización del Sitio o de alguna de las páginas que lo conforman, incluyendo pero sin limitarse a eventos tales como problemas en el servidor o en la conexión, interrupciones en su comunicación, problemas técnicos. En caso de que el uso del material de este Sitio dé como resultado la necesidad de dar servicio a, reparar o corregir equipo o información, el usuario asume cualquier costo derivado de ello.\n\nPARÁGRAFO PRIMERO: La responsabilidad de MC HORMAS Y ZAPATOS S.A.S. se limitará en una cuantía idéntica al valor del producto adquirido, o en su defecto, al valor del producto solicitado por el cliente.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },      
-      "rich-text#terms-use-content-15-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**15. Publicidad y vínculos.**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-15-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "Las organizaciones, productos y/o servicios a los cuales se les haga publicidad en mercedescampuzano.com, así como los vínculos (links) presentados en MERCEDESCAMPUZANO.COM no son afiliados o tienen relación alguna con MC HORMAS Y ZAPATOS S.A.S., y por tanto MC HORMAS Y ZAPATOS S.A.S. No necesariamente apoya o promueve los productos y/o servicios, o las organizaciones descritas en mercedescampuzano.com. MC HORMAS Y ZAPATOS SAS. No cumple ninguna función en la producción de esos productos y/o la prestación de servicios y no hace ninguna garantía, expresa o implícita de su contenido o de su adecuación para un propósito particular. Así por ejemplo, cuando se sugiera la utilización de algún producto y/o servicio, es de exclusiva autonomía del usuario decidir su utilización, y por tanto, MC HORMAS Y ZAPATOS SAS. No asume ninguna responsabilidad por los perjuicios directos o indirectos, ciertos o eventuales, pasados, presentes o futuros, que se llegaren a derivar de dicha utilización. Así las cosas, los tratos que el usuario realice con el productor o proveedor de los productos y/o servicios contenidos en la publicidad de este Sitio, así como las visitas que realice a sus sitios web a través de los vínculos (links) de este Sitio, serán por su exclusiva cuenta y riesgo, sin que de manera alguna comprometan la responsabilidad de MC HORMAS Y ZAPATOS S.A.S.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      },      
-      "rich-text#terms-use-content-16-subtitle-right": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "**16. Errores Tipográficos**",
-          "blockClass": "footer-terms-content-subtitles-terms-use"
-        }
-      },
-      "rich-text#terms-use-content-16-right": {
-        "props": {
-          "textAlignment": "JUSTIFY",
-          "textPosition": "JUSTIFY",
-          "text": "En el caso que un producto en mercedescampuzano.com aparezca con un precio incorrecto debido a un error tipográfico o error de los sistemas, mercedescampuzano.com tendrá derecho a denegar o cancelar cualquier orden puesta para dichos productos. Si en tu tarjeta de crédito ya ha sido cobrada y/o debitada la compra y tu pedido se cancela, mercedescampuzano.com emitirá un abono a tu cuenta de tarjeta crédito o débito por el monto del precio cancelado. Descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.\n\nSi MERCEDESCAMPUZANO.COM descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.",
-          "blockClass": "footer-terms-content-terms-use"
-        }
-      }
+    "children": [
+      "flex-layout.col#terms-use-wrapper"
+    ]
+  },
+  "flex-layout.col#terms-use-wrapper": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
+    },
+    "children": [
+      "flex-layout.row#terms-use-title",
+      "flex-layout.row#terms-use-content"
+    ]
+  },
+  "flex-layout.row#terms-use-title": {
+    "props": {},
+    "children": [
+      "rich-text#title-terms-use"
+    ]
+  },
+  "rich-text#title-terms-use": {
+    "props": {
+      "blockClass": "footer-terms-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TÉRMINOS DE USO"
+    }
+  },
+  "flex-layout.row#terms-use-content": {
+    "props": {
+      "blockClass": "terms-use-content-left"
+    },
+    "children": [
+      "flex-layout.col#terms-use-content-left",
+      "flex-layout.col#terms-use-content-right"
+    ]
+  },
+  "flex-layout.col#terms-use-content-left": {
+    "children": [
+      "rich-text#terms-use-content-subtitle-left",
+      "rich-text#terms-use-content-left",
+      "rich-text#terms-use-content-1-subtitle-left",
+      "rich-text#terms-use-content-1-left",
+      "rich-text#terms-use-content-2-subtitle-left",
+      "rich-text#terms-use-content-2-left",
+      "rich-text#terms-use-content-3-subtitle-left",
+      "rich-text#terms-use-content-3-left",
+      "flex-layout.col#terms-use-content-1",
+      "flex-layout.col#terms-use-content-2",
+      "flex-layout.col#terms-use-content-3",
+      "rich-text#terms-use-content-4-subtitle-left",
+      "rich-text#terms-use-content-4-left",
+      "rich-text#terms-use-content-5-subtitle-left",
+      "rich-text#terms-use-content-5-left",
+      "rich-text#terms-use-content-6-subtitle-left",
+      "rich-text#terms-use-content-6-left",
+      "flex-layout.col#terms-use-content-4",
+      "rich-text#terms-use-content-6-1-left",
+      "rich-text#terms-use-content-7-subtitle-left",
+      "rich-text#terms-use-content-7-left",
+      "rich-text#terms-use-content-8-subtitle-left",
+      "rich-text#terms-use-content-8-left",
+      "rich-text#terms-use-content-9-subtitle-left",
+      "rich-text#terms-use-content-9-left",
+      "rich-text#terms-use-content-10-subtitle-left",
+      "rich-text#terms-use-content-10-left",
+      "rich-text#terms-use-content-11-subtitle-left",
+      "rich-text#terms-use-content-11-left",
+      "rich-text#terms-use-content-12-subtitle-left",
+      "rich-text#terms-use-content-12-left",
+      "rich-text#terms-use-content-13-subtitle-left",
+      "rich-text#terms-use-content-13-left",
+      "rich-text#terms-use-content-14-subtitle-left",
+      "rich-text#terms-use-content-14-left",
+      "rich-text#terms-use-content-15-subtitle-left",
+      "rich-text#terms-use-content-15-left",
+      "rich-text#terms-use-content-16-subtitle-left",
+      "rich-text#terms-use-content-16-left",
+      "rich-text#terms-use-content-17-subtitle-left",
+      "rich-text#terms-use-content-17-left"
+    ]
+  },
+  "flex-layout.col#terms-use-content-1": {
+    "children": [
+      "rich-text#terms-use-content-1-subtitle",
+      "rich-text#terms-use-content-1",
+      "rich-text#terms-use-content-2",
+      "rich-text#terms-use-content-3",
+      "rich-text#terms-use-content-4"
+    ]
+  },
+  "flex-layout.col#terms-use-content-2": {
+    "children": [
+      "rich-text#terms-use-content-2-subtitle",
+      "rich-text#terms-use-content-2-1",
+      "rich-text#terms-use-content-2-2"
+    ]
+  },
+  "flex-layout.col#terms-use-content-3": {
+    "children": [
+      "rich-text#terms-use-content-3-subtitle",
+      "rich-text#terms-use-content-3-1",
+      "rich-text#terms-use-content-3-2",
+      "rich-text#terms-use-content-3-3",
+      "rich-text#terms-use-content-3-4"
+    ]
+  },
+  "rich-text#terms-use-content-1-subtitle": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "1.Tarjetas crédito:",
+      "blockClass": "footer-terms-content-terms-use-justify"
+    }
+  },
+  "rich-text#terms-use-content-1": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Visa.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Dinners.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-3": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Master Card.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-4": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "American Express.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-2-subtitle": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "2.Tarjetas débito.",
+      "blockClass": "footer-terms-content-terms-use-justify"
+    }
+  },
+  "rich-text#terms-use-content-2-1": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Maestro.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-2-2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Electron.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-3-subtitle": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "3.Pago en efectivo en entidades autorizada.",
+      "blockClass": "footer-terms-content-terms-use-justify"
+    }
+  },
+  "rich-text#terms-use-content-3-1": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Efecty.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-3-2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Gana.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-3-3": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Baloto.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-3-4": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Paga Todo.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "flex-layout.col#terms-use-content-4": {
+    "children": [
+      "rich-text#terms-use-content-4-1",
+      "rich-text#terms-use-content-4-2",
+      "rich-text#terms-use-content-4-3"
+    ]
+  },
+  "rich-text#terms-use-content-4-1": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "\n\nEn los contratos de suministro de bienes o servicios cuyo precio esté sujeto a fluctuaciones de coeficientes del mercado financiero que el productor no pueda controlar.\n\n",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-4-2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "\n\nEn los contratos de suministro de bienes confeccionados conforme a las especificaciones del consumidor o claramente personalizados\n\n",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-4-3": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "En los contratos de adquisición de bienes de uso personal\n\n",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#terms-use-content-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**TÉRMINOS DEL CONTRATO**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Por favor lea cuidadosamente el contenido de los siguientes textos. Por el uso de este sitio, acepta los Términos de Uso, Términos del Contrato y Políticas de Privacidad aquí contenidos.\n\n El Contrato entre el cliente y MC HORMAS Y ZAPATOS S.A.S. se entiende perfeccionado cuando una oferta de compra formulada en el sitio web y realizada por MC HORMAS Y ZAPATOS S.A.S., sea aceptada por el cliente. El contrato estará regido por los términos definidos en el presente texto, los cuales rigen la venta de los productos que se realice mediante la utilización de este sitio por parte de MC HORMAS Y ZAPATOS S.A.S. o cualesquiera de sus filiales, subsidiarias o asociadas de negocios que aparezcan en la factura correspondiente. Nuestros servicios están disponibles sólo para aquellos individuos que tengan capacidad legal para contratar, según lo dispuesto por la legislación colombiana vigente. Si El cliente no tiene capacidad legal para contratar, le solicitamos que no utilice nuestros servicios; MC HORMAS Y ZAPATOS S.A.S. no se hará responsable por los perjuicios causados por hechos de los incapaces en virtud de la mala vigilancia de los mismos por parte de sus responsables legales en virtud de los artículos 2347 al 2349 del código civil colombiano.",
+      "blockClass": "footer-terms-content-terms-use-justify"
+    }
+  },
+  "rich-text#terms-use-content-1-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**1. Independencia de Disposiciones.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-1-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "En caso de que una o más de las disposiciones contenidas en este documento sean consideradas nulas, ilegales o ineficaces en cualquier aspecto, la validez, legalidad y exigibilidad o eficacia del resto de las disposiciones del presente documento, no se verán afectadas o anuladas por dicha circunstancia.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-2-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**2. Presentación de Oferta.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-2-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S. a través de mercedescampuzano.com, formula la oferta de los diferentes productos que se anuncian y/o describen en este sitio web ('Sitio'). Para efectos de que exista una oferta de compra válida por parte de MC HORMAS Y ZAPATOS S.A.S., se requiere del diligenciamiento por parte del cliente de una forma electrónica disponible en la página web, en la cual se hará constar los datos personales del cliente, la selección de los productos deseados, la forma en que procederá a su pago, los datos que dependiendo de la forma de pago sean necesarios para efectuar el mismo, así como los demás datos que MC HORMAS Y ZAPATOS S.A.S. considere necesarios para que se pueda proceder a realizar la compra por este medio.\n\nLa oferta realizada por MC HORMAS Y ZAPATOS S.A.S. para entenderse perfeccionada se encuentra condicionada en sus efectos a tres circunstancias:\n\nQue se diligencie la forma electrónica mencionada y que ésta sea recibida y aprobada por MC HORMAS Y ZAPATOS S.A.S.\n\nQue exista disponibilidad del producto deseado y ofrecido por parte de MC HORMAS Y ZAPATOS S.A.S. al momento de la aprobación de la forma electrónica referida por parte de MC HORMAS Y ZAPATOS S.A.S.\n\nQue se haya hecho efectivo por parte del cliente el anticipo por el 100% del valor de la mercancía seleccionada por el cliente.\n\nQue el cliente haya aceptado los Términos de Uso, Términos del Contrato y Políticas de Privacidad de este sitio.\n\nUna vez cumplidas estas condiciones la oferta se entenderá perfecta y será obligatoria para MC HORMAS Y ZAPATOS S.A.S., éste procederá de conformidad generando en el sistema una orden de compra e informando al cliente, mediante aviso en el sitio y mediante correo electrónico, que su orden de compra fue registrada en el sistema con un número específico, con el cuál el cliente podrá hacer seguimiento al estado de su pedido.\n\nMC HORMAS Y ZAPATOS S.A.S. se reserva el derecho de modificar los precios de los productos en cualquier momento previo a la aceptación de la oferta por parte del cliente, sin necesidad de avisar dicho cambio de ninguna manera.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-3-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**3. Condiciones de Pago.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-3-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La presente oferta está condicionada a que el cliente haya elegido y aceptado los términos y condiciones de pago que el sistema le presenta, según los medios de pago que se encuentran establecidos específicamente en el sitio y a que el cliente haya hecho efectivo el anticipo respectivo por un valor equivalente al 100% del valor de la mercancía seleccionada.\n\nAun cuando MC HORMAS Y ZAPATOS S.A.S. ponga a disposición del cliente un sistema de conexión segura para la realización de todas las ofertas de compra, en ningún caso MC HORMAS Y ZAPATOS S.A.S. será responsable por los fallos en las comunicaciones de las entidades bancarias o de crédito, así como tampoco de los daños causados a los usuarios con ocasión de una acción u omisión de dichas entidades. Una vez que MC HORMAS Y ZAPATOS S.A.S. verifique el pago del 100% del anticipo y el cumplimiento de las demás condiciones a que está sujeta la presente oferta, se entenderá perfeccionado el contrato de compra. En todo caso, no obstante haberse verificado el pago del anticipo mencionado, de no cumplirse con las demás condiciones establecidas en el numeral segundo del presente escrito, el contrato no se entiende perfeccionado y por tanto MC HORMAS Y ZAPATOS S.A.S. se compromete a restituirle al usuario, sin ningún tipo de interés o rendimiento, el valor cancelado por concepto del anticipo entregado.\n\nEl pago se efectuará única y exclusivamente por los siguientes medios:\n\nPARÁGRAFO: Antes de la aceptación por parte nuestra de cualquier oferta de compra, el cliente deberá elegir los términos y condiciones de pago del precio correspondiente, según los medios de pago que se encuentran ya específicamente establecidos en este sitio. Aún cuando MC HORMAS Y ZAPATOS S.A.S. ponga a disposición del cliente un sistema de conexión segura para toda la realización de todas las ofertas de compra, en ningún caso será responsable por los fallos en las comunicaciones de las entidades bancarias o de crédito, así como tampoco de los daños causados a los usuarios con ocasión de una acción u omisión de dichas entidades.\n\n",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-4-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**4. Cargos por Envío e Impuestos.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-4-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S. será responsable durante el transporte de la mercancía por los gastos de manejo y seguro de los productos que se adquieran en mercedescampuzano.com\n\nAsí mismo, el cliente será responsable de todos los impuestos sobre ventas, impuestos al valor agregado y cualesquiera otros impuestos y gravámenes que se ocasionen por cada oferta de compra aceptada. Todos los impuestos causados por la compra serán liquidados desde el momento en que el cliente acepta la oferta de compra en este sitio, y por tanto podrá conocer el valor exacto a pagar a favor de MC HORMAS Y ZAPATOS S.A.S., el cuál incluirá los conceptos mencionados.\n\nNo se cobrará al cliente el valor del envío de la mercancía adquirida en mercedescampuzano.com cuando el Cliente adquiera zapatos o bolsos y el valor de la compra supere cien mil pesos ($100.000.oo) M/L. En ese caso el valor del trasporte de la mercancía será asumido por MC HORMAS Y ZAPATOS S.A.S.\n\n",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-5-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**5. Precio.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-5-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El valor total de la compra estará compuesto de los siguientes rubros a cargo del cliente: valor del producto, impuestos y gastos de transporte si fuere el caso.\n\nPARÁGRAFO PRIMERO: MC HORMAS Y ZAPATOS S.A.S. se compromete a revisar constantemente y a actualizar los precios que se mencionan en la página web y a su vez, nuestro cliente y/o usuario, debe estar atento en caso de presentarse alguna fluctuación en los mismos.\n\nPARÁGRAFO SEGUNDO: MC HORMAS Y ZAPATOS S.A.S. informará o publicará la tarifa de transporte y envío que tendrán los bienes los cuáles se generarán dependiendo de los costos, rubros y políticas de la empresa transportadora, las cuáles son independientes autónomas y ajenas a MC HORMAS Y ZAPATOS S.A.S. Dentro del costo del flete se deberá tener en cuenta el lugar del territorio colombiano al cual se deban enviar los productos adquiridos, el tamaño y el peso de los mismos.\n\n",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-6-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**6. Derecho de retracto.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-6-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El consumidor deberá devolver el producto a MC HORMAS Y ZAPATOS S.A.S. por los mismos medios y en las mismas condiciones en que lo recibió. Los costos de transporte y los demás que conlleve la devolución del bien serán cubiertos por el consumidor. El término máximo para ejercer el derecho de retracto será de cinco (5) días hábiles contados a partir de la entrega del bien o de la celebración del contrato en caso de la prestación de servicios.\n\nSe exceptúan del siguiente caso y según el objeto social que desempeña MC HORMAS Y ZAPATOS S.A.S., los siguientes casos:\n\n",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-6-1-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S. deberá devolverle en dinero al consumidor todas las sumas pagadas sin que proceda a hacer descuentos o retenciones por concepto alguno. En todo caso la devolución del dinero al consumidor no podrá exceder de treinta (30) días calendario desde el momento en que ejerció el derecho.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-7-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**7. Reversión del pago**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-7-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La ley dispone que en las ventas efectuadas mediante mecanismos de comercio electrónico, tales como Internet, y se haya utilizado para realizar el pago una tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico, los participantes del proceso de pago deberán reversar los pagos que solicite el consumidor cuando sea objeto de fraude, o corresponda a una operación no solicitada, o el producto adquirido no sea recibido, o el producto entregado no corresponda a lo solicitado o sea defectuoso.\n\nPara que proceda la reversión del pago, dentro los cinco (5) días hábiles siguientes a la fecha en que el consumidor tuvo noticia de la operación fraudulenta o no solicitada o que debió haber recibido el producto o lo recibió defectuoso o sin que correspondiera a lo solicitado, el consumidor deberá presentar queja ante el MC HORMAS Y ZAPATOS S.A.S. y devolver el producto, cuando sea procedente, y notificar de la reclamación al emisor del instrumento de pago electrónico utilizado para realizar la compra, el cuál, en conjunto con los demás participantes del proceso de pago, procederán a reversar la transacción al comprador.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-8-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**8. Remisión de los productos.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-8-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El envío de los productos se realizará únicamente dentro del territorio colombiano, a través de correo certificado, en un plazo máximo de nueve (9) días hábiles, contados a partir de la aceptación de la oferta, siempre y cuando no medie ningún caso fortuito o fuerza mayor, entre los cuáles se encuentra a manera de ejemplo, hechos del hombre o de la naturaleza, como huelgas, paros, revoluciones, rebelión sedición, asonada, atentados, cortes de fluidos, derrumbes, terremotos, avalanchas, desbordamientos, caídas de puentes, entre otros.\n\nPARÁGRAFO PRIMERO: El lugar de envío será a dirección señalada por el cliente en la oferta que este elabore en el formato destinado para tal fin, el cuál podrá ser el mismo lugar de habitación del comprador u otro que este designe. Se entiende que cualquier persona que se encuentre en el domicilio donde se debe realizar la entrega, se encuentra debidamente autorizado por el cliente para recibir su pedido, por lo que MC HORMAS Y ZAPATOS S.A.S. queda exonerado de cualquier responsabilidad al momento de la entrega, siempre y cuando la misma se haga en el domicilio registrado al momento de la compra en el sitio web.\n\n PARÁGRAFO SEGUNDO: La empresa transportadora tendrá la obligación de hacer máximo dos (3) intentos de entrega de los productos adquiridos. En caso que los intentos de entrega resulten infructuosos, retornarán los bienes a la fábrica y se procederá a la devolución de los dineros consignados, salvo el valor del envío, sin ningún tipo de interés, retribución o suma adicional y sin importar la causa u origen que pueda tener la devolución. Igualmente se considera entrega infructuosa si el destinatario del producto es menor de catorce (14) años y no se encuentra acompañado de un padre, tutor o acudiente que firme junto con el destinatario el recibido del producto.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-9-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**9. Factura.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-9-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La factura se remitirá junto con el producto adquirido a la dirección mencionada por el cliente.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-10-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**10. Transmisión de la propiedad.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-10-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La transmisión de la propiedad se realiza tan pronto como MC HORMAS Y ZAPATOS S.A.S. coloque el bien o el producto en manos de la empresa transportadora, para ser remitido al cliente o a la persona que este designe.\n\nPARÁGRAFO PRIMERO: No obstante lo anterior, el cliente o destinatario del bien o producto, deberá abstenerse de recibir el mismo inmediatamente, en caso de que el empaque o embalaje del producto, presente daños, rupturas, aberturas u otras similares, dejando la debida anotación o constancia de ese hecho.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-11-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**11. Embajale de los productos**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-11-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Nuestro cliente acepta que los productos sean empacados y presentados en bolsa plástica y/o caja de cartón que cumple con las condiciones necesarias para la conservación adecuada del producto.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-12-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**12. Comentarios.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-12-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S. se reserva el derecho de publicar o abstenerse de publicar cualquiera de los comentarios efectuados por los usuarios de nuestra página web a los productos. En este mismo sentido, en cualquier momento podrá un comentario ser retirado de la página web mencionada.\n\nPARÁGRAFO ÚNICO: Todo comentario que se publique, deberá ser efectuado con un lenguaje cordial, respetuoso y relacionado con el objeto sobre el cuál se comenta.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-13-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**13. Responsabilidad limitada.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-13-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Sin perjuicio de lo determinado en las normas imperativas de la Legislación Colombiana aplicable, MC HORMAS Y ZAPATOS S.A.S. no asume responsabilidad alguna, incluyendo cualquier responsabilidad por cualquier daño o perjuicio, incluyendo mas no limitado la pérdida de información o utilidades, existencia de virus, resultados del uso o la incapacidad para usar el material en este sitio, oportunidades de negocios perdidas, o cualquier otro daño, aun cuando el usuario nos haya avisado acerca de la posibilidad de tales daños, o por cualquier reclamo de terceros, salvo lo que expresamente aquí se estipula.\n\nBajo los términos aquí señalados, MC HORMAS Y ZAPATOS S.A.S. no asume ninguna responsabilidad por la información que se suministra en la página, incluyendo pero sin limitarse a la referente a productos y/o servicios, notas de interés, opiniones, consejos prácticos y solución de inquietudes. MC HORMAS Y ZAPATOS S.A.S. no asume responsabilidad alguna por la imposibilidad de, o por problemas en, la utilización del sitio o de alguna de las páginas que lo conforman, incluyendo pero sin limitarse a eventos tales como problemas en el servidor o en la conexión, interrupciones en su comunicación, problemas técnicos. En caso de que el uso del material de este sitio dé como resultado la necesidad de dar servicio a, reparar o corregir equipo o información, el usuario asume cualquier costo derivado de ello.\n\nPARÁGRAFO PRIMERO: La responsabilidad de MC HORMAS Y ZAPATOS S.A.S. se limitará en una cuantía idéntica al valor del producto adquirido, o en su defecto, al valor del producto solicitado por el cliente.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-14-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**14. Origen de los fondos**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-14-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El cliente solemnemente declara y sostiene:\n\n a. Los recursos con los cuales efectuó la compra, provienen de operación, oficio, profesión actividad o negocio lícito.\n\nb. Los dineros con los que efectuó la compra NO fueron obtenidos en virtud de cualquier tipo de conducta que esté consagrada en la ley colombiana como falta constitutiva de infracción penal.\n\n c. Nunca he permitido que terceras personas utilicen mis cuentas o mis tarjetas de crédito o débito para consignar o administrar dineros que desconozca su origen o provengan de conductas contrarias a la ley y especialmente a la ley penal.\n\nd. Eximo a MC HORMAS Y ZAPATOS S.A.S. de toda responsabilidad por la información errónea, falsa, inexacta que se hubiese suministrado en este documento o por la violación del mismo, de tal suerte que seré el único responsable por ello.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-15-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**15. Perfeccionamiento y Transferencia de Propiedad**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-15-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El perfeccionamiento del contrato se presenta cuando el cliente acepta la oferta de compra presentada por MC HORMAS Y ZAPATOS S.A.S., dicho perfeccionamiento del contrato se entiende hecho cuando MC HORMAS Y ZAPATOS S.A.S. procede al embarque de los respectivos productos seleccionados por el cliente.\n\nUna vez perfeccionado el contrato en los términos anteriormente mencionados no se podrán realizar cancelaciones de los pedidos, de hacerse, dará lugar al incumplimiento del contrato por parte del cliente y dará lugar a que MC HORMAS Y ZAPATOS S.A.S. interponga las acciones legales a que tiene derecho en virtud de dicho incumplimiento. Lo anterior sin perjuicio del derecho de retracto a favor del comprador ejercido de conformidad con la ley.\n\nEn caso de que el cliente elija más de un producto en el sitio y uno o más de esos productos no cumplan con la condición de disponibilidad por parte de MC HORMAS Y ZAPATOS S.A.S., se entenderá perfeccionado el contrato por las mercancías que si se encuentran disponibles, se informará al cliente, mediante aviso en el sitio, de la no disponibilidad de las demás y se generará la orden de compra y la correspondiente factura de conformidad con los productos disponibles.\n\nEn los eventos de pago contra entrega, la propiedad sobre los productos se transmitirá al cliente desde el momento en que los mismos sean cancelados por éste en el lugar de entrega. En el evento que el precio de los productos objeto de una oferta de compra no sea pagado, se entenderá que existe incumplimiento del contrato, lo cuál es causal para darlo por terminado por parte de MC HORMAS Y ZAPATOS S.A.S. asumiendo el cliente el valor de la devolución de dichos productos al respectivo depósito, así como el monto de los perjuicios derivados de dicho incumplimiento. En los eventos de pago por los demás medios posibles, de acuerdo a lo establecido en este sitio, la propiedad sobre los productos se transmitirá al cliente desde el mismo momento del perfeccionamiento del contrato, es decir, desde que los mismos se embarquen desde los depósitos y/o almacenes autorizados de MC HORMAS Y ZAPATOS S.A.S. en la República de Colombia.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-16-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**16. Entrega de los Productos**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-16-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S. se compromete a realizar entregas exclusivamente dentro del territorio colombiano, en las zonas y lugares a los que tenga acceso de acuerdo a su red de distribución, y por consiguiente el perfeccionamiento del contrato de compraventa está condicionado a que el domicilio registrado por el cliente para realizar la entrega, se encuentre dentro de las zonas geográficas habilitadas por MC HORMAS Y ZAPATOS S.A.S., las cuáles se indican el sitio. De no encontrarse un municipio del territorio colombiano en la lista que despliega el sitio para el efecto, deberá entenderse que no se tiene esa zona geográfica habilitada y que por tanto no se entenderá celebrado el contrato al no cumplirse la condición mencionada para su perfeccionamiento y en consecuencia no se procederá al envío de las mercancías.\n\nLos productos objeto de la compraventa serán entregados en el domicilio que el cliente haga constar en el formulario electrónico que le presenta el sitio, dentro de un plazo máximo de cinco (5) días hábiles, contados a partir de la fecha en que se envíe por parte de MC HORMAS Y ZAPATOS S.A.S. la confirmación de la orden de compra que genera el sistema y siempre y cuando se hayan determinado por anticipado los términos y condiciones de pago y no se presenten causas ajenas a la voluntad de MC HORMAS Y ZAPATOS S.A.S. que pudieran retrasar la entrega, como cualquier evento de caso fortuito o fuerza mayor. Se entiende que cualquier persona que se encuentre en el domicilio donde debe realizarse la entrega, se encuentra debidamente autorizado por el cliente para recibir su pedido, y por tanto MC HORMAS Y ZAPATOS S.A.S. queda exonerado de cualquier responsabilidad por la entrega que realizare, siempre que la misma se haga en el domicilio registrado en nuestro sitio. Si nadie recibe el pedido en el domicilio señalado, MC HORMAS Y ZAPATOS S.A.S. procederá a la devolución de los productos al respectivo depósito, y el cliente estará en la obligación de contactarnos en un término máximo de cinco (5) días calendario para que procedamos a su reenvío, en cuyo caso, los gastos generados por el mismo, correrán por cuenta del cliente, y hasta tanto los mismos no sean cancelados, MC HORMAS Y ZAPATOS S.A.S. no estará en obligación de hacer nuevamente el despacho. Si el cliente no procede a solicitar el reenvío en el término indicado, o no cancela el valor adicional por el reenvío, MC HORMAS Y ZAPATOS S.A.S. podrá desistir del negocio, y estará obligado sólo a restituir el monto pagado por los productos, descontando el valor de los gastos incurridos por transporte.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-17-subtitle-left": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**17. Productos y/o servicios.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-17-left": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Es política de MC HORMAS Y ZAPATOS S.A.S. la actualización y revisión constante de los productos que se exhiben en este sitio. MC HORMAS Y ZAPATOS S.A.S. puede modificar y descontinuar productos en cualquier momento. MC HORMAS Y ZAPATOS S.A.S. se obliga a despachar productos de las mismas características de calidad que normalmente se exhiben en sus puntos de venta, sin embargo los colores de los productos que el cliente ve en su monitor dependen del mismo, por lo tanto MC HORMAS Y ZAPATOS S.A.S. no garantiza que el color que muestre el monitor del cliente sea exactamente igual al color real del producto.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "flex-layout.col#terms-use-content-right": {
+    "children": [
+      "rich-text#terms-use-content-18-subtitle-right",
+      "rich-text#terms-use-content-18-right",
+      "rich-text#terms-use-content-19-subtitle-right",
+      "rich-text#terms-use-content-19-right",
+      "rich-text#terms-use-content-20-subtitle-right",
+      "rich-text#terms-use-content-20-right",
+      "rich-text#terms-use-content-21-subtitle-right",
+      "rich-text#terms-use-content-21-right",
+      "rich-text#terms-use-content-subtitle-right",
+      "rich-text#terms-use-content-right",
+      "rich-text#terms-use-content-1-subtitle-right",
+      "rich-text#terms-use-content-1-right",
+      "rich-text#terms-use-content-2-subtitle-right",
+      "rich-text#terms-use-content-2-right",
+      "rich-text#terms-use-content-3-subtitle-right",
+      "rich-text#terms-use-content-3-right",
+      "rich-text#terms-use-content-4-subtitle-right",
+      "rich-text#terms-use-content-4-right",
+      "rich-text#terms-use-content-5-subtitle-right",
+      "rich-text#terms-use-content-5-right",
+      "rich-text#terms-use-content-6-subtitle-right",
+      "rich-text#terms-use-content-6-right",
+      "rich-text#terms-use-content-7-subtitle-right",
+      "rich-text#terms-use-content-7-right",
+      "rich-text#terms-use-content-8-subtitle-right",
+      "rich-text#terms-use-content-8-right",
+      "rich-text#terms-use-content-9-subtitle-right",
+      "rich-text#terms-use-content-9-right",
+      "rich-text#terms-use-content-10-subtitle-right",
+      "rich-text#terms-use-content-10-right",
+      "rich-text#terms-use-content-11-subtitle-right",
+      "rich-text#terms-use-content-11-right",
+      "rich-text#terms-use-content-12-subtitle-right",
+      "rich-text#terms-use-content-12-right",
+      "rich-text#terms-use-content-13-subtitle-right",
+      "rich-text#terms-use-content-13-right",
+      "rich-text#terms-use-content-14-subtitle-right",
+      "rich-text#terms-use-content-14-right",
+      "rich-text#terms-use-content-15-subtitle-right",
+      "rich-text#terms-use-content-15-right",
+      "rich-text#terms-use-content-16-subtitle-right",
+      "rich-text#terms-use-content-16-right"
+    ]
+  },
+  "rich-text#terms-use-content-18-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**18. Devoluciones y Cambios.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-18-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S. procederá a efectuar devoluciones de dinero por concepto de mercancía comprada en el sitio, siempre y cuando la solicitud de devolución se presente al Representante de servicio al cliente dentro de los 5 días hábiles siguientes a la recepción del producto. En los casos en que la solicitud de devolución se efectúe por fuera del plazo anteriormente señalado, MC HORMAS Y ZAPATOS S.A.S. no se encuentra obligado a aceptar devoluciones de producto, salvo defectos de calidad del mismo.\n\nMC HORMAS Y ZAPATOS S.A.S. asumirá el 100% de los fletes requeridos para la devolución del producto en las ciudades principales. Se reconocerá al cliente que efectúe la devolución únicamente el valor del artículo que se devuelve, dicha devolución se hará cargando el valor del artículo a la tarjeta de crédito o débito que el cliente haya registrado en el sitio y con la cual haya efectuado la compra o por medio de un bono que se enviará al cliente vía email.\n\nLa solicitud de cambio o devolución la deberá hacer el cliente a través de “servicio al cliente” quien para el efecto ha designado la siguiente línea telefónica 018000 41 36 58, a través de la cual se le indicará al cliente el procedimiento a seguir para efectuar devoluciones. Estas solicitudes también podrán hacerse directamente en los puntos de venta de formato MERCEDES CAMPUZANO y franquicias en las cuáles se le indicará al cliente el procedimiento a seguir para efectuar cambios o devoluciones solicitados.\n\nNo se podrán efectuar cambios o devoluciones de productos adquiridos a través del sitio, en los diferentes almacenes de cadena en donde se comercializan los productos de la marca MERCEDES CAMPUZANO.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-19-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**19. Otros Documentos.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-19-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Estos términos no pueden ser alterados, complementados o enmendados por medio del uso de ningún otro documento. Todo intento de alterar, complementar o enmendar este documento o de presentar o aceptar una oferta de compra de producto(s) que esté sujeta a términos y condiciones adicionales o distintos, no tendrá ningún efecto, salvo que se haya acordado de manera distinta mediante convenio por escrito firmado por el cliente y MC HORMAS Y ZAPATOS S.A.S.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-20-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**20. Legislación Aplicable y Jurisdicción.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-20-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Estos términos y condiciones de venta se regirán e interpretarán de acuerdo con las leyes de la República de Colombia. Cualquier controversia que derive de este documento se someterá a los tribunales del Municipio de Medellín (Colombia), y tanto MC HORMAS Y ZAPATOS S.A.S. como el cliente renuncian expresamente a cualquier otro fuero que pudiera corresponderles en razón de su domicilio presente o futuro.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-21-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**21. Opciones en caso de problemas en la entrega.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-21-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Si MERCEDESCAMPUZANO.COM descubre antes de celebrar el contrato que no puede suministrar los productos pedidos, podrá ofrecerle un producto equivalente en términos de calidad, precio y función. Usted no estará obligado a aceptar el producto de sustitución. Si así lo desea, usted podrá devolverlo en el plazo de 30 días y MERCEDESCAMPUZANO.COM correrá con los gastos (obviamente, seguirá existiendo su derecho de cancelación o devolución). Si MERCEDESCAMPUZANO.COM descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**TÉRMINOS DE USO**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Por favor lee cuidadosamente el contenido de los siguientes textos. Por el uso de este sitio, aceptas los Términos de Uso, Términos del Contrato y Políticas de Privacidad aquí contenidos.",
+      "blockClass": "footer-terms-content-terms-use-justify"
+    }
+  },
+  "rich-text#terms-use-content-1-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**1. Las partes.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-1-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Entre el cliente y/o usuario, quien actúa directamente, si es una persona natural o por medio de una persona debidamente facultada para actuar a nombre y representación, en caso de ser una persona jurídica, y de otro lado MERCEDES CAMPUZANO, marca nacional perteneciente a MC HORMAS Y ZAPATOS S.A.S., sociedad comercial debidamente constituida bajo las leyes colombianas, que cuenta con un sitio web mercedescampuzano.com, celebran el presente contrato de conformidad con los términos y condiciones de uso que hacen parte integral de este contrato.\n\nMC HORMAS Y ZAPATOS S.A.S., en todo caso presumirá de buena fe que está contratando directamente con el cliente o con su representante legal debidamente facultado para efectuar este tipo de operaciones y ninguna responsabilidad deberá asumir MC HORMAS Y ZAPATOS S.A.S. por suplantación personal que realice cualquier cliente y/o usuario.\n\nPARÁGRAFO PRIMERO: Para realizar cualquier compra, es requisito esencial registrarse, identificarse y presentarse como usuario en la página web, actividades que se realizan por medio de una cuenta de correo electrónico y una clave secreta del cliente, la cual es de carácter personal, intransferible y de responsabilidad exclusiva y excluyente del cliente.\n\nPARÁGRAFO SEGUNDO: Es responsabilidad del cliente cualquier uso que de la clave suministrada se realice, la cual no podrá ser transferida o revelada a terceros bajo ningún motivo. Así mismo, el cliente deberá adoptar todas las medidas de seguridad necesarias para evitar el mal uso o el conocimiento de esta por parte de terceros. Se recomienda efectuar el cambio de clave de manera periódica.\n\nPARÁGRAFO TERCERO: En caso de pérdida, olvido o exposición a terceros de la clave, deberá remitirse a la sección de autenticación del sitio en donde hay un link recordar contraseña, en donde siguiendo las instrucciones, el cliente podrá recuperar su contraseña, a través de su correo electrónico o cambiar la clave. Si por algún motivo no logra solucionar el inconveniente debe escribir al email: servicioalcliente@mercedescampuzano.com",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-2-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**2. La actividad.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-2-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S., pondrá a disposición de los clientes, los colores en los que pueden adquirir los productos. Estos se exhibirán de la manera más real posible, sin embargo hay que tener en cuenta que con cada equipo/computador, el color que se elija podrá variar, por lo que la empresa no se hace responsable de este hecho si el cliente solicitara cambio por error en la selección del color.\n\n",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-3-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**3. Aceptación de Términos.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-3-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Al acceder, hojear y/o usar este sitio, el usuario admite haber leído y entendido estos Términos de Uso y está de acuerdo en sujetarse a los mismos y cumplir con todas las leyes y reglamentos aplicables que hagan parte de la Legislación Colombiana. Además, cuando el usuario utilice cualquier servicio suministrado en este sitio, por ejemplo, buzones de sugerencias y concursos, estará sujeto a las reglas, guías, políticas, términos y condiciones aplicables a dicho servicio. En caso de que el usuario no esté de acuerdo con estos términos, favor abstenerse de usar este sitio. Este sitio es controlado y operado por MC HORMAS Y ZAPATOS S.A.S. desde sus oficinas ubicadas en Medellín, Colombia. MC HORMAS Y ZAPATOS S.A.S. no se responsabiliza de que el material en este sitio sea apropiado o esté disponible para su uso en otros lugares, estando prohibido su acceso desde territorios donde su contenido sea ilegal. Aquellos que decidan acceder a este sitio desde otros lugares lo harán bajo su propia iniciativa y es su responsabilidad el sujetarse a las leyes locales que sean aplicables. Cualquier reclamo con relación a, y al uso de, este sitio y el material en él contenido está regulado por las leyes de Colombia. Estos términos y condiciones están sujetos a cambios sin previo aviso en cualquier momento, bajo la sola voluntad de MC HORMAS Y ZAPATOS S.A.S., y a partir de la fecha de modificación de estos términos y condiciones, todas las operaciones que se celebren entre MC HORMAS Y ZAPATOS S.A.S. y el usuario se regirán por el documento modificado.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-4-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**4. Encabezados.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-4-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los encabezados de las cláusulas de estos Términos y Condiciones son únicamente para facilitar la consulta y no forman parte de los mismos, y de ellos no se podrán inferir o derivar ningún significado o interpretación.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-5-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**5. Independencia de Disposiciones**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-5-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "En caso de que una o más de las disposiciones contenidas en estos Términos y Condiciones sean consideradas nulas, ilegales o ineficaces en cualquier aspecto, la validez, legalidad, exigibilidad o eficacia del resto de las disposiciones aquí contenidas no se verán afectadas o anuladas por dicha circunstancia.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-6-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**6. mercedescampuzano.com**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-6-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "mercedescampuzano.com es un sitio web dedicado al comercio electrónico mediante la venta de productos que se entregan exclusivamente en el territorio de la República de Colombia. El dominio mercedescampuzano.com es de propiedad de la sociedad MC HORMAS Y ZAPATOS S.A.S. sociedad comercial constituida bajo las leyes colombianas, cuya actividad principal es la comercialización de calzado y productos afines a través de su marca MERCEDES CAMPUZANO.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-7-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**7. Revisión de los términos.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-7-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S. puede en cualquier momento revisar estos Términos de Uso aquí contenidos, por medio del reajuste de este anuncio. Al usar mercedescampuzano.com, el usuario conviene en darse por obligado por cualquiera de tales revisiones, las cuales estarán vigentes a partir del momento en que las mismas sean accesibles por los usuarios, debiendo entonces visitar periódicamente esta página para determinar los términos vigentes en ese momento a los cuales el usuario estará obligado en el evento que decida utilizar este Sitio.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-8-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**8. Propiedad industrial.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-8-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Todas las marcas, enseñas, logos, nombres y cualesquiera otros signos distintivos, así como los modelos de utilidad y/o diseños industriales y demás elementos de propiedad industrial o intelectual insertados, usados y/o desplegados en este Sitio son Propiedad exclusiva de MC HORMAS Y ZAPATOS S.A.S. y en algunos casos son de propiedad de terceros que han autorizado expresamente a MC HORMAS Y ZAPATOS S.A.S. para su uso y/o explotación. Igualmente, en algunos casos el uso de propiedad Industrial de terceros ha sido autorizado por la ley de manera general, y en consecuencia su uso no requiere de autorización previa y expresa de su titular. Nada en mercedescampuzano.com podrá ser interpretado como concesión u otorgamiento a cualquier título de autorizaciones, licencias o cualquier otro derecho para usar o disponer de cualquier forma de la Propiedad Industrial, sin el permiso por escrito de MC HORMAS Y ZAPATOS S.A.S. o del titular de los derechos de la misma. Cualquier uso no autorizado constituirá una violación a los presentes Términos y Condiciones y a las normas vigentes nacionales e internacionales sobre Propiedad Industrial.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-9-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**9. Derechos de Autor.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-9-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Todo el material informático, gráfico, publicitario, fotográfico, de multimedia, audiovisual y/o de diseño, así como todos los contenidos, textos y bases de datos puestos a su disposición y/o alcance en este Sitio son de propiedad exclusiva de MC HORMAS Y ZAPATOS S.A.S., o en algunos casos, de terceros que han autorizado a MC HORMAS Y ZAPATOS S.A.S. su uso y/o explotación (en adelante “los Contenidos”). Igualmente, el uso en mercedescampuzano.com de algunos Contenidos de propiedad de terceros se encuentra expresamente autorizado por la ley. Todos los Contenidos en mercedescampuzano.com están protegidos por las normas sobre propiedad intelectual y por todas las normas nacionales e internacionales que le sean aplicables.\n\nExceptuando lo expresamente estipulado en estos Términos y Condiciones, queda prohibido todo acto de copia, reproducción, modificación, creación de trabajos derivados, venta o distribución, exhibición de los Contenidos, de ninguna manera o por ningún medio, incluyendo, más no limitado a, medios electrónicos, mecánicos, de fotocopiado, de grabación o de cualquier otra índole, sin el permiso previo por escrito de MC HORMAS Y ZAPATOS S.A.S. como titular de dichos derechos. En ningún caso estos Términos y Condiciones confieren derechos, licencias y/o autorizaciones para realizar los actos anteriormente descritos. Cualquier uso no autorizado de los Contenidos constituirá una violación a los presentes Términos y Condiciones y a las normas vigentes sobre propiedad intelectual. MC HORMAS Y ZAPATOS SAS. Otorga al usuario una licencia y derecho personal, intransferible y no exclusivo para desplegar mercedescampuzano.com en pantalla de un computador ordenador o dispositivo PDA bajo su control, y para emplear los Contenidos de propiedad de MC HORMAS Y ZAPATOS S.A.S. únicamente para uso personal, no comercial, e intransferible, con la condición de que el usuario no modifique de ninguna forma los Contenidos y que conserve todas las leyendas de derechos de propiedad intelectual y de otro tipo de propiedad contenidas en los mismos. Esta licencia no se extiende a la Propiedad Industrial de MC HORMAS Y ZAPATOS S.A.S. o de terceros, y termina automáticamente ante el incumplimiento del usuario de cualquiera de las previsiones de estos Términos y Condiciones. MC HORMAS Y ZAPATOS S.A.S. otorga al usuario una licencia y derecho personal e intransferible y no exclusivo para utilizar el código objeto (no el código fuente) del software de mercedescampuzano.com en un solo computador pantalla u ordenador, y siempre que no copie, modifique, cree, distribuya, reproduzca o exhiba un trabajo derivado de ello, invierta el proceso, invierta el montaje o de algún modo intente descubrir algún código de acceso, vender, ceder, sublicenciar, prestar garantía o transferir cualquier derecho en el software de mercedescampuzano.com. El usuario se obliga por los presentes Términos y Condiciones a no modificar el software del Sitio de ninguna manera.\n\nSignos distintivos\n\nLos signos distintivos de MERCEDES CAMPUZANO y cualquier otro exhibido en esta página, es de titularidad de MC HORMAS Y ZAPATOS S.A.S. Bajo ningún supuesto se podrá considerar que se permite el uso o se está concediendo una licencia cualquiera que sea su carácter, sobre las marcas, nombres comerciales, enseñas o lemas. Por lo tanto, se considera expresamente prohibido el uso de los mismos, so pena de verse incurso en las responsabilidades civiles y penales a que haya lugar.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-10-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**10. Formación y perfeccionamiento.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-10-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El contrato de compraventa de productos de MC HORMAS Y ZAPATOS S.A.S., se perfecciona solamente cuando el cliente en atención a la invitación a ofrecer realizada por MC HORMAS Y ZAPATOS S.A.S. presente la oferta de compra mediante la selección del producto y efectúe el pago según las modalidades de pago ofrecidas en la página.\n\nEn ningún caso, MC HORMAS Y ZAPATOS S.A.S. estará obligado bajo ningún supuesto a aceptar una oferta de compra. PARÁGRAFO ÚNICO: Si la compra que se pretende efectuar llegare a superar una cantidad de veinte (20) productos, MC HORMAS Y ZAPATOS S.A.S. se reserva la potestad de enviar esta oferta de compra al canal de negocios empresariales de la empresa por considerarse una venta institucional, con el fin de evitar la comercialización indebida de productos.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-11-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**11. Linking, Deeplinking y Framing**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-11-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS SAS. Prohíbe el uso de los nombre y/o logotipos, marcas y cualesquiera otros signos distintivos de su propiedad como enlaces hipertextuales o de cualquier otra forma ('links') direccionados a sitios en Internet cuyo URL sea diferente de http://www.mercedescampuzano.com, a menos que el establecimiento de un enlace de tal naturaleza sea aprobado por MC HORMAS Y ZAPATOS S.A.S. por escrito en cuyo caso deberá atenerse a los criterios y manuales de diseño y publicidad establecidos por MC HORMAS Y ZAPATOS S.A.S. - MC HORMAS Y ZAPATOS S.A.S. se reserva el derecho de solicitar el retiro o retirar enlaces que hayan sido establecidos en sitios web sin su expresa y previa autorización. El establecimiento en páginas no controladas por MC HORMAS Y ZAPATOS S.A.S. de enlaces a subdirectorios dentro del URL http://MERCEDESCAMPUZANO.COM (Deeplinking) queda prohibido. El despliegue, uso, exhibición, copia o cualquier otra forma de reproducción del Sitio http://www.mercedescampuzano.com o de cualquiera de sus subdirectorios y/o páginas, en sitios no controlados por MC HORMAS Y ZAPATOS S.A.S. (“Framing”) queda expresamente prohibido. La inobservancia de estas prohibiciones será una violación a los derechos de propiedad intelectual sobre los Contenidos y a los derechos sobre la Propiedad Industrial.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-12-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**12. Consultas.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-12-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Cualquier pregunta relacionada con el uso de marcas, enseñas, logos, signos distintivos y en general de cualquier elemento de Propiedad Industrial del Sitio, así como las relacionadas con el uso de los Contenidos o con el establecimiento de Links hacia el URL http://www.mercedescampuzano.com podrá ser hecha a MC HORMAS Y ZAPATOS S.A.S. en Colombia al teléfono (574) 2661822. Su uso, en contravención de lo aquí dispuesto, dará lugar a las acciones civiles y penales correspondientes.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-13-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**13. Exoneración y Garantías.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-13-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "De conformidad con la Ley de la República de Colombia, el material contenido en este Sitio, incluyendo sin limitación, textos, gráficos y vínculos (links), son suministrados sobre la base de 'tal como es' ('as is), sin haber de por medio garantías de cualquier tipo, ya sea expresas o implícitas, incluyendo, mas no limitado a, garantías de comerciabilidad, adecuación para un propósito particular, no contravención u otra violación de derechos. MC HORMAS Y ZAPATOS S.A.S. no garantiza el uso, validez, precisión o confiabilidad de, o los resultados del uso de, o cualquier otra situación con respecto a, el material en este Sitio o cualquier sitio web enlazado con este Sitio **MERCEDESCAMPUZANO.COM advierte** a sus clientes que la información de este sitio web puede contener errores o inexactitudes, no estar completa o actualizada. Por ello, MC HORMAS Y ZAPATOS S.A.S. se reserva el derecho de corregir cualquier error, omisión o inexactitud, cambiar o actualizar la misma en cualquier momento y sin previo aviso. Adicionalmente, se advierte que el precio que se deberá pagar por cada artículo adquirido será el precio vigente en el Almacén al momento de hacerse el despacho para la entrega.\n\nOfrecemos disculpas por cualquier inconveniente que esto pueda causar",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-14-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**14. Responsabilidad Limitada.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-14-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Sin perjuicio de lo determinado en las normas imperativas de la Legislación Colombiana aplicable, MC HORMAS Y ZAPATOS S.A.S. no asume responsabilidad alguna, incluyendo cualquier responsabilidad por cualquier daño o perjuicio, incluyendo mas no limitado a, pérdida de información o utilidades, existencia de virus, resultados del uso o la incapacidad para usar el material en este Sitio, oportunidades de negocios perdidas, o cualquier otro daño, aun cuando el usuario nos haya avisado acerca de la posibilidad de tales daños, o por cualquier reclamo de terceros, salvo lo que expresamente aquí se estipula. Bajo los términos aquí señalados, MC HORMAS Y ZAPATOS S.A.S. no asume ninguna responsabilidad por la información que se suministra en la página, incluyendo pero sin limitarse a la referente a productos, notas de interés, opiniones, consejos prácticos y solución de inquietudes. MC HORMAS Y ZAPATOS S.A.S. no asume responsabilidad alguna por la imposibilidad de, o por problemas en, la utilización del Sitio o de alguna de las páginas que lo conforman, incluyendo pero sin limitarse a eventos tales como problemas en el servidor o en la conexión, interrupciones en su comunicación, problemas técnicos. En caso de que el uso del material de este Sitio dé como resultado la necesidad de dar servicio a, reparar o corregir equipo o información, el usuario asume cualquier costo derivado de ello.\n\nPARÁGRAFO PRIMERO: La responsabilidad de MC HORMAS Y ZAPATOS S.A.S. se limitará en una cuantía idéntica al valor del producto adquirido, o en su defecto, al valor del producto solicitado por el cliente.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-15-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**15. Publicidad y vínculos.**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-15-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Las organizaciones, productos y/o servicios a los cuales se les haga publicidad en mercedescampuzano.com, así como los vínculos (links) presentados en MERCEDESCAMPUZANO.COM no son afiliados o tienen relación alguna con MC HORMAS Y ZAPATOS S.A.S., y por tanto MC HORMAS Y ZAPATOS S.A.S. No necesariamente apoya o promueve los productos y/o servicios, o las organizaciones descritas en mercedescampuzano.com. MC HORMAS Y ZAPATOS SAS. No cumple ninguna función en la producción de esos productos y/o la prestación de servicios y no hace ninguna garantía, expresa o implícita de su contenido o de su adecuación para un propósito particular. Así por ejemplo, cuando se sugiera la utilización de algún producto y/o servicio, es de exclusiva autonomía del usuario decidir su utilización, y por tanto, MC HORMAS Y ZAPATOS SAS. No asume ninguna responsabilidad por los perjuicios directos o indirectos, ciertos o eventuales, pasados, presentes o futuros, que se llegaren a derivar de dicha utilización. Así las cosas, los tratos que el usuario realice con el productor o proveedor de los productos y/o servicios contenidos en la publicidad de este Sitio, así como las visitas que realice a sus sitios web a través de los vínculos (links) de este Sitio, serán por su exclusiva cuenta y riesgo, sin que de manera alguna comprometan la responsabilidad de MC HORMAS Y ZAPATOS S.A.S.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-16-subtitle-right": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**16. Errores Tipográficos**",
+      "blockClass": "footer-terms-content-subtitles-terms-use"
+    }
+  },
+  "rich-text#terms-use-content-16-right": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "En el caso que un producto en mercedescampuzano.com aparezca con un precio incorrecto debido a un error tipográfico o error de los sistemas, mercedescampuzano.com tendrá derecho a denegar o cancelar cualquier orden puesta para dichos productos. Si en tu tarjeta de crédito ya ha sido cobrada y/o debitada la compra y tu pedido se cancela, mercedescampuzano.com emitirá un abono a tu cuenta de tarjeta crédito o débito por el monto del precio cancelado. Descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.\n\nSi MERCEDESCAMPUZANO.COM descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.",
+      "blockClass": "footer-terms-content-terms-use"
+    }
+  }
 }

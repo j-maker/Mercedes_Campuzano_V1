@@ -1,5 +1,8 @@
 {
     "flex-layout.row#footer": {
+        "props": {
+            "blockClass": "footer-new"
+        },
         "children": [
             "flex-layout.row#footer-row-1",
             "flex-layout.row#footer-row-2",
@@ -7,7 +10,6 @@
             "flex-layout.row#footer-row-4",
             "flex-layout.row#footer-row-5",
             "flex-layout.row#footer-row-6-mobile",
-            /*"image#desktop-fixed-car",*/
             /*"image#desktop-fixed-discount",*/
             "image#desktop-fixed-arrow-up",
             "modal-trigger#form-newsletter"
@@ -91,9 +93,7 @@
             "preserveLayoutOnMobile": true
         },
         "children": [
-            "flex-layout.col#spacer",
-            "image#footer-10",
-            "flex-layout.col#spacer"
+            "image#footer-10"
         ]
     }
 }

@@ -37,7 +37,7 @@
       "flex-layout.col#shelf-page-product-recomended"
     ],
     "props": {
-      "blockClass":"home-wrapper-shelf",
+      "blockClass": "home-wrapper-shelf",
       "recommendation": "views"
     }
   },
@@ -69,7 +69,7 @@
   },
   "product-description": {
     "props": {
-      "blockClass": "product-description" /*sube a 300 VALIDAR*/
+      "blockClass": "product-description"
     }
   },
   "stack-layout": {
@@ -151,7 +151,6 @@
       "sku-selector",
       "flex-layout.row#size-guide",
       "product-assembly-options",
-      /*"buy-button#product",*/
       "flex-layout.row#buy-button-product",
       "flex-layout.row#product",
       "rich-text#price-online",
@@ -160,13 +159,6 @@
       "share#default"
     ]
   },
-
-
-
-
-
-
-
   "flex-layout.row#buy-button-product": {
     "props": {
       "blockClass": "buy-button-product",
@@ -243,7 +235,7 @@
   },
   "sku-selector#product": {
     "props": {
-      "visibleVariations":[
+      "visibleVariations": [
         "talla"
       ],
       "initialSelection": "empty",

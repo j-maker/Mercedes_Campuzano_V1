@@ -37,6 +37,7 @@
 }
 /*footer-row-1*/
 .flexRow--footer-row-1 {
+  width: 100%;
   background: #dcd2c6;
   height: 80px;
 }
@@ -149,7 +150,10 @@
 .flexColChild--stores-shelf {
   width: 350px;
 }
-
+.flexRowContent--mobile-footer-6{
+  display: flex;
+  justify-content: center;
+}
 .flexRow--footer-row-7 {
   position: fixed;
   bottom: 0;
@@ -219,7 +223,7 @@
 }
 
 .flexRow--social-networks {
-  width: 1110px;
+  width: 90%;
   margin: 0 auto 30px;
 }
 
@@ -359,11 +363,32 @@
 .flexColChild--footer-terms-col-policies-col-wrapper {
   margin: 0 auto;
 }
+.flexColChild--home-row-4-wrapper{
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (max-width:768px) {
 
   .flexColChild--news-container {
     padding: 0 10px;
+
+}
+
+@media screen and (max-width:1024px) {
+  .flexColChild--stores-shelf{
+    display: flex;
+    justify-content: center;
+    width: 100%
+  }
+  .flexRow--footer-terms-col-wrapper{
+    width: 100% !important;
+  }
+  .flexRowContent--footer-new .stretchChildrenWidth{
+    width: 100% !important;
+  }
+  .flexRowContent--footer-new{
+    display: block;
   }
   .flexRow--buy-button-shelf-home {
     margin:0 ;
@@ -430,6 +455,7 @@
     width: 100%;
     margin-right: 0px;
     padding: 0px;
+    display: block;
   }
 
   .flexRow--home-row-1-wrapper {
@@ -483,11 +509,14 @@
     padding: 5px 0px;
   }
   .flexRow--footer-6-1-wrapper {
-    height: 80px;
+    height: auto;
     margin-bottom: 20px;
     width: 100%;
   }
-
+  .flexRowContent--footer-6-1-wrapper
+{
+  display: block;
+}
   .flexRow--mobile-footer-6 {
     margin: 0px 30px;
     height: 50px;
@@ -698,4 +727,5 @@
 .flexColChild--image-percent-container:first-child :global(.vtex-store-components-3-x-discountInsideContainer){
   top: -10px;
   right: 7px;
+}
 }

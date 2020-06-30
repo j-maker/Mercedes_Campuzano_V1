@@ -23,7 +23,7 @@
     border-radius: 30px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     
     .shelfContentContainer--home-wrapper-shelf {
       width: 90%;

@@ -332,7 +332,8 @@
       "text": "Reclama un bono de $50.000 por cada 600 puntos que acumules, el cual no es acumulable con otras promociones ni alianzas y debe ser redimido en una compra.",
       "blockClass": "footer-terms-content-recomendations-block"
     }
-  },  "rich-text#collectors-club-content-18": {
+  },
+  "rich-text#collectors-club-content-18": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -347,7 +348,8 @@
       "text": "Recibe Newsletters con información de tendencias y nuevos lanzamientos.",
       "blockClass": "footer-terms-content-recomendations-block"
     }
-  },  "rich-text#collectors-club-content-20": {
+  },
+  "rich-text#collectors-club-content-20": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -362,7 +364,8 @@
       "text": "Acceso al producto del mes con plata + puntos.",
       "blockClass": "footer-terms-content-recomendations-block"
     }
-  },  "rich-text#collectors-club-content-22": {
+  },
+  "rich-text#collectors-club-content-22": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -506,7 +509,7 @@
       "text": "PREGUNTAS FRECUENTES"
     }
   },
- "rich-text#col-1-subtitle-1-content-terms-collectors-club": {
+  "rich-text#col-1-subtitle-1-content-terms-collectors-club": {
     "props": {
       "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
       "textAlignment": "JUSTIFY",
