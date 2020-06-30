@@ -97,7 +97,7 @@
         "tagTitle": "Baletas",
         "text": "Baletas"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-baletas"
     }
   },
   "menu-item#menu-1-2": {
@@ -113,7 +113,7 @@
         "tagTitle": "Sandalias Planas",
         "text": "Sandalias Planas"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-sandalias-planas"
     }
   },
   "menu-item#menu-1-3": {
@@ -129,7 +129,7 @@
         "tagTitle": "Botas y Botines",
         "text": "Botas y Botines"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-botas-y-botines"
     }
   },
   "menu-item#menu-1-4": {
@@ -145,7 +145,7 @@
         "tagTitle": "Mocasines",
         "text": "Mocasines"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-mocasines"
     }
   },
   "menu-item#menu-1-5": {
@@ -161,7 +161,7 @@
         "tagTitle": "Oxford",
         "text": "Oxford"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-oxford"
     }
   },
   "menu-item#menu-1-6": {
@@ -177,7 +177,7 @@
         "tagTitle": "Sandalias de Tácon",
         "text": "Sandalias de Tácon"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-zapatos-de-tacon"
     }
   },
   "menu-item#menu-1-7": {
@@ -193,7 +193,7 @@
         "tagTitle": "Tacones",
         "text": "Tacones"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-tacones"
     }
   },
   "menu-item#menu-1-8": {
@@ -209,7 +209,7 @@
         "tagTitle": "Tenis",
         "text": "Tenis"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-tenis"
     }
   },
   "menu-item#menu-1-9": {
@@ -225,7 +225,7 @@
         "tagTitle": "Zuecos",
         "text": "Zuecos"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-zuecos"
     }
   },
   "menu-item#menu-1-10": {
@@ -241,7 +241,7 @@
         "tagTitle": "Spadrillas",
         "text": "Spadrillas"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-spadrillas"
     }
   },
   "menu-item#menu-1-11": {
@@ -257,7 +257,7 @@
         "tagTitle": "Sandalias Plataforma",
         "text": "Sandalias Plataforma"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-sandalias-plataforma"
     }
   },
   "list-context.image-list#menu-slider-1": {
@@ -351,7 +351,7 @@
         "tagTitle": "Bolsos y Carteras",
         "text": "Bolsos y Carteras"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-bolsos-y-carteras"
     }
   },
   "menu-item#menu-2-2": {
@@ -367,7 +367,7 @@
         "tagTitle": "Morrales",
         "text": "Morrales"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-morrales"
     }
   },
   "menu-item#menu-2-3": {
@@ -383,7 +383,7 @@
         "tagTitle": "Bandoleras",
         "text": "Bandoleras"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-bandoleras"
     }
   },
   "menu-item#menu-2-4": {
@@ -399,7 +399,7 @@
         "tagTitle": "Sobres",
         "text": "Sobres"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-sobres"
     }
   },
   "list-context.image-list#menu-slider-2": {
@@ -499,7 +499,7 @@
         "tagTitle": "Llaveros",
         "text": "Llaveros"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-llaveros"
     }
   },
   "menu-item#menu-3-2": {
@@ -515,7 +515,7 @@
         "tagTitle": "Cosmetiqueras",
         "text": "Cosmetiqueras"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-cosmetiqueras"
     }
   },
   "menu-item#menu-3-3": {
@@ -531,7 +531,7 @@
         "tagTitle": "Pulseras",
         "text": "Pulseras"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-pulseras"
     }
   },
   "menu-item#menu-3-4": {
@@ -547,7 +547,7 @@
         "tagTitle": "Limpieza y Cuidados",
         "text": "Limpieza y Cuidados"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-limpieza-y-cuidados"
     }
   },
   "menu-item#menu-3-5": {
@@ -563,7 +563,7 @@
         "tagTitle": "Cadenas y Collares",
         "text": "Cadenas y Collares"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-cadenas-y-collares"
     }
   },
   "menu-item#menu-3-6": {
@@ -579,7 +579,7 @@
         "tagTitle": "Anillos",
         "text": "Anillos"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-anillos"
     }
   },
   "menu-item#menu-3-7": {
@@ -595,7 +595,7 @@
         "tagTitle": "Aretes",
         "text": "Aretes"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-aretes"
     }
   },
   "menu-item#menu-3-8": {
@@ -611,7 +611,7 @@
         "tagTitle": "Billeteras y Monederos",
         "text": "Billeteras y Monederos"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-billeteras-y-monederos"
     }
   },
   "menu-item#menu-3-9": {
@@ -627,7 +627,7 @@
         "tagTitle": "Cinturones",
         "text": "Cinturones"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-cinturones"
     }
   },
   "menu-item#menu-3-10": {
@@ -643,7 +643,7 @@
         "tagTitle": "Vestuario",
         "text": "Vestuario"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-vestuario"
     }
   },
   "list-context.image-list#menu-slider-3": {
@@ -739,7 +739,7 @@
         "text": "Safe Kit"
       },
       "href": "/otros/safe-kit",
-      "blockClass": "submenu"
+      "blockClass": "submenu-safe-kit"
     }
   },
   "menu-item#menu-4-2": {
@@ -755,7 +755,7 @@
         "tagTitle": "Bono Regalo",
         "text": "Bono Regalo"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-Bono-Regalo"
     }
   },
   "menu-item#menu-4-3": {
@@ -771,7 +771,7 @@
         "tagTitle": "Ventas Corporativas",
         "text": "Ventas Corporativas"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-ventas-corporativas"
     }
   },
   "menu-item#menu-4-4": {
@@ -787,7 +787,7 @@
         "tagTitle": "Cosmopolita",
         "text": "Cosmopolita"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-Cosmopolita"
     }
   },
   "menu-item#menu-4-5": {
@@ -803,7 +803,7 @@
         "tagTitle": "Urbano",
         "text": "Urbano"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-Urbano"
     }
   },
   "menu-item#menu-4-6": {
@@ -819,7 +819,7 @@
         "tagTitle": "Verano",
         "text": "Verano"
       },
-      "blockClass": "submenu"
+      "blockClass": "submenu-Verano"
     }
   },
   

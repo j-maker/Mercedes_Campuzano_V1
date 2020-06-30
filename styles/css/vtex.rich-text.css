@@ -82,6 +82,7 @@
 .wrapper--footer-row-2-newsletter {
   width: 450px;
   margin-bottom: 20px;
+  margin-top: -30px;
 }
 .paragraph--footer-row-2-newsletter {
   line-height: 2;
@@ -472,4 +473,47 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+}
+
+.paragraph--Title-news {
+  font-family: "Lora",serif;
+  font-size: 44px;
+  font-weight: 200;
+  letter-spacing: 7px;
+}
+
+.wrapper--newsletter-terms-modal {
+  padding-left: 25px;
+  margin-top: -30px;
+}
+
+.container--newsletter-terms-modal {
+  justify-content: center;
+  padding: 0 20px;
+}
+.paragraph--newsletter-terms-modal {
+  line-height: 2;
+  font-size: 11px;
+  text-align: justify;
+}
+
+.link--newsletter-terms-modal {
+  text-decoration: none;
+  color: #9d884b;
+}
+
+.paragraph--fixed-button-discount {
+  position: fixed;
+  width: 67px;
+  padding: 5px 10px;
+  z-index: 1000000;
+  background-color: #fffafa;
+  color: #9d884b;
+  border: 4px solid #9d884b!important;
+  bottom: 15px;
+  left: 30px;
+  font-weight: 500;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
 }

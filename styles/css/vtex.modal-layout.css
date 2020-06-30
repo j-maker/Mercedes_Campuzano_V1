@@ -94,3 +94,17 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+
+.paper--form-newsletter-modal {
+  width: 40%;
+}
+
+.backdrop--form-newsletter-modal {
+  background-color: rgba(0,0,0,0.4);
+}
+
+@media screen and (max-width:768px) {
+  .paper--form-newsletter-modal {
+    width: 95%;
+  }
+}
