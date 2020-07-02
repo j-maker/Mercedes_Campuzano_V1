@@ -98,7 +98,7 @@
   },
   "flex-layout.col#stack": {
     "children": [
-      "percent-discount",
+      //"percent-discount",
       "stack-layout"
     ],
     "props": {
@@ -107,11 +107,11 @@
       "blockClass": "image-percent-container"
     }
   },
-  "percent-discount": {
+/*  "percent-discount": {
     "props": {
       "blockClass": "percent-discunt-container"
     }
-  },
+  },*/
   "flex-layout.row#percent-discount": {
     "children": ["percent-discount"],
     "props": {
@@ -229,11 +229,7 @@
       "hideImpossibleCombinations": true,
       "showVariationsLabels": true,
       "showVariationsErrorMessage": true,
-<<<<<<< HEAD
       "thumbnailImage": "3",
-=======
-      "thumbnailImage": "2",
->>>>>>> f8c2abe70669a861b5726bce9d2e86d10cca5289
       "imageLabel": 3
     }
   },
