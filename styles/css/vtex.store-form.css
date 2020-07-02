@@ -1,0 +1,18 @@
+.formSubmitButton :global(.vtex-button){
+    background: #e3d3c7;
+}
+
+.formSubmitButton--news-modal-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1024px){
+    .formSubmitButton:global(.vtex-button){
+        display: flex;
+        justify-content: center;
+        background-color: red;
+    }    
+}

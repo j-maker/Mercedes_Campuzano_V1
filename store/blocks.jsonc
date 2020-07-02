@@ -93,7 +93,8 @@
     "props": {
       "showBadge": true,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "maxHeight": 300,
+      "hoverImageLabel": "3"
     }
   },
   "stack-layout#prodsum": {

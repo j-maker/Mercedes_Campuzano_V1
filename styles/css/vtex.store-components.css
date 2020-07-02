@@ -86,26 +86,6 @@
 .imageElement--about-us-image {
   margin: 0px 3%;
 }
-.imageElement--desktop-fixed-help {
-  padding: 0px;
-  width: 20px;
-  height: 20px;
-}
-.imageElementLink--desktop-fixed-help {
-  padding: 15px 0px 0px 17px;
-  width: 20px;
-  height: 20px;
-}
-.imageElement--desktop-fixed-car-1 {
-  background: #515151;
-  position: fixed;
-  bottom: 60%;
-  right: 0px;
-  height: 15px;
-  width: 17px;
-  padding: 13px;
-  z-index: 999999;
-}
 .imageElement--desktop-fixed-discount {
   position: fixed;
   bottom: 0%;
@@ -113,6 +93,7 @@
   height: 65px;
   width: 65px;
   padding: 10px;
+  z-index: 1;
 }
 .imageElement--desktop-fixed-arrow-up {
   background: #b09d6b;
@@ -345,7 +326,9 @@
 .imageElement--share{
   display: none;
 }
-
+.container {
+  padding: 0;
+}
 
 
 

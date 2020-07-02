@@ -204,6 +204,7 @@
       "hideImpossibleCombinations": true,
       "showVariationsLabels": true,
       "showVariationsErrorMessage": true,
+      "thumbnailImage": "3",
       "imageLabel": 3
     }
   },

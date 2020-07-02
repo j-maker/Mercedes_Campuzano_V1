@@ -13,8 +13,8 @@
       "flex-layout.row#footer-row-4",
       "flex-layout.row#footer-row-5",
       "flex-layout.row#footer-row-6",
-      /*"image#desktop-fixed-discount",*/
-      "image#desktop-fixed-arrow-up"
+      "image#desktop-fixed-arrow-up",
+      "image#discount"
     ]
   },
   "flex-layout.row#footer-row-2": {
@@ -27,9 +27,100 @@
   },
   "flex-layout.col#footer-row-2": {
     "children": [
-      "newsletter",
+      "flex-layout.row#form-news",
+      // "newsletter",
       "rich-text#newsletter-terms"
     ]
+  }, 
+  "flex-layout.row#form-news": {
+    "children": [
+      "flex-layout.col#form-news"
+    ]
+  },
+  "flex-layout.col#form-news": {
+    "children": [
+      "form#news2"
+      // "form#news"
+    ],
+    "props": {
+      "blockClass": "news-container"
+    }
+  },
+  "form#news2": {
+    // "entity": "News",
+    // "schema": "client"
+    "props": {  
+      "entity": "News",  
+      "schema": "client"  
+    },
+    "children": [  
+      "rich-text#formTitle-news",  
+      // "form-input.text#firstName-news",  
+      // "form-input.text#lastName-news",    
+      "flex-layout.row#newsletter-container",
+      // "form-input.text#email-news",    
+      "form-input.checkbox#agreement-news"      
+    ],  
+    "blocks": ["form-success#news"]     
+  },
+  "form-success#news": {  
+    "children": [  
+      "rich-text#successSubmit-news"  
+    ]  
+  },
+  "rich-text#formTitle-news": {
+    "props": {  
+      "blockClass": "Title-news",
+      "text": "SUSCRÍBETE",  
+      "textAlignment": "CENTER",  
+      "textPosition": "CENTER"  
+    }  
+  },
+  "flex-layout.row#newsletter-container": {
+    "children": ["flex-layout.col#newsletter-container-email", "flex-layout.col#newsletter-container-submit"],
+    "props": {
+      "blockClass": "container-form-newsletter",
+      "fullWidth": false,
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#newsletter-container-email": {
+    "children": [
+      "form-input.text#email-news"
+    ],
+    "props": {
+      "blockClass": "email-news",
+      "width": "80%"
+    }
+  },
+  "flex-layout.col#newsletter-container-submit": {
+    "children": [
+      "form-submit#news" 
+    ],
+    "props": {
+      "blockClass": "submit-news",
+      "width": "grow"
+    }
+  },
+  "form-input.text#email-news": {  
+    "props": {  
+      "pointer": "#/properties/emailAddress",
+      "label": "",
+      "placeholder": "TU-EMAIL@EJEMPLO.COM"
+    }  
+  }, 
+  "form-input.checkbox#agreement-news": {  
+    "props": {  
+      "pointer": "#/properties/agreement",  
+      "label": "",
+      "blockClass": "agreement-news"
+    }  
+  },  
+  "form-submit#news": {  
+    "props": {  
+      "label": "Enviar"  
+    }  
   },
   "rich-text#newsletter-terms": {
     "props": {
@@ -39,6 +130,15 @@
       "textPosition": "JUSTIFY"
     }
   },
+  "rich-text#successSubmit-news": {  
+    "props": {  
+      "text": "Succesfully submitted the data!",  
+      "textAlignment": "CENTER",  
+      "textPosition": "CENTER"  
+    }  
+  },
+  
+  
   "flex-layout.row#desktop-fixed-help": {
     "props": {
       "colSizing": "auto",
@@ -71,18 +171,11 @@
       "maxHeight": 30
     }
   },
-  "image#desktop-fixed-discount": {
+  "image#discount": {
     "props": {
       "blockClass": "desktop-fixed-discount",
       "image": "https://mercedescampuzano.vtexassets.com/arquivos/10-off (1).png",
       "maxHeight": 70
-    }
-  },
-  "image#desktop-fixed-car": {
-    "props": {
-      "blockClass": "desktop-fixed-car-1",
-      "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-truck-solid.png",
-      "maxHeight": 20
     }
   },
   "flex-layout.row#footer-row-1": {

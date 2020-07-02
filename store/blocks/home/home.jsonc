@@ -1,8 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      /*"flex-layout.row#form",
-      "modal-trigger#popup10%",*/
       "list-context.image-list#home",
       "rich-text#new",
       "flex-layout.row#shelf",
@@ -17,8 +15,171 @@
       "flex-layout.row#social-networks",
       "flex-layout.row#home-row-4",
       "rich-text#iframe",
-      "iframe"
+      "iframe",
+      "modal-trigger#form-newsletter"
     ]
+  },
+  "modal-trigger#form-newsletter": {
+    "children": [
+      "modal-layout#form-newsletter"
+    ],
+     "props": {
+       "trigger": "load"
+     }
+  },
+  "modal-layout#form-newsletter": {
+    "children": [
+      "flex-layout.row#form-news-modal"
+    ],
+    "props": {
+      "blockClass": "form-newsletter-modal"
+    }
+  },
+  "flex-layout.row#form-news-modal": {
+    "children": [
+      "flex-layout.col#form-news-modal"
+    ]
+  },
+  "flex-layout.col#form-news-modal": {
+    "children": [
+      "form#news-modal"
+      // "form#news"
+    ],
+    "props": {
+      "blockClass": "news-container-modal"
+    }
+  },
+  "form#news-modal": {
+    "props": {  
+      "entity": "News",  
+      "schema": "client"  
+    },
+    "children": [  
+      "image#form-news-modal",
+      "flex-layout.row#newsletter-container-modal"    
+    ],  
+    "blocks": ["form-success#news-modal"]     
+  },
+  "image#form-news-modal": {
+    "props": {
+      "src": "https://mercedescampuzano.vteximg.com.br/arquivos/descount-newsletter-image.jpg"
+    }
+  },
+  "flex-layout.row#newsletter-container-modal": {
+    "children": ["flex-layout.col#newsletter-container-modal"]
+  },
+  "flex-layout.col#newsletter-container-modal": {
+    "children": [
+      "flex-layout.row#newsletter-container-name-modal", 
+      "flex-layout.row#newsletter-container-email-modal",
+      "flex-layout.row#newsletter-container-submit-modal",
+      "flex-layout.row#newsletter-container-agreement-modal",
+      "rich-text#newsletter-terms-modal"
+    ],
+    "props": {
+      "blockClass": "container-form-newsletter-modal",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#newsletter-container-name-modal" : {
+    "children": ["flex-layout.col#newsletter-container-name-modal"]
+  },
+  "flex-layout.row#newsletter-container-email-modal": {
+    "children": ["flex-layout.col#newsletter-container-email-modal"]
+  },
+  "flex-layout.row#newsletter-container-submit-modal": {
+    "children": ["flex-layout.col#newsletter-container-submit-modal"]
+  },
+  "flex-layout.row#newsletter-container-agreement-modal": {
+    "children": ["flex-layout.col#newsletter-container-agreement-modal"]
+  },
+  
+  "flex-layout.col#newsletter-container-name-modal": {
+    "children": [
+      "form-input.text#firstName-news-modal",
+      "form-input.text#lastName-news-modal"
+    ],
+    "props": {
+      "blockClass": "newsletter-container-name-modal-row",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#newsletter-container-email-modal": {
+    "children": [
+      "form-input.text#email-news-modal"
+    ],
+    "props": {
+      "blockClass": "newsletter-container-email-modal-row"
+    }
+  },
+  "flex-layout.col#newsletter-container-submit-modal": {
+    "children": [
+      "form-submit#news-modal"
+    ],
+    "props": {
+      "blockClass": "newsletter-container-submit-modal"
+    }
+  },
+  "flex-layout.col#newsletter-container-agreement-modal": {
+    "children": [
+      "form-input.checkbox#agreement-news-modal"
+    ],
+    "props": {
+      "blockClass": "newsletter-container-agreement-modal"
+    }
+  },
+  "form-input.text#firstName-news-modal": {  
+    "props": {  
+      "label": "Nombre",
+      "pointer": "#/properties/firstName"  
+    }  
+  },  
+  "form-input.text#lastName-news-modal": {  
+    "props": {  
+      "label": "Apellido",
+      "pointer": "#/properties/lastName"  
+    }  
+  },
+  "form-input.text#email-news-modal": {  
+    "props": {  
+      "pointer": "#/properties/emailAddress",
+      "label": "Email",
+      "placeholder": "TU-EMAIL@EJEMPLO.COM"
+    }  
+  }, 
+  "form-submit#news-modal": {  
+    "props": {  
+      "label": "SUSCRIBIRSE",
+      "blockClass": "news-modal-submit"
+    }  
+  },
+  "form-success#news-modal": {  
+    "children": [  
+      "rich-text#successSubmit-news-modal"  
+    ]  
+  },  
+  "rich-text#successSubmit-news-modal": {  
+    "props": {  
+      "text": "Gracias por suscribirte",  
+      "textAlignment": "CENTER",  
+      "textPosition": "CENTER"  
+    }  
+  },  
+  "form-input.checkbox#agreement-news-modal": {  
+    "props": {  
+      "pointer": "#/properties/agreement",  
+      "label": "",
+      "blockClass": "agreement-news"
+    }  
+  },
+  "rich-text#newsletter-terms-modal": {
+    "props": {
+      "blockClass": "newsletter-terms-modal",
+      "text": "Al suscribirte autorizas a recibir información y contenidos exclusivos de la marca Mercedes Campuzano. www.mercedescampuzano.com cuenta con rigurosos estándares de seguridad. Todos tus datos se mantendrán en estricta confidencialidad. Ver Política de seguridad. Si quieres dejar de recibir emails de Mercedescampuzano.com puedes solicitarlo al correo servicioalcliente@mecedescampuzano.com.",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY"
+    }
   },
   "image#share": {
     "props": {
