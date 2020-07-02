@@ -1,163 +1,166 @@
 {
-  "store.custom#corporate-sales": {
-    "blocks": [
-      "flex-layout.row#footer-corporate-sales"
-    ]
-  },
-  "flex-layout.row#footer-corporate-sales": {
-    "props": {
-      "colSizing": "auto",
-      "blockClass": "about-us"
+    "store.custom#corporate-sales": {
+        "blocks": [  
+            "flex-layout.row#footer-corporate-sales"
+            /*formulario de contacto*/
+        ]
+    },  
+     "flex-layout.row#footer-corporate-sales": {
+      "props":{
+        "colSizing":"auto",
+        "blockClass":"about-us"
+      },
+      "children":[
+        "flex-layout.col#corporate-sales"
+      ]
     },
-    "children": [
-      "flex-layout.col#corporate-sales"
-    ]
-  },
-  "flex-layout.col#corporate-sales": {
-    "props": {
-      "blockClass": "footer-terms-col-wrapper"
-    },
-    "children": [
+    "flex-layout.col#corporate-sales":{
+      "props":{
+        "blockClass":"footer-terms-col-wrapper"
+      },
+      "children":[
       "flex-layout.row#corporate-sales-title",
-      "flex-layout.row#corporate-sales-content"
+      "flex-layout.row#corporate-sales-content"  
     ]
-  },
-  "flex-layout.row#corporate-sales-title": {
-    "children": [
-      "rich-text#title-corporate-sales"
-    ]
-  },
-  "rich-text#title-corporate-sales": {
-    "props": {
-      "blockClass": "footer-terms-title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "VENTAS CORPORATIVAS"
-    }
-  },
-  "flex-layout.row#corporate-sales-content": {
-    "children": [
-      "flex-layout.col#corporate-sales-content-1",
-      "flex-layout.col#corporate-sales-content-2"
-    ]
-  },
-  "flex-layout.col#corporate-sales-content-1": {
-    "children": [
-      "rich-text#corporate-sales-title-1",
-      "rich-text#corporate-sales-content-1"
-    ]
-  },
-  "flex-layout.col#corporate-sales-content-2": {
-    "props": {
-      "blockClass": "corporate-sales-content-2"
     },
-    "children": [
-      "rich-text#corporate-sales-content-2-1",
-      "rich-text#corporate-sales-subtitle",
-      "rich-text#corporate-sales-content-2-2",
-      "rich-text#corporate-sales-content-2-3",
-      "rich-text#corporate-sales-content-2-4",
-      "rich-text#corporate-sales-content-2-5",
-      "rich-text#corporate-sales-content-2-6",
-      "rich-text#corporate-sales-content-2-7",
-      "rich-text#corporate-sales-content-2-8",
-      "rich-text#corporate-sales-content-2-9"
-    ]
-  },
-  "rich-text#corporate-sales-content-1": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "La creatividad en movimiento es lo que nos inspira a diseñar zapatos, bolsos y accesorios para todas las mujeres que como nosotras sueñan con ser verdaderas coleccionistas.\n\nSabemos que tu negocio tiene necesidades específicas por lo que hemos desarrollado una división para asesorate en la adquisición de nuestro portafolio de productos.\n\nSi quieres destacar, agradecer, felicitar, saludar, distinguir a quienes desees, dar regalos de fin de año o planes de fidelización, el área de ventas corporativas Mercedes Campuzano pone a tu disposición una gran variedad de productos.\n\nNuestro servicio te permitirá acceder a convenios, precios especiales, promociones, ofertas además de una atención profesional, rápida y personalizada.\n\n",
-      "blockClass": "footer-terms-content-recomendations"
-    }
-  },
-  "rich-text#corporate-sales-subtitle": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "**Tus Beneficios.**\n\n",
-      "blockClass": "footer-terms-content-subtitles"
-    }
-  },
-  "rich-text#corporate-sales-title-1": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "**Tu empresa en las mejores manos**\n\n",
-      "blockClass": "footer-terms-content-subtitles"
-    }
-  },
-  "rich-text#corporate-sales-content-2-1": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Para dotar tú equipo de ejecutivos, representantes de ventas, áreas administrativas y en general todo tú equipo de trabajo.\n\nSi deseas conocer más acerca de lo que podemos hacer por tu empresa, por favor contáctanos enviando tus datos al email:\n\nventasmayoristas@mercedescampuzano.com o llamándonos al 560 60 60",
-      "blockClass": "footer-terms-content-recomendations"
-    }
-  },
-  "rich-text#corporate-sales-content-2-2": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Recibe atención personalizada.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#corporate-sales-content-2-3": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Accede a una amplia variedad de productos.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#corporate-sales-content-2-4": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Precios más convenientes.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#corporate-sales-content-2-5": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Entrega de productos a todo el país.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#corporate-sales-content-2-6": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Puedes solicitar grandes volúmenes de producto.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#corporate-sales-content-2-7": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Facturación directa con la marca Mercedes Campuzano.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#corporate-sales-content-2-8": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Descuentos por volumen.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#corporate-sales-content-2-9": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Envío gratis a todo el país.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
+    "flex-layout.row#corporate-sales-title":{
+      "children":[
+        "rich-text#title-corporate-sales"
+      ]
+    },
+    "rich-text#title-corporate-sales": {
+      "props": {
+        "blockClass": "footer-terms-title",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "VENTAS CORPORATIVAS"
+      }
+    },
+    "flex-layout.row#corporate-sales-content":{
+      "children":[
+        "flex-layout.col#corporate-sales-content-1",
+        "flex-layout.col#corporate-sales-content-2"
+      ]
+    },
+    "flex-layout.col#corporate-sales-content-1":{
+        "children":[
+            "rich-text#corporate-sales-title-1",  
+            "rich-text#corporate-sales-content-1"        ]
+      },
+    "flex-layout.col#corporate-sales-content-2":{
+        "props":{
+            "blockClass":"corporate-sales-content-2"
+        },
+        "children":[
+          "rich-text#corporate-sales-content-2-1",
+          "rich-text#corporate-sales-subtitle",
+          "rich-text#corporate-sales-content-2-2",
+          "rich-text#corporate-sales-content-2-3",
+          "rich-text#corporate-sales-content-2-4",
+          "rich-text#corporate-sales-content-2-5",
+          "rich-text#corporate-sales-content-2-6",
+          "rich-text#corporate-sales-content-2-7",
+          "rich-text#corporate-sales-content-2-8",
+          "rich-text#corporate-sales-content-2-9"
+        ]
+      },
+    "rich-text#corporate-sales-content-1": {
+      "props": {
+        "textAlignment": "JUSTIFY",
+        "textPosition": "JUSTIFY",
+        "text": "La creatividad en movimiento es lo que nos inspira a diseñar zapatos, bolsos y accesorios para todas las mujeres que como nosotras sueñan con ser verdaderas coleccionistas.\n\nSabemos que tu negocio tiene necesidades específicas por lo que hemos desarrollado una división para asesorate en la adquisición de nuestro portafolio de productos.\n\nSi quieres destacar, agradecer, felicitar, saludar, distinguir a quienes desees, dar regalos de fin de año o planes de fidelización, el área de ventas corporativas Mercedes Campuzano pone a tu disposición una gran variedad de productos.\n\nNuestro servicio te permitirá acceder a convenios, precios especiales, promociones, ofertas además de una atención profesional, rápida y personalizada.\n\n",
+        "blockClass": "footer-terms-content-recomendations"
+      }
+    },
+    "rich-text#corporate-sales-subtitle": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**Tus Beneficios.**\n\n",
+          "blockClass": "footer-terms-content-subtitles"
+        }
+      },
+      "rich-text#corporate-sales-title-1": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**Tu empresa en las mejores manos**\n\n",
+          "blockClass": "footer-terms-content-subtitles"
+        }
+      }, 
+    "rich-text#corporate-sales-content-2-1": {
+      "props": {
+        "textAlignment": "JUSTIFY",
+        "textPosition": "JUSTIFY",
+        "text": "Para dotar tú equipo de ejecutivos, representantes de ventas, áreas administrativas y en general todo tú equipo de trabajo.\n\nSi deseas conocer más acerca de lo que podemos hacer por tu empresa, por favor contáctanos enviando tus datos al email:\n\nventasmayoristas@mercedescampuzano.com o llamándonos al 560 60 60",
+        "blockClass": "footer-terms-content-recomendations"
+      }
+    },
+    "rich-text#corporate-sales-content-2-2": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Recibe atención personalizada.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#corporate-sales-content-2-3": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Accede a una amplia variedad de productos.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#corporate-sales-content-2-4": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Precios más convenientes.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#corporate-sales-content-2-5": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Entrega de productos a todo el país.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#corporate-sales-content-2-6": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Puedes solicitar grandes volúmenes de producto.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#corporate-sales-content-2-7": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Facturación directa con la marca Mercedes Campuzano.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#corporate-sales-content-2-8": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Descuentos por volumen.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#corporate-sales-content-2-9": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Envío gratis a todo el país.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      }
+
+  
   }
-}
+  

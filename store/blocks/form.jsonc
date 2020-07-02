@@ -1,69 +1,68 @@
 {
-  "flex-layout.row#form": {
-    "children": [
-      "flex-layout.col#form"
-    ]
-  },
-  "flex-layout.col#form": {
-    "children": [
-      "form"
-    ]
-  },
-  "form": {
-    "props": {
-      "entity": "NL",
-      "schema": "Newsletter"
-    },
-    "children": [
-      "form-input.text#firstName",
-      "form-input.text#lastName",
-      "form-input.checkbox#accepts_news",
-      "form-input.text#correo_electronico",
-      "form-submit"
-    ],
-    "blocks": [
-      "form-success"
-    ]
-  },
-  "form-success": {
-    "children": [
-      "rich-text#successSubmit"
-    ]
-  },
-  "rich-text#successSubmit": {
-    "props": {
-      "text": "Succesfully submitted the data!",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
-  "form-input.text#firstName": {
-    "props": {
-      "pointer": "#/properties/firstName"
-    }
-  },
-  "form-input.text#lastName": {
-    "props": {
-      "pointer": "#/properties/lastName"
-    }
-  },
-  "form-input.text#correo_electronico": {
-    "props": {
-      "pointer": "#/properties/correo_electronico"
-    }
-  },
-  "form-input.checkbox#accepts_news": {
-    "props": {
-      "pointer": "#/properties/accepts_news",
-      "label": "Do you agree that this is the best form component in the whole wide world?"
-    }
-  },
-  "form-submit": {
-    "props": {
-      "label": "Submit"
-    }
-  }
-  /*  "flex-layout.col#form": {
+    "flex-layout.row#form": {
+        "children": [
+          "flex-layout.col#form"
+        ]
+      },
+      "flex-layout.col#form": {
+        "children": [
+          "form"
+        ]
+      },
+      "form": {  
+        "props": {  
+          "entity": "NL",  
+          "schema": "Newsletter"  
+        },  
+        "children": [  
+          "form-input.text#firstName",
+          "form-input.text#lastName",  
+          "form-input.checkbox#accepts_news", 
+          "form-input.text#correo_electronico",
+          "form-submit"  
+        ],  
+        "blocks": ["form-success"]  
+      },  
+      "form-success": {  
+        "children": [  
+          "rich-text#successSubmit"  
+        ]  
+      },  
+      "rich-text#successSubmit": {  
+        "props": {  
+          "text": "Succesfully submitted the data!",  
+          "textAlignment": "CENTER",  
+          "textPosition": "CENTER"  
+        }  
+      },  
+      "form-input.text#firstName": {  
+        "props": {  
+          "pointer": "#/properties/firstName"  
+        }  
+      },  
+      "form-input.text#lastName": {  
+        "props": {  
+          "pointer": "#/properties/lastName"  
+        }  
+      },  
+      "form-input.text#correo_electronico": {
+        "props": {
+          "pointer": "#/properties/correo_electronico"
+        }
+      },    
+      "form-input.checkbox#accepts_news": {  
+        "props": {  
+          "pointer": "#/properties/accepts_news",  
+          "label": "Do you agree that this is the best form component in the whole wide world?"  
+        }  
+      },    
+      "form-submit": {  
+        "props": {  
+          "label": "Submit"  
+        }  
+      }
+
+      /*  "flex-layout.col#form": {
     "children": [
       "form"
     ]

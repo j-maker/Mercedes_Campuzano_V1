@@ -26,6 +26,7 @@
   @media screen and (max-width: 1024px) {
     
     .shelfContentContainer--home-wrapper-shelf {
-      width: 90%;
-  }
+      width: 85% ;
+    }
+
   }

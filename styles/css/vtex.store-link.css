@@ -108,7 +108,7 @@
 .link--store-shelf-maps {
   background: #e1d3c8;
   padding: 10px 77px;
-  height: auto;
+  height: 37px;
   text-decoration: none;
   margin: 0px 10px;
   width: 100%;
@@ -145,7 +145,7 @@
     padding: 3px 5px;
   }
   .link--home-text-all {
-    margin: 40px auto;
+    margin: 40px 26%;
   }
   .label--row-3-links-1 {
     color: #ee562a;

@@ -3,10 +3,8 @@
     "props": {
       "position": "top"
     },
-    "children": [
-      "flex-layout.row#buy-button-shelf",
-      "flex-layout.row#buy-button-product"
-    ]
+    "children": ["flex-layout.row#buy-button-shelf",
+      "flex-layout.row#buy-button-product"]
   },
   "product-assembly-options": {
     "children": [

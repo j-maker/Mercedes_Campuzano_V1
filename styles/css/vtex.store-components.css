@@ -25,15 +25,19 @@
   border-radius: 50%;
   margin: 10% 0px;
 }
-.imageElement--home-col-1-wrapper-image-2:hover,
 .imageElement--home-col-wrapper-image-1:hover {
   filter: brightness(0.7);
 }
+.imageElement--home-col-1-wrapper-image-2:hover {
+  filter: brightness(0.7);
+}
+
 .imageElement--home-row-1-wrapper-image-2 {
-  border-radius: 50%;
+  border-radius: 60%;
   margin-left: -20px;
-  max-width: 95%;
-  margin: 55px auto;
+  width: 100%;
+
+  margin: 35px auto;
 }
 .imageElementLink--header-2-icon {
   padding: 20px 5px;
@@ -60,8 +64,6 @@
 .container--footer-row-2-newsletter {
   padding-top: 40px;
   padding-bottom: 0;
-  display: flex;
-  justify-content: center;
 }
 .label--footer-row-2-newsletter {
   font-family: "Lora", serif;
@@ -86,6 +88,26 @@
 .imageElement--about-us-image {
   margin: 0px 3%;
 }
+.imageElement--desktop-fixed-help {
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+}
+.imageElementLink--desktop-fixed-help {
+  padding: 15px 0px 0px 17px;
+  width: 20px;
+  height: 20px;
+}
+.imageElement--desktop-fixed-car-1 {
+  background: #515151;
+  position: fixed;
+  bottom: 60%;
+  right: 0px;
+  height: 15px;
+  width: 17px;
+  padding: 13px;
+  z-index: 999999;
+}
 .imageElement--desktop-fixed-discount {
   position: fixed;
   bottom: 0%;
@@ -93,7 +115,6 @@
   height: 65px;
   width: 65px;
   padding: 10px;
-  z-index: 1;
 }
 .imageElement--desktop-fixed-arrow-up {
   background: #b09d6b;
@@ -327,9 +348,6 @@
 .imageElement--share{
   display: none;
 }
-.container {
-  padding: 0;
-}
 
 
 
@@ -341,12 +359,11 @@
 
 
 @media screen and (max-width: 1024px) {
-  .imageElementLink--footer-image{
-    display: flex;
-    justify-content: center;
+  .autoCompleteOuterContainer--mobile-search-bar :global(.vtex-input-prefix__group) {
+    border: 2px solid #e1d3c8;
   }
-  .inputGroup--footer-row-2-newsletter{
-    display: unset;
+  .searchBarInnerContainer--mobile-search-bar{
+    padding: 10px;
   }
   .skuSelectorNameContainer{
     margin: 0;
@@ -417,10 +434,9 @@
     padding: 0px;
   }
   .logoImage--row-3-logo {
-    margin-top: 12px;
-    padding: 0px 20px;
-    width: 170px;
-    height: 55px;
+    margin: 0px 0px;
+    padding: 0;
+    padding-right: 20px;
   }
   .imageElement--mobile-drawer-arrow {
     z-index: 30 !important;
@@ -449,7 +465,12 @@
     padding: 0px;
     height: 80px;
   }
-
+  .logoImage--row-3-logo {
+    margin-top: 12px;
+    padding: 0px 20px;
+    width: 170px;
+    height: 55px;
+  }
   .logoContainer--row-3-logo {
     margin: 0em;
     padding: 0;
@@ -534,6 +555,7 @@
     width: 100%;
     padding: 0 !important;
   }
+
   .searchBarInnerContainer--search-drawer {
     width: 100%;
     padding: 15px 0;
@@ -543,13 +565,5 @@
     padding: 0;
     border: none;
     margin: 0 auto;
-  }
-  .autoCompleteOuterContainer--mobile-search-bar{
-    margin: 10px;
-    border: 4px solid #E1D3C8;
-  }
-  .imageElementLink--redes{
-    display: flex;
-    justify-content: center;
   }
 }

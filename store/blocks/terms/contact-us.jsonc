@@ -1,50 +1,52 @@
 {
-  "store.custom#contact-us": {
-    "blocks": [
-      "flex-layout.row#footer-contact-us"
-    ]
-  },
-  "flex-layout.row#footer-contact-us": {
-    "props": {
-      "blockClass": "footer-contact-us"
+    "store.custom#contact-us":{
+        "blocks": [  
+            "flex-layout.row#footer-contact-us"
+        ]
     },
-    "children": [
-      "flex-layout.col#contact-us-wrapper"
-    ]
-  },
-  "flex-layout.col#contact-us-wrapper": {
-    "props": {
-      "blockClass": "footer-contact-us"
-    },
-    "children": [
-      "flex-layout.row#contact-us-title",
-      "flex-layout.row#contact-us-content"
-    ]
-  },
-  "flex-layout.row#contact-us-title": {
-    "children": [
-      "rich-text#contact-us-title"
-    ]
-  },
-  "flex-layout.row#contact-us-content": {
-    "children": [
-      "rich-text#contact-us-content"
-    ]
-  },
-  "rich-text#contact-us-title": {
-    "props": {
-      "blockClass": "footer-terms-title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "CONTÁCTANOS"
-    }
-  },
-  "rich-text#contact-us-content": {
-    "props": {
-      "blockClass": "footer-contact-us",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Por favor, si tienes alguna duda o sugerencia, déjanos saberlo en el siguiente formulario. Te responderemos lo mas pronto posible."
-    }
-  }
+    "flex-layout.row#footer-contact-us": {
+        "props":{
+            "blockClass":"footer-contact-us"
+        },
+        "children": [
+          "flex-layout.col#contact-us-wrapper"
+        ]
+      },
+      "flex-layout.col#contact-us-wrapper": {
+        "props": {
+          "blockClass": "footer-contact-us"
+        },
+        "children": [
+          "flex-layout.row#contact-us-title",
+          "flex-layout.row#contact-us-content"
+        ]
+      },
+      "flex-layout.row#contact-us-title": {
+        "children": [
+          "rich-text#contact-us-title"
+        ]
+      },
+      "flex-layout.row#contact-us-content": {
+        "children": [
+          "rich-text#contact-us-content"
+        ]
+      },
+      "rich-text#contact-us-title": {
+        "props": {
+          "blockClass": "footer-terms-title",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "CONTÁCTANOS"
+        }
+      },
+      "rich-text#contact-us-content": {
+        "props": {
+          "blockClass": "footer-contact-us",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Por favor, si tienes alguna duda o sugerencia, déjanos saberlo en el siguiente formulario. Te responderemos lo mas pronto posible."
+        }
+      }
+    
+
 }

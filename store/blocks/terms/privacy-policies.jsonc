@@ -1,298 +1,298 @@
 {
-  "store.custom#privacy-policies": {
-    "blocks": [
-      "flex-layout.row#footer-privacy-policies"
-    ]
-  },
-  "flex-layout.row#footer-privacy-policies": {
-    "props": {
-      "colSizing": "auto",
-      "blockClass": "about-us"
+    "store.custom#privacy-policies": {
+        "blocks": [  
+            "flex-layout.row#footer-privacy-policies"
+        ]
     },
-    "children": [
-      "flex-layout.col#privacy-policies-wrapper"
-    ]
-  },
-  "flex-layout.col#privacy-policies-wrapper": {
-    "props": {
-      "blockClass": "footer-terms-col-wrapper"
-    },
-    "children": [
-      "flex-layout.row#privacy-policies-title",
-      "flex-layout.row#privacy-policies-content"
-    ]
-  },
-  "flex-layout.row#privacy-policies-title": {
-    "children": [
-      "rich-text#title-privacy-policies"
-    ]
-  },
-  "rich-text#title-privacy-policies": {
-    "props": {
-      "blockClass": "footer-terms-title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "POLÍTICAS DE PRIVACIDAD"
-    }
-  },
-  "flex-layout.row#privacy-policies-content": {
-    "props": {
-      "blockClass": "terms-use-content-left"
-    },
-    "children": [
-      "flex-layout.col#privacy-policies-content-left",
-      "flex-layout.col#privacy-policies-content-right"
-    ]
-  },
-  "flex-layout.col#privacy-policies-content-left": {
-    "children": [
-      "rich-text#privacy-policies-content-subtitle-left",
-      "rich-text#privacy-policies-content-1-subtitle-left",
-      "rich-text#privacy-policies-content-1-left",
-      "rich-text#privacy-policies-content-2-subtitle-left",
-      "rich-text#privacy-policies-content-2-left",
-      "rich-text#privacy-policies-content-3-subtitle-left",
-      "rich-text#privacy-policies-content-3-left",
-      "rich-text#privacy-policies-content-4-subtitle-left",
-      "rich-text#privacy-policies-content-4-left",
-      "rich-text#privacy-policies-content-5-subtitle-left",
-      "rich-text#privacy-policies-content-5-left",
-      "rich-text#privacy-policies-content-6-subtitle-left",
-      "rich-text#privacy-policies-content-6-left"
-    ]
-  },
-  "rich-text#privacy-policies-content-subtitle-left": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-1-subtitle-left": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**1. OBJETO:**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-1-left": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "MC HORMAS Y ZAPATOS S.A.S., sociedad comercial identificada con Nit 900428510-8, como responsable y/o encargada del tratamiento de datos personales, ha adoptado la presente Política de Tratamiento de Datos Personales, con el fin de garantizar el cumplimiento de la Ley 1581 de 2012 “Ley de protección de datos personales” y el Decreto 1377 de 2013 y demás normas concordantes.\n\nMC HORMAS Y ZAPATOS S.A.S. teniendo en cuenta su condición de Responsable del Tratamiento de Datos, define las siguiente Política de Tratamiento de Datos Personales donde se establecen los aspectos relacionados con la autorización del Titular de la información para el Tratamiento de sus datos personales, las políticas de Tratamiento de los Responsables y Encargados, el ejercicio de los derechos de los Titulares de información, las transferencias de datos personales y la responsabilidad demostrada frente al Tratamiento de datos personales.\n\nMC HORMAS Y ZAPATOS S.A.S. previamente a la utilización del presente Sitio Web mercedescampuzano.com, recomienda a quienes lo visitan que lean cuidadosamente los Términos y Condiciones del Sitio y la presente Política de Tratamiento de Datos Personales. En caso de no estar de acuerdo con lo establecido en los Términos y Condiciones del Sitio y la presente Política de Tratamiento de Datos Personales por favor abstente de utilizar el Sitio Web.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-2-subtitle-left": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**2. DEFINICIONES**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-2-left": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "**Titular:** Cada una de las personas naturales con las que se relacionan los datos personales.\n\n**Datos Personales:** Conjunto de información susceptible de relacionarse a una o más personas naturales.\n\n**Datos Sensibles:** Se entiende por datos sensibles aquellos que afectan la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición, así como los datos relativos a la salud, a la vida sexual, y los datos biométricos.\n\n**Tratamiento de Datos (o 'Tratamiento'):** Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión.\n\n**Responsable del Tratamiento:** Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el Tratamiento de los datos.\n\n**Encargado del Tratamiento:** Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del Responsable del Tratamiento.\n\n**Base de Datos:** Conjunto organizado de datos personales que sea objeto de Tratamiento.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-3-subtitle-left": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**3. PRINCIPIOS**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-3-left": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "MC HORMAS Y ZAPATOS S.A.S.está comprometida con la implementación de mecanismos relacionados con la información personal de terceros para garantizar, de manera armónica e integral, los siguientes principios:\n\nPrincipio de legalidad en materia de Tratamiento de datos: El Tratamiento a que se refiere la presente ley es una actividad reglada que debe sujetarse a lo establecido en ella y en las demás disposiciones que la desarrollen;\n\nPrincipio de finalidad: El Tratamiento debe obedecer a una finalidad legítima de acuerdo con la Constitución y la Ley, la cual debe ser informada al Titular;\n\nPrincipio de libertad: El Tratamiento sólo puede ejercerse con el consentimiento, previo, expreso e informado del Titular. Los datos personales no podrán ser obtenidos o divulgados sin previa autorización, o en ausencia de mandato legal o judicial que releve el consentimiento;\n\nPrincipio de veracidad o calidad: La información sujeta a Tratamiento debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. Se prohíbe el Tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error;\n\nPrincipio de transparencia: En el Tratamiento debe garantizarse el derecho del Titular a obtener del Responsable del Tratamiento o del Encargado del Tratamiento, en cualquier momento y sin restricciones, información acerca de la existencia de datos que le conciernan;\n\nPrincipio de acceso y circulación restringida: El Tratamiento se sujeta a los límites que se derivan de la naturaleza de los datos personales, de las disposiciones de la presente ley y la Constitución. En este sentido, el Tratamiento sólo podrá hacerse por personas autorizadas por el Titular y/o por las personas previstas en la presente ley;\n\nLos datos personales, salvo la información pública, no podrán estar disponibles en Internet u otros medios de divulgación o comunicación masiva, salvo que el acceso sea técnicamente controlable para brindar un conocimiento restringido sólo a los Titulares o terceros autorizados conforme a la presente ley;\n\nPrincipio de seguridad: La información sujeta a Tratamiento por el Responsable del Tratamiento o Encargado del Tratamiento a que se refiere la presente ley, se deberá manejar con las medidas técnicas, humanas y administrativas que sean necesarias para otorgar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento;\n\nPrincipio de confidencialidad: Todas las personas que intervengan en el Tratamiento de datos personales que no tengan la naturaleza de públicos están obligadas a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende el Tratamiento, pudiendo sólo realizar suministro o comunicación de datos personales cuando ello corresponda al desarrollo de las actividades autorizadas en la presente ley y en los términos de la misma.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-4-subtitle-left": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**4. ALCANCE:**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-4-left": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Las presentes Política de Tratamiento de Datos Personales aplica a todos los empleados de MC HORMAS Y ZAPATOS S.A.S. los aspirantes a ser contratados por la misma, ex empleados, representantes, agencias y a todas las sedes y sucursales a nivel nacional que tengan cualquier actividad relacionada con el tratamiento de datos personales; incluye la información de datos personales de clientes, empleados, proveedores, contratistas, aliados estratégicos, vinculados y socios.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-5-subtitle-left": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**5. AUTORIZACIÓN DEL TITULAR PARA EL TRATAMIENTO DE DATOS:**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-5-left": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "MC HORMAS Y ZAPATOS S.A.S.requiere del consentimiento libre, previo, expreso e informado del Titular de los datos personales para el tratamiento de los mismos, excepto en los casos expresamente autorizados en la ley. Dicha autorización será otorgada por: el Titular, quien deberá acreditar su identidad en forma suficiente, según las condiciones indicadas por MC HORMAS Y ZAPATOS S.AS.; o los causahabientes, acudientes, representantes o apoderados del titular, quienes deberán acreditar tal calidad, representación o apoderamiento.\n\nAsí mismo, se comunica que los Derechos de todos los Titulares de Datos que se encuentran en nuestras bases son:\n\nConocer, actualizar y rectificar los datos personales que se encuentren en poder de MC HORMAS Y ZAPATOS S.A.S.\n\nSolicitar prueba de la autorización cuando ésta sea requisito para el tratamiento de conformidad con el artículo 10 de la Ley 1581 de 2012.\n\nSolicitar ser informado del uso que se le ha dado a los datos personales.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-6-subtitle-left": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**6. AUTORIZACIÓN DEL TITULAR PARA EL TRATAMIENTO DE DATOS – COMPRAS POR EL SITIO WEB:**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-6-left": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "A largo del proceso de compra en el Sitio Web www.mercedescampuzano.com se solicitan algunos datos personales a nuestros clientes, por lo cual, MC HORMAS Y ZAPATOS S.A.S. informa que es responsable de la administración de dichos datos, según la presente Política de Tratamiento de Datos Personales, y dando cumplimiento con la Ley 1581 de 2012 “Ley de protección de datos personales” y el Decreto 1377 de 2013.\n\nLos mecanismos a través de los cuales se hace uso de los Datos son seguros y confidenciales, pues se cuenta con los medios tecnológicos idóneos para asegurar que sean almacenados para evitar el acceso indeseado por parte de terceras personas, y en ese mismo orden se asegura la confidencialidad de los mismos.\n\nEl Titular de los Datos puede acceder a los detalles de su orden de compra por el sitio web a través de la página de “Mis Pedidos”. Ahí podrá ver los detalles de sus pedidos previos, los que están abiertos y los que están en proceso de ser enviados.\n\nEs de anotar, que sujeto a la obtención del consentimiento del Titular de Datos, MC HORMAS Y ZAPATOS S.A.S. podrá contactar al Titular por correo electrónico, mensaje de texto (SMS, MMS), correo directo o por medio telefónico.\n\nEn caso que el Titular no quisiera recibir comunicaciones a través de alguno o todos estos canales, puede comunicarlo en cualquier momento a el correo electrónico: servicioalcliente@mercedescampuzano.com o comunicándose con la línea de atención nacional 018000 413658 y así dejará de recibir dichas comunicaciones.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "flex-layout.col#privacy-policies-content-right": {
-    "children": [
-      "rich-text#privacy-policies-content-1-subtitle-right",
-      "rich-text#privacy-policies-content-1-right",
-      "rich-text#privacy-policies-content-2-subtitle-right",
-      "rich-text#privacy-policies-content-2-right",
-      "rich-text#privacy-policies-content-3-subtitle-right",
-      "rich-text#privacy-policies-content-3-right",
-      "rich-text#privacy-policies-content-4-subtitle-right",
-      "rich-text#privacy-policies-content-4-right",
-      "rich-text#privacy-policies-content-5-subtitle-right",
-      "rich-text#privacy-policies-content-5-right",
-      "rich-text#privacy-policies-content-6-subtitle-right",
-      "rich-text#privacy-policies-content-6-right",
-      "rich-text#privacy-policies-content-7-subtitle-right",
-      "rich-text#privacy-policies-content-7-right"
-    ]
-  },
-  "rich-text#privacy-policies-content-1-subtitle-right": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**7. FINALIDADES Y USO DE LOS DATOS PERSONALES**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-1-right": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Para MC HORMAS Y ZAPATOS S.A.S. es muy importante la protección de los datos personales por esta razón en el desarrollo de su objeto social y sus relaciones con aspirantes empleados, clientes, proveedores, acreedores, aliados estratégicos, filiales, distribuidores, entre otros, recolecta datos que se limitan a aquellos datos personales que son pertinentes y adecuados para las siguientes finalidades:\n\nRealizar actividades de mercadeo, publicidad e inteligencia de mercados, Prestar los servicios inherentes a la venta de productos adquiridos, su entrega y el recaudo del pago correspondiente, El cumplimiento de las obligaciones contractuales o legales con el cliente y con terceros Compartirlos con terceros encargados que colaboren con la Compañía en sus actividades comerciales en desarrollo de su objeto social. Realizar el procesamiento y entrega de los pedido, Enviar notificaciones acerca del estado de los pedidos y para enviar información que pueda ser útil a nuestros clientes o que hayan solicitado específicamente, incluida información sobre nuestros productos y servicios, a menos que nos hayan comunicado que se oponen a ser contactado para estos fines.\n\nEn algunas partes de este Sitio solicitamos que proporcione información voluntaria que nos permita mejorar la visita al Sitio, Atender la aceptación a la Oferta de compra, o dar seguimiento a las inquietudes tras la visita. LA PARTICIPACIÓN ES TOTALMENTE VOLUNTARIA. Informar de actividades de mercadeo, promociones y descuentos así como el portafolio completo de nuestros productos y servicios. Realizar el análisis y clasificación del cumplimiento de los requisitos de los Aspirantes, de acuerdo con los perfiles establecidos en los cargos vacantes; para contactar al aspirante y citarlo a entrevistas, pruebas psicotécnicas y demás actividades que hacen parte del proceso de selección, reclutamiento y selección de aspirantes\n\nCon relación a las anteriores finalidades MC HORMAS Y ZAPATOS S.A.S podrá:\n\nObtener, almacenar, compilar, intercambiar, actualizar, recolectar, procesar, reproducir y/o disponer de los datos o información parcial o total de los Titulares de los datos personales. Clasificar, ordenar y segmentar la información suministrada por el Titular de los datos. Comparar, verificar y validar los datos que obtenga en debida forma con centrales de riesgo crediticio con las cuales se tengan relaciones comerciales. Extender la información que obtenga, en los términos de la Ley, a las empresas con las que contrata los servicios de recolección, almacenamiento, manejo y Tratamiento de sus Bases de Datos previas las debidas autorizaciones y requerimientos legales que en ese sentido sean necesarias. Transferir los datos o información parcial o total a sus filiales, comercios, empresas y/o entidades afiliadas y aliados estratégicos. Guardar las hojas de vida recibidas por parte de los aspirantes, por un periodo de 1 año, lo que significa que aquellas que no fueron seleccionadas para la convocatoria inicialmente publicada, serán tenidas en cuenta para convocatorias futuras. Pasado un año, MC HORMAS Y ZAPATOS S.A.S eliminará las hojas de vida de sus bases de datos y el aspirante tendrá que enviarla nuevamente en caso de tener interés de continuar participando en los procesos.\n\nEn ningún momento MC HORMAS Y ZAPATOS S.A.S., entregará o venderá a un Tercero externo la información con el fin de realizar actividades de mercadotecnia u ofertas de servicios.\n\nMC HORMAS Y ZAPATOS S.A.S mantendrá la confidencialidad de la información personal y sólo se utilizará por parte de MC HORMAS Y ZAPATOS S.A.S. y/o sus proveedores de servicios y demás entidades vinculadas o asociadas con el fin anteriormente descrito en las presentes Política de Tratamiento de Datos Personales",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-2-subtitle-right": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**8. ATENCIÓN A CONSULTAS, PETICIONES, QUEJAS Y RECLAMOS**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-2-right": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Todos los Usuarios o Titulares de los Datos Personales tienen derecho de forma gratuita a realizar consultas y solicitudes a MC HORMAS Y ZAPATOS S.A.S. para conocer, actualizar, rectificar, suprimir información y revocar la autorización o para realizar peticiones, quejas y reclamos respecto al Tratamiento que MC HORMAS Y ZAPATOS S.A.S da a la información.\n\nPara la gestión de Consultas y Reclamos como Titular de datos personales podrá comunicarse con MC HORMAS Y ZAPATOS S.A.S al área responsable de servicio al cliente al correo electrónico servicioalcliente@mercedescampuzano.com o comunicarse con la línea de atención nacional 018000413658.\n\nMC HORMAS Y ZAPATOS S.A.S. dará respuesta al peticionario dentro de los términos establecidos por la Ley 1581 de 2012 para el caso de Consultas y Reclamos, respectivamente; para tal efecto, la solicitud debe contener todos los datos necesarios y aplicables al Derecho de petición para garantizar la oportuna y efectiva respuesta.\n\nToda solicitud debe ser presentada por el titular de los datos o por su representante legal; por lo tanto, MC HORMAS Y ZAPATOS S.A.S. tiene el derecho de verificar la identidad del peticionario mediante cualquier medio.\n\nLas Consultas serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la fecha de su recibo. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al interesado antes de su vencimiento, expresando los motivos de la demora y señalando la fecha en que se atenderá su consulta, la cual en ningún caso podrá superar los cinco (5) días hábiles siguientes al vencimiento del primer plazo.\n\nLas solicitudes de actualización, corrección, rectificación o supresión de los datos serán contestadas dentro de los quince (15) días hábiles siguientes, contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atenderlas dentro de dicho término, se informará al interesado antes del vencimiento del referido plazo, los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-3-subtitle-right": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**9. Cookies**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-3-right": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Para entender de una mejor manera las necesidades de los usuarios y entregar un mejor servicio, el Sitio Web mercedescampuzano.com utiliza identificadores anónimos ('cookies') para recoger información anónima de preferencias e intereses de sus usuarios.\n\nUna cookie es cualquier cadena de texto que pide autorización para alojarse en el disco duro de la computadora. Si el usuario acepta, entonces el explorador agrega el texto en un archivo pequeño con la finalidad de notificarnos cuando el usuario visita nuestro Sitio Web mercedescampuzano.com.\n\nLa información recogida por este medio es utilizada para crear perfiles anónimos para cualquier propósito, incluyendo, más no limitado a, desarrollar, fabricar y comercializar productos, y puede ser comercializada, diseminada o usada por MC HORMAS Y ZAPATOS S.A.S. o sus proveedores de servicios y demás entidades vinculadas o asociadas. La información proporcionada a tales compañías no incluye y nunca se combina con datos de carácter personal que permitan identificar a una persona determinada (tal como nombre, domicilio o dirección de correo electrónico) o cualquier información que pueda ser considerada sensible o que pueda comprometer la privacidad de los usuarios.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-4-subtitle-right": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**10. Seguridad información de pago**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-4-right": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Los pagos que se realicen a través del Sitio Web www.mercedescampuzano.com serán procesados por nuestro agente de pagos en línea PAYU LATAM. Sólo se debe proporcionar su información en nuestro sitio. Dicha información debe ser precisa y veraz y debe mantenerse al día. Si ocurre algún cambio en sus datos, debe actualizarlos a través de la página de “Mi cuenta” en nuestro Sitio Web mercedescampuzano.com.\n\nNuestra plataforma tecnológica de comercio electrónico VTEX y nuestro aliado de pagos PAYU LATAM cuentan con la certificación PCI DSS para el manejo seguro de la información de tarjetas de crédito. Si bien no podemos garantizar al 100% de seguridad, estos sistemas han probado ser efectivos en el manejo de información reservada y harán que sea difícil para un hacker descifrar sus datos.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-5-subtitle-right": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**11. Remisión a Los Términos y Condiciones Del Sitio**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-5-right": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Esta Política de Tratamiento de Datos Personales hace parte integral del documento de Términos y Condiciones de uso del Sitio Web mercedescampuzano.com, las cuales se encuentran publicadas en el Sitio Web www.mercedescampuzano.com.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-6-subtitle-right": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**12. Vigencia**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-6-right": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Las presentes Políticas de Tratamiento de la Información entran en vigencia a partir de Noviembre de 2016 y las Bases de Datos que contienen la información de los Titulares tendrán una vigencia de 10 años prorrogables por períodos iguales.",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-7-subtitle-right": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**13. Responsable del Tratamiento**",
-      "blockClass": "footer-terms-content-subtitles-terms-use"
-    }
-  },
-  "rich-text#privacy-policies-content-7-right": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Domiciliada en la Carrera 51 #9C sur 61 piso 2 Edificio Athlon de la ciudad de Medellín\n\nSitio Web mercedescampuzano.com\n\nLínea de atención nacional número 018000413658 y correo servicioalcliente@mercedescampuzano.com",
-      "blockClass": "footer-terms-content-terms-use"
-    }
-  }
+      "flex-layout.row#footer-privacy-policies": {
+        "props": {
+          "colSizing": "auto",
+          "blockClass": "about-us"
+        },
+        "children": [
+          "flex-layout.col#privacy-policies-wrapper"
+        ]
+      },
+      "flex-layout.col#privacy-policies-wrapper": {
+        "props": {
+          "blockClass": "footer-terms-col-wrapper"
+        },
+        "children": [
+          "flex-layout.row#privacy-policies-title",
+          "flex-layout.row#privacy-policies-content"
+        ]
+      },
+      "flex-layout.row#privacy-policies-title": {
+        "children": [
+          "rich-text#title-privacy-policies"
+        ]
+      },
+      "rich-text#title-privacy-policies": {
+        "props": {
+          "blockClass": "footer-terms-title",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "POLÍTICAS DE PRIVACIDAD"
+        }
+      },
+      "flex-layout.row#privacy-policies-content": {
+        "props":{
+          "blockClass":"terms-use-content-left"
+        },
+        "children": [
+            "flex-layout.col#privacy-policies-content-left",
+            "flex-layout.col#privacy-policies-content-right"
+        ]
+      },
+      "flex-layout.col#privacy-policies-content-left":{
+        "children":[
+            "rich-text#privacy-policies-content-subtitle-left",
+            "rich-text#privacy-policies-content-1-subtitle-left",
+            "rich-text#privacy-policies-content-1-left",
+            "rich-text#privacy-policies-content-2-subtitle-left",
+            "rich-text#privacy-policies-content-2-left",
+            "rich-text#privacy-policies-content-3-subtitle-left",
+            "rich-text#privacy-policies-content-3-left",
+            "rich-text#privacy-policies-content-4-subtitle-left",
+            "rich-text#privacy-policies-content-4-left",
+            "rich-text#privacy-policies-content-5-subtitle-left",
+            "rich-text#privacy-policies-content-5-left",
+            "rich-text#privacy-policies-content-6-subtitle-left",
+            "rich-text#privacy-policies-content-6-left"
+        ]
+      },
+      "rich-text#privacy-policies-content-subtitle-left": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+       "rich-text#privacy-policies-content-1-subtitle-left": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**1. OBJETO:**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-1-left": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "MC HORMAS Y ZAPATOS S.A.S., sociedad comercial identificada con Nit 900428510-8, como responsable y/o encargada del tratamiento de datos personales, ha adoptado la presente Política de Tratamiento de Datos Personales, con el fin de garantizar el cumplimiento de la Ley 1581 de 2012 “Ley de protección de datos personales” y el Decreto 1377 de 2013 y demás normas concordantes.\n\nMC HORMAS Y ZAPATOS S.A.S. teniendo en cuenta su condición de Responsable del Tratamiento de Datos, define las siguiente Política de Tratamiento de Datos Personales donde se establecen los aspectos relacionados con la autorización del Titular de la información para el Tratamiento de sus datos personales, las políticas de Tratamiento de los Responsables y Encargados, el ejercicio de los derechos de los Titulares de información, las transferencias de datos personales y la responsabilidad demostrada frente al Tratamiento de datos personales.\n\nMC HORMAS Y ZAPATOS S.A.S. previamente a la utilización del presente Sitio Web mercedescampuzano.com, recomienda a quienes lo visitan que lean cuidadosamente los Términos y Condiciones del Sitio y la presente Política de Tratamiento de Datos Personales. En caso de no estar de acuerdo con lo establecido en los Términos y Condiciones del Sitio y la presente Política de Tratamiento de Datos Personales por favor abstente de utilizar el Sitio Web.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-2-subtitle-left": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**2. DEFINICIONES**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-2-left": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**Titular:** Cada una de las personas naturales con las que se relacionan los datos personales.\n\n**Datos Personales:** Conjunto de información susceptible de relacionarse a una o más personas naturales.\n\n**Datos Sensibles:** Se entiende por datos sensibles aquellos que afectan la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición, así como los datos relativos a la salud, a la vida sexual, y los datos biométricos.\n\n**Tratamiento de Datos (o 'Tratamiento'):** Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión.\n\n**Responsable del Tratamiento:** Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el Tratamiento de los datos.\n\n**Encargado del Tratamiento:** Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del Responsable del Tratamiento.\n\n**Base de Datos:** Conjunto organizado de datos personales que sea objeto de Tratamiento.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-3-subtitle-left": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**3. PRINCIPIOS**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-3-left": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "MC HORMAS Y ZAPATOS S.A.S.está comprometida con la implementación de mecanismos relacionados con la información personal de terceros para garantizar, de manera armónica e integral, los siguientes principios:\n\nPrincipio de legalidad en materia de Tratamiento de datos: El Tratamiento a que se refiere la presente ley es una actividad reglada que debe sujetarse a lo establecido en ella y en las demás disposiciones que la desarrollen;\n\nPrincipio de finalidad: El Tratamiento debe obedecer a una finalidad legítima de acuerdo con la Constitución y la Ley, la cual debe ser informada al Titular;\n\nPrincipio de libertad: El Tratamiento sólo puede ejercerse con el consentimiento, previo, expreso e informado del Titular. Los datos personales no podrán ser obtenidos o divulgados sin previa autorización, o en ausencia de mandato legal o judicial que releve el consentimiento;\n\nPrincipio de veracidad o calidad: La información sujeta a Tratamiento debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. Se prohíbe el Tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error;\n\nPrincipio de transparencia: En el Tratamiento debe garantizarse el derecho del Titular a obtener del Responsable del Tratamiento o del Encargado del Tratamiento, en cualquier momento y sin restricciones, información acerca de la existencia de datos que le conciernan;\n\nPrincipio de acceso y circulación restringida: El Tratamiento se sujeta a los límites que se derivan de la naturaleza de los datos personales, de las disposiciones de la presente ley y la Constitución. En este sentido, el Tratamiento sólo podrá hacerse por personas autorizadas por el Titular y/o por las personas previstas en la presente ley;\n\nLos datos personales, salvo la información pública, no podrán estar disponibles en Internet u otros medios de divulgación o comunicación masiva, salvo que el acceso sea técnicamente controlable para brindar un conocimiento restringido sólo a los Titulares o terceros autorizados conforme a la presente ley;\n\nPrincipio de seguridad: La información sujeta a Tratamiento por el Responsable del Tratamiento o Encargado del Tratamiento a que se refiere la presente ley, se deberá manejar con las medidas técnicas, humanas y administrativas que sean necesarias para otorgar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento;\n\nPrincipio de confidencialidad: Todas las personas que intervengan en el Tratamiento de datos personales que no tengan la naturaleza de públicos están obligadas a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende el Tratamiento, pudiendo sólo realizar suministro o comunicación de datos personales cuando ello corresponda al desarrollo de las actividades autorizadas en la presente ley y en los términos de la misma.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-4-subtitle-left": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**4. ALCANCE:**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-4-left": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Las presentes Política de Tratamiento de Datos Personales aplica a todos los empleados de MC HORMAS Y ZAPATOS S.A.S. los aspirantes a ser contratados por la misma, ex empleados, representantes, agencias y a todas las sedes y sucursales a nivel nacional que tengan cualquier actividad relacionada con el tratamiento de datos personales; incluye la información de datos personales de clientes, empleados, proveedores, contratistas, aliados estratégicos, vinculados y socios.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-5-subtitle-left": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**5. AUTORIZACIÓN DEL TITULAR PARA EL TRATAMIENTO DE DATOS:**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-5-left": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "MC HORMAS Y ZAPATOS S.A.S.requiere del consentimiento libre, previo, expreso e informado del Titular de los datos personales para el tratamiento de los mismos, excepto en los casos expresamente autorizados en la ley. Dicha autorización será otorgada por: el Titular, quien deberá acreditar su identidad en forma suficiente, según las condiciones indicadas por MC HORMAS Y ZAPATOS S.AS.; o los causahabientes, acudientes, representantes o apoderados del titular, quienes deberán acreditar tal calidad, representación o apoderamiento.\n\nAsí mismo, se comunica que los Derechos de todos los Titulares de Datos que se encuentran en nuestras bases son:\n\nConocer, actualizar y rectificar los datos personales que se encuentren en poder de MC HORMAS Y ZAPATOS S.A.S.\n\nSolicitar prueba de la autorización cuando ésta sea requisito para el tratamiento de conformidad con el artículo 10 de la Ley 1581 de 2012.\n\nSolicitar ser informado del uso que se le ha dado a los datos personales.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-6-subtitle-left": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**6. AUTORIZACIÓN DEL TITULAR PARA EL TRATAMIENTO DE DATOS – COMPRAS POR EL SITIO WEB:**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-6-left": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "A largo del proceso de compra en el Sitio Web www.mercedescampuzano.com se solicitan algunos datos personales a nuestros clientes, por lo cual, MC HORMAS Y ZAPATOS S.A.S. informa que es responsable de la administración de dichos datos, según la presente Política de Tratamiento de Datos Personales, y dando cumplimiento con la Ley 1581 de 2012 “Ley de protección de datos personales” y el Decreto 1377 de 2013.\n\nLos mecanismos a través de los cuales se hace uso de los Datos son seguros y confidenciales, pues se cuenta con los medios tecnológicos idóneos para asegurar que sean almacenados para evitar el acceso indeseado por parte de terceras personas, y en ese mismo orden se asegura la confidencialidad de los mismos.\n\nEl Titular de los Datos puede acceder a los detalles de su orden de compra por el sitio web a través de la página de “Mis Pedidos”. Ahí podrá ver los detalles de sus pedidos previos, los que están abiertos y los que están en proceso de ser enviados.\n\nEs de anotar, que sujeto a la obtención del consentimiento del Titular de Datos, MC HORMAS Y ZAPATOS S.A.S. podrá contactar al Titular por correo electrónico, mensaje de texto (SMS, MMS), correo directo o por medio telefónico.\n\nEn caso que el Titular no quisiera recibir comunicaciones a través de alguno o todos estos canales, puede comunicarlo en cualquier momento a el correo electrónico: servicioalcliente@mercedescampuzano.com o comunicándose con la línea de atención nacional 018000 413658 y así dejará de recibir dichas comunicaciones.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "flex-layout.col#privacy-policies-content-right":{
+        "children":[
+            "rich-text#privacy-policies-content-1-subtitle-right",            
+            "rich-text#privacy-policies-content-1-right",
+            "rich-text#privacy-policies-content-2-subtitle-right",            
+            "rich-text#privacy-policies-content-2-right",
+            "rich-text#privacy-policies-content-3-subtitle-right",            
+            "rich-text#privacy-policies-content-3-right",
+            "rich-text#privacy-policies-content-4-subtitle-right",            
+            "rich-text#privacy-policies-content-4-right",
+            "rich-text#privacy-policies-content-5-subtitle-right",            
+            "rich-text#privacy-policies-content-5-right",
+            "rich-text#privacy-policies-content-6-subtitle-right",            
+            "rich-text#privacy-policies-content-6-right",
+            "rich-text#privacy-policies-content-7-subtitle-right",            
+            "rich-text#privacy-policies-content-7-right"
+          ]
+      },
+      "rich-text#privacy-policies-content-1-subtitle-right": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**7. FINALIDADES Y USO DE LOS DATOS PERSONALES**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-1-right": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Para MC HORMAS Y ZAPATOS S.A.S. es muy importante la protección de los datos personales por esta razón en el desarrollo de su objeto social y sus relaciones con aspirantes empleados, clientes, proveedores, acreedores, aliados estratégicos, filiales, distribuidores, entre otros, recolecta datos que se limitan a aquellos datos personales que son pertinentes y adecuados para las siguientes finalidades:\n\nRealizar actividades de mercadeo, publicidad e inteligencia de mercados, Prestar los servicios inherentes a la venta de productos adquiridos, su entrega y el recaudo del pago correspondiente, El cumplimiento de las obligaciones contractuales o legales con el cliente y con terceros Compartirlos con terceros encargados que colaboren con la Compañía en sus actividades comerciales en desarrollo de su objeto social. Realizar el procesamiento y entrega de los pedido, Enviar notificaciones acerca del estado de los pedidos y para enviar información que pueda ser útil a nuestros clientes o que hayan solicitado específicamente, incluida información sobre nuestros productos y servicios, a menos que nos hayan comunicado que se oponen a ser contactado para estos fines.\n\nEn algunas partes de este Sitio solicitamos que proporcione información voluntaria que nos permita mejorar la visita al Sitio, Atender la aceptación a la Oferta de compra, o dar seguimiento a las inquietudes tras la visita. LA PARTICIPACIÓN ES TOTALMENTE VOLUNTARIA. Informar de actividades de mercadeo, promociones y descuentos así como el portafolio completo de nuestros productos y servicios. Realizar el análisis y clasificación del cumplimiento de los requisitos de los Aspirantes, de acuerdo con los perfiles establecidos en los cargos vacantes; para contactar al aspirante y citarlo a entrevistas, pruebas psicotécnicas y demás actividades que hacen parte del proceso de selección, reclutamiento y selección de aspirantes\n\nCon relación a las anteriores finalidades MC HORMAS Y ZAPATOS S.A.S podrá:\n\nObtener, almacenar, compilar, intercambiar, actualizar, recolectar, procesar, reproducir y/o disponer de los datos o información parcial o total de los Titulares de los datos personales. Clasificar, ordenar y segmentar la información suministrada por el Titular de los datos. Comparar, verificar y validar los datos que obtenga en debida forma con centrales de riesgo crediticio con las cuales se tengan relaciones comerciales. Extender la información que obtenga, en los términos de la Ley, a las empresas con las que contrata los servicios de recolección, almacenamiento, manejo y Tratamiento de sus Bases de Datos previas las debidas autorizaciones y requerimientos legales que en ese sentido sean necesarias. Transferir los datos o información parcial o total a sus filiales, comercios, empresas y/o entidades afiliadas y aliados estratégicos. Guardar las hojas de vida recibidas por parte de los aspirantes, por un periodo de 1 año, lo que significa que aquellas que no fueron seleccionadas para la convocatoria inicialmente publicada, serán tenidas en cuenta para convocatorias futuras. Pasado un año, MC HORMAS Y ZAPATOS S.A.S eliminará las hojas de vida de sus bases de datos y el aspirante tendrá que enviarla nuevamente en caso de tener interés de continuar participando en los procesos.\n\nEn ningún momento MC HORMAS Y ZAPATOS S.A.S., entregará o venderá a un Tercero externo la información con el fin de realizar actividades de mercadotecnia u ofertas de servicios.\n\nMC HORMAS Y ZAPATOS S.A.S mantendrá la confidencialidad de la información personal y sólo se utilizará por parte de MC HORMAS Y ZAPATOS S.A.S. y/o sus proveedores de servicios y demás entidades vinculadas o asociadas con el fin anteriormente descrito en las presentes Política de Tratamiento de Datos Personales",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-2-subtitle-right": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**8. ATENCIÓN A CONSULTAS, PETICIONES, QUEJAS Y RECLAMOS**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-2-right": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Todos los Usuarios o Titulares de los Datos Personales tienen derecho de forma gratuita a realizar consultas y solicitudes a MC HORMAS Y ZAPATOS S.A.S. para conocer, actualizar, rectificar, suprimir información y revocar la autorización o para realizar peticiones, quejas y reclamos respecto al Tratamiento que MC HORMAS Y ZAPATOS S.A.S da a la información.\n\nPara la gestión de Consultas y Reclamos como Titular de datos personales podrá comunicarse con MC HORMAS Y ZAPATOS S.A.S al área responsable de servicio al cliente al correo electrónico servicioalcliente@mercedescampuzano.com o comunicarse con la línea de atención nacional 018000413658.\n\nMC HORMAS Y ZAPATOS S.A.S. dará respuesta al peticionario dentro de los términos establecidos por la Ley 1581 de 2012 para el caso de Consultas y Reclamos, respectivamente; para tal efecto, la solicitud debe contener todos los datos necesarios y aplicables al Derecho de petición para garantizar la oportuna y efectiva respuesta.\n\nToda solicitud debe ser presentada por el titular de los datos o por su representante legal; por lo tanto, MC HORMAS Y ZAPATOS S.A.S. tiene el derecho de verificar la identidad del peticionario mediante cualquier medio.\n\nLas Consultas serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la fecha de su recibo. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al interesado antes de su vencimiento, expresando los motivos de la demora y señalando la fecha en que se atenderá su consulta, la cual en ningún caso podrá superar los cinco (5) días hábiles siguientes al vencimiento del primer plazo.\n\nLas solicitudes de actualización, corrección, rectificación o supresión de los datos serán contestadas dentro de los quince (15) días hábiles siguientes, contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atenderlas dentro de dicho término, se informará al interesado antes del vencimiento del referido plazo, los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-3-subtitle-right": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**9. Cookies**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-3-right": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Para entender de una mejor manera las necesidades de los usuarios y entregar un mejor servicio, el Sitio Web mercedescampuzano.com utiliza identificadores anónimos ('cookies') para recoger información anónima de preferencias e intereses de sus usuarios.\n\nUna cookie es cualquier cadena de texto que pide autorización para alojarse en el disco duro de la computadora. Si el usuario acepta, entonces el explorador agrega el texto en un archivo pequeño con la finalidad de notificarnos cuando el usuario visita nuestro Sitio Web mercedescampuzano.com.\n\nLa información recogida por este medio es utilizada para crear perfiles anónimos para cualquier propósito, incluyendo, más no limitado a, desarrollar, fabricar y comercializar productos, y puede ser comercializada, diseminada o usada por MC HORMAS Y ZAPATOS S.A.S. o sus proveedores de servicios y demás entidades vinculadas o asociadas. La información proporcionada a tales compañías no incluye y nunca se combina con datos de carácter personal que permitan identificar a una persona determinada (tal como nombre, domicilio o dirección de correo electrónico) o cualquier información que pueda ser considerada sensible o que pueda comprometer la privacidad de los usuarios.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-4-subtitle-right": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**10. Seguridad información de pago**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-4-right": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Los pagos que se realicen a través del Sitio Web www.mercedescampuzano.com serán procesados por nuestro agente de pagos en línea PAYU LATAM. Sólo se debe proporcionar su información en nuestro sitio. Dicha información debe ser precisa y veraz y debe mantenerse al día. Si ocurre algún cambio en sus datos, debe actualizarlos a través de la página de “Mi cuenta” en nuestro Sitio Web mercedescampuzano.com.\n\nNuestra plataforma tecnológica de comercio electrónico VTEX y nuestro aliado de pagos PAYU LATAM cuentan con la certificación PCI DSS para el manejo seguro de la información de tarjetas de crédito. Si bien no podemos garantizar al 100% de seguridad, estos sistemas han probado ser efectivos en el manejo de información reservada y harán que sea difícil para un hacker descifrar sus datos.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-5-subtitle-right": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**11. Remisión a Los Términos y Condiciones Del Sitio**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-5-right": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Esta Política de Tratamiento de Datos Personales hace parte integral del documento de Términos y Condiciones de uso del Sitio Web mercedescampuzano.com, las cuales se encuentran publicadas en el Sitio Web www.mercedescampuzano.com.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },      
+      "rich-text#privacy-policies-content-6-subtitle-right": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**12. Vigencia**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-6-right": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Las presentes Políticas de Tratamiento de la Información entran en vigencia a partir de Noviembre de 2016 y las Bases de Datos que contienen la información de los Titulares tendrán una vigencia de 10 años prorrogables por períodos iguales.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-7-subtitle-right": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**13. Responsable del Tratamiento**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#privacy-policies-content-7-right": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Domiciliada en la Carrera 51 #9C sur 61 piso 2 Edificio Athlon de la ciudad de Medellín\n\nSitio Web mercedescampuzano.com\n\nLínea de atención nacional número 018000413658 y correo servicioalcliente@mercedescampuzano.com",
+          "blockClass": "footer-terms-content-terms-use"
+        }
+      }
 }

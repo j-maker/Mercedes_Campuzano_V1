@@ -1,203 +1,211 @@
 {
-  "store.custom#policies-changes": {
-    "blocks": [
-      "flex-layout.row#footer-terms-col-policies-changes"
-    ]
-  },
-  "flex-layout.row#footer-terms-col-policies-changes": {
-    "children": [
-      "flex-layout.col#col-1-wrapper-policies-changes"
-    ]
-  },
-  "flex-layout.col#col-1-wrapper-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-col-wrapper"
+    "store.custom#policies-changes": {
+        "blocks": [  
+            "flex-layout.row#footer-terms-col-policies-changes"
+        ]
     },
-    "children": [
-      "flex-layout.row#col-1-title-policies-changes",
-      "flex-layout.row#col-1-content-policies-changes"
-    ]
-  },
-  "flex-layout.row#col-1-title-policies-changes": {
-    "children": [
-      "rich-text#col-1-title-policies-changes"
-    ]
-  },
-  "flex-layout.row#col-1-content-policies-changes": {
-    "children": [
-      "flex-layout.col#col-1-content-1-policies-changes",
-      "flex-layout.col#col-1-content-2-policies-changes"
-    ]
-  },
-  "flex-layout.col#col-1-content-1-policies-changes": {
-    "props": {
-      "blockClass": "content-policies-changes"
-    },
-    "children": [
-      "rich-text#col-1-subtitle-1-content-policies-changes",
-      "rich-text#col-1-paragraph-1-content-policies-changes",
-      "rich-text#col-1-subtitle-2-content-policies-changes",
-      "rich-text#col-1-paragraph-2-content-policies-changes",
-      "rich-text#col-1-subtitle-3-content-policies-changes",
-      "rich-text#col-1-paragraph-3-content-policies-changes"
-    ]
-  },
-  "rich-text#col-1-title-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "POLÍTICAS DE CAMBIOS"
-    }
-  },
-  "rich-text#col-1-subtitle-1-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles-policies-changes",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Cambios o devoluciones**"
-    }
-  },
-  "rich-text#col-1-paragraph-1-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Si deseas hacer el cambio de alguno de nuestros productos, lo puedes hacer de dos maneras:\n\nEn cualquiera de nuestras tiendas MERCEDES CAMPUZANO del país, presentando tu factura de compra, en un plazo de 30 días luego de la fecha en que fue efectuada la compra, (consulta aquí la tienda más cercana) o a través de nuestro sitio web mercedescampuzano.com, en un plazo de doce días luego de la entrega del producto.\n\nLos costos de transporte y los demás que conlleve a la devolución serán cubiertos por el consumidor (cliente)."
-    }
-  },
-  "rich-text#col-1-subtitle-2-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Debes tener en cuenta que:**"
-    }
-  },
-  "rich-text#col-1-paragraph-2-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Los productos en promoción o con descuento, de nuestra sección ‘SALE’ no tienen cambio. Estos productos presentan alguna de las siguientes condiciones: re manufacturadas o descontinuadas, por lo tanto la garantía legal no será exigible. Los cambios de los productos siempre se realizarán por el valor neto al que fueron compradas."
-    }
-  },
-  "rich-text#col-1-subtitle-3-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles-policies-changes",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Cambios a través de mercedescampuzano.com**"
-    }
-  },
-  "rich-text#col-1-paragraph-3-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Si deseas hacer el cambio a través de mercedescampuzano.com dentro de los doce días luego de haber recibido el producto, (verificar las condiciones de cambio) debes ponerte en contacto con el área de servicio al cliente de MERCEDES CAMPUZANO a nuestro celular (+57) 317 426 6793, a través de nuestro correo servicioalcliente@mercedescampuzano.com o a través de nuestro sitio web mercedescampuzano.com en el formulario de ‘Contáctanos’ para informar el por qué del cambio.\n\nLos costos de transporte y los demás que conlleve a la devolución serán cubiertos por el consumidor (cliente).\n\nLa devolución de tu producto se podrá realizar en el siguiente caso:\n\nCambio de producto por talla: sólo se podrán realizar cambios por talla, en el caso de que al momento de recibir el producto la talla no te sirva, se realiza el cambio por productos con valor igual, inferior o superior, abonando el excedente en el caso que el producto sea de mayor valor, el cambio estará sujeto a la disponibilidad en el inventario. (En caso que el valor sea inferior, se enviará el saldo restante en un bono para realizar una nueva compra online, con vigencia hasta 12 meses después-1 año).\n\nCuando entregues el producto a la transportadora este ya debe estar debidamente empacado. Puedes utilizar el mismo empaque en que recibiste el pedido o puedes usar uno de tu preferencia, sin embargo es importante que el empaque sea el adecuado según la naturaleza del producto para que este no se pueda ver afectado durante el proceso de transporte y sea del tamaño adecuado al producto.\n\nEs importante que tengas en cuenta que: el producto no debe estar modificado o alterado de su estado original, debe estar en buen estado, limpio y con sus etiquetas originales.\n\nEn el caso de que mercedescampuzano.com haya enviado por error un artículo diferente al solicitado reconoceremos el cambio y asumiremos el envío contra entrega y su posterior envío de vuelta.\n\nEn este caso debes ponerte en contacto con nuestra línea de atención al cliente nuestro celular (+57) 317 426 6793, a través de nuestro correo servicioalcliente@mercedescampuzano.com o a través de nuestro sitio web mercedescampuzano.com en el formulario de ‘Contáctanos’, para informarnos de la situación presentada y realizar los correctivos pertinentes.\n\nDevolución del dinero. (Después de 5 días de recibir el pedido solo aplica por motivos de reclamos por garantía)."
-    }
-  },
-  "flex-layout.col#col-1-content-2-policies-changes": {
-    "children": [
-      "rich-text#col-1-paragraph-4-content-policies-changes",
-      "rich-text#col-1-subtitle-5-content-policies-changes",
-      "rich-text#col-1-paragraph-5-content-policies-changes",
-      "rich-text#col-1-subtitle-6-content-policies-changes",
-      "rich-text#col-1-paragraph-6-content-policies-changes",
-      "rich-text#col-1-paragraph-7-content-policies-changes",
-      "rich-text#col-1-subtitle-8-content-policies-changes",
-      "rich-text#col-1-paragraph-8-content-policies-changes",
-      "rich-text#col-1-subtitle-9-content-policies-changes",
-      "rich-text#col-1-paragraph-9-content-policies-changes"
-    ]
-  },
-  "rich-text#col-1-paragraph-4-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Una vez radicada la solicitud de cambio con los datos necesarios para la misma, debes enviar el producto a la dirección indicada por uno de nuestros asesores.\n\nSi tu solicitud de efectividad de la garantía no fuera aceptada después de haber sido evaluada por nuestra área encargada debido a la falta de conformidad con las condiciones indicadas anteriormente, nos pondremos en contacto contigo, dentro de los 15 días hábiles siguientes a la fecha de tu reclamación, para coordinar de nuevo su envío con un flete por cobrar donde deberás pagar a la empresa transportadora en el momento en que se haga la entrega del producto."
-    }
-  },
-  "rich-text#col-1-subtitle-5-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Los tiempos para el cambio, discriminados para cada modalidad, según la política de MERCEDES CAMPUZANO son:**"
-    }
-  },
-  "rich-text#col-1-paragraph-5-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Cambio del producto por talla: se despachará tres días hábiles después de haber recibido el producto en nuestra bodega y a partir de este momento aplican los mismos tiempos que para una entrega normal.\n\nDevolución del dinero:\n\nA través de transferencia: se realiza aproximadamente dentro de los cinco días hábiles siguientes de recibir el producto en nuestra bodega.\nA través de reversión del pago: treinta días hábiles después de recibir el producto en nuestra bodega."
-    }
-  },
-  "rich-text#col-1-paragraph-5-1-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Verificadas las condiciones en que se encuentra el producto, MERCEDES CAMPUZANO tendrá tres días hábiles para informarte si tu producto cumple con los criterios aquí establecidos para hacer el cambio por talla, por bono o nota crédito para otro producto o devolución del dinero (solo aplica para reclamos por garantía)."
-    }
-  },
-  "rich-text#col-1-subtitle-6-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**En caso de que tu producto no cumpla con los criterios de nuestra política de cambios y garantías:**"
-    }
-  },
-  "rich-text#col-1-paragraph-6-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "El producto no debe estar modificado o alterado de su estado original\n\nEl producto debe estar en buen estado y limpio.\n\nAccesorios no tienen cambio, ni los productos de nuestra sección de SALE o con descuento."
-    }
-  },
-  "rich-text#col-1-paragraph-7-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Te informaremos con un correo electrónico la razón por la cual no procede el cambio o la garantía y el producto sera devuelto a la dirección de envío inicial."
-    }
-  },
-  "rich-text#col-1-subtitle-8-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Cambios en Tiendas MERCEDES CAMPUZANO de Colombia**"
-    }
-  },
-  "rich-text#col-1-paragraph-8-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Acércate a cualquiera de nuestras tiendas MERCEDES CAMPUZANO de Colombia dentro de los treinta días siguientes a la compra del producto (fecha de elaboración de la factura) y presentando la factura de compra, podrás realizar directamente tu cambio. Uno de nuestros asesores de venta te ayudará en el proceso.\n\nDebes tener en cuenta que: las compras realizadas en los puntos de venta MERCEDES CAMPUZANO del país, no pueden ser cambiadas en mercedescampuzano.com"
-    }
-  },
-  "rich-text#col-1-subtitle-9-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Derecho de retracto**"
-    }
-  },
-  "rich-text#col-1-paragraph-9-content-policies-changes": {
-    "props": {
-      "blockClass": "footer-terms-content",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "De acuerdo con el derecho de retracto consagrado por la ley 1480 de 2011 art. 47, el término máximo para ejercer éste derecho, es de 5 días hábiles contados a partir de la entrega del producto. El producto deberá ser devuelto en las mismas condiciones en que lo recibiste. Los costos de transporte y demás, incurridos en la devolución serán asumidos por ti.\n\nEn caso de que se cumplan todas las condiciones mencionadas, MERCEDES CAMPUZANO devolverá la suma total pagada, sin descuentos o retenciones, y el término para la devolución del dinero no podrá exceder de 30 días calendario.\n\nDe acuerdo con el numeral 7 del artículo 47 de la ley 1480, se exceptúan del derecho de retracto los bienes de uso personal."
-    }
-  }
-}
+    "flex-layout.row#footer-terms-col-policies-changes": {
+        "children": [
+          "flex-layout.col#col-1-wrapper-policies-changes"
+        ]
+      },
+      "flex-layout.col#col-1-wrapper-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-col-wrapper"
+        },
+        "children": [
+          "flex-layout.row#col-1-title-policies-changes",
+          "flex-layout.row#col-1-content-policies-changes"
+        ]
+      },
+      "flex-layout.row#col-1-title-policies-changes": {
+        "children": [
+          "rich-text#col-1-title-policies-changes"
+        ]
+      },
+      "flex-layout.row#col-1-content-policies-changes": {
+        
+        "children": [
+          "flex-layout.col#col-1-content-1-policies-changes",
+          "flex-layout.col#col-1-content-2-policies-changes"
+        ]
+      },
+      "flex-layout.col#col-1-content-1-policies-changes": {
+        "props":{
+          "blockClass":"content-policies-changes"
+        },
+        "children": [
+          "rich-text#col-1-subtitle-1-content-policies-changes",
+          "rich-text#col-1-paragraph-1-content-policies-changes",
+          "rich-text#col-1-subtitle-2-content-policies-changes",
+          "rich-text#col-1-paragraph-2-content-policies-changes",
+          "rich-text#col-1-subtitle-3-content-policies-changes",
+          "rich-text#col-1-paragraph-3-content-policies-changes"
+        ]
+      },
+      "rich-text#col-1-title-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-title",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "POLÍTICAS DE CAMBIOS"
+        }
+      },
+      "rich-text#col-1-subtitle-1-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-changes",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**Cambios o devoluciones**"
+        }
+      },
+      "rich-text#col-1-paragraph-1-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Si deseas hacer el cambio de alguno de nuestros productos, lo puedes hacer de dos maneras:\n\nEn cualquiera de nuestras tiendas MERCEDES CAMPUZANO del país, presentando tu factura de compra, en un plazo de 30 días luego de la fecha en que fue efectuada la compra, (consulta aquí la tienda más cercana) o a través de nuestro sitio web mercedescampuzano.com, en un plazo de doce días luego de la entrega del producto.\n\nLos costos de transporte y los demás que conlleve a la devolución serán cubiertos por el consumidor (cliente)."
+        }
+      },
+      "rich-text#col-1-subtitle-2-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**Debes tener en cuenta que:**"
+        }
+      },
+      "rich-text#col-1-paragraph-2-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Los productos en promoción o con descuento, de nuestra sección ‘SALE’ no tienen cambio. Estos productos presentan alguna de las siguientes condiciones: re manufacturadas o descontinuadas, por lo tanto la garantía legal no será exigible. Los cambios de los productos siempre se realizarán por el valor neto al que fueron compradas."
+        }
+      },
+      "rich-text#col-1-subtitle-3-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-changes",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**Cambios a través de mercedescampuzano.com**"
+        }
+      },
+      "rich-text#col-1-paragraph-3-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Si deseas hacer el cambio a través de mercedescampuzano.com dentro de los doce días luego de haber recibido el producto, (verificar las condiciones de cambio) debes ponerte en contacto con el área de servicio al cliente de MERCEDES CAMPUZANO a nuestro celular (+57) 317 426 6793, a través de nuestro correo servicioalcliente@mercedescampuzano.com o a través de nuestro sitio web mercedescampuzano.com en el formulario de ‘Contáctanos’ para informar el por qué del cambio.\n\nLos costos de transporte y los demás que conlleve a la devolución serán cubiertos por el consumidor (cliente).\n\nLa devolución de tu producto se podrá realizar en el siguiente caso:\n\nCambio de producto por talla: sólo se podrán realizar cambios por talla, en el caso de que al momento de recibir el producto la talla no te sirva, se realiza el cambio por productos con valor igual, inferior o superior, abonando el excedente en el caso que el producto sea de mayor valor, el cambio estará sujeto a la disponibilidad en el inventario. (En caso que el valor sea inferior, se enviará el saldo restante en un bono para realizar una nueva compra online, con vigencia hasta 12 meses después-1 año).\n\nCuando entregues el producto a la transportadora este ya debe estar debidamente empacado. Puedes utilizar el mismo empaque en que recibiste el pedido o puedes usar uno de tu preferencia, sin embargo es importante que el empaque sea el adecuado según la naturaleza del producto para que este no se pueda ver afectado durante el proceso de transporte y sea del tamaño adecuado al producto.\n\nEs importante que tengas en cuenta que: el producto no debe estar modificado o alterado de su estado original, debe estar en buen estado, limpio y con sus etiquetas originales.\n\nEn el caso de que mercedescampuzano.com haya enviado por error un artículo diferente al solicitado reconoceremos el cambio y asumiremos el envío contra entrega y su posterior envío de vuelta.\n\nEn este caso debes ponerte en contacto con nuestra línea de atención al cliente nuestro celular (+57) 317 426 6793, a través de nuestro correo servicioalcliente@mercedescampuzano.com o a través de nuestro sitio web mercedescampuzano.com en el formulario de ‘Contáctanos’, para informarnos de la situación presentada y realizar los correctivos pertinentes.\n\nDevolución del dinero. (Después de 5 días de recibir el pedido solo aplica por motivos de reclamos por garantía)."
+        }
+      },
+
+
+
+      "flex-layout.col#col-1-content-2-policies-changes": {
+        "children": [
+          "rich-text#col-1-paragraph-4-content-policies-changes",
+          "rich-text#col-1-subtitle-5-content-policies-changes",
+          "rich-text#col-1-paragraph-5-content-policies-changes",
+          "rich-text#col-1-subtitle-6-content-policies-changes",
+          "rich-text#col-1-paragraph-6-content-policies-changes",
+          "rich-text#col-1-paragraph-7-content-policies-changes",
+          "rich-text#col-1-subtitle-8-content-policies-changes",
+          "rich-text#col-1-paragraph-8-content-policies-changes",
+          "rich-text#col-1-subtitle-9-content-policies-changes",
+          "rich-text#col-1-paragraph-9-content-policies-changes"
+        ]
+      },
+      "rich-text#col-1-paragraph-4-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Una vez radicada la solicitud de cambio con los datos necesarios para la misma, debes enviar el producto a la dirección indicada por uno de nuestros asesores.\n\nSi tu solicitud de efectividad de la garantía no fuera aceptada después de haber sido evaluada por nuestra área encargada debido a la falta de conformidad con las condiciones indicadas anteriormente, nos pondremos en contacto contigo, dentro de los 15 días hábiles siguientes a la fecha de tu reclamación, para coordinar de nuevo su envío con un flete por cobrar donde deberás pagar a la empresa transportadora en el momento en que se haga la entrega del producto."
+        }
+      },
+      "rich-text#col-1-subtitle-5-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**Los tiempos para el cambio, discriminados para cada modalidad, según la política de MERCEDES CAMPUZANO son:**"
+        }
+      },
+      "rich-text#col-1-paragraph-5-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Cambio del producto por talla: se despachará tres días hábiles después de haber recibido el producto en nuestra bodega y a partir de este momento aplican los mismos tiempos que para una entrega normal.\n\nDevolución del dinero:\n\nA través de transferencia: se realiza aproximadamente dentro de los cinco días hábiles siguientes de recibir el producto en nuestra bodega.\nA través de reversión del pago: treinta días hábiles después de recibir el producto en nuestra bodega."
+        }
+      },
+      "rich-text#col-1-paragraph-5-1-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Verificadas las condiciones en que se encuentra el producto, MERCEDES CAMPUZANO tendrá tres días hábiles para informarte si tu producto cumple con los criterios aquí establecidos para hacer el cambio por talla, por bono o nota crédito para otro producto o devolución del dinero (solo aplica para reclamos por garantía)."
+        }
+      },
+      "rich-text#col-1-subtitle-6-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**En caso de que tu producto no cumpla con los criterios de nuestra política de cambios y garantías:**"
+        }
+      },
+      "rich-text#col-1-paragraph-6-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "El producto no debe estar modificado o alterado de su estado original\n\nEl producto debe estar en buen estado y limpio.\n\nAccesorios no tienen cambio, ni los productos de nuestra sección de SALE o con descuento."
+        }
+      },
+      "rich-text#col-1-paragraph-7-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Te informaremos con un correo electrónico la razón por la cual no procede el cambio o la garantía y el producto sera devuelto a la dirección de envío inicial."
+        }
+      },
+      "rich-text#col-1-subtitle-8-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**Cambios en Tiendas MERCEDES CAMPUZANO de Colombia**"
+        }
+      },
+      "rich-text#col-1-paragraph-8-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Acércate a cualquiera de nuestras tiendas MERCEDES CAMPUZANO de Colombia dentro de los treinta días siguientes a la compra del producto (fecha de elaboración de la factura) y presentando la factura de compra, podrás realizar directamente tu cambio. Uno de nuestros asesores de venta te ayudará en el proceso.\n\nDebes tener en cuenta que: las compras realizadas en los puntos de venta MERCEDES CAMPUZANO del país, no pueden ser cambiadas en mercedescampuzano.com"
+        }
+      },
+      "rich-text#col-1-subtitle-9-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**Derecho de retracto**"
+        }
+      },
+      "rich-text#col-1-paragraph-9-content-policies-changes": {
+        "props": {
+          "blockClass": "footer-terms-content",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "De acuerdo con el derecho de retracto consagrado por la ley 1480 de 2011 art. 47, el término máximo para ejercer éste derecho, es de 5 días hábiles contados a partir de la entrega del producto. El producto deberá ser devuelto en las mismas condiciones en que lo recibiste. Los costos de transporte y demás, incurridos en la devolución serán asumidos por ti.\n\nEn caso de que se cumplan todas las condiciones mencionadas, MERCEDES CAMPUZANO devolverá la suma total pagada, sin descuentos o retenciones, y el término para la devolución del dinero no podrá exceder de 30 días calendario.\n\nDe acuerdo con el numeral 7 del artículo 47 de la ley 1480, se exceptúan del derecho de retracto los bienes de uso personal."
+        }
+      }
+
+
+
+    
+ }

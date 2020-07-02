@@ -1,60 +1,61 @@
-{
-  "store.custom#online-shopping": {
-    "blocks": [
-      "flex-layout.row#footer-terms-col-online-shopping"
-    ]
-  },
-  "flex-layout.row#footer-terms-col-online-shopping": {
-    "props": {
-      "colSizing": "auto",
-      "blockClass": "about-us"
+ {
+    "store.custom#online-shopping": {
+        "blocks": [  
+            "flex-layout.row#footer-terms-col-online-shopping"
+        ]
     },
-    "children": [
-      "flex-layout.col#online-shopping-wrapper"
-    ]
-  },
-  "flex-layout.col#online-shopping-wrapper": {
-    "props": {
-      "blockClass": "footer-terms-col-wrapper"
+     "flex-layout.row#footer-terms-col-online-shopping": {
+      "props":{
+        "colSizing":"auto",
+        "blockClass":"about-us"
+      },
+      "children":[
+        "flex-layout.col#online-shopping-wrapper"
+      ]
     },
-    "children": [
+    "flex-layout.col#online-shopping-wrapper":{
+      "props":{
+        "blockClass":"footer-terms-col-wrapper"
+      },
+      "children":[
       "flex-layout.row#online-shopping-title",
-      "flex-layout.row#online-shopping-content"
+      "flex-layout.row#online-shopping-content"  
     ]
-  },
-  "flex-layout.row#online-shopping-title": {
-    "children": [
-      "rich-text#title-online-shopping"
-    ]
-  },
-  "rich-text#title-online-shopping": {
-    "props": {
-      "blockClass": "footer-terms-title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "COMO COMPRAR ONLINE"
+    },
+    "flex-layout.row#online-shopping-title":{
+      "children":[
+        "rich-text#title-online-shopping"
+      ]
+    },
+    "rich-text#title-online-shopping": {
+      "props": {
+        "blockClass": "footer-terms-title",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "COMO COMPRAR ONLINE"
+      }
+    },
+    "flex-layout.row#online-shopping-content":{
+      "children":[
+        "rich-text#online-shopping-content-1",
+        "rich-text#online-shopping-content-2"
+      ]
+    },
+    "rich-text#online-shopping-content-1": {
+      "props": {
+        "textAlignment": "JUSTIFY",
+        "textPosition": "JUSTIFY",
+        "text": "**Comprar en mercedescampuzano.com es muy fácil, sólo debes seguir los siguientes pasos:**\n\nPara buscar el producto que quieres comprar puedes navegar a través de las categorías en nuestro menú de categorías o utilizar la barra de búsqueda.\n\nUna vez hayas elegido el producto que deseas, selecciona el color y la talla y agrégalo a tu bolsa de compras dando clic en el botón **COMPRAR**.\n\nUna vez hayas agregado el producto puedes seguir navegando y agregando a la bolsa los productos que desees.\n\nCuando hayas agregado todos los productos que deseas comprar, ve a tu bolsa de compras que está en la parte superior derecha.\n\nEn el resumen que encontrarás, verifica que los productos que están en tu bolsa son los que deseas comprar (producto, color y talla) y haz clic en **COMPRAR.**",
+        "blockClass": "footer-terms-content-online-shopping"
+      }
+    },
+    "rich-text#online-shopping-content-2": {
+      "props": {
+        "textAlignment": "JUSTIFY",
+        "textPosition": "JUSTIFY",
+        "text": "Ingresa tu correo electrónico para continuar con el proceso. Diligencia tus datos personales y datos de entrega.\n\nElige el método de pago que desees:\n\nPuedes elegir **tarjeta de crédito, PSE (tarjeta débito, cuenta de ahorros o cuenta corriente) o pago en efectivo a través de Efecty, Baloto, Gana o Payu te fía.**\n\nVerifica el mensaje de confirmación de tu pago y espera el correo de confirmación de tu compra.\n\nRecibe tu pedido en la puerta de tu casa u oficina.\n\nSi tienes alguna duda también te puedes comunicar a través de nuestra línea de Servicio al cliente de **MERCEDES CAMPUZANO (+57 4) 2041990** en Medellín o en el celular **(+57) 317 426 6793**, en horario de lunes a viernes de **8:00 am a 5:30 pm**, a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web mercedescampuzano.com haciendo clic en 'Contáctanos'.",
+        "blockClass": "footer-terms-content-online-shopping"
+      }
     }
-  },
-  "flex-layout.row#online-shopping-content": {
-    "children": [
-      "rich-text#online-shopping-content-1",
-      "rich-text#online-shopping-content-2"
-    ]
-  },
-  "rich-text#online-shopping-content-1": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "**Comprar en mercedescampuzano.com es muy fácil, sólo debes seguir los siguientes pasos:**\n\nPara buscar el producto que quieres comprar puedes navegar a través de las categorías en nuestro menú de categorías o utilizar la barra de búsqueda.\n\nUna vez hayas elegido el producto que deseas, selecciona el color y la talla y agrégalo a tu bolsa de compras dando clic en el botón **COMPRAR**.\n\nUna vez hayas agregado el producto puedes seguir navegando y agregando a la bolsa los productos que desees.\n\nCuando hayas agregado todos los productos que deseas comprar, ve a tu bolsa de compras que está en la parte superior derecha.\n\nEn el resumen que encontrarás, verifica que los productos que están en tu bolsa son los que deseas comprar (producto, color y talla) y haz clic en **COMPRAR.**",
-      "blockClass": "footer-terms-content-online-shopping"
-    }
-  },
-  "rich-text#online-shopping-content-2": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Ingresa tu correo electrónico para continuar con el proceso. Diligencia tus datos personales y datos de entrega.\n\nElige el método de pago que desees:\n\nPuedes elegir **tarjeta de crédito, PSE (tarjeta débito, cuenta de ahorros o cuenta corriente) o pago en efectivo a través de Efecty, Baloto, Gana o Payu te fía.**\n\nVerifica el mensaje de confirmación de tu pago y espera el correo de confirmación de tu compra.\n\nRecibe tu pedido en la puerta de tu casa u oficina.\n\nSi tienes alguna duda también te puedes comunicar a través de nuestra línea de Servicio al cliente de **MERCEDES CAMPUZANO (+57 4) 2041990** en Medellín o en el celular **(+57) 317 426 6793**, en horario de lunes a viernes de **8:00 am a 5:30 pm**, a través de nuestro correo servicioalcliente@mercedescampuzano.com, o a través de nuestra página web mercedescampuzano.com haciendo clic en 'Contáctanos'.",
-      "blockClass": "footer-terms-content-online-shopping"
-    }
-  }
 }
+  

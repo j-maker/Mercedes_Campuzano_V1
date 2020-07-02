@@ -597,7 +597,41 @@
     text-transform: capitalize;
     font-size: 15px;
   }
-
+    .styledLinkContent--submenu-baletas,
+  .styledLinkContent--submenu-sandalias-planas,
+  .styledLinkContent--submenu-botas-y-botines,
+  .styledLinkContent--submenu-mocasines,
+  .styledLinkContent--submenu-oxford,
+  .styledLinkContent--submenu-zapatos-de-tacon,
+  .styledLinkContent--submenu-tacones,
+  .styledLinkContent--submenu-tenis,
+  .styledLinkContent--submenu-zuecos,
+  .styledLinkContent--submenu-spadrillas,
+  .styledLinkContent--submenu-sandalias-plataforma,
+  .styledLinkContent--submenu-bolsos-y-carteras,
+  .styledLinkContent--submenu-morrales,
+  .styledLinkContent--submenu-bandoleras,
+  .styledLinkContent--submenu-sobres,
+  .styledLinkContent--submenu-llaveros,
+  .styledLinkContent--submenu-cosmetiqueras,
+  .styledLinkContent--submenu-pulseras,
+  .styledLinkContent--submenu-limpieza-y-cuidados,
+  .styledLinkContent--submenu-cadenas-y-collares,
+  .styledLinkContent--submenu-anillos,
+  .styledLinkContent--submenu-aretes,
+  .styledLinkContent--submenu-billeteras-y-monederos,
+  .styledLinkContent--submenu-cinturones,
+  .styledLinkContent--submenu-vestuario,
+  .styledLinkContent--submenu-safe-kit,
+  .styledLinkContent--submenu-Bono-Regalo,
+  .styledLinkContent--submenu-ventas-corporativas,
+  .styledLinkContent--submenu-Cosmopolita,
+  .styledLinkContent--submenu-Urbano,
+  .styledLinkContent--submenu-Verano {
+    padding: 3px 0 3px 43px;
+    text-transform: capitalize;
+    font-size: 15px;
+  }
   .menuItem--submenu:hover::before,
   .menuItem--submenu-baletas:hover::before,
   .menuItem--submenu-sandalias-planas:hover::before,
@@ -632,6 +666,42 @@
   .menuItem--submenu-Verano:hover::before {
     display: none;
   }
+  .menuItem--submenu-baletas,
+  .menuItem--submenu-sandalias-planas,
+  .menuItem--submenu-botas-y-botines,
+  .menuItem--submenu-mocasines,
+  .menuItem--submenu-oxford,
+  .menuItem--submenu-zapatos-de-tacon,
+  .menuItem--submenu-tacones,
+  .menuItem--submenu-tenis,
+  .menuItem--submenu-zuecos,
+  .menuItem--submenu-spadrillas,
+  .menuItem--submenu-sandalias-plataforma,
+  .menuItem--submenu-bolsos-y-carteras,
+  .menuItem--submenu-morrales,
+  .menuItem--submenu-bandoleras,
+  .menuItem--submenu-sobres,
+  .menuItem--submenu-llaveros,
+  .menuItem--submenu-cosmetiqueras,
+  .menuItem--submenu-pulseras,
+  .menuItem--submenu-limpieza-y-cuidados,
+  .menuItem--submenu-cadenas-y-collares,
+  .menuItem--submenu-anillos,
+  .menuItem--submenu-aretes,
+  .menuItem--submenu-billeteras-y-monederos,
+  .menuItem--submenu-cinturones,
+  .menuItem--submenu-vestuario,
+  .menuItem--submenu-safe-kit,
+  .menuItem--submenu-Bono-Regalo,
+  .menuItem--submenu-ventas-corporativas,
+  .menuItem--submenu-Cosmopolita,
+  .menuItem--submenu-Urbano,
+  .menuItem--submenu-Verano {
+    border-bottom: 1px solid #ddd;
+  }
+
+
+
   .menuItem--header-submenu-1-text {
     padding: 7px 20px;
     margin: 0px 0px;

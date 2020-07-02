@@ -1,110 +1,113 @@
 {
-  "store.custom#recomendations": {
-    "blocks": [
-      "flex-layout.row#footer-terms-col-recomendations"
-    ]
-  },
-  "flex-layout.row#footer-terms-col-recomendations": {
-    "props": {
-      "colSizing": "auto",
-      "blockClass": "about-us"
+    "store.custom#recomendations": {
+        "blocks": [  
+            "flex-layout.row#footer-terms-col-recomendations"
+        ]
     },
-    "children": [
-      "flex-layout.col#recomendations-wrapper"
-    ]
-  },
-  "flex-layout.col#recomendations-wrapper": {
-    "props": {
-      "blockClass": "footer-terms-col-wrapper"
+     "flex-layout.row#footer-terms-col-recomendations": {
+      "props":{
+        "colSizing":"auto",
+        "blockClass":"about-us"
+      },
+      "children":[
+        "flex-layout.col#recomendations-wrapper"
+      ]
     },
-    "children": [
+    "flex-layout.col#recomendations-wrapper":{
+      "props":{
+        "blockClass":"footer-terms-col-wrapper"
+      },
+      "children":[
       "flex-layout.row#recomendations-title",
-      "flex-layout.row#recomendations-content"
+      "flex-layout.row#recomendations-content"  
     ]
-  },
-  "flex-layout.row#recomendations-title": {
-    "children": [
-      "rich-text#title-recomendations"
-    ]
-  },
-  "rich-text#title-recomendations": {
-    "props": {
-      "blockClass": "footer-terms-title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "RECOMENDACIONES DE USO"
-    }
-  },
-  "flex-layout.row#recomendations-content": {
-    "children": [
-      "rich-text#recomendations-content-1",
-      "flex-layout.col#recomendations-content-2"
-    ]
-  },
-  "flex-layout.col#recomendations-content-2": {
-    "children": [
-      "rich-text#recomendations-content-2-1",
-      "rich-text#recomendations-content-2-2",
-      "rich-text#recomendations-content-2-3",
-      "rich-text#recomendations-content-2-4",
-      "rich-text#recomendations-content-2-5",
-      "rich-text#recomendations-content-2-6"
-    ]
-  },
-  "rich-text#recomendations-content-1": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Para conservar tus zapatos y bolsos en las más óptimas condiciones, recomendamos:\n\nLimpiarlos sólo de ser necesario, con agua y un paño blanco para colores claros y paño oscuro para colores café, azul oscuro, grises y negro. **Dejar secar la humedad a la sombra.**\n\nPara manejar carro o moto debes tener cuidado con la fricción que implica esa actividad para el producto (parte trasera y tacón).\n\nUn par de zapatos nuevos preferiblemente no deben ser usados por muchas horas consecutivas. Una vez los pies están completamente acostumbrados a los zapatos, puedes empezar a usarlos todo el día.",
-      "blockClass": "footer-terms-content-recomendations"
-    }
-  },
-  "rich-text#recomendations-content-2-1": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Debes tener especial cuidado con el pantalón o jean que uses; ya que debido al tratamiento de tintura utilizado en ellos, es posible que el color de esa prenda se trasfiera a tus zapatos.\n\n**Para conservar la línea de joyería en buen estado, ten en cuenta lo siguiente:**",
-      "blockClass": "footer-terms-content-recomendations"
-    }
-  },
-  "rich-text#recomendations-content-2-2": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "No deben ser usados para trabajos pesados, domésticos ni dejarlos puestos al dormir.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#recomendations-content-2-3": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Evita el contacto de estos productos con agentes corrosivos como el cloro, grasa, perfumes, jabones, lacas, bronceadores y agua.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#recomendations-content-2-4": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "No te metas a la piscina ni al mar con tu joya, los químicos pueden alterar su color.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#recomendations-content-2-5": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Guárdala en un lugar seco y fresco.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#recomendations-content-2-6": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Límpiala ocasionalmente con un trapo seco.",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
+    },
+    "flex-layout.row#recomendations-title":{
+      "children":[
+        "rich-text#title-recomendations"
+      ]
+    },
+    "rich-text#title-recomendations": {
+      "props": {
+        "blockClass": "footer-terms-title",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "RECOMENDACIONES DE USO"
+      }
+    },
+    "flex-layout.row#recomendations-content":{
+      "children":[
+        "rich-text#recomendations-content-1",
+        "flex-layout.col#recomendations-content-2"
+      ]
+    },
+    "flex-layout.col#recomendations-content-2":{
+        "children":[
+          "rich-text#recomendations-content-2-1",
+          "rich-text#recomendations-content-2-2",
+          "rich-text#recomendations-content-2-3",
+          "rich-text#recomendations-content-2-4",
+          "rich-text#recomendations-content-2-5",
+          "rich-text#recomendations-content-2-6"
+        ]
+      },
+    "rich-text#recomendations-content-1": {
+      "props": {
+        "textAlignment": "JUSTIFY",
+        "textPosition": "JUSTIFY",
+        "text": "Para conservar tus zapatos y bolsos en las más óptimas condiciones, recomendamos:\n\nLimpiarlos sólo de ser necesario, con agua y un paño blanco para colores claros y paño oscuro para colores café, azul oscuro, grises y negro. **Dejar secar la humedad a la sombra.**\n\nPara manejar carro o moto debes tener cuidado con la fricción que implica esa actividad para el producto (parte trasera y tacón).\n\nUn par de zapatos nuevos preferiblemente no deben ser usados por muchas horas consecutivas. Una vez los pies están completamente acostumbrados a los zapatos, puedes empezar a usarlos todo el día.",
+        "blockClass": "footer-terms-content-recomendations"
+      }
+    },
+    "rich-text#recomendations-content-2-1": {
+      "props": {
+        "textAlignment": "JUSTIFY",
+        "textPosition": "JUSTIFY",
+        "text": "Debes tener especial cuidado con el pantalón o jean que uses; ya que debido al tratamiento de tintura utilizado en ellos, es posible que el color de esa prenda se trasfiera a tus zapatos.\n\n**Para conservar la línea de joyería en buen estado, ten en cuenta lo siguiente:**",
+        "blockClass": "footer-terms-content-recomendations"
+      }
+    },
+    "rich-text#recomendations-content-2-2": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "No deben ser usados para trabajos pesados, domésticos ni dejarlos puestos al dormir.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#recomendations-content-2-3": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Evita el contacto de estos productos con agentes corrosivos como el cloro, grasa, perfumes, jabones, lacas, bronceadores y agua.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#recomendations-content-2-4": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "No te metas a la piscina ni al mar con tu joya, los químicos pueden alterar su color.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#recomendations-content-2-5": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Guárdala en un lugar seco y fresco.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#recomendations-content-2-6": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Límpiala ocasionalmente con un trapo seco.",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      }
+
+  
   }
-}
+  

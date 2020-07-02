@@ -41,6 +41,9 @@
     "children": ["flex-layout.row#gift"]
   },
   "flex-layout.row#gift": {
+    "props": {
+     /* "fullWidth": true*/
+    },
     "children": ["flex-layout.col#gift-name-description", "gift-image"]
   },
   "flex-layout.col#gift-name-description": {

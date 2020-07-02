@@ -3,13 +3,11 @@
 }
 .rowContainer--footer-6{
   margin-top: 8px;
-  display: flex;
-  justify-content: center;
 }
 @media screen and (max-width: 1024px) {
   .rowContentContainer--footer-6 {
     width: 50%;
-    margin: 0px auto;
+    margin: 0px 120px;
     padding: 0px;
   }
 }

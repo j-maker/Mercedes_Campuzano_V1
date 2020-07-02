@@ -24,8 +24,8 @@
   },
   "flex-layout.row#selling-price": {
     "props": {
-      "colSizing": "auto",
-      "blockClass": "selling-price",
+      "colSizing":"auto",
+      "blockClass":"selling-price",
       "preventHorizontalStretch": false,
       "colGap": 0,
       "marginBottom": 4,
@@ -52,6 +52,7 @@
       "product-price-savings#summary"
     ]
   },
+
   "flex-layout.row#list-price-savings": {
     "props": {
       "colGap": 2,

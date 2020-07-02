@@ -14,11 +14,7 @@
       "flex-layout.row#footer-row-5",
       "flex-layout.row#footer-row-6",
       "image#desktop-fixed-arrow-up",
-      "image#discount",
-      /*"image#desktop-fixed-discount",*/
-      "image#desktop-fixed-arrow-up",
-      "modal-trigger#form-newsletter"
-      /*"flex-layout.row#desktop-fixed-help"*/
+      "image#desktop-fixed-discount"
     ]
   },
   "flex-layout.row#footer-row-2": {
@@ -34,8 +30,9 @@
       "flex-layout.row#form-news",
       // "newsletter",
       "rich-text#newsletter-terms"
+      /* "flex-layout.col#form"*/
     ]
-  }, 
+  },
   "flex-layout.row#form-news": {
     "children": [
       "flex-layout.col#form-news"
@@ -53,35 +50,57 @@
   "form#news2": {
     // "entity": "News",
     // "schema": "client"
-    "props": {  
-      "entity": "News",  
-      "schema": "client"  
+    "props": {
+      "entity": "News",
+      "schema": "client"
     },
-    "children": [  
-      "rich-text#formTitle-news",  
+    "children": [
+      "rich-text#formTitle-news",
       // "form-input.text#firstName-news",  
       // "form-input.text#lastName-news",    
       "flex-layout.row#newsletter-container",
       // "form-input.text#email-news",    
-      "form-input.checkbox#agreement-news"      
-    ],  
-    "blocks": ["form-success#news"]     
+      "form-input.checkbox#agreement-news"
+    ],
+    "blocks": [
+      "form-success#news"
+    ]
   },
-  "form-success#news": {  
-    "children": [  
-      "rich-text#successSubmit-news"  
-    ]  
+  "form-success#news": {
+    "children": [
+      "rich-text#successSubmit-news"
+    ]
+  },
+  "rich-text#successSubmit-news": {
+    "props": {
+      "text": "Succesfully submitted the data!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#firstName-news": {
+    "props": {
+      "pointer": "#/properties/firstName"
+    }
+  },
+  "form-input.text#lastName-news": {
+    "props": {
+      "pointer": "#/properties/lastName"
+    }
   },
   "rich-text#formTitle-news": {
-    "props": {  
+    "props": {
       "blockClass": "Title-news",
-      "text": "SUSCRÍBETE",  
-      "textAlignment": "CENTER",  
-      "textPosition": "CENTER"  
-    }  
+      "text": "SUSCRÍBETE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   },
   "flex-layout.row#newsletter-container": {
-    "children": ["flex-layout.col#newsletter-container-email", "flex-layout.col#newsletter-container-submit"],
+    "children": [
+      "flex-layout.col#newsletter-container-email",
+      "flex-layout.col#newsletter-container-submit"
+    ],
     "props": {
       "blockClass": "container-form-newsletter",
       "fullWidth": false,
@@ -100,43 +119,32 @@
   },
   "flex-layout.col#newsletter-container-submit": {
     "children": [
-      "form-submit#news" 
+      "form-submit#news"
     ],
     "props": {
       "blockClass": "submit-news",
       "width": "grow"
     }
   },
-  "form-input.text#email-news": {  
-    "props": {  
+  "form-input.text#email-news": {
+    "props": {
       "pointer": "#/properties/emailAddress",
       "label": "",
       "placeholder": "TU-EMAIL@EJEMPLO.COM"
-    }  
-  }, 
-  "form-input.checkbox#agreement-news": {  
-    "props": {  
-      "pointer": "#/properties/agreement",  
+    }
+  },
+  "form-input.checkbox#agreement-news": {
+    "props": {
+      "pointer": "#/properties/agreement",
       "label": "",
       "blockClass": "agreement-news"
-    }  
-  },  
-  "form-submit#news": {  
-    "props": {  
-      "label": "Enviar"  
-    }  
+    }
   },
-   
-  "form-input.text#firstName-news": {  
-    "props": {  
-      "pointer": "#/properties/firstName"  
-    }  
-  },  
-  "form-input.text#lastName-news": {  
-    "props": {  
-      "pointer": "#/properties/lastName"  
-    }  
-  },  
+  "form-submit#news": {
+    "props": {
+      "label": "Enviar"
+    }
+  },
   "rich-text#newsletter-terms": {
     "props": {
       "blockClass": "footer-row-2-newsletter",
@@ -145,15 +153,6 @@
       "textPosition": "JUSTIFY"
     }
   },
-  "rich-text#successSubmit-news": {  
-    "props": {  
-      "text": "Succesfully submitted the data!",  
-      "textAlignment": "CENTER",  
-      "textPosition": "CENTER"  
-    }  
-  },
-  
-  
   "flex-layout.row#desktop-fixed-help": {
     "props": {
       "colSizing": "auto",
@@ -186,11 +185,18 @@
       "maxHeight": 30
     }
   },
-  "image#discount": {
+  "image#desktop-fixed-discount": {
     "props": {
       "blockClass": "desktop-fixed-discount",
       "image": "https://mercedescampuzano.vtexassets.com/arquivos/10-off (1).png",
       "maxHeight": 70
+    }
+  },
+  "image#desktop-fixed-car": {
+    "props": {
+      "blockClass": "desktop-fixed-car-1",
+      "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-truck-solid.png",
+      "maxHeight": 20
     }
   },
   "flex-layout.row#footer-row-1": {
@@ -199,7 +205,7 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#footer-row-1-1"
+      "flex-layout.row#footer-row-1-1"
     ]
   },
   "flex-layout.col#spacer": {
@@ -207,23 +213,13 @@
       "width": "grow"
     }
   },
-  "flex-layout.col#footer-row-1-1": {
-    "props": {
-      "colSizing": "auto",
-      "width": "100%",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
-    },
-    "children": [
-      "flex-layout.row#footer-row-1-1"
-    ]
-  },
   "flex-layout.row#footer-row-1-1": {
     "props": {
       "colSizing": "auto",
       "width": "100%",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
+      /*"fullWidth": true*/
     },
     "children": [
       "flex-layout.col#spacer",
@@ -321,6 +317,7 @@
   },
   "flex-layout.row#footer-row-4": {
     "props": {
+      /*"fullWidth": true,*/
       "blockClass": "footer-row-4"
     },
     "children": [
@@ -346,6 +343,7 @@
       "colSizing": "auto",
       "blockClass": "footer-row-4-redes",
       "preserveLayoutOnMobile": true
+      /*"fullWidth": true*/
     },
     "children": [
       "image#facebook",
@@ -508,6 +506,7 @@
     },
     "children": [
       "rich-text#footer-link-title-col-2",
+      /*"link#footer-interes-2-col-2",*/
       "link#footer-interes-2-col-2",
       "link#footer-interes-3-col-2",
       "link#footer-interes-4-col-2",
@@ -589,6 +588,10 @@
     "children": [
       "rich-text#footer-link-title-col-3",
       "link#footer-interes-1-col-3"
+      /*"link#footer-interes-2-col-3",
+      "link#footer-interes-3-col-3",
+      "link#footer-interes-4-col-3",*/
+      /*"link#footer-interes-5-col-3"*/
     ]
   },
   "rich-text#footer-link-title-col-3": {
@@ -653,6 +656,7 @@
       "colSizing": "auto",
       "blockClass": "footer-6-1-wrapper",
       "preserveLayoutOnMobile": true
+      /*"fullWidth": true*/
     },
     "children": [
       "image#footer-1",
@@ -787,28 +791,34 @@
   },
   "modal-trigger#form-newsletter": {
     "children": [
-      "rich-text#form-newsletter",
       "modal-layout#form-newsletter"
-    ]
-    // "props": {
-    //   "trigger": "load"
-    // }
-  },
-  "rich-text#form-newsletter": {
+    ],
     "props": {
-      "text": "10% OFF",
-      "blockClass": "fixed-button-discount"
+      "trigger": "load"
     }
   },
   "modal-layout#form-newsletter": {
     "children": [
-      "flex-layout.row#form-news-modal"
+      "modal-header#form-newsletter"
     ],
     "props": {
       "blockClass": "form-newsletter-modal"
+      }
+  },
+  "modal-header#form-newsletter": {
+    "children": [
+      "flex-layout.row#form-news-modal"
+    ],
+    "props": {
+      "blockClass":"modal-header",
+      "showCloseButton":true,
+      "iconCloseSize":26
     }
   },
   "flex-layout.row#form-news-modal": {
+    "props": {
+      "blockClass": "modal-form-row"
+    },
     "children": [
       "flex-layout.col#form-news-modal"
     ]
@@ -823,15 +833,17 @@
     }
   },
   "form#news-modal": {
-    "props": {  
-      "entity": "News",  
-      "schema": "client"  
+    "props": {
+      "entity": "News",
+      "schema": "client"
     },
-    "children": [  
+    "children": [
       "image#form-news-modal",
-      "flex-layout.row#newsletter-container-modal"    
-    ],  
-    "blocks": ["form-success#news-modal"]     
+      "flex-layout.row#newsletter-container-modal"
+    ],
+    "blocks": [
+      "form-success#news-modal"
+    ]
   },
   "image#form-news-modal": {
     "props": {
@@ -839,11 +851,13 @@
     }
   },
   "flex-layout.row#newsletter-container-modal": {
-    "children": ["flex-layout.col#newsletter-container-modal"]
+    "children": [
+      "flex-layout.col#newsletter-container-modal"
+    ]
   },
   "flex-layout.col#newsletter-container-modal": {
     "children": [
-      "flex-layout.row#newsletter-container-name-modal", 
+      "flex-layout.row#newsletter-container-name-modal",
       "flex-layout.row#newsletter-container-email-modal",
       "flex-layout.row#newsletter-container-submit-modal",
       "flex-layout.row#newsletter-container-agreement-modal",
@@ -855,19 +869,26 @@
       "horizontalAlign": "center"
     }
   },
-  "flex-layout.row#newsletter-container-name-modal" : {
-    "children": ["flex-layout.col#newsletter-container-name-modal"]
+  "flex-layout.row#newsletter-container-name-modal": {
+    "children": [
+      "flex-layout.col#newsletter-container-name-modal"
+    ]
   },
   "flex-layout.row#newsletter-container-email-modal": {
-    "children": ["flex-layout.col#newsletter-container-email-modal"]
+    "children": [
+      "flex-layout.col#newsletter-container-email-modal"
+    ]
   },
   "flex-layout.row#newsletter-container-submit-modal": {
-    "children": ["flex-layout.col#newsletter-container-submit-modal"]
+    "children": [
+      "flex-layout.col#newsletter-container-submit-modal"
+    ]
   },
   "flex-layout.row#newsletter-container-agreement-modal": {
-    "children": ["flex-layout.col#newsletter-container-agreement-modal"]
+    "children": [
+      "flex-layout.col#newsletter-container-agreement-modal"
+    ]
   },
-  
   "flex-layout.col#newsletter-container-name-modal": {
     "children": [
       "form-input.text#firstName-news-modal",
@@ -902,49 +923,49 @@
       "blockClass": "newsletter-container-agreement-modal"
     }
   },
-  "form-input.text#firstName-news-modal": {  
-    "props": {  
+  "form-input.text#firstName-news-modal": {
+    "props": {
       "label": "Nombre",
-      "pointer": "#/properties/firstName"  
-    }  
-  },  
-  "form-input.text#lastName-news-modal": {  
-    "props": {  
-      "label": "Apellido",
-      "pointer": "#/properties/lastName"  
-    }  
+      "pointer": "#/properties/firstName"
+    }
   },
-  "form-input.text#email-news-modal": {  
-    "props": {  
+  "form-input.text#lastName-news-modal": {
+    "props": {
+      "label": "Apellido",
+      "pointer": "#/properties/lastName"
+    }
+  },
+  "form-input.text#email-news-modal": {
+    "props": {
       "pointer": "#/properties/emailAddress",
       "label": "Email",
       "placeholder": "TU-EMAIL@EJEMPLO.COM"
-    }  
-  }, 
-  "form-submit#news-modal": {  
-    "props": {  
+    }
+  },
+  "form-submit#news-modal": {
+    "props": {
       "label": "SUSCRIBIRSE",
       "blockClass": "news-modal-submit"
-    }  
+    }
   },
-  "form-success#news-modal": {  
-    "children": [  
-      "rich-text#successSubmit-news-modal"  
-    ]  
-  },  
-  "rich-text#successSubmit-news-modal": {  
-    "props": {  
-      "text": "Gracias por suscribirte",  
-      "textAlignment": "CENTER",  
-      "textPosition": "CENTER"  
-    }  
-  },  
-  "form-input.checkbox#agreement-news-modal": {  
-    "props": {  
-      "pointer": "#/properties/agreement",  
+  "form-success#news-modal": {
+    "children": [
+      "rich-text#successSubmit-news-modal"
+    ]
+  },
+  "rich-text#successSubmit-news-modal": {
+    "props": {
+      "text": "Gracias por suscribirte",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.checkbox#agreement-news-modal": {
+    "props": {
+      "pointer": "#/properties/agreement",
       "label": "",
       "blockClass": "agreement-news"
-    }  
+    }
   },
   "rich-text#newsletter-terms-modal": {
     "props": {
@@ -954,5 +975,4 @@
       "textPosition": "JUSTIFY"
     }
   }
-  
 }

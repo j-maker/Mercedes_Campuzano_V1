@@ -2,12 +2,8 @@
     z-index: 1;
     font-size: 13px;
 }
-.input::placeholder{
-    text-transform: uppercase;
-    color: #000;
-}
 .hideDecorators{
-    height: 33px ;
+    height: 33px;
   }
 .container{
 width: 50px;
@@ -16,3 +12,7 @@ width: 50px;
     display: flex;
     justify-content: center;
 }
+.input::placeholder{
+    text-transform: uppercase;
+    color: #000;
+  }

@@ -1,83 +1,83 @@
 {
-  "store.custom#care-and-health": {
-    "blocks": [
-      "flex-layout.row#footer-terms-col-care-and-health"
-    ]
-  },
-  "flex-layout.row#footer-terms-col-care-and-health": {
-    "children": [
-      "flex-layout.col#col-1-wrapper-care-and-health"
-    ]
-  },
-  "flex-layout.col#col-1-wrapper-care-and-health": {
-    "props": {
-      "blockClass": "footer-terms-col-wrapper"
+    "store.custom#care-and-health": {
+        "blocks": [  
+            "flex-layout.row#footer-terms-col-care-and-health"
+        ]
     },
-    "children": [
-      "flex-layout.row#col-1-title-care-and-health",
-      "flex-layout.col#col-1-content-care-and-health"
-    ]
-  },
-  "flex-layout.row#col-1-title-care-and-health": {
-    "children": [
-      "rich-text#col-1-title-care-and-health"
-    ]
-  },
-  "flex-layout.col#col-1-content-care-and-health": {
-    "children": [
-      "rich-text#col-1-content-care-and-health",
-      "rich-text#col-1-list-care-and-health",
-      "rich-text#col-2-list-care-and-health",
-      "rich-text#col-3-list-care-and-health",
-      "rich-text#col-2-content-care-and-health"
-    ]
-  },
-  "rich-text#col-1-title-care-and-health": {
-    "props": {
-      "blockClass": "footer-terms-title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "PROTOCOLO DE CUIDADO Y SALUD"
-    }
-  },
-  "rich-text#col-1-content-care-and-health": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles-policies",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Hola Coleccionistas:\n\nEn Mercedes Campuzano sabemos que la salud es lo primero, y para cuidarte y cuidarnos, queremos darte a conocer el proceso de higiene, cuidado y salud que realizamos con el proceso logístico de tus pedidos:\n\n"
-    }
-  },
-  "rich-text#col-1-list-care-and-health": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Desde nuestras bodegas, el personal de trabajo lo primero que hace al ingresar, es lavarse las manos y realizar aspersión con solución desinfectante. Seguido, proceden a ponerse guantes y tapabocas para hacer el proceso de alistamiento y despacho.\n\n",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#col-2-list-care-and-health": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "En cuanto a la empresa transportadora, antes de ingresar a nuestras instalaciones a recoger tus productos, constatamos que el personal transportista porte tapabocas y guantes, seguido realizamos un proceso de aspersión para la desinfección del personal con solución desinfectante.\n\n",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#col-3-list-care-and-health": {
-    "props": {
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Al momento de la entrega, nuestra empresa transportadora aliada, realizará la entrega de tus productos con los cuidados sanitarios (tapabocas y guantes), adicionalmente, por tu cuidado, solo está permitido entregar los productos en las porterías y este dejará el paquete en el piso para evitar el contacto físico. Al recoger el paquete por el cliente o persona correspondiente, recomendamos realizar también desinfección del mismo con todas las recomendaciones dadas por el ministerio de salud.\n\n",
-      "blockClass": "footer-terms-content-recomendations-block"
-    }
-  },
-  "rich-text#col-2-content-care-and-health": {
-    "props": {
-      "blockClass": "footer-terms-content-subtitles-policies",
-      "textAlignment": "JUSTIFY",
-      "textPosition": "JUSTIFY",
-      "text": "Pensando siempre en tu cuidado, continuaremos implementando todas las precauciones y medidas necesarias para que recibas tus pedidos con las mejores condiciones y pases este periodo de aislamiento tranquilo con tu familia."
-    }
+    "flex-layout.row#footer-terms-col-care-and-health": {
+        "children": [
+          "flex-layout.col#col-1-wrapper-care-and-health"
+        ]
+      },
+      "flex-layout.col#col-1-wrapper-care-and-health": {
+        "props": {
+          "blockClass": "footer-terms-col-wrapper"
+        },
+        "children": [
+          "flex-layout.row#col-1-title-care-and-health",
+          "flex-layout.col#col-1-content-care-and-health"
+        ]
+      },
+      "flex-layout.row#col-1-title-care-and-health": {
+        "children": [
+          "rich-text#col-1-title-care-and-health"
+        ]
+      },
+      "flex-layout.col#col-1-content-care-and-health": {
+        "children": [
+          "rich-text#col-1-content-care-and-health",
+          "rich-text#col-1-list-care-and-health",
+          "rich-text#col-2-list-care-and-health",
+          "rich-text#col-3-list-care-and-health",
+          "rich-text#col-2-content-care-and-health"
+        ]
+      },
+      "rich-text#col-1-title-care-and-health": {
+        "props": {
+          "blockClass": "footer-terms-title",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "PROTOCOLO DE CUIDADO Y SALUD"
+        }
+      },
+      "rich-text#col-1-content-care-and-health": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Hola Coleccionistas:\n\nEn Mercedes Campuzano sabemos que la salud es lo primero, y para cuidarte y cuidarnos, queremos darte a conocer el proceso de higiene, cuidado y salud que realizamos con el proceso logístico de tus pedidos:\n\n"
+        }
+      },
+      "rich-text#col-1-list-care-and-health": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Desde nuestras bodegas, el personal de trabajo lo primero que hace al ingresar, es lavarse las manos y realizar aspersión con solución desinfectante. Seguido, proceden a ponerse guantes y tapabocas para hacer el proceso de alistamiento y despacho.\n\n",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#col-2-list-care-and-health": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "En cuanto a la empresa transportadora, antes de ingresar a nuestras instalaciones a recoger tus productos, constatamos que el personal transportista porte tapabocas y guantes, seguido realizamos un proceso de aspersión para la desinfección del personal con solución desinfectante.\n\n",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#col-3-list-care-and-health": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Al momento de la entrega, nuestra empresa transportadora aliada, realizará la entrega de tus productos con los cuidados sanitarios (tapabocas y guantes), adicionalmente, por tu cuidado, solo está permitido entregar los productos en las porterías y este dejará el paquete en el piso para evitar el contacto físico. Al recoger el paquete por el cliente o persona correspondiente, recomendamos realizar también desinfección del mismo con todas las recomendaciones dadas por el ministerio de salud.\n\n",
+          "blockClass": "footer-terms-content-recomendations-block"
+        }
+      },
+      "rich-text#col-2-content-care-and-health": {
+        "props": {
+            "blockClass": "footer-terms-content-subtitles-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Pensando siempre en tu cuidado, continuaremos implementando todas las precauciones y medidas necesarias para que recibas tus pedidos con las mejores condiciones y pases este periodo de aislamiento tranquilo con tu familia."
+        }
+      } 
   }
-}
