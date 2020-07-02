@@ -363,6 +363,9 @@
   padding: 0;
 }
 @media screen and (max-width:1024px) {
+  .flexCol--image-percent-container{
+    margin-bottom: 380px;
+  }
     .flexRowContent--footer-new{
     display: block;
   }
