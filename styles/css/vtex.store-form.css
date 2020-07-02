@@ -1,4 +1,8 @@
 .formSubmitButton :global(.vtex-button){
+<<<<<<< HEAD
+=======
+    /* background: #9d884b; */
+>>>>>>> f8c2abe70669a861b5726bce9d2e86d10cca5289
     background: #e3d3c7;
 }
 
@@ -8,6 +12,7 @@
     align-items: center;
     align-content: center;
     margin-bottom: 20px;
+<<<<<<< HEAD
 }
 @media screen and (max-width: 1024px){
     .formSubmitButton:global(.vtex-button){
@@ -16,3 +21,6 @@
         background-color: red;
     }    
 }
+=======
+}
+>>>>>>> f8c2abe70669a861b5726bce9d2e86d10cca5289

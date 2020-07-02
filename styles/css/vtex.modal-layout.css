@@ -93,6 +93,10 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f8c2abe70669a861b5726bce9d2e86d10cca5289
 .paper--form-newsletter-modal {
   width: 40%;
 }
@@ -104,7 +108,12 @@
 @media screen and (max-width:768px) {
   .paper--form-newsletter-modal {
     width: 95%;
+<<<<<<< HEAD
     min-height: 400px;
     min-width: 340px;
   }
 }
+=======
+  }
+}
+>>>>>>> f8c2abe70669a861b5726bce9d2e86d10cca5289

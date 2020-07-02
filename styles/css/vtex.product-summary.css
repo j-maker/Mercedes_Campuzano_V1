@@ -56,6 +56,7 @@
   height: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
+  z-index: 1;
 }
 .imageContainer {
   display: flex;

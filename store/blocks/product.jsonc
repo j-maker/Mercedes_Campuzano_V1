@@ -2,12 +2,22 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
+      // "percent-discount",
       "flex-layout.row#product-main",
-      "flex-layout.row#description",
+      "flex-layout.row#description",  
       "rich-text#recomended",
       "shelf.relatedProducts"
     ]
   },
+  
+  // "percent-discount": {},
+
+
+
+
+
+
+
   "flex-layout.row#product": {
     "props": {
       "blockClass": "specifications"
@@ -64,6 +74,7 @@
   },
   "stack-layout": {
     "children": [
+      
       "flex-layout.row#product-image",
       "product-bookmark",
       "product-specification-badges"
@@ -87,11 +98,24 @@
   },
   "flex-layout.col#stack": {
     "children": [
+      "percent-discount",
       "stack-layout"
     ],
     "props": {
       "width": "50%",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "image-percent-container"
+    }
+  },
+  "percent-discount": {
+    "props": {
+      "blockClass": "percent-discunt-container"
+    }
+  },
+  "flex-layout.row#percent-discount": {
+    "children": ["percent-discount"],
+    "props": {
+      "blockClass": "percent-discunt-container"
     }
   },
   "flex-layout.row#product-image": {
@@ -111,6 +135,7 @@
       "showPaginationDots": false,
       "displayThumbnailsArrows": true,
       "marginTop": 0,
+      // "hiddenImages": "1",
       "paddingBottom": 7
     }
   },
@@ -204,7 +229,11 @@
       "hideImpossibleCombinations": true,
       "showVariationsLabels": true,
       "showVariationsErrorMessage": true,
+<<<<<<< HEAD
       "thumbnailImage": "3",
+=======
+      "thumbnailImage": "2",
+>>>>>>> f8c2abe70669a861b5726bce9d2e86d10cca5289
       "imageLabel": 3
     }
   },

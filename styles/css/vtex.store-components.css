@@ -240,6 +240,7 @@
   font-size: 16px;
   font-weight: bold;
   padding: 16px 3px;
+  z-index: 2;
 }
 .searchBarInnerContainer--search-result {
   width: 1200px;
