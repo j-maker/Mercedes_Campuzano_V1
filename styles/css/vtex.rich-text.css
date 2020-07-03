@@ -338,7 +338,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .paragraph--Title-news{
+    font-size: 30px;
+  }
   .container--home-text-2{
     display: none;
   }

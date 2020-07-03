@@ -15,8 +15,8 @@
       "flex-layout.row#social-networks",
       "flex-layout.row#home-row-4",
       "rich-text#iframe",
-      "iframe",
-      "modal-trigger#form-newsletter"
+      "iframe"
+      /*"modal-trigger#form-newsletter"*/
     ]
   },
   "image#share":{

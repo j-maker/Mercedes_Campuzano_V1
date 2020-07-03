@@ -10,3 +10,10 @@
     align-content: center;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1024px){
+.formSubmitButton{
+    display: flex;
+    justify-content: center;
+}
+}

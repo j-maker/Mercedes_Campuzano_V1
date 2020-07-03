@@ -49,7 +49,9 @@
           "rich-text#col-1-subtitle-10-content-terms-conditions-promotions",
           "rich-text#col-1-paragraph-10-content-terms-conditions-promotions",
           "rich-text#col-1-subtitle-11-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-11-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-11-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-12-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-12-content-terms-conditions-promotions"
         ]
       },
       "rich-text#col-1-title-terms-conditions-promotions": {
@@ -219,6 +221,22 @@
           "textAlignment": "JUSTIFY",
           "textPosition": "JUSTIFY",
           "text": "Aplica condiciones y restricciones\nDescuento del 30% en referencias seleccionadas\nPromoción válida únicamente (Desde 01-May-2020 / Hasta 30-May-2020)\nAplica únicamente en página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas.\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento.\nNo aplica para bonos de descuento por cumpleaños.\n\n"
+        }
+      },
+      "rich-text#col-1-subtitle-12-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**JULIO 3 DÍA SIN IVA**\n"
+        }
+      },
+      "rich-text#col-1-paragraph-12-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones\nDescuentos hasta del 60% en referencias seleccionadas y el 25%  en producto de línea\nPromoción válida únicamente  el 3 de julio de 2020\nAplica únicamente para el inventario disponible el día del evento, en todas las tiendas físicas Mercedes Campuzano del pais y página web www.mercedescampuzano.com.\n La apertura de tiendas fisicas esta sujeta a autorizaciones de entes gubernamentales.\nNo aplica para nuestra línea de protección (Jabón, gel antibacterial,  tapabocas); esta línea ya es exenta de IVA y no tiene descuento\nSolo aplica con forma de pago electrónico (Tarjetas débito y/o crédito)\nLos precios finales ya incluyen el beneficio de exención especial dada por el decreto legistlativo 682 del 21 de mayo de 2020\nEn referencia al decreto  682, el consumidor solo podrá  adquirir un máximo de tres (3) unidades del mismo bien, de acuerdo a su categoría.\n}El Calzado es una categoría independiente.\nLos Bolsos y Accesorios  son en sí mismos una misma categoría.\nEl valor  unitario máximo a cancelar por el consumidor, será de: $159.580 (ciento cincuenta y nueve mil quinientos ochenta pesos m.l.)\n No aplica para tiendas físicas falabella\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras  de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento\nNo aplica para bonos de descuento por cumpleaños\n\nUnidades disponibles a nivel nacional entre bolsos, zapatos y accesorios 70.430\n"
         }
       },
       "rich-text#col-1-subtitle-11-content-terms-conditions-promotions": {

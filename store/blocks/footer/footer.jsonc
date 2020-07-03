@@ -13,8 +13,8 @@
       "flex-layout.row#footer-row-4",
       "flex-layout.row#footer-row-5",
       "flex-layout.row#footer-row-6",
-      "image#desktop-fixed-arrow-up",
-      "image#desktop-fixed-discount"
+      "image#desktop-fixed-arrow-up"
+      /*"image#desktop-fixed-discount"*/
     ]
   },
   "flex-layout.row#footer-row-2": {
@@ -28,9 +28,7 @@
   "flex-layout.col#footer-row-2": {
     "children": [
       "flex-layout.row#form-news",
-      // "newsletter",
       "rich-text#newsletter-terms"
-      /* "flex-layout.col#form"*/
     ]
   },
   "flex-layout.row#form-news": {
@@ -588,10 +586,6 @@
     "children": [
       "rich-text#footer-link-title-col-3",
       "link#footer-interes-1-col-3"
-      /*"link#footer-interes-2-col-3",
-      "link#footer-interes-3-col-3",
-      "link#footer-interes-4-col-3",*/
-      /*"link#footer-interes-5-col-3"*/
     ]
   },
   "rich-text#footer-link-title-col-3": {
@@ -656,7 +650,6 @@
       "colSizing": "auto",
       "blockClass": "footer-6-1-wrapper",
       "preserveLayoutOnMobile": true
-      /*"fullWidth": true*/
     },
     "children": [
       "image#footer-1",
@@ -812,7 +805,7 @@
     "props": {
       "blockClass":"modal-header",
       "showCloseButton":true,
-      "iconCloseSize":26
+      "iconCloseSize":16
     }
   },
   "flex-layout.row#form-news-modal": {
@@ -925,6 +918,7 @@
   },
   "form-input.text#firstName-news-modal": {
     "props": {
+      "blockClass":"home-form-name",
       "label": "Nombre",
       "pointer": "#/properties/firstName"
     }

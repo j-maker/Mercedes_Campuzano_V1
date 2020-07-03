@@ -87,12 +87,6 @@
   border-top-color: transparent;
 }
 
-.closeButton--modal-header {
-  padding-right: 1rem;
-  position: fixed !important;
-  margin-top: -30px;
-  margin-left: -10px;
-}
 
 .paper--product-gifts {
   padding: 1.5rem;
@@ -106,12 +100,17 @@
   background-color: rgba(0,0,0,0.4);
 }
 .closeIcon--modal-header{
-  border: 1px solid #000;
-  background-color: #D56E2F;
-  opacity: 0.8;
+  background-color: #fff;
   border-radius: 50%;
-
+  padding: 5px;
 }
+.closeButton--modal-header {
+  padding-right: 3px;
+  position: fixed !important;
+  margin-top: 0px;
+  margin-left: -45px;
+}
+
 @media screen and (max-width:768px) {
   .paper--form-newsletter-modal {
     width: 95%;

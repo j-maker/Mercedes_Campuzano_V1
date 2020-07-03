@@ -138,14 +138,14 @@
   opacity: 0.5;
 }
 @media screen and (max-width: 1024px) {
+  .link--home-text-all{
+    margin: 20px auto;
+  }
   .label--header-1-link {
     display: none;
   }
   .link--header-2-link {
     padding: 3px 5px;
-  }
-  .link--home-text-all {
-    margin: 40px 26%;
   }
   .label--row-3-links-1 {
     color: #ee562a;

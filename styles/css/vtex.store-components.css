@@ -359,6 +359,9 @@
 
 
 @media screen and (max-width: 1024px) {
+  .imageElementLink--redes{
+    display: contents;
+  }
   .autoCompleteOuterContainer--mobile-search-bar :global(.vtex-input-prefix__group) {
     border: 2px solid #e1d3c8;
   }

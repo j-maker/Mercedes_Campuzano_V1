@@ -105,7 +105,7 @@
   },*/
   "flex-layout.row#percent-discount": {
     "children": [
-      //"percent-discount"
+     // "percent-discount"
     ],
     "props": {
       "blockClass": "percent-discunt-container"
@@ -141,6 +141,7 @@
     "children": [
       "flex-layout.row#product-name",
       "flex-layout.row#selling-price",
+      "rich-text#dia-sin-iva",
       "sku-selector",
       "flex-layout.row#size-guide",
       "product-assembly-options",
@@ -166,6 +167,14 @@
     "props": {
       "blockClass": "buy-button-product",
       "text": "AGREGAR AL CARRITO"
+    }
+  },
+  "rich-text#dia-sin-iva": {
+    "props": {
+      "blockClass": "price-online",
+      "text": "El precio ya incluye el 19% de descuento por el dia sin IVA. Al entrar en tu carrito encontraras el precio final del producto discriminando el descuento aqui aplicado.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#price-online": {

@@ -363,6 +363,15 @@
   padding: 0;
 }
 @media screen and (max-width:1024px) {
+  .flexRowContent--container-form-newsletter{
+    display: block;
+  }
+  .flexRowContent--footer-wrapper{
+    display: block;
+  }
+  .flexRowContent--footer-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100% !important;
+  }
   .flexCol--image-percent-container{
     margin-bottom: 380px;
   }
@@ -597,7 +606,7 @@
   }
   .flexRow--home-row-4-wrapper {
     margin-left: 5px;
-    width: 95% !important;
+    width: 100% !important;
   }
   .flexRow--header-menu-wrapper-menu-2 {
     margin: 0px !important;

@@ -83,8 +83,6 @@
     "children": [ 
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-7",
-      /*"flex-layout.col#store-shelf-8",*/
-      "flex-layout.col#store-shelf-10",
       "flex-layout.col#store-shelf-9",
       "flex-layout.col#spacer"
     ]
@@ -288,17 +286,6 @@
     "rich-text#stores-shelf-title-9",
     "rich-text#stores-shelf-content-9",
     "link#stores-shelf-maps-9"
-]
-},
-"flex-layout.col#store-shelf-10":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-10",
-    "rich-text#stores-shelf-content-10",
-    "link#stores-shelf-maps-10"
 ]
 },
 "flex-layout.col#store-shelf-11":{
@@ -745,14 +732,7 @@
         "label": "VER EN GOOGLE MAPS"
       }
     },
-    "rich-text#stores-shelf-title-10": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. FLORIDA"
-      }
-  },  
+  
   "rich-text#stores-shelf-content-10": {
       "props": {
         "textAlignment": "JUSTIFY",
