@@ -372,10 +372,7 @@
   .flexRowContent--footer-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     width: 100% !important;
   }
-  .flexCol--image-percent-container{
-    margin-bottom: 380px;
-  }
-    .flexRowContent--footer-new{
+  .flexRowContent--footer-new{
     display: block;
   }
   .flexColChild--stores-shelf{
