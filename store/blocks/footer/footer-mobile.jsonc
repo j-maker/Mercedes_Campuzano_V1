@@ -5,7 +5,7 @@
         },
         "children": [
             "flex-layout.row#footer-row-1",
-            "flex-layout.row#footer-row-2",
+            //"flex-layout.row#footer-row-2",
             "flex-layout.row#footer-row-3",
             "flex-layout.row#footer-row-4",
             "flex-layout.row#footer-row-5",
