@@ -1,7 +1,7 @@
 {
   "vendor": "mercedescampuzano",
   "name": "mcampuzano",
-  "version": "1.2.24",
+  "version": "1.2.25",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -12,7 +12,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "mercedescampuzano.product-details":"0.x",
+    "mercedescampuzano.product-details": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
