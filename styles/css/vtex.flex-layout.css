@@ -1,7 +1,3 @@
-
-
-
-
 /*Header-row-2*/
 .flexRow--row-2-wrapper {
   width: 100%;
@@ -11,7 +7,6 @@
   display: flex;
   justify-content: center;
 }
-
 /*home*/
 .flexRow--home-row-1-wrapper {
   margin: 0px 13%;
@@ -241,6 +236,7 @@
   width: 1024px;
   display: flex;
   justify-content: center;
+  min-height: 630px;
 }
 
 .flexRow--selling-price {
@@ -437,6 +433,8 @@
   .flexRowContent--product-main {
     margin-bottom: 0;
     padding-bottom: 0px;
+    display: block;
+    width: 100% !important;
   }
   .flexCol--right-col {
     margin-top: -130px;
@@ -537,11 +535,7 @@
     height: auto;
     margin: 0;
   }
-  .flexRowContent--product-main {
-    display: block;
-
-    width: 100% !important;
-  }  .flexColChild--stores-shelf{
+  .flexColChild--stores-shelf{
     display: flex;
     justify-content: center;
     width: 100%
@@ -594,10 +588,6 @@
   .flexColChild--filterCol {
     width: 100% !important;
   }
-  .flexRowContent--product-main {
-    margin-bottom: 0;
-    padding-bottom: 0px;
-  }
   .flexCol--right-col {
     margin-top: -130px;
   }
@@ -623,10 +613,6 @@
     padding: 0px;
     display: block;
   }
-
-  .flexRow--home-row-1-wrapper {
-    margin: 0px;
-  }
   .flexRow--footer-row-3 {
     padding: 10px;
   }
@@ -635,12 +621,6 @@
     background: #e1e1e1;
     margin: 0px;
     padding: 20px 0 0 0;
-  }
-
-  .flexRow--row-3-wrapper {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
   }
 
   .flexRowContainer--home-row-4-wrapper {
@@ -701,11 +681,6 @@
   .flexRow--product-main {
     height: auto;
     margin: 0;
-  }
-  .flexRowContent--product-main {
-    display: block;
-
-    width: 100% !important;
   }
 }
 
