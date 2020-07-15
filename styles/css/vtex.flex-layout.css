@@ -241,6 +241,7 @@
   width: 1024px;
   display: flex;
   justify-content: center;
+  min-height: 630px;
 }
 
 .flexRow--selling-price {
@@ -599,7 +600,7 @@
     padding-bottom: 0px;
   }
   .flexCol--right-col {
-    margin-top: -130px;
+    margin-top: 250px;
   }
   .flexRow--home-row-4-wrapper {
     margin-left: 5px;

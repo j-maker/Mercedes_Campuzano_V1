@@ -33,8 +33,9 @@
     },
     "children": [
       "flex-layout.col#spacer",
-      "product-list-price",
-      "product-selling-price",
+      "product-list-price#summary",
+      "product-selling-price#summary",
+      "product-price-savings#summary",
       "flex-layout.col#spacer"
     ]
   },
