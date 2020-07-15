@@ -437,7 +437,7 @@
     width: 100% !important;
   }
   .flexCol--right-col {
-    margin-top: -130px;
+    margin-top: 230px;
   }
   .flexRow--header-menu-wrapper-menu-2 {
     margin: 0px !important;
@@ -587,9 +587,6 @@
   }
   .flexColChild--filterCol {
     width: 100% !important;
-  }
-  .flexCol--right-col {
-    margin-top: -130px;
   }
   .flexRow--home-row-4-wrapper {
     margin-left: 5px;

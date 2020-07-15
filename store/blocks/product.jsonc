@@ -2,7 +2,7 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "percent-discount",
+      //"percent-discount",
       "flex-layout.row#product-main",
       "flex-layout.row#description",  
       "rich-text#recomended",
@@ -89,7 +89,7 @@
   },
   "flex-layout.col#stack": {
     "children": [
-      "percent-discount",
+      //"percent-discount",
       "stack-layout"
     ],
     "props": {
@@ -98,7 +98,7 @@
       "blockClass": "image-percent-container"
     }
   },
-  "percent-discount": {
+  /*"percent-discount": {
     "props": {
       "blockClass": "percent-discunt-container"
     }
@@ -110,7 +110,7 @@
     "props": {
       "blockClass": "percent-discunt-container"
     }
-  },
+  },*/
   "flex-layout.row#product-image": {
     "children": [
       "product-images"
