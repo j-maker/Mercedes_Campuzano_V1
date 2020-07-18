@@ -440,7 +440,7 @@
     padding-bottom: 0px;
   }
   .flexCol--right-col {
-    margin-top: -130px;
+    margin-top: 0px;
   }
   .flexRow--header-menu-wrapper-menu-2 {
     margin: 0px !important;
@@ -598,9 +598,6 @@
   .flexRowContent--product-main {
     margin-bottom: 0;
     padding-bottom: 0px;
-  }
-  .flexCol--right-col {
-    margin-top: 250px;
   }
   .flexRow--home-row-4-wrapper {
     margin-left: 5px;
