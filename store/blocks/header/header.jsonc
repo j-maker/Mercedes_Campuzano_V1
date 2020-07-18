@@ -288,6 +288,13 @@
       "label": "Tiendas"
     }
   },
+  "link#row-3-5": {
+    "props": {
+      "blockClass": "row-3-links-1",
+      "href": "/156?map=productClusterIds",
+      "label": "BAZAR"
+    }
+  },
   "flex-layout.col#car": {
     "props": {
       "blockClass": "car"
