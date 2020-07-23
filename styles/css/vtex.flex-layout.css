@@ -293,9 +293,11 @@
   border: 1px solid #e3e4e6;
 }
 .flexRowContent--row-3-wrapper {
-  width: 1070px;
+  width: 1140px;
 }
-
+.flexRowContent--row-3-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
 .flexRow--home-wrapper-shelf {
   padding: 0 30px;
 }
@@ -572,16 +574,7 @@
   .flexRow--footer-contact-us {
     padding: 0 20px;
   }
-  .flexRow--footer-terms-conditions-promotions,
-  .flexCol--footer-terms-col-wrapper {
-    width: 100% !important;
-  }
-  .flexRowContent--row-3-wrapper {
-    width: 100%;
-  }
-  .flexRowContent--buy-button-product {
-    width: 90%;
-  }
+
   .flexRow--specifications {
     margin: 0;
   }

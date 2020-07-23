@@ -5,19 +5,62 @@
       "orientation": "horizontal"
     },
     "children": [
-      "link#row-3-1",
+      "flex-layout.col#menu-1",
+      "flex-layout.col#spacer",
+      "header-force-center",
+      "flex-layout.col#spacer",
+      "flex-layout.col#menu-2"
+    ]
+  },
+  "header-row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["header-force-center"]
+  },  
+  "header-force-center": {
+    "children":[
+      "logo#desktop-menu"
+    ]
+  },
+  "logo#desktop-menu": {
+    "props": {
+      "blockClass": "row-3-logo",
+      "title": "Logo",
+      "href": "/",
+      "url": "https://mercedescampuzano.vtexassets.com/arquivos/mc-logo.png",
+      "width": "180"
+    }
+  },
+
+  "flex-layout.col#menu-1":{
+    "children":["flex-layout.row#menu-1"]
+  },
+  "flex-layout.col#menu-2":{
+    "children":["flex-layout.row#menu-2"]
+  },
+  "flex-layout.row#menu-1":{
+    "children":["link#row-3-1",
       "menu-item#menu-1",
       "menu-item#menu-2",
-      "menu-item#menu-3",
-      "logo#desktop",
+      "menu-item#menu-3"]
+  },
+  "flex-layout.row#menu-2":{
+    "children":[      
       "menu-item#menu-4",
       "link#row-3-2",
       "link#row-3-3",
       "link#row-3-5",
       "link#row-3-4",
-      "minicart.v2"
-    ]
+      "minicart.v2"]
   },
+
+
   "menu-item#menu-1": {
     "props": {
       "blockClass": "header-menu-2",

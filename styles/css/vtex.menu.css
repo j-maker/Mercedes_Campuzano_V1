@@ -45,7 +45,7 @@
 }
 .styledLinkContainer--header-menu-2 {
   height: 20px;
-  margin: 16px 5px 32px 5px;
+  margin: 14px;
 }
 .styledLinkContent--header-submenu-text {
   font-size: 13px;
@@ -63,7 +63,7 @@
   right: 0;
   box-sizing: border-box;
   border: 0;
-  margin: 0;
+  margin: 20px 0;
   padding: 20px 0;
   background-color: #f7ebe9 !important;
 }

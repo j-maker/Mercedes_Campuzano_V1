@@ -1,8 +1,11 @@
 .cartIcon {
   height: 23px;
   width: 23px;
-  margin-top: -15px;
+  margin-top: -10px;
   padding: 0px;
+}
+.openIconContainer--minicart{
+  padding: 0;
 }
 .openIconContainer {
   height: auto;

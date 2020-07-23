@@ -262,7 +262,7 @@
   },
   "link#row-3-1": {
     "props": {
-      "blockClass": "row-3-links",
+      "blockClass": "row-3-links-new",
       "href": "/140?map=productClusterIds",
       "label": "Lo Nuevo"
     }
