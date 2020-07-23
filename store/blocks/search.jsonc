@@ -5,6 +5,7 @@
     ],
     "props": {
       "context": {  
+        "orderByField":"OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
         "maxItemsPerPage": 15,
         "skusFilter": "ALL",
@@ -18,6 +19,7 @@
     ],
     "props": {
       "context": {
+        "orderByField":"OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
         "maxItemsPerPage": 15,
         "skusFilter": "ALL",
@@ -31,6 +33,7 @@
     ],
     "props": {
       "context": {
+        "orderByField":"OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
         "maxItemsPerPage": 15,
         "skusFilter": "ALL",
@@ -46,6 +49,7 @@
       "context": {
         "facetsBehavior": "dynamic", 
         "maxItemsPerPage": 15,
+        "orderByField":"OrderByReleaseDateDESC",
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
