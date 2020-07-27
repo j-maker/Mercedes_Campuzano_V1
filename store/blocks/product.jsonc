@@ -65,7 +65,6 @@
   },
   "stack-layout": {
     "children": [
-      
       "flex-layout.row#product-image",
       "product-bookmark",
       "product-specification-badges"

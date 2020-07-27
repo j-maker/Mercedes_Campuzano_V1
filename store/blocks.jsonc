@@ -76,6 +76,7 @@
   },
   "product-summary.shelf#home": {
     "children": [
+      //"product-images",
       "stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.row#selling-price-savings",     

@@ -348,7 +348,9 @@
 .imageElement--share{
   display: none;
 }
-
+.subscriberContainer{
+  margin-top: 70px;
+}
 
 
 

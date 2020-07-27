@@ -290,7 +290,7 @@
   },
   "link#row-3-5": {
     "props": {
-      "blockClass": "row-3-links-1",
+      "blockClass": "row-3-links-2",
       "href": "/156?map=productClusterIds",
       "label": "BAZAR"
     }

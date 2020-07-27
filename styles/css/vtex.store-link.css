@@ -53,6 +53,16 @@
   padding: 32px 10px 32px 10px;
   margin: 0;
 }
+.link--row-3-links-2{
+  text-decoration: none;
+  color: #ff00ff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25.5px;
+  text-transform: uppercase;
+  padding: 27px 10px;
+  margin: 0;
+}
 .link--row-3-links-1 {
   text-decoration: none;
   color: #ee562a;
@@ -63,6 +73,7 @@
   padding: 27px 10px;
   margin: 0;
 }
+.link--row-3-links-2:hover,
 .link--row-3-links-1:hover {
   opacity: 0.7;
 }
@@ -158,9 +169,13 @@
   .link--header-2-link {
     padding: 3px 5px;
   }
+  .label--row-3-links-2 {
+    color: #ff00ff;
+  }
   .label--row-3-links-1 {
     color: #ee562a;
   }
+  .link--row-3-links-2,
   .link--row-3-links-1 {
     color: #000000;
     font-size: 18px;

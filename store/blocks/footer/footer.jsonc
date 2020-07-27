@@ -27,8 +27,9 @@
   },
   "flex-layout.col#footer-row-2": {
     "children": [
-      "flex-layout.row#form-news",
-      "rich-text#newsletter-terms"
+      "custom-newsletter"
+      //"flex-layout.row#form-news",
+      //"rich-text#newsletter-terms"
     ]
   },
   "flex-layout.row#form-news": {
