@@ -16,8 +16,11 @@
       "flex-layout.row#home-row-4",
       "rich-text#iframe",
       "iframe",
-      "modal-trigger#form-newsletter"
+      "custom-open-modal"
     ]
+  },
+  "custom-open-modal": {
+    "children": ["modal-trigger#form-newsletter"]
   },
   "image#share":{
     "props": {

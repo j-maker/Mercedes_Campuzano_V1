@@ -7,15 +7,38 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "modal-trigger#form-newsletterButton",
       "flex-layout.row#footer-row-1",
       "flex-layout.row#footer-row-2",
       "flex-layout.row#footer-row-3",
       "flex-layout.row#footer-row-4",
       "flex-layout.row#footer-row-5",
       "flex-layout.row#footer-row-6",
-      "image#desktop-fixed-arrow-up",
-      "image#desktop-fixed-discount"
+      "image#desktop-fixed-arrow-up"
+      //"image#desktop-fixed-discount"
     ]
+  },
+  "modal-trigger#form-newsletterButton": {
+    "children": [
+      "modal-trigger#button10%"
+    ],
+    "props": {
+      "trigger": "click",
+      "blockClass":"desktop-fixed-discount"
+    }
+  },
+  "modal-trigger#button10%": {
+    "children": [
+      "rich-text#button10%",
+      "modal-layout#form-newsletter"
+    ],"props":{"blockClass":"desktop-fixed-discount"}
+
+  },
+  "rich-text#button10%": {
+    "props": {
+      "blockClass":"desktop-fixed-discount",
+      "text": ""
+    }
   },
   "flex-layout.row#footer-row-2": {
     "props": {
@@ -182,20 +205,6 @@
       "blockClass": "desktop-fixed-arrow-up",
       "href": "https://mercedescampuzano.vtexassets.com/arquivos/mc-arrow-up.png",
       "maxHeight": 30
-    }
-  },
-  "image#desktop-fixed-discount": {
-    "props": {
-      "blockClass": "desktop-fixed-discount",
-      "image": "https://mercedescampuzano.vtexassets.com/arquivos/10-off (1).png",
-      "maxHeight": 70
-    }
-  },
-  "image#desktop-fixed-car": {
-    "props": {
-      "blockClass": "desktop-fixed-car-1",
-      "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-truck-solid.png",
-      "maxHeight": 20
     }
   },
   "flex-layout.row#footer-row-1": {

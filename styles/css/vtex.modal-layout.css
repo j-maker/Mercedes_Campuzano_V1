@@ -110,6 +110,11 @@
   margin-top: 0px;
   margin-left: -45px;
 }
+.triggerContainer--desktop-fixed-discount{
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+}
 
 @media screen and (max-width:768px) {
   .paper--form-newsletter-modal {

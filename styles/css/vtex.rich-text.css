@@ -519,3 +519,16 @@
   text-align: center;
   cursor: pointer;
 }
+.wrapper--desktop-fixed-discount::before{
+  width: 36px;
+  content: "";
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/popUp10.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 36px;
+  z-index: 999;
+  padding-top: 65px;
+  padding-left: 73px;
+  cursor: pointer;
+}
