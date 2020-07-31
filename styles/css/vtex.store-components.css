@@ -361,6 +361,10 @@
 
 
 @media screen and (max-width: 1024px) {
+  .imageElement--home-slider{
+    height: auto;
+    max-height: auto !important;
+  }
   .imageElementLink--redes{
     display: contents;
   }

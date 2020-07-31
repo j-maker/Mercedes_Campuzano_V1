@@ -50,7 +50,8 @@
 
   "product-summary.shelf": {
     "children": [
-      "stack-layout#prodsum",
+      "custom-product-summary-images",
+      //"stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.row#selling-price-savings",
       "product-summary-sku-selector",
@@ -76,7 +77,8 @@
   },
   "product-summary.shelf#home": {
     "children": [
-      "stack-layout#prodsum",
+      "custom-product-summary-images",
+      //"stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.row#selling-price-savings",     
       "flex-layout.row#buy-button-shelf-home"

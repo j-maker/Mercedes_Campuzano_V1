@@ -15,8 +15,8 @@
       "flex-layout.row#social-networks",
       "flex-layout.row#home-row-4",
       "rich-text#iframe",
-      "iframe"
-      //"custom-open-modal"
+      "iframe",
+      "custom-open-modal"
     ]
   },
   "custom-open-modal": {
@@ -303,7 +303,7 @@
 "list-context.image-list#home": {
     "children": ["slider-layout#home"],
     "props": {
-      "height": 600,
+      "height": "100%",
       "images": [
         {
           "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-limpieza_y_ciudado.jpg",

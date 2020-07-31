@@ -42,6 +42,7 @@
       "blockClass": "header-1-info"
     },
     "children": [
+      "meta-tag-google-merchant",
       "image#header-1",
       "link#header-1"
     ]
@@ -270,8 +271,8 @@
   "link#row-3-2": {
     "props": {
       "blockClass": "row-3-links",
-      "href": "/138map=productClusterIds",
-      "label": "Niñas"
+      "href": "/accesorios/vestuario",
+      "label": "VESTUARIO"
     }
   },
   "link#row-3-3": {

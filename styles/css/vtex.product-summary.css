@@ -31,7 +31,6 @@
   padding: 0px;
   width: 100%;
   height: auto;
-  padding: 10px !important;
   background: #f9f6f1;
 }
 .nameContainer {
@@ -50,6 +49,8 @@
 }
 .container {
   max-width: 600px !important;
+  padding: 10px !important;
+  background: #f9f6f1;
 }
 .imageNormal {
   width: 100% !important;
@@ -67,17 +68,23 @@
   display: flex;
   justify-content: center;
 }
+.clearLink{
+  text-decoration: none !important;
+}
 
 @media screen and (min-width: 1024px) {
-  .element {
-    padding: 5px;
-  }
   .SKUSelectorContainer--shelf-sku{
     margin: -15px auto;
+  }
+  .containerNormal{
+    padding: 5px;
   }
 }
 
 @media screen and (max-width: 40em) {
+  .container{
+    padding: 5px;
+  }
   .container :global(.vtex-modal-layout-0-x-triggerContainer) {
     display: none;
   }

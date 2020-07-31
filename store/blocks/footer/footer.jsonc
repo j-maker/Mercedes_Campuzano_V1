@@ -7,7 +7,7 @@
   },
   "footer-layout.desktop": {
     "children": [
-      //"modal-trigger#form-newsletterButton",
+      "modal-trigger#form-newsletterButton",
       "flex-layout.row#footer-row-1",
       "flex-layout.row#footer-row-2",
       "flex-layout.row#footer-row-3",

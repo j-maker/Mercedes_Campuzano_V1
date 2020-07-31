@@ -48,15 +48,15 @@
     "children":["link#row-3-1",
       "menu-item#menu-1",
       "menu-item#menu-2",
-      "menu-item#menu-3"]
+      "link#row-3-2"]
   },
   "flex-layout.row#menu-2":{
-    "children":[      
+    "children":[
+      "menu-item#menu-3",
       "menu-item#menu-4",
-      "link#row-3-2",
       "link#row-3-3",
       "link#row-3-5",
-      "link#row-3-4",
+      //"link#row-3-4",
       "minicart.v2"]
   },
 
@@ -767,8 +767,25 @@
       "blockClass": "submenu"
     },
     "children": [
-      "menu-item#menu-4-1"
+      "menu-item#menu-4-1",
+      "menu-item#menu-4-7"
     ]
+  },
+  "menu-item#menu-4-7": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Niñas",
+        "text": "Niñas"
+      },
+      "href": "/138?map=productClusterIds",
+      "blockClass": "submenu-safe-kit"
+    }
   },
   "menu-item#menu-4-1": {
     "props": {
@@ -907,11 +924,11 @@
     },
     "children": [
       "link#row-3-1",
+      "link#row-3-2",
       "flex-layout.row#menu-mobile-1",
       "flex-layout.row#menu-mobile-2",
       "flex-layout.row#menu-mobile-3",
       "flex-layout.row#menu-mobile-4",
-      "link#row-3-2",
       "link#row-3-3",
       "link#row-3-5",
       "link#row-3-4"
