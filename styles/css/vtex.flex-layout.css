@@ -335,17 +335,18 @@
 }
 .flexRow--buy-button-shelf-home {
   margin: 0 ;
-  background: #e1d3c8;
+  background: #d56e2f;
+  color: #fff;
 }
 .flexRow--buy-button-shelf {
   margin-top: 16px ;
-  background: #e1d3c8;
+  background: #d56e2f;
 }
 .flexRow--buy-button-shelf-home:hover,
 .flexRow--buy-button-shelf:hover {
   transition: all 0.6s;
-  background: #d56e2f;
-  color: #fff;
+  opacity: 0.7;
+
 }
 .flexRow--footer-terms-conditions-promotions {
   display: flex;
@@ -398,15 +399,13 @@
   .flexColChild--news-container {
     padding: 0 10px;
   }
+  .flexRow--buy-button-shelf,
   .flexRow--buy-button-shelf-home {
-    margin:0 ;
+    margin: 25px 0 0 0 ;
   }
-  .flexRow--buy-button-shelf {
-    margin: 60px 0 0 0 ;
+  .flexColChild--footer-terms-col-frequent-questions-col-wrapper{
+    width: 100%;
   }
-.flexColChild--footer-terms-col-frequent-questions-col-wrapper{
-  width: 100%;
-}
   .flexRow--home-wrapper-shelf {
     padding: 0;
   }
@@ -559,15 +558,6 @@
   .flexRowContent--footer-new{
     display: block;
   }
-  .flexRow--buy-button-shelf-home {
-    margin:0 ;
-  }
-  .flexRow--buy-button-shelf {
-    margin: 60px 0 0 0 ;
-  }
-.flexColChild--footer-terms-col-frequent-questions-col-wrapper{
-  width: 100%;
-}
   .flexRow--home-wrapper-shelf {
     padding: 0;
   }
@@ -699,11 +689,11 @@
 .flexRow--menu-mobile {
   color: #000000;
   font-size: 14px;
-  padding-top: 5px;
+  padding-top: 10px;
   text-transform: capitalize;
   margin-top: 0px;
   border-bottom: 1px solid #dee2e6;
-  height: 32px;
+  height: 41px;
 }
 .flexRowContent--menu-mobile {
   display: inline-flex;

@@ -23,12 +23,13 @@
 }
 .link--row-3-links-new {
   text-decoration: none;
-  color: black;
-  font-size: 14px;
   text-transform: uppercase;
-  padding: 0px 10px;
-  margin: 31px 0px;
   min-width: 100px;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+  padding: 0px;
+  margin: 31px 8px 3px 0px;
 }
 .link--row-3-links {
   height: unset;
@@ -186,11 +187,12 @@
   }
   .link--row-3-links-new,
   .link--row-3-links {
+    margin-right: 0em;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #000000;
     font-size: 14px;
-    padding: 5px 11px;
+    padding: 11px;
     border-bottom: 1px solid #dee2e6 !important;
     text-transform: capitalize;
   }

@@ -1,6 +1,6 @@
 .buttonText--buy-button-product {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: bold;
 }
 .buttonDataContainer--buy-button-product {
   background: #d56e2f;
@@ -18,5 +18,8 @@
 @media screen and (max-width: 1024px) {
   .buttonDataContainer--buy-button-shelf {
     padding: 7px 0px;
+  }
+  .buttonText--buy-button-product{
+    font-size: 12px;
   }
 }

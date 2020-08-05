@@ -143,6 +143,7 @@
       "flex-layout.row#selling-price",
       //"rich-text#dia-sin-iva",
       "sku-selector",
+      "custom-map-color",
       "flex-layout.row#size-guide",
       "product-assembly-options",
       "flex-layout.row#buy-button-product",

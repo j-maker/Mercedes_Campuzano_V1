@@ -533,10 +533,17 @@
   },
   "flex-layout.row#buy-button-shelf": {
     "children": [
-      "buy-button#product"
+      "add-to-cart-button#shelf"
+      //"buy-button#product"
     ],
     "props": {
-      "blockClass": "buy-button-shelf",
+      "blockClass": "buy-button-shelf-home",
+      "text": "COMPRAR YA"
+    }
+  },
+  "add-to-cart-button#shelf": {
+    "props": {
+      "blockClass": "buy-button-product",
       "text": "COMPRAR YA"
     }
   },
