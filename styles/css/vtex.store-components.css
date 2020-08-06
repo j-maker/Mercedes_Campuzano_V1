@@ -227,8 +227,16 @@
 }
 
 .skuSelectorOptionsList {
+  margin: 0;
   justify-content: center;
 }
+.productImagesGallerySlide{
+  width: 100% !important;
+}
+
+
+
+
 
 .container--product-description {
   height: auto !important;
@@ -353,7 +361,7 @@
   margin-top: 70px;
 }
 .valueWrapper, .skuSelectorItemImageValue {
-  width: 100%;
+  width: auto;
   height: 100%;
   display: flex;
   align-items: center;
@@ -383,6 +391,7 @@
   }
   .skuSelectorNameContainer{
     margin: 0;
+    z-index: 0;
   }
   .newsletter--footer-row-2-newsletter {
     background: #f9f9f9;

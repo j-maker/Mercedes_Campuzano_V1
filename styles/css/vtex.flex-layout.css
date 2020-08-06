@@ -237,8 +237,16 @@
   margin: 15px 0 0px;
 }
 
+
+
+
+
+
+.flexRowContent--product-main .stretchChildrenWidth:first-child{
+  padding-right: 0;
+}
 .flexRowContent--product-main {
-  width: 1024px;
+  width: 1200px;
   display: flex;
   justify-content: center;
   min-height: 630px;
@@ -299,7 +307,8 @@
   width: 100% !important;
 }
 .flexRow--home-wrapper-shelf {
-  padding: 0 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .flexRow--footer-row-2-newsletter {
   background: #f9f9f9;
@@ -322,17 +331,19 @@
 .flexRowContent--buy-button-product {
   width: 50%;
   background: #d56e2f !important;
-  margin: 50px 0 0;
+  margin: 10px 0 0;
 }
 .flexRowContent--buy-button-product:hover {
   transition: all 0.6s;
   opacity: 0.6;
 }
+.flexColChild--buy-button-shelf-home-1,
 .flexColChild--buy-button-shelf-home,
 .flexColChild--buy-button-shelf {
   margin: 0;
   padding: 0;
 }
+.flexRow--buy-button-shelf-home-1,
 .flexRow--buy-button-shelf-home {
   margin: 0 ;
   background: #d56e2f;
@@ -342,6 +353,7 @@
   margin-top: 16px ;
   background: #d56e2f;
 }
+.flexRow--buy-button-shelf-home-1:hover,
 .flexRow--buy-button-shelf-home:hover,
 .flexRow--buy-button-shelf:hover {
   transition: all 0.6s;
@@ -366,6 +378,23 @@
 .flexRow--modal-form-row :global(.vtex-store-components-3-x-container){
   padding: 0;
 }
+.flexRow--home-wrapper-shelf :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.flexRowContent--buy-button-shelf-home :global(.vtex-button){
+  border: unset;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1024px) {
   .flexRowContent--container-form-newsletter{
     display: block;
@@ -401,16 +430,10 @@
   }
   .flexRow--buy-button-shelf,
   .flexRow--buy-button-shelf-home {
-    margin: 25px 0 0 0 ;
+    margin: 45px 0 0 0 ;
   }
   .flexColChild--footer-terms-col-frequent-questions-col-wrapper{
     width: 100%;
-  }
-  .flexRow--home-wrapper-shelf {
-    padding: 0;
-  }
-  .flexRow--footer-contact-us {
-    padding: 0 20px;
   }
   .flexRow--footer-terms-conditions-promotions,
   .flexCol--footer-terms-col-wrapper {
@@ -539,6 +562,7 @@
     display: block;
     margin-bottom: 0;
     padding-bottom: 0px;
+    padding-top: 0;
     width: 100%;
   }
   .flexRowContent--product-main :global(.vtex-flex-layout-0-x-stretchChildrenWidth){

@@ -24,11 +24,13 @@
   height: 60px;
   right: 155px;
   top: 75%;
-  opacity: 0.5;
 }
 .imageElement--header-menu-slider {
   height: 270px !important;
   margin-top: 45px;
+}
+.imageElement--home-slider{
+  max-height: unset !important;
 }
 
 .sliderLayoutContainer {
@@ -66,7 +68,7 @@
   margin-bottom: 30px;
 }
 .slide--shelf {
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
 .slideChildrenContainer--shelf {
@@ -146,7 +148,7 @@
     margin: 0 0 10px !important;
   }
   .slide--shelf {
-    padding: 0 10px;
+    padding: 0 5px;
     height: auto;
   }
   .sliderArrows--shelf {

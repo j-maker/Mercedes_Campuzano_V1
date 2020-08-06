@@ -527,7 +527,7 @@
       "buy-button#product"
     ],
     "props": {
-      "blockClass": "buy-button-shelf-home",
+      "blockClass": "buy-button-shelf-home-1",
       "text": "COMPRAR YA"
     }
   },
