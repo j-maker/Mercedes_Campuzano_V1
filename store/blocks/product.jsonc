@@ -139,9 +139,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
-      //"flex-layout.row#selling-price-savings",
       "flex-layout.row#selling-price",
-      //"rich-text#dia-sin-iva",
       "sku-selector",
       "custom-map-color",
       "flex-layout.row#size-guide",

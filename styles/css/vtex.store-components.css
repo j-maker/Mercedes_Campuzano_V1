@@ -358,6 +358,7 @@
   display: none;
 }
 .subscriberContainer{
+  text-align: center;
   margin-top: 70px;
 }
 .valueWrapper, .skuSelectorItemImageValue {
@@ -369,6 +370,18 @@
 .productImagesGallerySwiperContainer{
   z-index: 0;
 }
+.form{
+  display: flex;
+  justify-content: center;
+}
+.subscriberContainer :global(.vtex-input-prefix__group){
+  border: 1px solid #000;
+}
+.summit :global(.vtex-button){
+  background: #d56e2f;
+  border: 1px solid #d56e2f;
+  color: #fff;
+}
 
 
 
@@ -377,6 +390,13 @@
 
 
 @media screen and (max-width: 1024px) {
+  .form :global(.vtex-store-components-3-x-submit){
+    display: flex;
+    justify-content: center;
+  }
+  .subscriberContainer{
+    margin: 10px;
+  }
   .imageElement--home-slider{
     max-height: none;
   }
