@@ -161,6 +161,9 @@
 .link--minicart-checkout-button:hover {
   opacity: 0.5;
 }
+.link--textSaleMini{
+  color: #000;
+}
 @media screen and (max-width: 1024px) {
   .link--home-text-all{
     margin: 20px auto;

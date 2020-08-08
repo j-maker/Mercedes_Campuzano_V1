@@ -336,8 +336,14 @@
 .paragraph--price-online {
   margin: 0;
 }
+.paragraph--textSaleMini{
+  line-height: unset;
+}
 
 @media screen and (max-width: 1024px) {
+  .paragraph--textSaleMini{
+    margin-top: 0;
+  }
   .paragraph--Title-news{
     font-size: 30px;
   }

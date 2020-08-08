@@ -303,7 +303,7 @@
 "list-context.image-list#home": {
     "children": ["slider-layout#home"],
     "props": {
-      "maxHeight": "unset",
+      "height": "100%",
       "images": [
         {
           "image": "https://mercedescampuzano.vtexassets.com/arquivos/mc-limpieza_y_ciudado.jpg",

@@ -203,7 +203,7 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#searchinfo",
-      "flex-layout.row#fetchprevious",
+      //"flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
     ],
@@ -243,7 +243,7 @@
   },
   "flex-layout.row#fetchprevious": {
     "props": {
-      "marginBottom": 3
+      "marginBottom": 0
     },
     "children": [
       "search-fetch-previous"
