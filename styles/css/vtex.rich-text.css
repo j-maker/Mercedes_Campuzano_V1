@@ -339,6 +339,12 @@
 .paragraph--textSaleMini{
   line-height: unset;
 }
+.link--textSaleMini{
+  color: #ee562a;
+}
+.wrapper--textSaleMini{
+  padding: 10px 10px 0 10px;
+}
 
 @media screen and (max-width: 1024px) {
   .paragraph--textSaleMini{

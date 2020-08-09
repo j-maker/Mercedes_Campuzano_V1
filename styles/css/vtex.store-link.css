@@ -149,7 +149,7 @@
 }
 .link--minicart-checkout-button {
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: bold !important;
   text-decoration: none;
   color: #fff;
   padding: 13px 120px;
@@ -161,10 +161,10 @@
 .link--minicart-checkout-button:hover {
   opacity: 0.5;
 }
-.link--textSaleMini{
-  color: #000;
-}
+
+
 @media screen and (max-width: 1024px) {
+  
   .link--home-text-all{
     margin: 20px auto;
   }

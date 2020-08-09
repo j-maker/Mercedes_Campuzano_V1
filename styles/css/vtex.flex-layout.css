@@ -393,9 +393,13 @@
 
 
 
-
-
 @media screen and (max-width:1024px) {
+  .flexRowContent--wrapperSaleMini .stretchChildrenWidth:first-child{
+    width: 110px !important;
+  }
+  .flexRowContent--wrapperSaleMini{
+    display: flex;
+  }
   .flexRowContent--container-form-newsletter{
     display: block;
   }

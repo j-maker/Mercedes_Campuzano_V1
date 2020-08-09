@@ -39,12 +39,21 @@
   width: 480px;
 }
 .minicartCheckoutButton {
-  opacity: 0;
   z-index: 2;
   position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  bottom: 5px;
+}
+.minicartCheckoutButton :global(.vtex-button__label){
+  font-size: 0;
+}
+.minicartCheckoutButton :global(.vtex-button){
+  background: #d86c2b !important;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+  font-size: 14px;
+  content: "FINALIZA TU COMPRA";
+  color: #fff;
+  font-weight: bold;
 }
 .closeIconButton--minicart{
   padding: 0;

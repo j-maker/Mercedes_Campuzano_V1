@@ -392,10 +392,11 @@
   width: 80%;
 }
 @media screen and (max-width: 1024px) {
+
   .imageElement--imageSalwMini{
-    width: 30%;
+    flex: 1 1 auto;
+    align-self: center;
   }
-  
   .form :global(.vtex-store-components-3-x-submit){
     display: flex;
     justify-content: center;
