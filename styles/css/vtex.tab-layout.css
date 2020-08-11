@@ -1,0 +1,24 @@
+
+
+.listItemActive--sizeButtonGeneral :global(.vtex-button){
+    border: none;
+    color: #000;
+    outline: 0 !important;
+}
+.listContainer--wrapperTopTitleSizes{
+    position: sticky;
+}
+.listItemActive--sizeButtonGeneral :global(.vtex-button__label){
+    font-weight: bold;
+    font-size: 16px;
+}
+.listItem--sizeButtonGeneral :global(.vtex-button__label){
+    font-size: 16px;
+}
+
+@media screen and (max-width:1024px) {
+    .listItem--sizeButtonGeneral :global(.vtex-button__label){
+        font-size: 12px;
+    }
+
+}

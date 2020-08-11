@@ -7,6 +7,9 @@
 .openIconContainer--minicart{
   padding: 0;
 }
+.openIconContainer--minicart :global(.vtex-button){
+  outline: 0 !important;
+}
 .openIconContainer {
   height: auto;
 }
@@ -66,6 +69,9 @@
 }
 .minicartTitle{
   margin-top: 30px;
+}
+.minicartCheckoutButton :global(.vtex-button){
+  outline: 0 !important;
 }
 @media screen and (max-width: 1024px) {
   .opened {

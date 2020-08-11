@@ -15,14 +15,14 @@
 .sliderLeftArrow--home-slider {
   width: 60px;
   height: 60px;
-  right: 155px;
+  right: 190px;
   left: unset;
   top: 65%;
 }
 .sliderRightArrow--home-slider {
   width: 60px;
   height: 60px;
-  right: 155px;
+  right: 190px;
   top: 75%;
 }
 .imageElement--header-menu-slider {
@@ -109,6 +109,42 @@
 }
 .sliderRightArrow--social-networks {
   right: -20px;
+}
+.sliderArrows--home-slider-size{
+  top: 0px;
+  z-index: 3;
+  width: 48%;
+  opacity: 1;
+}
+.caretIcon--home-slider-size{
+  width: 0%;
+}
+.sliderRightArrow--home-slider-size::before{
+  content: "VESTUARIO";
+  font-size: 14px;
+  font-weight: bold;
+  right: unset;
+  left: 0;
+}
+.sliderLeftArrow--home-slider-size::before{
+  content: "CALZADO";
+  font-size: 14px;
+  font-weight: bold;
+  left: unset;
+  right: 0;
+}
+.sliderRightArrow--home-slider-size::before:focus{
+  margin-top: 15px;
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}
+.sliderLeftArrow--home-slider-size{
+  background: unset;
+}
+
+.slideChildrenContainer--home-slider{
+  justify-content: center;
+  display: flex;
 }
 
 @media screen and (max-width: 1024px) {

@@ -106,6 +106,9 @@
 .buttonLink:focus {
   outline: 0px;
 }
+.container :global(.vtex-button){
+  outline:  0 !important;
+}
 @media screen and (max-width: 1024px) {
   .label {
     font-size: 0px;

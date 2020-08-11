@@ -186,32 +186,45 @@
   },
   "flex-layout.row#size-guide": {
     "children": [
-      "modal-trigger#example"
+      "modal-trigger#size-guide"
     ]
   },
-  "modal-trigger#example": {
+
+  "modal-trigger#size-guide": {
     "children": [
-      "rich-text#example",
-      "modal-layout#example"
+      "rich-text#size-guide",
+      "modal-layout#size-guide"
     ]
   },
-  "rich-text#example": {
+  
+  "rich-text#size-guide": {
     "props": {
-      "blockClass": "tallas",
-      "text": "GUIA DE TALLAS"
+      "text": "Guía de tallas",
+      "blockClass":"textMainSize"
     }
   },
-  "modal-layout#example": {
+  "modal-layout#size-guide": {
     "children": [
-      "image#size"
-    ]
+      "modal-header#size-guide"
+    ],"props":{"blockClass":"size-guide"}
   },
-  "image#size": {
-    "props": {
-      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-guia-tallas.jpg",
-      "width": "600px"
-    }
+  "modal-header#size-guide":{
+    "children": [
+      "flex-layout.row#products-details-tabs" 
+    ],"props":{"blockClass":"size-guide-modal-header"}
   },
+
+  "flex-layout.row#descriptionSize":{
+    "children":["rich-text#sizeDress","rich-text#sizeFootwear"],
+    "props":{"blockClass":"topSizeMenu"}
+  },
+  "rich-text#sizeDress":{
+    "props":{"blockClass":"richSizeDress", "text":"CALZADO"}
+  },
+  "rich-text#sizeFootwear":{
+    "props":{"blockClass":"richSizeDress", "text":"VESTUARIO"}
+  },
+
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 0
@@ -264,6 +277,128 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#products-details-tabs": {
+    "children": [
+      "tab-layout#products-details-tabs"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "tab-layout#products-details-tabs": {
+    "children": [
+      "flex-layout.row#products-details",
+      "tab-content#products-details"
+    ],
+    "props": {
+      "blockClass": "",
+      "defaultActiveTabId": "home2"
+    }
+  },
+  "flex-layout.row#products-details": {
+    "children": [
+      "tab-list#products-details"
+    ],
+    "props": {
+      "blockClass": "container-title-menu-tabs"
+    }
+  },
+  "tab-list#products-details": {
+    "children": [
+      "header-spacer",
+      "tab-list.item#products-details-list2",
+      "header-spacer",
+      "tab-list.item#products-details-list1",
+      "header-spacer"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": ["wrapperTopTitleSizes"]
+    }
+  },
+  "tab-list.item#products-details-list1": {
+    "props": {
+      "tabId": "home1",
+      "label": "CALZADO",
+      "blockClass": "sizeButtonGeneral"
+    }
+  },
+  "tab-list.item#products-details-list2": {
+    "props": {
+      "tabId": "home2",
+      "label": "VESTUARIO",
+      "blockClass": "sizeButtonGeneral"
+    }
+  },
+  "tab-content#products-details": {
+    "children": [
+      "tab-content.item#products-details-content1",
+      "tab-content.item#products-details-content2"
+    ]
+  },
+  "tab-content.item#products-details-content1": {
+    "children": [
+    "image#sizeFootwear"
+    ],
+    "props": {
+      "tabId": "home1",
+      "blockClass":"wrapperImageSize"
+    }
+  },
+  "tab-content.item#products-details-content2": {
+    "children": [
+      "image#sizeDress"
+    ],
+    "props": {
+      "tabId": "home2",
+      "blockClass":"wrapperImageSize"
+    }
+  },
+  "image#sizeFootwear":{
+    "props": {
+      "blockClass":"imageSizeModal",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-guia-tallas.jpg"
+    }
+  },
+  "image#sizeDress":{
+    "props": {
+      "blockClass":"imageSizeModal",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/guia-tallas-VESTIDOS.jpg"
     }
   }
 }

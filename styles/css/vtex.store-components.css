@@ -386,8 +386,12 @@
 
 
 
-
-
+.imageElement--imageSizeModal{
+  width: auto;
+}
+.imageElement--home-slider-size{
+  margin-top: 40px;
+}
 .imageElement--imageSalwMini{
   width: 80%;
 }

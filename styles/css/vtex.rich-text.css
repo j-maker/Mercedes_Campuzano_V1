@@ -345,7 +345,23 @@
 .wrapper--textSaleMini{
   padding: 10px 10px 0 10px;
 }
-
+.paragraph--richSizeDress{
+  font-weight: 600;
+}
+.container--richSizeDress{
+  display: flex;
+  justify-content: center;
+}
+.paragraph--richSizeDress{
+  margin: 0;
+  padding: 10px 0;
+}
+.paragraph--textMainSize{
+  cursor: pointer;
+}
+.paragraph--textMainSize:hover{
+  text-decoration: underline;
+}
 @media screen and (max-width: 1024px) {
   .paragraph--textSaleMini{
     margin-top: 0;

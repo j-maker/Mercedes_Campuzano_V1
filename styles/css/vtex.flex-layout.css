@@ -392,8 +392,28 @@
 
 
 
+.flexRowContent--topSizeMenu .stretchChildrenWidth:first-child{
+  padding: 0;
+}
 
+.flexRow--topSizeMenu{
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+}
+.flexRowContent--buy-button-shelf-home :global(.vtex-button),
+.flexRowContent--buy-button-shelf-home-1 :global(.vtex-button),
+.flexRowContent--buy-button-product :global(.vtex-button){
+  outline: 0 !important;
+}
 @media screen and (max-width:1024px) {
+  .flexRowContent--product-main .stretchChildrenWidth{
+    margin: 0 auto;
+  } 
+  .flexRowContent--topSizeMenu{
+    display: flex;
+  }
   .flexRowContent--wrapperSaleMini .stretchChildrenWidth:first-child{
     width: 110px !important;
   }

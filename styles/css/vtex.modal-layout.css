@@ -115,9 +115,38 @@
   left: 10px;
   bottom: 5px;
 }
+.paper--size-guide{
+  max-width: 45%;
+  margin: 20px auto;
+
+}
+.closeButton--size-guide-modal-header{
+  position: fixed;
+  margin-left: 10px;
+  outline: 0 !important;
+}
+.closeIcon--size-guide-modal-header{
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  padding: 2px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+.paper--size-guide{
+  max-height: unset;
+}
+
 
 @media screen and (max-width:768px) {
+  .paper--size-guide{
+    max-width: 90%;
+  }
   .paper--form-newsletter-modal {
     width: 95%;
+  }
+  .closeButton--size-guide-modal-header{
+    margin-top: -25px;
+    margin-left: -25px;
   }
 }
