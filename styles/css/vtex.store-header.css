@@ -1,3 +1,8 @@
+
+.headerRowContentContainer--header-1-wrapper{
+  max-width: 1360px;
+  width: 100%;
+}
 .headerRowBackground--header-1-wrapper {
   background: #d56e2f;
   height: 30px;

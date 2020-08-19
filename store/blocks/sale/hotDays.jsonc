@@ -1,0 +1,99 @@
+{
+    "store.custom#hotDays": {
+        "blocks": [
+            "search-result-layout.customQuery"
+            //"flex-layout.row#about-us"
+        ]
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "maxItemsPerPage": 16,
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "facetsBehavior": "Dynamic",
+                "skusFilter": "ALL",
+                "simulationBehavior": "skip",
+                "installmentCriteria": "MAX_WITHOUT_INTEREST",
+                "__unstableProductOriginVtex": true,
+                "mapField": "productClusterIds",
+                "queryField": "/157"
+            }
+        },
+        "blocks": [
+            "search-result-layout.mobile#hotDays",
+            "search-result-layout.desktop#hotDays",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#hotDays": {
+        "children": [
+          //"image#hotDays",  
+          "list-context.image-list#hotDays",
+          "flex-layout.row#searchbread",
+          "flex-layout.row#result"
+        ],
+        "props": {
+          "priceRange": false,
+        /*  "pagination": "show-more",*/
+          "preventRouteChange": true,
+          "showFacetQuantity": true,
+          "brands": true,
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+
+          }
+        }
+      },
+      "list-context.image-list#hotDays": {
+        "children": ["slider-layout#hotDays"],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+              "image": "https://mercedescampuzano.vtexassets.com/arquivos/hot-days-desktop.png",
+              "mobileImage": "https://mercedescampuzano.vtexassets.com/arquivos/hot-days-mobile.png",
+              "description": "Hot Days",
+              "title":"Hot Days"
+            }
+          ]
+        }
+      },
+    
+      "slider-layout#hotDays": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true
+        }
+      },
+      "image#hotDays": {
+        "props": {
+          "blockClass": "",
+          "src": "https://mercedescampuzano.vtexassets.com/arquivos/hot-days-desktop.png"
+        }
+      },
+      "search-result-layout.mobile#hotDays": {
+        "children": [
+          "header-row#category-search",
+          "flex-layout.row#searchbread",
+          //"image#hotDays",
+          "list-context.image-list#hotDays",
+          "flex-layout.row#productCountMobile",
+          "flex-layout.row#fetchprevious",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#fetchmore"  
+        ],
+        "props": {
+          /*"pagination": "show-more",*/
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "small"
+          }
+        }
+      }
+}

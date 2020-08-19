@@ -15,10 +15,12 @@
     background: white !important;
   }
   .arrowLeft--home-wrapper-shelf {
+    outline: 0 !important;
     left: -15px;
     border-radius: 30px;
   }
   .arrowRight--home-wrapper-shelf {
+    outline: 0 !important;
     right: -15px;
     border-radius: 30px;
   }

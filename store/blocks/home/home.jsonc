@@ -272,6 +272,7 @@
         "tablet": 3,
         "phone": 2
       },
+      "showNavigationArrows":"always",
       "showPaginationDots":"never",
       "infinite": true,
      /* "fullWidth": false,*/

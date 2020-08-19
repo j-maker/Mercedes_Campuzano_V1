@@ -161,10 +161,23 @@
 .link--minicart-checkout-button:hover {
   opacity: 0.5;
 }
-
+.link--hotDaysLink{
+  text-decoration: none;
+  color: #ff00ff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
 
 @media screen and (max-width: 1024px) {
   
+  .link--hotDaysLink{
+  font-size: 18px;
+  padding: 7px 11px;
+  border-bottom: 1px solid #dee2e6!important;
+  }
+
   .link--home-text-all{
     margin: 20px auto;
   }

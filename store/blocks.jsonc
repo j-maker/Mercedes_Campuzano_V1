@@ -51,6 +51,7 @@
   "product-summary.shelf": {
     "children": [
       "custom-product-summary-images",
+      //"product-specification-badges#hotDays",
       //"stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.row#selling-price-savings",
@@ -78,6 +79,7 @@
   "product-summary.shelf#home": {
     "children": [
       "custom-product-summary-images",
+      //"product-specification-badges",
       //"stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.row#selling-price-savings",     
@@ -111,6 +113,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
+      "product-specification-badges#hotDays",
       "modal-trigger#quickview"
     ]
   },
@@ -616,6 +619,42 @@
         }
     },
     "blocks":["product-summary.shelf"]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"product-specification-badges#hotDays": {
+  "props": {
+    "specificationGroupName": "specification",
+    "specificationsOptions": [{
+      "specificationName": "2x1",
+      "displayValue": "SPECIFICATION_NAME",
+      "visibleWhen": "true"
+    },
+    {
+      "specificationName": "altura",
+      "displayValue": "SPECIFICATION_NAME",
+      "visibleWhen": "true"
+    }]
+  }
 }
 
 

@@ -55,6 +55,9 @@
     },
     "store.custom#trends": {
         "path": "/tendencias"
+    },
+    "store.custom#hotDays": {
+        "path": "/hot-days"
     }
 
 }

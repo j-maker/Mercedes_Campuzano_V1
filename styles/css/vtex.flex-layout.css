@@ -301,7 +301,8 @@
   border: 1px solid #e3e4e6;
 }
 .flexRowContent--row-3-wrapper {
-  width: 1140px;
+  width: 1200px;
+  max-width: 1200px;
 }
 .flexRowContent--row-3-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   width: 100% !important;
@@ -406,6 +407,24 @@
 .flexRowContent--buy-button-shelf-home-1 :global(.vtex-button),
 .flexRowContent--buy-button-product :global(.vtex-button){
   outline: 0 !important;
+}
+.flexCol--wrapperContentFilters .flexColChild--wrapperContentFilters:first-child{
+  position: sticky;
+  background: #fff;
+  z-index: 4;
+  top: 160px;
+
+}
+.flexRow--wrapperImageHotDays{
+  min-width: 110px;
+}
+.flexColChild--wrapperImageHotDays{
+  height: auto !important;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.flexCol--wrapperImageHotDays{
+  margin-top: 17px;
 }
 @media screen and (max-width:1024px) {
   .flexRowContent--product-main .stretchChildrenWidth{
@@ -821,14 +840,13 @@
 }
 
 .flexCol--filterCol {
-  width: 20%;
+  width: 100%;
   border-right: solid 1px #e3e3e3;
-  padding-right: 1.2rem;
-  min-width: 230px;
+  min-width: 100%;
   height: auto;
 }
 .flexColChild--filterCol {
-  width: 90%;
+  width: 100%;
   height: 48px !important;
 }
 

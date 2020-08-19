@@ -7,7 +7,7 @@
       "context": {  
         "orderByField":"OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -21,7 +21,7 @@
       "context": {
         "orderByField":"OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -35,7 +35,7 @@
       "context": {
         "orderByField":"OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -48,7 +48,7 @@
     "props": {
       "context": {
         "facetsBehavior": "dynamic", 
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "orderByField":"OrderByReleaseDateDESC",
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
@@ -181,7 +181,7 @@
   },
   "flex-layout.row#result": {
     "children": [
-      "flex-layout.col#filter",
+      //"flex-layout.col#filter",
       "flex-layout.col#content"
     ],
     "props": {
@@ -208,6 +208,7 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
+      "blockClass":"wrapperContentFilters",
       "priceRange": false,
       "width": "grow",
       "preventVerticalStretch": true
@@ -215,9 +216,26 @@
   },
   "flex-layout.row#searchinfo": {
     "children": [
-      "flex-layout.col#productCount",
-      "flex-layout.col#orderby"
-    ]
+      "drawer#filterSearch",
+      "total-products.v2",
+      "order-by.v2"
+      //"flex-layout.col#productCount",
+      //"flex-layout.col#orderby"
+    ],
+    "props":{"blockClass":"wrapperSearchInfo"}
+  },
+  "drawer#filterSearch": {
+    "children": ["flex-layout.col#filter"],
+    "props":{"blockClass":"drawerFilter"},
+    "blocks": ["drawer-trigger#search"]
+  },
+  
+  "drawer-trigger#search": {
+    "children": [
+      "rich-text#openDrawerFilter"]
+  },
+  "rich-text#openDrawerFilter": {
+    "props":{"text": "Filtro", "blockClass":"filterSearchText"}      
   },
   "flex-layout.col#productCount": {
     "children": [

@@ -362,6 +362,22 @@
 .paragraph--textMainSize:hover{
   text-decoration: underline;
 }
+.paragraph--filterSearchText{
+  line-height: 0;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+.paragraph--filterSearchText::before{
+  content: "";
+  background-image: url("https://img.icons8.com/ios/16/000000/sorting-options--v1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding-left: 24px;
+}
 @media screen and (max-width: 1024px) {
   .paragraph--textSaleMini{
     margin-top: 0;

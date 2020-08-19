@@ -58,7 +58,8 @@
       "menu-item#menu-3",
       "menu-item#menu-4",
       "link#row-3-3",
-      "link#row-3-5",
+      //"link#row-3-5",
+      "flex-layout.row#hotDays",
       //"link#row-3-4",
       "minicart.v2"]
   },
@@ -933,7 +934,9 @@
       "flex-layout.row#menu-mobile-3",
       "flex-layout.row#menu-mobile-4",
       "link#row-3-3",
-      "link#row-3-5",
+      //"link#row-3-5",
+      "link#2x1",
+      "link#Hotday",
       "link#row-3-4"
     ]
   },
@@ -1091,5 +1094,25 @@
     "children": [
       "drawer#mobile-menu-4"
     ]
+  },
+  "flex-layout.row#hotDays":{
+    "children":["flex-layout.col#hotDays"],"props":{"blockClass":"wrapperImageHotDays"}
+  },
+  "flex-layout.col#hotDays":{
+    "children":["link#Hotday","link#2x1"],"props":{"blockClass":"wrapperImageHotDays"}
+  },
+  "link#Hotday": {
+    "props": {
+      "blockClass": "hotDaysLink",
+      "href": "/hot-days",
+      "label": "HOT DAYS"
+    }
+  },
+  "link#2x1": {
+    "props": {
+      "blockClass": "hotDaysLink",
+      "href": "/hot-days",
+      "label": "2x1"
+    }
   }
 }

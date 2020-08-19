@@ -53,7 +53,9 @@
           "rich-text#col-1-subtitle-12-content-terms-conditions-promotions",
           "rich-text#col-1-paragraph-12-content-terms-conditions-promotions",
           "rich-text#col-1-subtitle-13-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-13-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-13-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-14-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-14-content-terms-conditions-promotions"
         ]
       },
       "rich-text#col-1-title-terms-conditions-promotions": {
@@ -271,6 +273,28 @@
           "textAlignment": "JUSTIFY",
           "textPosition": "JUSTIFY",
           "text": "Aplica condiciones y restricciones\nDescuentos hasta del 50% en referencias seleccionadas\n Promoción válida únicamente  del 3 al 6 de julio del año 2020\n Aplica únicamente para el inventario disponible los días del evento, en nuestra  página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93.\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras  de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento\nNo aplica para bonos de descuento por cumpleaños\nUnidades disponibles a nivel nacional entre zapatos y bolsos 18,515\n"
+
+
+
+          
+
+
+        }
+      },
+      "rich-text#col-1-subtitle-14-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**HOT DAYS**\n"
+        }
+      },
+      "rich-text#col-1-paragraph-14-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones\nPromoción 2 x 1 en referencias seleccionadas; el cliente debe cancelar el artículo de mayor valor.  Y descuentos hasta del 40% en referencias seleccionadas de línea.\nPromoción válida únicamente  del 19 al 21 de agosto de 2020 o hasta agotar existencias, lo que suceda primero\nAplica únicamente para el inventario disponible el día del evento, en todas las tiendas físicas Mercedes Campuzano del pais, página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93. La apertura de tiendas fisicas esta sujeta a autorizaciones de entes gubernamentales.\nNo aplica para ningún otro medio de comercialización físico ni virtuaL\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras  de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento\nNo aplica para bonos de descuento por cumpleaños\nUnidades disponibles a nivel nacional entre bolsos, zapatos y accesorios:  25.810 uds\nSku participantes del 2 x 1: 3350, 3334, 3164, 2754, 3101, 1741, 2909 ,2762, 3351, 3389, 3373, 3552, 3042, 3171, 2679, 2967, 3206, 3335, 2953, 3027, 3186, 3280, 2661, 3099, 3205, 2905, 3110, 2646, 3109, 3287, 3154, 3329, 3184, 3098, 3045, 2822, 2365, 2774, 2155, 3326, 3194, 2662, 3104, 3150, 2767, 2692, 3022, 2786, 2671, 2874, 3213, 2965, 3539, 3543, 2517, 3125, 3043, 3283, 3149, 2875, 2525, 3381, 3371, 3129, 3208, 2891, 3117, 2476, 2805, 3113, 2879, 2865, 3130, 2878, 3026, 2414, 3267, 2904, 2753, 3215, 2663, 2659, 2907, 3262, 2639, 2446, 2966, 2655, 2755, 2190, 2416, 2510, 2896, 2677, 2554, 2580, 2864, 3448, 3167, 3211, 2197\n"
         }
       }
     }

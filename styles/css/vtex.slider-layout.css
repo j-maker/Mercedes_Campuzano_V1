@@ -32,6 +32,10 @@
 .imageElement--home-slider{
   max-height: unset !important;
 }
+.sliderLayoutContainer--home-slider{
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
 .sliderLayoutContainer {
   width: 100%;
