@@ -12,6 +12,9 @@ width: 50px;
     display: flex;
     justify-content: center;
 }
+.dropdown :global(.vtex-dropdown__button){
+  padding-left: 0.5rem;
+}
 .input::placeholder{
     text-transform: uppercase;
     color: #000;

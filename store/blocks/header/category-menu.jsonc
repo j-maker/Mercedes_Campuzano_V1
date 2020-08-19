@@ -934,9 +934,10 @@
       "flex-layout.row#menu-mobile-3",
       "flex-layout.row#menu-mobile-4",
       "link#row-3-3",
+      "link#2x1Mobile",
       //"link#row-3-5",
-      "link#2x1",
-      "link#Hotday",
+      //"link#2x1",
+      //"link#Hotday",
       "link#row-3-4"
     ]
   },
@@ -1113,6 +1114,13 @@
       "blockClass": "hotDaysLink",
       "href": "/hot-days",
       "label": "2x1"
+    }
+  },
+  "link#2x1Mobile": {
+    "props": {
+      "blockClass": "hotDaysLink",
+      "href": "/hot-days",
+      "label": "Hot Days 2x1"
     }
   }
 }

@@ -42,7 +42,7 @@
   width: 480px;
 }
 .minicartCheckoutButton {
-  z-index: 2;
+  z-index: 999;
   position: fixed;
   bottom: 5px;
 }
@@ -74,6 +74,9 @@
   outline: 0 !important;
 }
 @media screen and (max-width: 1024px) {
+  .opened--minicart{
+    max-width: 500px !important;
+  }
   .opened {
     width: 100% !important;
   }
