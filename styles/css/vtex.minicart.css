@@ -45,6 +45,7 @@
   z-index: 999;
   position: fixed;
   bottom: 5px;
+  width: 100%;
 }
 .minicartCheckoutButton :global(.vtex-button__label){
   font-size: 0;
@@ -63,7 +64,7 @@
 }
 .closeIcon--minicart{
   position: fixed;
-  right: 30px;
+  right: 10px;
   top: 10px;
   width: 20px;
 }
@@ -73,9 +74,19 @@
 .minicartCheckoutButton :global(.vtex-button){
   outline: 0 !important;
 }
+.drawer--minicart{
+  max-width: 430px !important;
+  z-index: 999999;
+}
 @media screen and (max-width: 1024px) {
-  .opened--minicart{
-    max-width: 500px !important;
+  .minicartSideBarContentWrapper{
+    min-height: 660px;
+  }
+  .minicartCheckoutButton {
+    z-index: 999;
+    position: unset;
+    bottom: 5px;
+    width: 100%;
   }
   .opened {
     width: 100% !important;

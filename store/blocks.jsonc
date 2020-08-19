@@ -470,7 +470,8 @@
   "flex-layout.col#minicart-footer": {
     "children": [
       "minicart-summary",
-      "flex-layout.row#button-minicart"
+      "minicart-checkout-button"
+      //"flex-layout.row#button-minicart"
       
     ]
   },
@@ -483,7 +484,7 @@
       //"link#button"
     ]
   },
-  "link#button": {
+  /*"link#button": {
     "props": {
       "blockClass": "minicart-checkout-button",
       "textAlignment": "CENTER",
@@ -491,7 +492,7 @@
       "href": "",
       "label": "FINALIZA TU COMPRA"
     }
-  },
+  },*/
   "minicart-product-list": {
     "blocks": [
       "product-list#minicart"
