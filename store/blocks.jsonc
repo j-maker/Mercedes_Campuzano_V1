@@ -34,6 +34,8 @@
 
   "product-summary.shelf#product": {
     "children": [
+      //"product-specification-badges",
+      //"percent-discount",
       "stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.row#selling-price-savings",
@@ -50,8 +52,9 @@
 
   "product-summary.shelf": {
     "children": [
+      //"percent-discount",
       "custom-product-summary-images",
-      //"product-specification-badges#hotDays",
+      //"product-summary-specification-badges",
       //"stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.row#selling-price-savings",
@@ -78,6 +81,8 @@
   },
   "product-summary.shelf#home": {
     "children": [
+      
+      "product-specification-badges",
       "custom-product-summary-images",
       //"product-specification-badges",
       //"stack-layout#prodsum",

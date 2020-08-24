@@ -395,6 +395,11 @@
 .imageElement--imageSalwMini{
   width: 80%;
 }
+.discountContainer{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
 @media screen and (max-width: 1024px) {
 
   .imageElement--imageSalwMini{

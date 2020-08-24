@@ -58,8 +58,8 @@
       "menu-item#menu-3",
       "menu-item#menu-4",
       "link#row-3-3",
-      //"link#row-3-5",
-      "flex-layout.row#hotDays",
+      "link#row-3-5",
+      //"flex-layout.row#hotDays",
       //"link#row-3-4",
       "minicart.v2"]
   },
@@ -934,8 +934,8 @@
       "flex-layout.row#menu-mobile-3",
       "flex-layout.row#menu-mobile-4",
       "link#row-3-3",
-      "link#2x1Mobile",
-      //"link#row-3-5",
+      //"link#2x1Mobile",
+      "link#row-3-5",
       //"link#2x1",
       //"link#Hotday",
       "link#row-3-4"

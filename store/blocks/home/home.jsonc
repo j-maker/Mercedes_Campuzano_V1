@@ -270,12 +270,12 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
-        "phone": 2
+        "phone": 1
       },
       "showNavigationArrows":"always",
       "showPaginationDots":"never",
       "infinite": true,
-     /* "fullWidth": false,*/
+      /* "fullWidth": false,*/
       "blockClass": "shelf"
     }
   },

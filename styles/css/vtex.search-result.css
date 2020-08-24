@@ -171,7 +171,9 @@
 .filterAvailable .pointer{
   outline: 0 !important;
 }
-
+.galleryItem--normal{
+  position: relative;
+}
 
 @media screen and (min-width: 1024px){
   .galleryItem{
