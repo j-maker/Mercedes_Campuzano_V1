@@ -473,7 +473,7 @@
   }
   .flexRow--buy-button-shelf,
   .flexRow--buy-button-shelf-home {
-    margin: 45px 0 0 0 ;
+    margin:5px 0 0 0 ;
   }
   .flexColChild--footer-terms-col-frequent-questions-col-wrapper{
     width: 100%;
@@ -648,7 +648,6 @@
   }
 
   .flexRow--home-row-4-wrapper {
-    margin-left: 5px;
     width: 100% !important;
   }
   .flexRow--header-menu-wrapper-menu-2 {

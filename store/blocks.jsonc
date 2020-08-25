@@ -57,8 +57,10 @@
       //"product-summary-specification-badges",
       //"stack-layout#prodsum",
       "product-summary-name",
+      "flex-layout.col#spacer",
       "flex-layout.row#selling-price-savings",
       "product-summary-sku-selector",
+      "flex-layout.col#spacer",
       "flex-layout.row#buy-button-shelf"
     ]
   },

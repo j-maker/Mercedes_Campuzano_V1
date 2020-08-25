@@ -117,14 +117,13 @@
   padding: 10px;
 }
 .imageElement--desktop-fixed-arrow-up {
-  background: #b09d6b;
   position: fixed;
-  bottom: 50px;
-  right: 30px;
-  height: 19px;
-  width: 18px;
-  padding: 5px 9px 15px;
+  bottom: 60px;
+  right: 15px;
+  height: 50px;
+  width: 50px;
   z-index: 1;
+  max-height: 50px !important;
 }
 .imageElement--footer-collectors-club {
   width: 100%;
@@ -179,6 +178,7 @@
 }
 .skuSelectorTextContainer {
   text-align: center;
+  margin: 0;
 }
 .skuSelectorName {
   margin: 0.5em;
@@ -188,7 +188,9 @@
   color: #212529;
   font-weight: 500;
 }
-
+.skuSelectorSubcontainer--talla{
+  margin-bottom: 0;
+}
 .pointerEventsNone {
   height: 30px;
 }
@@ -202,6 +204,8 @@
   border-radius: 20px;
   background: #fff;
 }
+
+
 .frameAround--shelf-sku:hover {
   background: gray;
   opacity: 0.4;
@@ -209,7 +213,7 @@
 }
 
 .skuSelectorNameContainer {
-  margin-top: 0px;
+  margin: 0px;
 }
 
 .frameAround {
@@ -229,6 +233,7 @@
 .skuSelectorOptionsList {
   margin: 0;
   justify-content: center;
+  max-height: 33px;
 }
 .productImagesGallerySlide{
   width: 100% !important;
@@ -400,8 +405,23 @@
   top: 15px;
   right: 10px;
 }
+.skuSelectorSubcontainer--color{
+  margin-top: 15px;
+}
+.backToTopButtonActive{
+  bottom: 110px;
+  background: #b09d6b;
+}
 @media screen and (max-width: 1024px) {
-
+  .skuSelectorInternalBox {
+min-height: 25px;
+min-width: 25px;
+  }
+  .skuSelectorOptionsList {
+    margin: 0;
+    justify-content: center;
+    max-height: unset;
+  }
   .imageElement--imageSalwMini{
     flex: 1 1 auto;
     align-self: center;

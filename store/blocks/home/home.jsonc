@@ -17,7 +17,14 @@
       "rich-text#iframe",
       "iframe",
       "custom-open-modal"
+      //"back-to-top-button"
     ]
+  },
+  "back-to-top-button":{
+      "props":{
+        "display":"caret-icon",
+        "displayThreshold": 800
+      }
   },
   "custom-open-modal": {
     "children": ["modal-trigger#form-newsletter"]
@@ -325,8 +332,8 @@
         "timeout": 5000,
         "stopOnHover": false
       },
-      "showNavigationArrows":"always",
-      "showPaginationDots":"",
+      "showNavigationArrows":"desktopOnly",
+      "showPaginationDots":"mobileOnly",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

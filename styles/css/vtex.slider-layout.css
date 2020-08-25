@@ -4,6 +4,7 @@
   border-radius: 50%;
   border: 2px solid #9d884b;
   background: white;
+  opacity: 0.5;
 }
 .slideChildrenContainer--home-slider {
   display: block;
@@ -154,9 +155,13 @@
 @media screen and (max-width: 1024px) {
   .sliderLeftArrow--home-slider {
     right: 15px;
+    top: 45%;
+    height: unset;
   }
   .sliderRightArrow--home-slider {
     right: 15px;
+    height: unset;
+    top: 70%;
   }
   .slide--shelf .slide--header-menu-slider {
     width: 0;
@@ -211,5 +216,9 @@
     width: 15px;
     height: 15px;
     padding: 4px;
+  }
+  .caretIcon--home-slider{
+    width: 15px;
+    height: 15px;
   }
 }
