@@ -399,6 +399,9 @@
 }
 .imageElement--imageSalwMini{
   width: 80%;
+  align-self: center;
+  height: auto;
+  flex: 0 0 auto;
 }
 .discountContainer{
   position: absolute;
@@ -423,8 +426,9 @@ min-width: 25px;
     max-height: unset;
   }
   .imageElement--imageSalwMini{
-    flex: 1 1 auto;
     align-self: center;
+    height: auto;
+    flex: 0 0 auto;
   }
   .form :global(.vtex-store-components-3-x-submit){
     display: flex;
