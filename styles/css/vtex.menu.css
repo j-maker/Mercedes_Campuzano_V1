@@ -27,17 +27,21 @@
   text-transform: uppercase;
   height: 21px;
 }
+.menuContainer--submenuVestuario{
+  justify-content: center;
+}
 .styledLinkContent--header-menu-2::after {
   width: 12px;
   content: "";
-  background-image: url("https://img.icons8.com/material-sharp/24/000000/expand-arrow.png");
+  background-image: url("/arquivos/arrow.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   height: 10px;
   z-index: 999;
   padding-top: 6px;
-  padding-left: 7px;
+  padding-left: 10px;
+  margin-top: 1px;
 }
 .styledLinkContent--header-menu-2:hover {
   color: #797878;
@@ -392,18 +396,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-vestuario:hover::before{
-  content: "";
-  position: absolute;
-  background: #f7ebe9;
-  background-size: 100%;
-  top: 25px;
-  left: calc(50% + 5px);
-  width: 100%;
-  max-width: 550px;
-  height: 259px;
-  z-index: 2;
-}
+
 
 .menuItem--submenu-safe-kit:hover::before{
   content: "";
@@ -416,6 +409,10 @@
   max-width: 550px;
   height: 259px;
   z-index: 2;
+}
+.menuContainerNav--submenuVestuario{
+  width: 100% !important;
+  justify-content: center !important;
 }
 
 .menuItem--submenu-Bono-Regalo:hover::before{
@@ -524,6 +521,18 @@
 .styledLink--submenu {
   background: transparent;
 }
+.submenuWrapper--menu-vestuario{
+    height: auto; 
+    width: 100%;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    border: 0;
+    margin: 20px 0;
+    padding: 20px 0;
+    background-color: #f7ebe9!important;
+}
+
 
 @media screen and (max-width: 1024px) {
   .menuItem--submenu {

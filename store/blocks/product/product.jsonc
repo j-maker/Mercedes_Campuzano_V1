@@ -148,7 +148,7 @@
       "flex-layout.row#product",
       "rich-text#price-online",
       "availability-subscriber",
-      "shipping-simulator",
+      //"shipping-simulator",
       "share#default"
     ]
   },

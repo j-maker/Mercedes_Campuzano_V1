@@ -27,9 +27,9 @@
 
 .closeIcon--mobile-menu {
   color: transparent;
-  width: 14px;
+  width: 6px;
   content: "";
-  background-image: url("https://img.icons8.com/material-sharp/24/000000/expand-arrow.png");
+  background-image: url("/arquivos/arrow.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

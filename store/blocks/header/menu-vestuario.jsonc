@@ -1,0 +1,219 @@
+{
+    "menu-item#menu-vestuario": {
+        "props": {
+          "blockClass": "header-menu-2",
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/vestuario",
+            "noFollow": false,
+            "tagTitle": "Vestuario",
+            "text": "Vestuario"
+          },
+          "iconPosition": "left"
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#menu-vestuario"
+        ]
+      },
+      "vtex.menu@2.x:submenu#menu-vestuario": {
+        "props": {
+          "width": "auto",
+          "orientation": "horizontal",
+            "blockClass":"menu-vestuario"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#menu-5-vestuario"
+        ]
+      },
+      "vtex.menu@2.x:menu#menu-5-vestuario": {
+        "props": {
+          "orientation": "horizontal",
+          "blockClass": ["submenu","submenuVestuario"]
+        },
+        "children": [
+          "menu-item#menu-vestuario-1",
+          "menu-item#menu-vestuario-2",
+          "menu-item#menu-vestuario-3",
+          "menu-item#menu-vestuario-4",
+          "menu-item#menu-vestuario-5",
+          "menu-item#menu-vestuario-6",
+          "menu-item#menu-vestuario-7"
+        ]
+      },
+      "menu-item#menu-vestuario-1": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Vestidos",
+            "text": "Vestidos"
+          },
+          "href": "/vestuario/vestidos",
+          "blockClass": "submenu-vestuario"
+        }
+      },
+      "menu-item#menu-vestuario-2": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Faldas",
+            "text": "Faldas"
+          },
+          "href": "/vestuario/faldas",
+          "blockClass": "submenu-vestuario"
+        }
+      },
+      "menu-item#menu-vestuario-3": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+          },
+          "href": "/vestuario/pantalones",
+          "blockClass": "submenu-vestuario"
+        }
+      },
+      "menu-item#menu-vestuario-4": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Enterizos",
+            "text": "Enterizos"
+          },
+          "href": "/vestuario/enterizos",
+          "blockClass": "submenu-vestuario"
+        }
+      },
+      "menu-item#menu-vestuario-5": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Kimonos",
+            "text": "Kimonos"
+          },
+          "href": "/vestuario/kimonos",
+          "blockClass": "submenu-vestuario"
+        }
+      },
+      "menu-item#menu-vestuario-6": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Shorts",
+            "text": "Shorts"
+          },
+          "href": "/vestuario/shorts",
+          "blockClass": "submenu-vestuario"
+        }
+      },
+      "menu-item#menu-vestuario-7": {
+        "props": {
+          "id": "",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Blusas y T-shirts",
+            "text": "Blusas y T-shirts"
+          },
+          "href": "/vestuario/blusas-y-t-shirts",
+          "blockClass": "submenu-vestuario"
+        }
+      },
+      //MOBILE
+      "flex-layout.row#menu-mobile-vestuario":{
+        "props":{
+          "blockClass":"menu-mobile",
+          "colSizing":"auto"
+        },
+        "children":[
+          "menu-item#menu-mobile-vestuario",
+          "drawer#mobile-menu-vestuario"
+        ]
+      },
+      "menu-item#menu-mobile-vestuario": {
+        "props": {
+          "blockClass": "header-menu-2",
+          "id": "1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": false,
+            "tagTitle": "Vestuario",
+            "text": "Vestuario"
+          },
+          "iconPosition": "left"
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#menu-mobile-vestuario"
+        ]
+      },
+      "vtex.menu@2.x:submenu#menu-mobile-vestuario": {
+        "props": {
+          "width": "auto",
+          "orientation": "horizontal"
+        },
+        "children": [
+            "drawer#mobile-menu-vestuario"
+        ]
+      },
+      "drawer#mobile-menu-vestuario": {
+        "props": {
+          "blockClass": "mobile-menu",
+          "slideDirection": "rightToLeft",
+          "backdropMode": "none",
+          "isFullWidth": "true"
+        },
+        "children": [
+          "logo#drawer",
+          "flex-layout.row#drawer-row-2",
+          "link#mobile-menu-2",
+          "menu-item#menu-2-1",
+          "menu-item#menu-2-2",
+          "menu-item#menu-2-3",
+          "menu-item#menu-2-4",
+          "menu-item#menu-1-2",
+          "menu-item#menu-1-3",
+          "menu-item#menu-1-4"
+        ]
+      }
+}

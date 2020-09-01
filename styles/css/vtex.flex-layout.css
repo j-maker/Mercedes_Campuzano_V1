@@ -767,7 +767,7 @@
 .flexRowContent--menu-mobile::after {
   width: 18px;
   content: "";
-  background-image: url("https://img.icons8.com/material-sharp/24/000000/expand-arrow.png") !important;
+  background-image: url("/arquivos/arrow.svg") !important;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
