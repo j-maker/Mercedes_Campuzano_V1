@@ -43,6 +43,10 @@
   padding-left: 10px;
   margin-top: 1px;
 }
+.styledLinkContent--header-menu-2:hover::after {
+  transform: rotate(180deg);
+  opacity: 0.5;
+}
 .styledLinkContent--header-menu-2:hover {
   color: #797878;
   font-weight: 400;
