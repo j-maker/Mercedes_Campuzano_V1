@@ -729,4 +729,37 @@
     width: 10px !important;
     left: 0.9em;
   }
+  .styledLinkContainer--submenu-safe-kit,
+  .styledLinkContainer--submenu-bono-regalo,
+  .styledLinkContainer--submenu-ventas-corporativas,
+  .styledLinkContainer--submenu-Cosmopolita,
+  .styledLinkContainer--submenu-Urbano,
+  .styledLinkContainer--submenu-Verano,
+  .styledLinkContainer--submenu-llaveros,
+  .styledLinkContainer--submenu-cosmetiqueras,
+  .styledLinkContainer--submenu-pulseras,
+  .styledLinkContainer--submenu-limpieza-y-cuidados,
+  .styledLinkContainer--submenu-cadenas-y-collares,
+  .styledLinkContainer--submenu-anillos,
+  .styledLinkContainer--submenu-aretes,
+  .styledLinkContainer--submenu-billeteras-y-monederos,
+  .styledLinkContainer--submenu-cinturones,
+  .styledLinkContainer--submenu-vestuario,
+  .styledLinkContainer--submenu-sobres,
+  .styledLinkContainer--submenu-bandoleras,
+  .styledLinkContainer--submenu-morrales,
+  .styledLinkContainer--submenu-suecos,
+  .styledLinkContainer--submenu-tenis,
+  .styledLinkContainer--submenu-tacones,
+  .styledLinkContainer--submenu-spadrillas,
+  .styledLinkContainer--submenu-sandalias-plataforma,
+  .styledLinkContainer--submenu-sandalias-planas,
+  .styledLinkContainer--submenu-zapatos-de-tacon,
+  .styledLinkContainer--submenu-oxford,
+  .styledLinkContainer--submenu-mocasines,
+  .styledLinkContainer--submenu-botas-y-botines,
+  .styledLinkContainer--submenu-baletas,
+  .styledLinkContainer--submenu-bolsos-y-carteras{
+    padding: 10px 0;
+  }
 }

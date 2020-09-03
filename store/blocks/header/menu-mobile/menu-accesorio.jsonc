@@ -1,0 +1,43 @@
+{
+    "flex-layout.row#menu-mobile-accesorios-new":{
+    "props":{
+      "blockClass":"menu-mobile-new",
+      "colSizing":"auto"
+    },
+    "children":[
+      "drawer#mobile-menu-new-accesorios"
+    ]
+  },
+  "drawer#mobile-menu-new-accesorios": {
+    "props": {
+      "blockClass": ["mobile-menu-accesorios"],
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+        "logo#drawer",
+        "flex-layout.row#drawer-row-2",
+        "link#mobile-menu-accesoriosTop",
+        "menu-item#menu-3-1",
+      "menu-item#menu-3-2",
+      "menu-item#menu-3-3",
+      "menu-item#menu-3-4",
+      "menu-item#menu-3-5",
+      "menu-item#menu-3-6",
+      "menu-item#menu-3-7",
+      "menu-item#menu-3-8",
+      "menu-item#menu-3-9",
+      "menu-item#menu-3-10"
+    ]
+  },
+  "link#mobile-menu-accesoriosTop": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "/accesorios",
+      "label": "Accesorios"
+    }
+  }
+}

@@ -141,6 +141,7 @@
       "flex-layout.row#product-name",
       "flex-layout.row#selling-price",
       "sku-selector",
+      //"sku-selector#product",
       "custom-map-color",
       "flex-layout.row#size-guide",
       "product-assembly-options",

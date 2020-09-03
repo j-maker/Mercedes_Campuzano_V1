@@ -427,6 +427,10 @@
   margin-top: 17px;
 }
 @media screen and (max-width:1024px) {
+
+  .flexRow--menu-mobile-new{
+    border-bottom: 1px solid #ddd;
+  }
   .flexRowContent--product-main .stretchChildrenWidth{
     margin: 0 auto;
   } 
@@ -493,6 +497,7 @@
   }
   .flexRow--searchinfomobile {
     height: 35px;
+    width: 100%;
   }
   .flexCol--filterCol {
     width: 100% !important;
@@ -932,4 +937,7 @@
 .flexColChild--image-percent-container:first-child :global(.vtex-store-components-3-x-discountInsideContainer){
   top: -10px;
   right: 7px;
+}
+.flexRowContent--menu-mobile-new .stretchChildrenWidth{
+  width: 100%!important;
 }

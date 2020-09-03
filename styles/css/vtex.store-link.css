@@ -197,9 +197,10 @@
   .link--row-3-links-1 {
     color: #000000;
     font-size: 18px;
-    padding: 7px 11px;
+    padding: 14px .75rem;
     border-bottom: 1px solid #dee2e6 !important;
     text-transform: capitalize;
+    line-height: unset;
   }
   .link--row-3-links-new,
   .link--row-3-links {
@@ -208,7 +209,7 @@
     margin-bottom: 0px;
     color: #000000;
     font-size: 14px;
-    padding: 11px;
+    padding: 14px .75rem;
     border-bottom: 1px solid #dee2e6 !important;
     text-transform: capitalize;
   }
@@ -227,7 +228,7 @@
   }
   .label--row-3-links-new,
   .label--row-3-links {
-    font-size: 16px;
+    font-size: 18px;
   }
   .link--minicart-checkout-button {
     font-size: 12px;

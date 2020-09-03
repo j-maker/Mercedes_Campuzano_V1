@@ -71,3 +71,102 @@
   background: #d56e2f;
   padding: 15px 25px;
 }
+@media screen and (max-width: 1024px) {
+.childrenContainer--mobile-menu-otros,
+.childrenContainer--mobile-menu-accesorios,
+.childrenContainer--mobile-menu-bolsos,
+.childrenContainer--mobile-menu-zapatos,
+.childrenContainer--mobile-menu-2{
+  display: block;
+}
+.openIconContainer--mobile-menu-otros,
+.openIconContainer--mobile-menu-accesorios,
+.openIconContainer--mobile-menu-bolsos,
+.openIconContainer--mobile-menu-zapatos,
+.openIconContainer--mobile-menu-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeIcon--mobile-menu-otros,
+.closeIcon--mobile-menu-accesorios,
+.closeIcon--mobile-menu-bolsos,
+.closeIcon--mobile-menu-zapatos,
+.closeIcon--mobile-menu-2{
+  color: transparent;
+  width: 6px;
+  content: "";
+  background-image: url("/arquivos/arrow.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20px;
+  z-index: 999;
+  padding: 12px 7px;
+  margin: 6px 8px 0;
+  transform: rotate(90deg);
+  top: 145px;
+  font-weight: 700!important;
+}
+.openIconContainer--mobile-menu-otros::after,
+.openIconContainer--mobile-menu-accesorios::after,
+.openIconContainer--mobile-menu-bolsos::after,
+.openIconContainer--mobile-menu-zapatos::after,
+.openIconContainer--mobile-menu-2::after{
+  width: 18px;
+  content: "";
+  background-image: url("/arquivos/arrow.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 16px;
+  z-index: 999;
+  padding-top: 7px;
+  padding-left: 5px;
+  transform: rotate(270deg);
+}
+.openIconContainer--mobile-menu-2::before{
+  content: "Vestuario";
+  font-size: 18px;
+  margin-right: auto;
+}
+.menuIcon--mobile-menu-otros,
+.menuIcon--mobile-menu-accesorios,
+.menuIcon--mobile-menu-bolsos,
+.menuIcon--mobile-menu-zapatos,
+.menuIcon--mobile-menu-2{
+  width: 0;
+}
+.openIconContainer--mobile-menu-otros,
+.openIconContainer--mobile-menu-accesorios,
+.openIconContainer--mobile-menu-bolsos,
+.openIconContainer--mobile-menu-zapatos,
+.openIconContainer--mobile-menu-2{
+  padding: 14px .75rem;
+}
+.openIconContainer--mobile-menu-zapatos::before{
+  content: "Zapatos";
+  font-size: 18px;
+  margin-right: auto;
+}
+.openIconContainer--mobile-menu-bolsos::before{
+  content: "Bolsos";
+  font-size: 18px;
+  margin-right: auto;
+}
+.openIconContainer--mobile-menu-accesorios::before{
+  content: "Accesorios";
+  font-size: 18px;
+  margin-right: auto;
+}
+.openIconContainer--mobile-menu-otros::before{
+  content: "Otros";
+  font-size: 18px;
+  margin-right: auto;
+}
+.opened--mobile-menu-2,
+.opened--drawer-mobile,
+.drawer--drawer-mobile{
+  max-width: 100% !important;
+}
+}
