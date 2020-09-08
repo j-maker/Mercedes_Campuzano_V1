@@ -71,7 +71,8 @@
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-4",
       "flex-layout.col#store-shelf-5",
-      "flex-layout.col#store-shelf-6",
+      //"flex-layout.col#store-shelf-6",
+      "flex-layout.col#store-shelf-7",
       "flex-layout.col#spacer"
     ]
   },
@@ -82,7 +83,7 @@
     },  
     "children": [ 
       "flex-layout.col#spacer",
-      "flex-layout.col#store-shelf-7",
+      
       "flex-layout.col#store-shelf-9",
       "flex-layout.col#spacer"
     ]
@@ -119,7 +120,7 @@
     "children": [ 
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-14",
-      "flex-layout.col#store-shelf-15",
+      //"flex-layout.col#store-shelf-15",
       "flex-layout.col#store-shelf-16",
       "flex-layout.col#spacer"
     ]
@@ -144,8 +145,8 @@
     },  
     "children": [ 
       "flex-layout.col#spacer",
-      "flex-layout.col#store-shelf-20",
-      "flex-layout.col#store-shelf-21",
+      //"flex-layout.col#store-shelf-20",
+      //"flex-layout.col#store-shelf-21",
       "flex-layout.col#store-shelf-22",
       "flex-layout.col#spacer"
     ]
