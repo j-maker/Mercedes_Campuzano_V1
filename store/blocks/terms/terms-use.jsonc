@@ -941,5 +941,21 @@
           "text": "En el caso que un producto en mercedescampuzano.com aparezca con un precio incorrecto debido a un error tipográfico o error de los sistemas, mercedescampuzano.com tendrá derecho a denegar o cancelar cualquier orden puesta para dichos productos. Si en tu tarjeta de crédito ya ha sido cobrada y/o debitada la compra y tu pedido se cancela, mercedescampuzano.com emitirá un abono a tu cuenta de tarjeta crédito o débito por el monto del precio cancelado. Descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.\n\nSi MERCEDESCAMPUZANO.COM descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.",
           "blockClass": "footer-terms-content-terms-use"
         }
+      },      
+      "rich-text#terms-use-content-17-subtitle-right": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**16. Errores Tipográficos**",
+          "blockClass": "footer-terms-content-subtitles-terms-use"
+        }
+      },
+      "rich-text#terms-use-content-17-right": {
+        "props": {
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "En el caso que un producto en mercedescampuzano.com aparezca con un precio incorrecto debido a un error tipográfico o error de los sistemas, mercedescampuzano.com tendrá derecho a denegar o cancelar cualquier orden puesta para dichos productos. Si en tu tarjeta de crédito ya ha sido cobrada y/o debitada la compra y tu pedido se cancela, mercedescampuzano.com emitirá un abono a tu cuenta de tarjeta crédito o débito por el monto del precio cancelado. Descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.\n\nSi MERCEDESCAMPUZANO.COM descubre después de celebrar el contrato que no puede suministrar los productos pedidos y no es responsable de esta situación, tendrá derecho a terminar el contrato. Naturalmente, MERCEDESCAMPUZANO.COM le informará inmediatamente al respecto y le reembolsará los pagos que haya realizado.",
+          "blockClass": "footer-terms-content-terms-use"
+        }
       }
 }

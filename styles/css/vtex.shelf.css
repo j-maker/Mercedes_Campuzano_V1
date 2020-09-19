@@ -1,3 +1,10 @@
+.slide--home-wrapper-shelf{
+  padding: 0;
+  margin: 0 5px;
+}
+.slide--home-wrapper-shelf :global(.vtex-modal-layout-0-x-triggerContainer--quickview){
+  top: 10px;
+}
 .relatedProducts--home-wrapper-shelf{
     margin-bottom: 50px;
     display: flex;
@@ -8,10 +15,10 @@
 }
   .caretIcon--home-wrapper-shelf {
     border: 1px solid #9d884b;
-    border-radius: 25px;
-    padding: 10px;
-    width: 50;
-    height: 50;
+    padding: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
     background: white !important;
   }
   .arrowLeft--home-wrapper-shelf {
@@ -24,9 +31,33 @@
     right: -15px;
     border-radius: 30px;
   }
-
+.relatedProducts--home-wrapper-shelf-pdp{
+    width: 80% !important;
+    margin: 0 auto;
+}
+.sliderContainer--home-wrapper-shelf-pdp :global(.vtex-slider-0-x-dotsContainer){
+    display: unset;
+    position: absolute;
+    top: -40px;
+}
+.arrowRight--home-wrapper-shelf-pdp,
+.arrowLeft--home-wrapper-shelf-pdp{
+    display: none;
+}
+.title--home-wrapper-shelf-pdp{
+    text-align: center;
+    color: #9d884b;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 40px;
+    padding-top: 0px;
+}
   @media screen and (max-width: 1024px) {
-    
+    .caretIcon--home-wrapper-shelf{
+      width: 20px;
+      height: 20px;
+    }
     .shelfContentContainer--home-wrapper-shelf {
       width: 95% ;
     }

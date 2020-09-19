@@ -32,16 +32,9 @@
   },
 
 
-  "product-summary.shelf#product": {
-    "children": [
-      //"product-specification-badges",
-      //"percent-discount",
-      "stack-layout#prodsum",
-      "product-summary-name",
-      "flex-layout.row#selling-price-savings",
-      "sku-selector#product",
-      "flex-layout.row#buy-button-shelf"
-    ]
+
+  "add-to-list-btn":{
+    "props": {"blockClass":"shelfWishlist"}
   },
 
 
@@ -50,20 +43,6 @@
 
 
 
-  "product-summary.shelf": {
-    "children": [
-      //"percent-discount",
-      "custom-product-summary-images",
-      //"product-summary-specification-badges",
-      //"stack-layout#prodsum",
-      "product-summary-name",
-      "flex-layout.col#spacer",
-      "flex-layout.row#selling-price-savings",
-      "product-summary-sku-selector",
-      "flex-layout.col#spacer",
-      "flex-layout.row#buy-button-shelf"
-    ]
-  },
   "product-summary-sku-selector": {
    "props": {
       "visibleVariations":[
@@ -81,18 +60,7 @@
       "showVariationsErrorMessage": false
     }
   },
-  "product-summary.shelf#home": {
-    "children": [
-      
-      "product-specification-badges",
-      "custom-product-summary-images",
-      //"product-specification-badges",
-      //"stack-layout#prodsum",
-      "product-summary-name",
-      "flex-layout.row#selling-price-savings",     
-      "flex-layout.row#buy-button-shelf-home"
-    ]
-  },
+
   "product-summary-sku-selector#home": {
     "props": {
       "visibleVariations":[
@@ -116,6 +84,11 @@
       "maxHeight": 300,
       "hoverImageLabel": "3"
     }
+  },
+  "stack-layout#shelfPDP": {
+    "children": [
+      "product-summary-image#shelf"
+    ]
   },
   "stack-layout#prodsum": {
     "children": [
@@ -555,7 +528,8 @@
   },
   "flex-layout.row#buy-button-shelf-home": {
     "children": [
-      "buy-button#product"
+      "add-to-cart-button#shelf"
+      //"buy-button#product"
     ],
     "props": {
       "blockClass": "buy-button-shelf-home-1",
@@ -574,41 +548,19 @@
   },
   "add-to-cart-button#shelf": {
     "props": {
+      "customOneClickBuyLink":"/checkout",
+      "isOneClickBuy ":true,
+      "unavailableText":"NO DISPONIBLE",
       "blockClass": "buy-button-product",
       "text": "COMPRAR YA"
     }
   },
   "buy-button#product": {
     "props": {
-      "text": "COMPRAR YA",
-      "isOneClickBuy": false,
-      "showTooltipOnSkuNotSelected": false,
-      "shouldAddToCart": false
-    }
-  },
-  "sandbox#Zendesk": {
-    "props": {
-      "blockClass":"Zendesk",
-      "width": "150px",
-      "height": "150px",
-      "initialContent": "<script id='ze-snippet' src='https://static.zdassets.com/ekr/snippet.js?key=a8c01b15-9dd6-45ec-8f5c-aee3297721f2'> </script>",
-      "allowCookies": true
-    }
-  },
-  "sandbox#banner-meta": {
-    "props": {
-      "width": "0px",
-      "height": "0px",
-      "initialContent": "<meta property='og:description' content='Descripción del sitio' /><meta property='og:url' content='https://www.mercedescampuzano.com/' /><meta property='og:site_name' content='Mercedes Campuzano Colombia' /><meta property='og:type' content='website' /><meta property='og:image' content='https://mercedescampuzano.vtexassets.com/arquivos/98135557_290600511982841_8585288121403397696_n.jpg' /></head><body><h1>Hi</h1></body>",
-      "allowCookies": true
-    }
-  },
-  "sandbox.product": {
-    "props": {
-      "width": "100%",
-      "height": "600px",
-      "initialContent": "<head><script id='ze-snippet' src='https://static.zdassets.com/ekr/snippet.js?key=a8c01b15-9dd6-45ec-8f5c-aee3297721f2'> </script></head>",
-      "allowCookies": true
+      "shouldAddToCart":true,
+      "shouldOpenMinicart" : true,
+      "showItemsPrice": true,
+      "showToast":true
     }
   },
   "shelf.relatedProducts": {
@@ -622,11 +574,31 @@
               "tablet": 1,
               "phone": 1
             },
-            "gap":"ph3",
             "showPaginationDots":"never"  
         }
     },
     "blocks":["product-summary.shelf"]
+},
+"shelf.relatedProducts#similars": {
+  "props": {
+      "blockClass": ["home-wrapper-shelf-pdp"],
+      "recommendation": "view",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "productList": {
+        "maxItems":"10",
+          "scroll":"BY_PAGE",
+          "titleText":"Prendas similares",
+          "showNavigationArrows":"desktopOnly",
+          "showTitle":true,
+          "arrows":true,
+          "showPaginationDots":"never"  
+      }
+  },
+  "blocks":["product-summary.shelf#pdpSimilars"]
 },
 
 

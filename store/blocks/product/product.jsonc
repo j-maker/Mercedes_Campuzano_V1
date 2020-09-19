@@ -54,9 +54,7 @@
       "marginBottom": 7,
       "max-height": "10%"
     },
-    "children": [
-      "product-description"
-    ]
+    "children": ["product-description","flex-layout.row#product"]
   },
   "product-description": {
     "props": {
@@ -140,17 +138,19 @@
     "children": [
       "flex-layout.row#product-name",
       "flex-layout.row#selling-price",
+      "rich-text#price-online",
       "sku-selector",
       //"sku-selector#product",
       "custom-map-color",
       "flex-layout.row#size-guide",
       "product-assembly-options",
       "flex-layout.row#buy-button-product",
-      "flex-layout.row#product",
-      "rich-text#price-online",
-      "availability-subscriber",
+      //"flex-layout.row#product",
+      "availability-subscriber"
+      //"shelf.relatedProducts#similars"
       //"shipping-simulator",
-      "share#default"
+      //"share#default"--PENDIENTE CAMBIO
+      
     ]
   },
   "flex-layout.row#buy-button-product": {

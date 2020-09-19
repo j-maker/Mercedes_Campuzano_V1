@@ -1,13 +1,23 @@
 .container:hover {
   opacity: 0.5;
 }
+.profile{
+  padding-top:4px ;
+}
+.profileIcon--login-drawer{
+  width: 0!important;
+}
+.container :global(.vtex-button__label)::before {
+  width: 26px;
+  margin-right: -7px;
+  height: 25px;
+  content: "";
+  display: block;
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/person-female.png");
+  background-size: contain;
+}
 .profileIcon {
-  height: 20px;
-  width: 13px;
-  padding-right: 0px;
-  overflow: visible !important;
-  padding-bottom: 5px;
-  fill-rule: "evenodd";
+  width: 0;
 }
 .content {
   font-size: 12px;
@@ -113,7 +123,6 @@
   .label {
     font-size: 0px;
   }
-
   .content {
     margin: 0;
     padding: 0;
@@ -129,10 +138,13 @@
     width: 13px;
   }
   .container {
-    padding: 0px 5px 5px 0 !important;
+    padding: 0px 0 5px 0 !important;
   }
   .buttonLink {
     width: 45px !important;
-    margin: 0 10px 0 0;
+    margin: 0;
+  }
+  .buttonLink :global(.vtex-button__label){
+    padding: 0 10px;
   }
 }

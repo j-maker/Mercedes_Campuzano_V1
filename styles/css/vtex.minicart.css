@@ -1,3 +1,6 @@
+.cartIcon--minicart{
+  width: 0 !important;
+}
 .cartIcon {
   height: 23px;
   width: 23px;
@@ -9,6 +12,11 @@
 }
 .openIconContainer--minicart :global(.vtex-button){
   outline: 0 !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.openIconContainer--minicart :global(.vtex-button__label){
+  margin-top: 10px;
 }
 .openIconContainer {
   height: auto;
@@ -29,7 +37,7 @@
 .minicartQuantityBadge {
   background: #d86c2b;
   margin-top: 15px;
-  margin-right: 3px;
+  margin-right: -10px;
   width: 12px;
   height: 12px;
   color: white;
@@ -78,7 +86,32 @@
   max-width: 430px !important;
   z-index: 999999;
 }
+
+.minicartContainer--minicart :global(.vtex-button)::after{
+  content: "";
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/mc-bag.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10px;
+  z-index: 1;
+  padding-top: 27px;
+  padding-left: 24px;
+}
 @media screen and (max-width: 1024px) {
+  .minicartContainer--minicart{
+    margin-right: -10px;
+  }
+  .openIconContainer--minicart{
+  margin-top: 10px !important;
+  }
+
+  .openIconContainer--minicart :global(.vtex-button__label){
+    height: 27px;
+  }
+
+
+
   .minicartSideBarContentWrapper{
     min-height: 650px;
   }
@@ -93,7 +126,7 @@
   }
   .openIconContainer {
     padding: 0px;
-    margin: 10px 0px;
+    margin: 0 0 10px 0px;
   }
   .cartIcon {
     height: 23px;

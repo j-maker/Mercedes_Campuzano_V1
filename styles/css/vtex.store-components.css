@@ -233,7 +233,7 @@
 .skuSelectorOptionsList {
   margin: 0;
   justify-content: center;
-  max-height: 33px;
+  max-height: auto;
 }
 .productImagesGallerySlide{
   width: 100% !important;
@@ -295,8 +295,7 @@
   margin-top: 30px;
 }
 .content--product-description {
-  width: 968px;
-  padding-right: 50px;
+  line-height: 30px;
   font-size: 16px;
 }
 .container--product-description {
@@ -312,6 +311,9 @@
 }
 .specificationsTableContainer {
   padding: 0;
+}
+.specificationsTableContainer .container {
+  height: auto;
 }
 .specificationsTitle {
   text-align: center;
@@ -405,7 +407,7 @@
 }
 .discountContainer{
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 10px;
 }
 .skuSelectorSubcontainer--color{
@@ -415,7 +417,23 @@
   bottom: 110px;
   background: #b09d6b;
 }
+
+.carouselGaleryCursor :global(.vtex-store-components-3-x-carouselGaleryThumbs){
+  margin-top: 15px;
+}
+.carouselGaleryCursor{
+  padding-top: 15px;
+}
+.imageElement--imageWishlist{
+  max-height: 42px !important;
+  margin-top: 9px;
+  cursor: pointer;
+}
+.imageElement--imageWishlist:hover{
+  opacity: 0.6;
+}
 @media screen and (max-width: 1024px) {
+  
   .skuSelectorInternalBox {
 min-height: 25px;
 min-width: 25px;

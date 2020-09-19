@@ -28,7 +28,7 @@
     "children": [
       "vtex.store-components:product-name",
       "flex-layout.col#quickviewPrice",
-      "product-summary-sku-selector#quickview"
+      "sku-selector"
     ],
     "props": {
       "blockClass": "quickviewContent"
@@ -36,9 +36,7 @@
   },
   "flex-layout.col#quickviewPrice": {
     "children": [
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
-      "product-installments"
+      "flex-layout.row#selling-price"
     ]
   },
   "modal-actions#quickview": {
@@ -53,7 +51,7 @@
   "flex-layout.row#quickview-actions-1": {
     "children": [
       "flex-layout.col#quickview-product-quantity",
-      "flex-layout.col#quickview-add-to-card-button"
+      "link.product#button-pdp"
     ],
     "props": {
       "colSizing": "auto",
@@ -84,16 +82,18 @@
 
   "flex-layout.row#quickview-actions-2": {
     "children": [
-      "link.product#button-pdp"
+      "flex-layout.row#buy-button-shelf-home"
+      
     ]
   },
   "link.product#button-pdp": {
     "props": {
+      "blockClass":"quickviewLinkDetails",
       "buttonProps": {
         "variant": "secondary"
       },
       "displayMode": "button",
-      "label": "View details",
+      "label": "Ver detalles",
       "href": "/{slug}/p"
     }
   },
@@ -101,6 +101,7 @@
     "children": [
       "flex-layout.col#quickview-images",
       "flex-layout.col#quickview-product-details"
+
     ],
     "props": {
       "blockClass": "quickviewMainRow"
@@ -108,13 +109,15 @@
   },
   "flex-layout.col#quickview-images": {
     "children": [
-      "product-images#quickview"
+      "product-images#quickview",
+      "product-description"
     ]
   },
   "flex-layout.col#quickview-product-details": {
     "children": [
       "modal-content#quickview",
-      "modal-actions#quickview"
+      "modal-actions#quickview",
+      "flex-layout.row#product"
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -136,8 +139,10 @@
   },
   "product-images#quickview" : {
     "props": {
+      "thumbnailsOrientation":"horizontal",
       "blockClass": "quickview",
-      "showNavigationArrows": true
+      "showNavigationArrows": true,
+      "displayThumbnailsArrows":true
     }
   }
 }

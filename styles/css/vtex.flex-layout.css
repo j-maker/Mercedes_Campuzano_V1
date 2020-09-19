@@ -1,4 +1,9 @@
-
+.flexRow--product-description{
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 
 
@@ -229,13 +234,7 @@
 .flexRow--buy-button {
   margin: 0;
 }
-.flexRow--product-description {
-  text-align: center;
-  align-items: center;
-  font-family: "Montserrat";
-  line-height: 2;
-  margin: 15px 0 0px;
-}
+
 
 
 
@@ -255,7 +254,7 @@
 .flexRow--selling-price {
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .flexRow--selling-price::after {
   content: "";
@@ -291,11 +290,12 @@
   height: auto !important;
 }
 .flexRow--specifications {
-  margin: 10px 50px 0 50px;
-  padding: 20px;
+  padding: 0;
+  margin: 0;
+  width: 80% !important;
+  height: auto;
   display: flex;
   justify-content: center;
-  height: auto;
 }
 .flexRowContent--specifications {
   border: 1px solid #e3e4e6;
@@ -413,7 +413,7 @@
   background: #fff;
   z-index: 4;
   top: 160px;
-
+  margin-bottom: 10px;
 }
 .flexRow--wrapperImageHotDays{
   min-width: 110px;
@@ -426,8 +426,32 @@
 .flexCol--wrapperImageHotDays{
   margin-top: 17px;
 }
+.flexRowContent--quickviewMainRow{
+  padding: 30px;
+}
+.flexColChild--quickviewDetails .flexRow--specifications{
+  margin: 0 auto 20px;
+}
+.flexRow--wrapperWL{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wishlistIconContainer--shelfWishlist :global(.vtex-button__label){
+  padding: 0 16px;
+}
 @media screen and (max-width:1024px) {
-
+  .flexRowContent--product-description{
+    display: none;
+  }
+  .flexRowContent--drawer-row-2 .stretchChildrenWidth:first-child :global(.vtex-button__label){
+    margin-top: 5px;
+  }
+  .flexRowContent--drawer-row-2 .stretchChildrenWidth:last-child :global(.vtex-button__label){
+    margin-top: 0;
+  }
+  .flexRowContent--quickviewMainRow{
+    padding: 0;
+  }
   .flexRow--menu-mobile-new{
     border-bottom: 1px solid #ddd;
   }
@@ -635,10 +659,6 @@
   }
   .flexRow--footer-contact-us {
     padding: 0 20px;
-  }
-
-  .flexRow--specifications {
-    margin: 0;
   }
   .flexRow--searchinfomobile {
     height: 35px;

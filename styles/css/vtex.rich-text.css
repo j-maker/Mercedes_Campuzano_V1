@@ -330,7 +330,7 @@
   font-size: 12px;
 }
 .container--price-online {
-  font-size: 16px;
+  font-size: 14px;
   color: #69727b;
 }
 .paragraph--price-online {
@@ -378,7 +378,31 @@
   z-index: 1;
   padding-left: 24px;
 }
+.link--header-2-link {
+  color: #000;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 20px 5px;
+}
+.paragraph--header-2-link:hover {
+  opacity: 0.6 !important;
+}
+.wrapper--tituloWishlist{
+  margin: 0 auto;
+}
+.wrapper--tituloWishlist .heading-level-3{
+  margin: 10px 0 20px 0;
+}
+
 @media screen and (max-width: 1024px) {
+  .paragraph--header-2-link{
+    margin: 0;
+  }
+  .container--price-online {
+    margin-bottom: 15px;
+  }
   .paragraph--textSaleMini{
     margin-top: 0;
   }

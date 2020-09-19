@@ -170,6 +170,22 @@
   margin: 0;
 }
 
+.label--quickviewLinkDetails{
+  padding: 0;
+}
+.buttonLink--quickviewLinkDetails{
+  background: none;
+    color: #000;
+    font-size: 12px;
+    text-transform: initial;
+    border: none;
+    height: 30px;
+    min-height: unset;
+}
+.buttonLink--quickviewLinkDetails:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 @media screen and (max-width: 1024px) {
   
   .link--hotDaysLink{

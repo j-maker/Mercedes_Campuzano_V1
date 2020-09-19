@@ -71,7 +71,15 @@
   background: #d56e2f;
   padding: 15px 25px;
 }
+.drawerTriggerContainer{
+  outline: 0;
+}
+
 @media screen and (max-width: 1024px) {
+  
+  .childrenContainer--drawer-mobile .openIconContainer--minicart{
+    margin: 0 0 0px 0;
+  }  
 .childrenContainer--mobile-menu-otros,
 .childrenContainer--mobile-menu-accesorios,
 .childrenContainer--mobile-menu-bolsos,

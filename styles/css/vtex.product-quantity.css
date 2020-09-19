@@ -1,0 +1,19 @@
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button),
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button){
+    outline: none;
+    height: 2em;
+    width: 2em !important;
+}
+
+
+.quantitySelectorStepper :global(.vtex-styleguide-9-x-hideDecorators){
+    outline: none;
+    height: 28px;
+    width: 50px;
+}
+
+@media screen and (max-width:1024px) {
+    .quantitySelectorStepper :global(.vtex-numeric-stepper-container){
+        justify-content: center;
+    }    
+}

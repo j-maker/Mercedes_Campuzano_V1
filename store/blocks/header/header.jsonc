@@ -198,7 +198,8 @@
     },
     "children": [
       "image#contact",
-      "link#contact",
+      //"link#contact",
+      "rich-text#contact",
       "image#contact-1",
       "link#contact-1",
       "flex-layout.col#spacer",
@@ -212,7 +213,16 @@
     "children": [
       "search-bar",
       "login#Mc"
+      //"image#wishlist"
     ]
+  },
+  "image#wishlist": {
+    "props": {
+      "blockClass": "imageWishlist",
+      "src": "https://aldoecuador.vtexassets.com/arquivos/heart.svg",
+      "href":"/wishlist",
+      "maxHeight": 20
+    }
   },
   "image#contact": {
     "props": {
@@ -221,10 +231,16 @@
       "maxHeight": 20
     }
   },
+  "rich-text#contact": {
+    "props": {
+      "blockClass": "header-2-link",
+      "text": "[(4) 5606060 ext 121](tel:017123200)"
+    }
+  },
   "link#contact": {
     "props": {
       "blockClass": "header-2-link",
-      "href": "/",
+      "href": "tel:0345606060",
       "label": "(4) 5606060 ext 121"
     }
   },
@@ -371,7 +387,8 @@
     "children": [
       "flex-layout.col#spacer",
       "image#mobile-contact",
-      "link#mobile-contact",
+      "rich-text#contact",
+      //"link#mobile-contact",
       "flex-layout.col#spacer",
       "image#mobile-contact-1",
       "link#mobile-contact-1",

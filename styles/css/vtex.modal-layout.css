@@ -28,6 +28,15 @@
     padding: 0 2.5rem 2.5rem 2.5rem;
   }
 }
+@media screen and (max-width: 1024px) {
+  .paper--quickview {
+    width: 80% !important;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
 .triggerContainer {
   display: flex;
   justify-content: center;
@@ -37,6 +46,7 @@
 }
 
 .paper--quickview {
+  width: 60%;
   min-width: 320px;
   max-width: 96rem;
 }
@@ -65,14 +75,41 @@
 }
 
 .contentContainer--quickviewContent {
-  padding: 2.5rem 0 2.5rem 2rem;
+  padding: 2.5rem 0 0 0;
   overflow-x: hidden;
 }
 
 .triggerContainer--quickview {
-  padding: 0.75rem;
+  position: absolute;
+  top: 20px;
 }
-
+.triggerContainer--quickview::after{
+  content: "";
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/eye.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: -19px;
+  z-index: 1;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.contentContainer--quickviewContent :global(.vtex-store-components-3-x-errorMessage){
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    font-weight: 500;
+}
+.paper--quickview{
+  margin: 0;
+}
+.closeButton--quickview{
+  outline: none;
+}
+.closeIcon--quickview{
+  width: 20px;
+}
 .triggerContainer {
   outline: none;
 }
