@@ -311,8 +311,9 @@
   padding: 0;
   border: 1px solid #ddd;
 }
-.specificationsTableContainer .container {
-  height: auto;
+
+.specificationsTableContainer :global(.vtex-store-components-3-x-container){
+  height: 100% !important;
 }
 .specificationsTitle {
   text-align: center;
