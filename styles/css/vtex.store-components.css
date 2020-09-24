@@ -434,6 +434,13 @@
   opacity: 0.6;
 }
 @media screen and (max-width: 1024px) {
+  .pointerEventsNone{
+    display: none;
+  }
+  .imageElement--imageWishlist{
+    margin-top: 17px;
+    margin-right: 10px;
+  }
   .container--product-description {
     position: unset;
   } 

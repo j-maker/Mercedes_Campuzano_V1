@@ -452,22 +452,24 @@
 .flexCol--wrapperWL :global(.vtex-modal-layout-0-x-triggerContainer--quickview){
   display: none;
 }
-
+.flexRow--buy-button-shelf-home-1 :global(.vtex-store-components-3-x-container){
+  padding: 0;
+}
+.flexCol--image-percent-container{
+  position: relative;
+}
 @media screen and (max-width:1024px) {
-  .flexRowContent--wrapperFooterQuickview .stretchChildrenWidth:last-child{
-    display: none;
-  }
   .flexRow--quickviewMainRow{
     display: block !important;
   }
   .flexRow--wrapperFooterQuickview{
-    margin-top: 120px !important;
+    margin-top: 20px !important;
   }
   .flexRowContent--product-description{
     display: none;
   }
   .flexRowContent--drawer-row-2 .stretchChildrenWidth:first-child :global(.vtex-button__label){
-    margin-top: 5px;
+    margin-top: 10px;
   }
   .flexRowContent--drawer-row-2 .stretchChildrenWidth:last-child :global(.vtex-button__label){
     margin-top: 0;
@@ -920,6 +922,7 @@
 
 .flexRow--quickviewMainRow {
   display: flex;
+  min-height: 780px;
   max-height: 100%;
 }
 

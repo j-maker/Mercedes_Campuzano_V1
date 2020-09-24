@@ -452,6 +452,7 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
+      "image#wishlist",
       "login#Mc",
       "flex-layout.col#car",
       "drawer#mobile"

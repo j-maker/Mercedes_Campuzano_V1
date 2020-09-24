@@ -2,7 +2,6 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "percent-discount",
       "flex-layout.row#product-main",
       "flex-layout.row#description",  
       "rich-text#recomended",
@@ -63,6 +62,7 @@
   },
   "stack-layout": {
     "children": [
+      //"percent-discount",
       "flex-layout.row#product-image",
       "product-bookmark",
       "product-specification-badges"

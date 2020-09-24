@@ -577,7 +577,7 @@
             "showPaginationDots":"never"  
         }
     },
-    "blocks":["product-summary.shelf"]
+    "blocks":["product-summary.shelf#home"]
 },
 "shelf.relatedProducts#similars": {
   "props": {

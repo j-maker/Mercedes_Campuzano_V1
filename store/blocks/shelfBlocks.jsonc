@@ -20,7 +20,7 @@
       },
       "product-summary.shelf": {
         "children": [
-          //"percent-discount",
+          "percent-discount",
           "modal-trigger#quickview",
           "add-to-list-btn",
           "custom-product-summary-images",
@@ -37,10 +37,10 @@
       },
       "product-summary.shelf#home": {
         "children": [
-          //"percent-discount",
+          "percent-discount",
           "modal-trigger#quickview",
           "add-to-list-btn",
-          "product-specification-badges",
+          //"product-specification-badges",
           "custom-product-summary-images",
           //"product-specification-badges",
           //"stack-layout#prodsum",

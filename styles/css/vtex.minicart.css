@@ -99,6 +99,10 @@
   padding-left: 25px;
 }
 @media screen and (max-width: 1024px) {
+  .minicartContainer--minicart :global(.vtex-button)::after{
+    padding-top: 23px;
+    padding-left: 23px;
+  }
   .minicartContainer--minicart{
     margin-right: -10px;
   }

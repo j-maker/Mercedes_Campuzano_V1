@@ -2,7 +2,7 @@
     position: absolute;
     top: 40px;
     left: 10px;
-    z-index: 3;
+    z-index: 1;
 }
 .outline{
     background-image: url("https://aldoecuador.vtexassets.com/arquivos/heart.svg");
