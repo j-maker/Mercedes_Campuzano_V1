@@ -1,0 +1,34 @@
+{
+    "store.custom#form-devoluciones": {
+        "blocks": [
+            "flex-layout.row#form-devoluciones"
+        ]
+    },
+    "flex-layout.row#form-devoluciones": {
+        "props": {
+            "blockClass": "form-devoluciones"
+        },
+        "children": [
+            "flex-layout.col#form-devoluciones"
+        ]
+    },
+    "flex-layout.col#form-devoluciones": {
+        "children": [
+            "image#form-devoluciones",
+            //"rich-text#title-form-devoluciones",
+            "custom-form-devoluciones"
+        ],"props":["wrapperContentFormReturns"]
+    },
+    "image#form-devoluciones": {
+        "props": {
+            "blockClass": "form-devoluciones",
+            "src": "https://mercedescampuzano.vteximg.com.br/arquivos/modal.jpg"
+          }
+    },
+    "rich-text#title-form-devoluciones": {
+        "props": {
+            "blockClass": "form-devoluciones",
+            "text": "Form devoluciones"
+        }
+    }
+}

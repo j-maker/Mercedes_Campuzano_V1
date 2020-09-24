@@ -529,7 +529,7 @@
       "blockClass": "submenu"
     },
     "children": [
-      "menu-item#menu-3-6",
+      //"menu-item#menu-3-6",
       "menu-item#menu-3-7",
       "menu-item#menu-3-8",
       "menu-item#menu-3-9",
@@ -611,7 +611,7 @@
         "href": "/accesorios/cadenas-y-collares/404",
         "noFollow": false,
         "tagTitle": "Cadenas y Collares",
-        "text": "Cadenas y Collares"
+        "text": "Cadenas y Collares"  
       },
       "blockClass": "submenu-cadenas-y-collares"
     }

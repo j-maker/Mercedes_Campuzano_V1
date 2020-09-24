@@ -67,12 +67,7 @@
   box-shadow: -4px 0px 27px -12px transparent;
 }
 
-.actionsContentWrapper {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #aaa;
-  padding-top: 1.5rem;
-}
+
 
 .contentContainer--quickviewContent {
   padding: 2.5rem 0 0 0;
@@ -116,7 +111,6 @@
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
   border-top-color: rgb(238, 238, 238);
-  box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview)
@@ -177,6 +171,27 @@
 
 
 @media screen and (max-width:768px) {
+  .headerContainer--quickview{
+    border: none;
+    position: fixed;
+    right: 20px;
+    background: #fff;
+    top: 20px;
+    border-radius: 50%;
+  }
+  .closeButton--quickview{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .closeIcon--quickview{
+    height: 30px;
+    padding-top: 2px;
+  }
+  .paperScrollContent{
+    max-height: none;
+    height: 90%;
+    max-height: 100%;
+  }
   .paper--size-guide{
     max-width: 90%;
   }

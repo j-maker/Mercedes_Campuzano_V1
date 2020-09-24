@@ -37,7 +37,7 @@
       }
     },
     "list-context.wishlist#wl": {
-      "blocks": ["product-summary.shelf"],
+      "blocks": ["product-summary.shelf#WL"],
       "children": ["slider-layout#shelf-home"]
     }
   }

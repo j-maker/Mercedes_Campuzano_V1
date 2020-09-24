@@ -600,3 +600,9 @@
   padding-left: 73px;
   cursor: pointer;
 }
+.container--form-devoluciones{
+  display: none;
+}
+.container--header-2-link{
+  margin-right: 30px;
+}

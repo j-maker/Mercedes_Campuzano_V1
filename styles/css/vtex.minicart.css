@@ -16,7 +16,7 @@
   margin-right: 10px;
 }
 .openIconContainer--minicart :global(.vtex-button__label){
-  margin-top: 10px;
+  margin-top: 7px;
 }
 .openIconContainer {
   height: auto;
@@ -95,8 +95,8 @@
   background-repeat: no-repeat;
   height: 10px;
   z-index: 1;
-  padding-top: 27px;
-  padding-left: 24px;
+  padding-top: 25px;
+  padding-left: 25px;
 }
 @media screen and (max-width: 1024px) {
   .minicartContainer--minicart{

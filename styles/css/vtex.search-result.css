@@ -179,10 +179,10 @@
 }
 @media screen and (min-width: 1024px){
   .galleryItem{
-    width: 23%!important;
-    min-width: 23%!important;
-    flex-basis: 23% !important;
-    max-width: 23% !important;
+    width: 24%!important;
+    min-width: 24%!important;
+    flex-basis: 24% !important;
+    max-width: 24% !important;
   }
 }
 .filterTemplateOverflow :global(.vtex-slider__selector){
@@ -193,9 +193,9 @@
 
 @media screen and (max-width: 1024px) {
   .galleryItem{
-    flex-basis: 45% !important;
-    max-width: 45% !important;
-    width: 45% !important;
+    flex-basis: 47% !important;
+    max-width: 47% !important;
+    width: 47% !important;
   }
   .orderByButton{
     padding: 0;

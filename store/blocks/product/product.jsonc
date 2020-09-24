@@ -146,8 +146,8 @@
       "product-assembly-options",
       "flex-layout.row#buy-button-product",
       //"flex-layout.row#product",
-      "availability-subscriber"
-      //"shelf.relatedProducts#similars"
+      "availability-subscriber",
+      "shelf.relatedProducts#similars"
       //"shipping-simulator",
       //"share#default"--PENDIENTE CAMBIO
       

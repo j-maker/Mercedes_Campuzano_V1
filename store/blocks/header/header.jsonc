@@ -212,8 +212,8 @@
     },
     "children": [
       "search-bar",
-      "login#Mc"
-      //"image#wishlist"
+      "login#Mc",
+      "image#wishlist"
     ]
   },
   "image#wishlist": {

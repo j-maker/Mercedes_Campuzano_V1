@@ -11,6 +11,9 @@
 .flexRow--row-2-wrapper {
   width: 100%;
 }
+.flexRow--row-2-wrapper :global(.vtex-store-components-3-x-container){
+  padding: 0;
+}
 .flexRow--row-3-wrapper {
   width: 100%;
   display: flex;
@@ -297,8 +300,8 @@
   display: flex;
   justify-content: center;
 }
-.flexRowContent--specifications {
-  border: 1px solid #e3e4e6;
+.flexRowContent--form-devoluciones :global(.vtex-flex-layout-0-x-flexColChild):first-child{
+  margin: 0 auto;
 }
 .flexRowContent--row-3-wrapper {
   width: 1200px;
@@ -427,7 +430,7 @@
   margin-top: 17px;
 }
 .flexRowContent--quickviewMainRow{
-  padding: 30px;
+  padding: 30px 30px 0 30px;
 }
 .flexColChild--quickviewDetails .flexRow--specifications{
   margin: 0 auto 20px;
@@ -439,7 +442,27 @@
 .wishlistIconContainer--shelfWishlist :global(.vtex-button__label){
   padding: 0 16px;
 }
+
+.flexRowContent--wrapperFooterQuickview{
+  padding: 50px 30px 30px 30px !important;
+}
+.flexCol--wrapperWL :global(.vtex-wish-list-0-x-wishlistIconContainer--shelfWishlist){
+  top: 10px;
+}
+.flexCol--wrapperWL :global(.vtex-modal-layout-0-x-triggerContainer--quickview){
+  display: none;
+}
+
 @media screen and (max-width:1024px) {
+  .flexRowContent--wrapperFooterQuickview .stretchChildrenWidth:last-child{
+    display: none;
+  }
+  .flexRow--quickviewMainRow{
+    display: block !important;
+  }
+  .flexRow--wrapperFooterQuickview{
+    margin-top: 120px !important;
+  }
   .flexRowContent--product-description{
     display: none;
   }
@@ -518,6 +541,7 @@
   }
   .flexRow--specifications {
     margin: 0;
+    width: 100% !important;
   }
   .flexRow--searchinfomobile {
     height: 35px;

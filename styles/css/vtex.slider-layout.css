@@ -69,6 +69,7 @@
 }
 .slide--shelf {
   padding: 0 5px;
+  max-width: 25%;
 }
 
 .slideChildrenContainer--shelf {

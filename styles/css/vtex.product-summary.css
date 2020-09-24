@@ -82,6 +82,7 @@
 @media screen and (max-width: 40em) {
   .container{
     padding: 5px;
+    position: relative;
   }
 
   .skuSelectorContainer {

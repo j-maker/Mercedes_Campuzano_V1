@@ -58,6 +58,8 @@
     },
     "store.custom#hotDays": {
         "path": "/hot-days"
+    },
+    "store.custom#form-devoluciones": {
+        "path": "/formulario-devoluciones"
     }
-
 }
