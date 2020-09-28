@@ -212,8 +212,8 @@
     },
     "children": [
       "search-bar",
-      "login#Mc",
-      "image#wishlist"
+      "login#Mc"
+      //"image#wishlist"
     ]
   },
   "image#wishlist": {
@@ -452,7 +452,7 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "image#wishlist",
+      //"image#wishlist",
       "login#Mc",
       "flex-layout.col#car",
       "drawer#mobile"

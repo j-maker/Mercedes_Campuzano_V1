@@ -852,7 +852,15 @@
     padding: 0 0.25rem;
   }
 }
-
+@media screen and (min-width: 1400px) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+  .flexRowContent--wrapperFooterQuickview{
+    padding-top: 270px!important;
+  }
+}
 .flexRowContent--menu-link {
   background-color: #03044e;
   color: #fff;
@@ -899,6 +907,10 @@
 .flexColChild--filterCol {
   width: 100%;
   height: 48px !important;
+}
+.flexRowContent--home-wrapper-shelf :global(.vtex-product-summary-2-x-SKUSelectorContainer--shelf-sku){
+  display: none;
+
 }
 
 .flexCol--productCountCol {

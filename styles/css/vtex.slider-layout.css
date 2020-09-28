@@ -69,7 +69,7 @@
 }
 .slide--shelf {
   padding: 0 5px;
-  max-width: 25%;
+  max-width: 11.3333%;
 }
 
 .slideChildrenContainer--shelf {
@@ -152,7 +152,6 @@
   justify-content: center;
   display: flex;
 }
-
 @media screen and (max-width: 1024px) {
   .sliderLeftArrow--home-slider {
     right: 15px;

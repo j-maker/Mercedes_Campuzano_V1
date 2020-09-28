@@ -146,8 +146,8 @@
       "product-assembly-options",
       "flex-layout.row#buy-button-product",
       //"flex-layout.row#product",
-      "availability-subscriber",
-      "shelf.relatedProducts#similars"
+      "availability-subscriber"
+      //"shelf.relatedProducts#similars"
       //"shipping-simulator",
       //"share#default"--PENDIENTE CAMBIO
       
@@ -393,7 +393,7 @@
   "image#sizeFootwear":{
     "props": {
       "blockClass":"imageSizeModal",
-      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-guia-tallas.jpg"
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/guia-tallas-amazon-español.jpg"
     }
   },
   "image#sizeDress":{

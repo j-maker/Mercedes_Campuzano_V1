@@ -15,6 +15,9 @@
   color: #fff;
   font-weight: 500;
 }
+.buttonText--buy-button-product{
+  margin: 12px 0;
+}
 
 @media screen and (max-width: 1024px) {
   .buttonDataContainer--buy-button-shelf {

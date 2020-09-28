@@ -528,12 +528,10 @@
   },
   "flex-layout.row#buy-button-shelf-home": {
     "children": [
-      "add-to-cart-button#shelf"
-      //"buy-button#product"
+      "add-to-cart-button#homeShelf"
     ],
     "props": {
-      "blockClass": "buy-button-shelf-home-1",
-      "text": "COMPRAR YA"
+      "blockClass": "buy-button-shelf-home"
     }
   },
   "flex-layout.row#buy-button-shelf": {
@@ -542,13 +540,11 @@
       //"buy-button#product"
     ],
     "props": {
-      "blockClass": "buy-button-shelf-home",
-      "text": "COMPRAR YA"
+      "blockClass": "buy-button-shelf-home"
     }
   },
   "add-to-cart-button#shelf": {
     "props": {
-      "customOneClickBuyLink":"/checkout",
       "isOneClickBuy ":true,
       "unavailableText":"NO DISPONIBLE",
       "blockClass": "buy-button-product",
@@ -557,11 +553,16 @@
   },
   "buy-button#product": {
     "props": {
-      "shouldAddToCart":true,
-      "shouldOpenMinicart" : true,
-      "showItemsPrice": true,
-      "showToast":true
+      "isOneClickBuy": false,
+      "showTooltipOnSkuNotSelected": false
     }
+  },
+  "add-to-cart-button#homeShelf": {
+    "props": {
+      "isOneClickBuy ":true,
+      "unavailableText":"NO DISPONIBLE",
+      "blockClass": "buy-button-product",
+      "text": "COMPRAR YA"    }
   },
   "shelf.relatedProducts": {
     "props": {

@@ -15,6 +15,10 @@
 .valueWrapper--shelf-sku {
   padding: 5px;
 }
+.element :global(.vtex-button__label){
+  padding: 0;
+  height: 38px;
+}
 .skuSelectorItem--shelf-product-sku,
 .skuSelectorItem--shelf-sku {
   width: auto;

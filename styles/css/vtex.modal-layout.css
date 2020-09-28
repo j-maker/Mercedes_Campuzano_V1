@@ -151,6 +151,7 @@
   z-index: 1;
 }
 .paper--size-guide{
+  max-height: 80%;
   max-width: 45%;
   margin: 20px auto;
 
@@ -167,9 +168,6 @@
   padding: 2px;
   border-radius: 50%;
   border: 1px solid #ddd;
-}
-.paper--size-guide{
-  max-height: unset;
 }
 
 
