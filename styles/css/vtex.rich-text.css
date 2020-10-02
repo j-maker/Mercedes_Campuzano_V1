@@ -330,6 +330,7 @@
   font-size: 12px;
 }
 .container--price-online {
+  margin-bottom: 20px;
   font-size: 14px;
   color: #69727b;
 }

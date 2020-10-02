@@ -1,5 +1,6 @@
 .flexRow--product-description{
-  width: 1200px;
+  margin: 0 auto;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -458,6 +459,9 @@
 .flexCol--image-percent-container{
   position: relative;
 }
+.flexColChild--right-col{
+  height: auto !important;
+}
 @media screen and (max-width:1024px) {
   .flexRow--quickviewMainRow{
     display: block !important;
@@ -465,9 +469,6 @@
   }
   .flexRow--wrapperFooterQuickview{
     margin-top: 20px !important;
-  }
-  .flexRowContent--product-description{
-    display: none;
   }
   .flexRowContent--drawer-row-2 .stretchChildrenWidth:first-child :global(.vtex-button__label){
     margin-top: 10px;
@@ -799,6 +800,9 @@
     height: auto;
     margin: 0;
   }
+  .flexRowContent--wrapperFooterQuickview{
+    padding-top: 15%!important;
+  }
 }
 
 .flexRowContent--drawer-row-2 {
@@ -852,13 +856,14 @@
     padding: 0 0.25rem;
   }
 }
-@media screen and (min-width: 1400px) {
-  .flexRowContent--menu-link,
-  .flexRowContent--main-header {
-    padding: 0 0.25rem;
-  }
+@media screen and (min-width: 1400px){
   .flexRowContent--wrapperFooterQuickview{
-    padding-top: 270px!important;
+    padding-top: 10%!important;
+  }
+}
+@media screen and (min-width: 1650px){
+  .flexRowContent--wrapperFooterQuickview{
+    padding-top: 25%!important;
   }
 }
 .flexRowContent--menu-link {

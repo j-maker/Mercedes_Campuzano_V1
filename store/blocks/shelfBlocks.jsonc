@@ -1,5 +1,4 @@
 {
-
       "product-summary.shelf#pdpSimilars": {
         "children": [
           //"product-summary-image#shelf"
@@ -55,11 +54,11 @@
       "product-summary.shelf#WL": {
         "children": [
           //"percent-discount",
-          "product-summary-image#shelf",
+          //"product-summary-image#shelf",
           "modal-trigger#quickview",
-          "add-to-list-btn",
+          //"add-to-list-btn",
           //"product-specification-badges",
-          //"custom-product-summary-images",
+          "custom-product-summary-images",
           //"product-specification-badges",
           //"stack-layout#prodsum",
           "product-summary-name",
