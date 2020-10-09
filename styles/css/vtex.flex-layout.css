@@ -482,6 +482,7 @@
 }
 .flexRowContent--wrapperPriceShelf .stretchChildrenWidth:last-child{
   align-items: flex-start;
+  width: 100% !important;
 }
 @media screen and (max-width:1024px) {
   .flexCol--shelf-general-price,
