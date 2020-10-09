@@ -462,7 +462,36 @@
 .flexColChild--right-col{
   height: auto !important;
 }
+/* THRID PRICE */
+.flexCol--shelf-general-price .flexColChild:last-child {
+  margin-top: 5px;
+  width: max-content !important;
+}
+.flexColChild--general-price :global(.vtex-product-price-1-x-currencyContainer--summary){
+  font-size: 16px;
+}
+.flexColChild--shelf-general-price .stretchChildrenWidth{
+  width: auto!important;
+  margin: 0 auto !important;
+}
+.flexCol--shelf-general-price{
+  min-height: 45px;
+}
+.flexRowContent--logoBancolombia{
+  width: 25px;
+}
+.flexRowContent--wrapperPriceShelf .stretchChildrenWidth:last-child{
+  align-items: flex-start;
+}
 @media screen and (max-width:1024px) {
+  .flexCol--shelf-general-price,
+  .flexRowContent--wrapperPriceShelf{
+    flex-wrap: wrap;
+    min-height: 74px!important;
+  }
+  .flexCol--shelf-general-price .flexColChild:last-child {
+    width: unset !important;
+  }
   .flexRow--quickviewMainRow{
     display: block !important;
     min-height: 730px !important;

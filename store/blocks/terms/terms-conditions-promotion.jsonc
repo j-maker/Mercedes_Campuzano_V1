@@ -28,36 +28,38 @@
       },
       "flex-layout.col#col-1-content-terms-conditions-promotions": {
         "children": [
-          "rich-text#col-1-subtitle-1-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-1-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-2-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-2-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-3-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-3-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-4-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-4-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-16-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-16-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-15-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-15-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-14-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-14-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-13-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-13-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-12-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-12-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-11-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-11-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-10-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-10-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-9-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-9-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-8-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-8-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-7-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-7-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-6-content-terms-conditions-promotions",
           "rich-text#col-1-subtitle-5-content-terms-conditions-promotions",
           "rich-text#col-1-paragraph-5-content-terms-conditions-promotions",
           "sandbox#table",
-          "rich-text#col-1-paragraph-6-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-7-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-7-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-8-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-8-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-9-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-9-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-10-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-10-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-11-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-11-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-12-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-12-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-13-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-13-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-14-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-14-content-terms-conditions-promotions",
-          "rich-text#col-1-subtitle-15-content-terms-conditions-promotions",
-          "rich-text#col-1-paragraph-15-content-terms-conditions-promotions"
+          "rich-text#col-1-subtitle-4-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-4-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-3-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-3-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-2-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-2-content-terms-conditions-promotions",
+          "rich-text#col-1-subtitle-1-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-1-content-terms-conditions-promotions"
         ]
       },
       "rich-text#col-1-title-terms-conditions-promotions": {
@@ -305,6 +307,25 @@
           "textAlignment": "JUSTIFY",
           "textPosition": "JUSTIFY",
           "text": "Aplica condiciones y restricciones\nCon el código AMORYAMISTAD25 recibe un 25% OFF en tus        compras.     \nValido para redimir en una sola compra.\nPromoción válida únicamente desde 18-Sep-20 hasta 20-Sep-20\nAplica únicamente para el inventario disponible los días del evento, en todas las tiendas físicas Mercedes Campuzano del pais, página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93.\nNo aplica para tiendas físicas falabella.\nNo aplica para ningún otro medio de comercialización físico ni virtual.\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales.\nEl descuento no es canjeable por dinero.\nNo aplica para compras  de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas.\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento.\nNo aplica para bonos de descuento por cumpleaños.\n"
+        }
+      },
+      "rich-text#col-1-subtitle-16-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**EVENTO BANCOLOMBIA 9 al 11 DE OCTUBRE DEL 2020**\n"
+        }
+      },
+      
+      "rich-text#col-1-paragraph-16-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplican condiciones y restricciones\nDescuento válido del 9 al 11 de octubre de 2020 y/o hasta agotar inventario, lo que ocurra primero 40% de descuento todo el portafolio, en el inventario disponible el día del evento, en las tiendas  físicas Mercedes Campuzano de todo el país: Tesoro, Santafé, San Diego, Viva Envigado, Mayorca, Molinos, Viva Laureles, Puerta del Norte, Moda Outlet, Atlantis,  Plaza Claro, Viva Barranquilla, Cartagena el castillo, Pereira Plaza, San Nicolas; whatsapp 3174266793 y pagina web www.mercedescampuzano.com \nDescuento valido pagando únicamente el 100% de la compra con tarjetas débito o crédito de Bancolombia\nEl descuento no es acumulable entre sí ni con otras ofertas, promociones o alianzas comerciales\nNo Aplica para ningún otro medio de comercialización físico ni virtual\nDescuento no es canjeable por dinero.\nNo aplica para compras ni redención de bonos regalos.\nNo aplica para bonos de descuento por cumpleaños\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento57.819 unidades disponibles total empresa (34.399 zapatos, 1619 vestuario, 21.801 bolsos y accesorios)\n"
+
+          
         }
       }
     }

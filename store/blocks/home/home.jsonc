@@ -239,6 +239,7 @@
     }
   },
   "flex-layout.row#shelf": {
+    "title":"Home-Contenedor-Vitrina-1",
     "children": ["flex-layout.col#shelf"],
     "props": {
       "blockClass":"home-wrapper-shelf"
@@ -265,6 +266,7 @@
     }*/
   },
   "list-context.product-list#shelf": {
+    "title":"Home-Poductos-Vitrina-1",
     "blocks": ["product-summary.shelf#home"],
     "children": ["slider-layout#shelf-home"],
     "props": {
@@ -273,6 +275,7 @@
     }
   },
   "slider-layout#shelf-home": {
+    "title":"Home-Slide-1",
     "props": {
       "itemsPerPage": {
         "desktop": 4,

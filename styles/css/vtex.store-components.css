@@ -434,6 +434,11 @@
 .imageElement--imageWishlist:hover{
   opacity: 0.6;
 }
+.priceContainer--bancolombia .sellingPriceValue {
+  font-size: 15px;
+  color: #093e84;
+  font-weight: bold;
+}
 @media screen and (max-width: 1024px) {
   .pointerEventsNone{
     display: none;
