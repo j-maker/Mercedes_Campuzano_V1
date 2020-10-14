@@ -1,11 +1,10 @@
 {
-    
     "store.custom#buy-insurance": {
         "blocks": [
             "flex-layout.row#footer-terms-col-buy-insurance"
         ]
     },
-     "flex-layout.row#footer-terms-col-buy-insurance": {
+    "flex-layout.row#footer-terms-col-buy-insurance": {
         "props": {
             "colSizing": "auto",
             "blockClass": "about-us"
@@ -42,7 +41,6 @@
             "rich-text#subtitle-buy-insurance"
         ]
     },
-
     "rich-text#subtitle-buy-insurance": {
         "props": {
             "blockClass": "footer-terms-content-subtitles-buy-insurance",

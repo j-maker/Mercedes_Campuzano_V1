@@ -28,6 +28,7 @@
     padding: 0 2.5rem 2.5rem 2.5rem;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .paper--quickview {
     width: 80% !important;
@@ -37,10 +38,12 @@
     padding: 0 2rem 2rem 2rem;
   }
 }
+
 .triggerContainer {
   display: flex;
   justify-content: center;
 }
+
 .backdropContainer {
   opacity: 0.5 !important;
 }
@@ -78,7 +81,8 @@
   position: absolute;
   top: 20px;
 }
-.triggerContainer--quickview::after{
+
+.triggerContainer--quickview::after {
   content: "";
   background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/eye.svg");
   background-size: contain;
@@ -89,25 +93,31 @@
   padding-top: 40px;
   padding-left: 40px;
 }
-.contentContainer--quickviewContent :global(.vtex-store-components-3-x-errorMessage){
-    text-align: center;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #212529;
-    font-weight: 500;
+
+.contentContainer--quickviewContent :global(.vtex-store-components-3-x-errorMessage) {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  font-weight: 500;
 }
-.contentContainer--quickviewContent :global(.vtex-store-components-3-x-skuSelectorOptionsList){
-  padding:0 20px ;
+
+.contentContainer--quickviewContent :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  padding: 0 20px;
 }
-.paper--quickview{
+
+.paper--quickview {
   margin: 0;
 }
-.closeButton--quickview{
+
+.closeButton--quickview {
   outline: none;
 }
-.closeIcon--quickview{
+
+.closeIcon--quickview {
   width: 20px;
 }
+
 .triggerContainer {
   outline: none;
 }
@@ -116,8 +126,7 @@
   border-top-color: rgb(238, 238, 238);
 }
 
-.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview)
-  .actionsContentWrapper {
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
   border-top-color: transparent;
 }
 
@@ -131,37 +140,43 @@
 }
 
 .backdrop--form-newsletter-modal {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.closeIcon--modal-header{
+
+.closeIcon--modal-header {
   background-color: #fff;
   border-radius: 50%;
   padding: 5px;
 }
+
 .closeButton--modal-header {
   padding-right: 3px;
   position: fixed !important;
   margin-top: 0px;
   margin-left: -45px;
 }
-.triggerContainer--desktop-fixed-discount{
+
+.triggerContainer--desktop-fixed-discount {
   position: fixed;
   left: 10px;
   bottom: 5px;
   z-index: 1;
 }
-.paper--size-guide{
+
+.paper--size-guide {
   max-height: 80%;
   max-width: 45%;
   margin: 20px auto;
 
 }
-.closeButton--size-guide-modal-header{
+
+.closeButton--size-guide-modal-header {
   position: fixed;
   margin-left: 10px;
   outline: 0 !important;
 }
-.closeIcon--size-guide-modal-header{
+
+.closeIcon--size-guide-modal-header {
   width: 24px;
   height: 24px;
   background: #fff;
@@ -172,7 +187,7 @@
 
 
 @media screen and (max-width:768px) {
-  .headerContainer--quickview{
+  .headerContainer--quickview {
     border: none;
     position: fixed;
     right: 20px;
@@ -180,26 +195,32 @@
     top: 20px;
     border-radius: 50%;
   }
-  .closeButton--quickview{
+
+  .closeButton--quickview {
     padding-bottom: 0;
     padding-top: 0;
   }
-  .closeIcon--quickview{
+
+  .closeIcon--quickview {
     height: 30px;
     padding-top: 2px;
   }
-  .paperScrollContent{
+
+  .paperScrollContent {
     max-height: none;
     height: 90%;
     max-height: 100%;
   }
-  .paper--size-guide{
+
+  .paper--size-guide {
     max-width: 90%;
   }
+
   .paper--form-newsletter-modal {
     width: 95%;
   }
-  .closeButton--size-guide-modal-header{
+
+  .closeButton--size-guide-modal-header {
     margin-top: -25px;
     margin-left: -25px;
   }

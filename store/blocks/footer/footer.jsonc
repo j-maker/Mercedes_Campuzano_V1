@@ -24,19 +24,21 @@
     ],
     "props": {
       "trigger": "click",
-      "blockClass":"desktop-fixed-discount"
+      "blockClass": "desktop-fixed-discount"
     }
   },
   "modal-trigger#button10%": {
     "children": [
       "rich-text#button10%",
       "modal-layout#form-newsletter"
-    ],"props":{"blockClass":"desktop-fixed-discount"}
-
+    ],
+    "props": {
+      "blockClass": "desktop-fixed-discount"
+    }
   },
   "rich-text#button10%": {
     "props": {
-      "blockClass":"desktop-fixed-discount",
+      "blockClass": "desktop-fixed-discount",
       "text": ""
     }
   },
@@ -820,16 +822,16 @@
     ],
     "props": {
       "blockClass": "form-newsletter-modal"
-      }
+    }
   },
   "modal-header#form-newsletter": {
     "children": [
       "flex-layout.row#form-news-modal"
     ],
     "props": {
-      "blockClass":"modal-header",
-      "showCloseButton":true,
-      "iconCloseSize":16
+      "blockClass": "modal-header",
+      "showCloseButton": true,
+      "iconCloseSize": 16
     }
   },
   "flex-layout.row#form-news-modal": {
@@ -943,7 +945,7 @@
   },
   "form-input.text#firstName-news-modal": {
     "props": {
-      "blockClass":"home-form-name",
+      "blockClass": "home-form-name",
       "label": "Nombre",
       "pointer": "#/properties/firstName"
     }

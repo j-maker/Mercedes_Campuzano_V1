@@ -6,29 +6,36 @@
   background: white;
   opacity: 0.5;
 }
+
 .slideChildrenContainer--home-slider {
   display: block;
 }
+
 .sliderArrows--home-slider {
   width: 70px;
   height: 60px;
 }
+
 .sliderLeftArrow--home-slider {
   width: 60px;
   height: 60px;
 }
+
 .sliderRightArrow--home-slider {
   width: 60px;
   height: 60px;
 }
+
 .imageElement--header-menu-slider {
   height: 270px !important;
   margin-top: 45px;
 }
-.imageElement--home-slider{
+
+.imageElement--home-slider {
   max-height: unset !important;
 }
-.sliderLayoutContainer--home-slider{
+
+.sliderLayoutContainer--home-slider {
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -36,6 +43,7 @@
 .sliderLayoutContainer {
   width: 100%;
 }
+
 .sliderLayoutContainer--carousel {
   background-color: #f0f0f0;
 }
@@ -56,6 +64,7 @@
   margin: 0 20px;
   height: 280px;
 }
+
 .sliderTrackContainer--menu-slider {
   height: 270px;
   margin: 0 10px;
@@ -67,6 +76,7 @@
   padding-left: 0;
   margin-bottom: 30px;
 }
+
 .slide--shelf {
   padding: 0 5px;
   max-width: 11.3333%;
@@ -80,11 +90,12 @@
   height: auto;
 }
 
-.slideChildrenContainer--shelf :global(.vtex-modal-layout-0-x-triggerContainer--quickview){
-  top: 10px ;
+.slideChildrenContainer--shelf :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
+  top: 10px;
 }
+
 .caretIcon--shelf {
-  outline: 0!important;
+  outline: 0 !important;
   right: -15px;
   margin: 0;
   padding: 5px;
@@ -92,77 +103,92 @@
   border: 1px solid #9d884b;
   background: white;
 }
+
 .sliderLeftArrow--shelf {
   left: -22px;
   border-radius: 50%;
 }
+
 .sliderRightArrow--shelf {
   right: -22px;
   border-radius: 50%;
 }
-.caretIcon--social-networks{
+
+.caretIcon--social-networks {
   width: 22px;
   height: 22px;
 }
-.sliderArrows--social-networks{
+
+.sliderArrows--social-networks {
   border-radius: 50%;
   border: 1px solid rgb(157, 136, 75);
   padding: 5px;
   background: #fff !important;
 }
+
 .sliderLeftArrow--social-networks {
   left: -22px;
 }
+
 .sliderRightArrow--social-networks {
   right: -22px;
 }
-.sliderArrows--home-slider-size{
+
+.sliderArrows--home-slider-size {
   top: 0px;
   z-index: 3;
   width: 48%;
   opacity: 1;
 }
-.caretIcon--home-slider-size{
+
+.caretIcon--home-slider-size {
   width: 0%;
 }
-.sliderRightArrow--home-slider-size::before{
+
+.sliderRightArrow--home-slider-size::before {
   content: "VESTUARIO";
   font-size: 14px;
   font-weight: bold;
   right: unset;
   left: 0;
 }
-.sliderLeftArrow--home-slider-size::before{
+
+.sliderLeftArrow--home-slider-size::before {
   content: "CALZADO";
   font-size: 14px;
   font-weight: bold;
   left: unset;
   right: 0;
 }
-.sliderRightArrow--home-slider-size::before:focus{
+
+.sliderRightArrow--home-slider-size::before:focus {
   margin-top: 15px;
   border-bottom: 1px solid #000;
   font-weight: bold;
 }
-.sliderLeftArrow--home-slider-size{
+
+.sliderLeftArrow--home-slider-size {
   background: unset;
 }
 
-.slideChildrenContainer--home-slider{
+.slideChildrenContainer--home-slider {
   justify-content: center;
   display: flex;
 }
+
 @media screen and (max-width: 1024px) {
   .sliderLeftArrow--home-slider {
     right: 15px;
     top: 45%;
     height: unset;
   }
+
   .sliderRightArrow--home-slider {
     right: 15px;
     height: unset;
     top: 70%;
   }
+
   .slide--shelf .slide--header-menu-slider {
     width: 0;
     height: 0;
@@ -173,6 +199,7 @@
     padding: 0;
     height: auto;
   }
+
   .sliderTrack--shelf {
     margin: 0;
     padding: 0;
@@ -182,6 +209,7 @@
     padding: 0 10px !important;
     margin: 0px 10px !important;
   }
+
   .slidertrack--social-networks {
     width: 768px !important;
   }
@@ -189,13 +217,15 @@
   .sliderLayoutContainer--shelf {
     color: #212529;
     font-size: 16px;
-    padding: 0 !important ;
+    padding: 0 !important;
     margin: 0 0 10px !important;
   }
+
   .slide--shelf {
     padding: 0 5px;
     height: auto;
   }
+
   .sliderArrows--shelf {
     background: #ffffff !important;
     padding: 0px;
@@ -203,20 +233,25 @@
     height: 15;
     margin: 0 !important;
   }
+
   .sliderLeftArrow--shelf {
     left: 5px !important;
   }
+
   .sliderRightArrow--shelf {
     right: 5px !important;
   }
+
   .sliderTrackContainer--shelf {
     margin: 0 5px;
   }
+
   .caretIcon--shelf {
     width: 20px;
     height: 20px;
   }
-  .caretIcon--home-slider{
+
+  .caretIcon--home-slider {
     width: 15px;
     height: 15px;
   }

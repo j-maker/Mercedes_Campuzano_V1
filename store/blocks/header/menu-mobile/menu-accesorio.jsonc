@@ -1,25 +1,27 @@
 {
-    "flex-layout.row#menu-mobile-accesorios-new":{
-    "props":{
-      "blockClass":"menu-mobile-new",
-      "colSizing":"auto"
+  "flex-layout.row#menu-mobile-accesorios-new": {
+    "props": {
+      "blockClass": "menu-mobile-new",
+      "colSizing": "auto"
     },
-    "children":[
+    "children": [
       "drawer#mobile-menu-new-accesorios"
     ]
   },
   "drawer#mobile-menu-new-accesorios": {
     "props": {
-      "blockClass": ["mobile-menu-accesorios"],
+      "blockClass": [
+        "mobile-menu-accesorios"
+      ],
       "slideDirection": "rightToLeft",
       "backdropMode": "none",
       "isFullWidth": "true"
     },
     "children": [
-        "logo#drawer",
-        "flex-layout.row#drawer-row-2",
-        "link#mobile-menu-accesoriosTop",
-        "menu-item#menu-3-1",
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-accesoriosTop",
+      "menu-item#menu-3-1",
       "menu-item#menu-3-2",
       "menu-item#menu-3-3",
       "menu-item#menu-3-4",

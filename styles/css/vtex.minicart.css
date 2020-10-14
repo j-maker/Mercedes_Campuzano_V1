@@ -1,39 +1,49 @@
-.cartIcon--minicart{
+.cartIcon--minicart {
   width: 0 !important;
 }
+
 .cartIcon {
   height: 23px;
   width: 23px;
   margin-top: -10px;
   padding: 0px;
 }
-.openIconContainer--minicart{
+
+.openIconContainer--minicart {
   padding: 0;
 }
-.openIconContainer--minicart :global(.vtex-button){
+
+.openIconContainer--minicart :global(.vtex-button) {
   outline: 0 !important;
   margin-left: 10px;
   margin-right: 10px;
 }
-.openIconContainer--minicart :global(.vtex-button__label){
+
+.openIconContainer--minicart :global(.vtex-button__label) {
   margin-top: 7px;
 }
+
 .openIconContainer {
   height: auto;
 }
+
 .openIconContainer:hover {
   background: none;
   background-color: none;
 }
+
 .minicartContainer {
   padding: 0px;
 }
+
 .minicartSideBarContentWrapper {
   padding-left: 20px;
 }
+
 .minicartEmptyStateContainer {
   justify-content: unset;
 }
+
 .minicartQuantityBadge {
   background: #d86c2b;
   margin-top: 15px;
@@ -46,48 +56,58 @@
   font-family: "Lora";
   border-radius: 10px;
 }
+
 .opened {
   width: 480px;
 }
+
 .minicartCheckoutButton {
   z-index: 999;
   position: fixed;
   bottom: 5px;
   width: 100%;
 }
-.minicartCheckoutButton :global(.vtex-button__label){
+
+.minicartCheckoutButton :global(.vtex-button__label) {
   font-size: 0;
 }
-.minicartCheckoutButton :global(.vtex-button){
+
+.minicartCheckoutButton :global(.vtex-button) {
   background: #d86c2b !important;
 }
-.minicartCheckoutButton :global(.vtex-button__label)::after{
+
+.minicartCheckoutButton :global(.vtex-button__label)::after {
   font-size: 14px;
   content: "FINALIZA TU COMPRA";
   color: #fff;
   font-weight: bold;
 }
-.closeIconButton--minicart{
+
+.closeIconButton--minicart {
   padding: 0;
 }
-.closeIcon--minicart{
+
+.closeIcon--minicart {
   position: fixed;
   right: 10px;
   top: 10px;
   width: 20px;
 }
-.minicartTitle{
+
+.minicartTitle {
   margin-top: 30px;
 }
-.minicartCheckoutButton :global(.vtex-button){
+
+.minicartCheckoutButton :global(.vtex-button) {
   outline: 0 !important;
 }
-.drawer--minicart{
+
+.drawer--minicart {
   max-width: 430px !important;
   z-index: 999999;
 }
 
-.minicartContainer--minicart :global(.vtex-button)::after{
+.minicartContainer--minicart :global(.vtex-button)::after {
   content: "";
   background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/mc-bag.png");
   background-size: contain;
@@ -98,40 +118,47 @@
   padding-top: 25px;
   padding-left: 25px;
 }
+
 @media screen and (max-width: 1024px) {
-  .minicartContainer--minicart :global(.vtex-button)::after{
+  .minicartContainer--minicart :global(.vtex-button)::after {
     padding-top: 23px;
     padding-left: 23px;
   }
-  .minicartContainer--minicart{
+
+  .minicartContainer--minicart {
     margin-right: -10px;
   }
-  .openIconContainer--minicart{
-  margin-top: 10px !important;
+
+  .openIconContainer--minicart {
+    margin-top: 10px !important;
   }
 
-  .openIconContainer--minicart :global(.vtex-button__label){
+  .openIconContainer--minicart :global(.vtex-button__label) {
     height: 27px;
   }
 
 
 
-  .minicartSideBarContentWrapper{
+  .minicartSideBarContentWrapper {
     min-height: 650px;
   }
+
   .minicartCheckoutButton {
     z-index: 999;
     position: unset;
     bottom: 5px;
     width: 100%;
   }
+
   .opened {
     width: 100% !important;
   }
+
   .openIconContainer {
     padding: 0px;
     margin: 0 0 10px 0px;
   }
+
   .cartIcon {
     height: 23px;
     width: 23px;

@@ -15,7 +15,8 @@
   color: #fff;
   font-weight: 500;
 }
-.buttonText--buy-button-product{
+
+.buttonText--buy-button-product {
   margin: 12px 0;
 }
 
@@ -23,7 +24,8 @@
   .buttonDataContainer--buy-button-shelf {
     padding: 7px 0px;
   }
-  .buttonText--buy-button-product{
+
+  .buttonText--buy-button-product {
     font-size: 12px;
   }
 }

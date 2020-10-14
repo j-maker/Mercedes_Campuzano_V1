@@ -9,9 +9,15 @@
   color: #3f3f40;
   font-size: 1.25rem;
 }
+
 .sellingPrice--hasListPrice {
   margin-top: 5px;
 }
+
+.currencyContainer--summary {
+  margin-right: 8px;
+}
+
 .sellingPriceValue {
   font-size: 1.1rem;
   margin: 0 0 0 10px;
@@ -19,6 +25,7 @@
   color: #e69675;
   align-items: left;
 }
+
 .listPriceValue {
   font-size: 1.2rem;
   font-weight: 400;
@@ -43,6 +50,7 @@
   color: #e69675;
   margin: 0 !important;
 }
+
 .listPriceValue--summary {
   color: #292c2a;
   font-size: 14px;
@@ -50,10 +58,12 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+
 .sellingPrice--summary {
   margin: 0 !important;
   padding: 0 !important;
 }
+
 .savings--summary {
   display: none;
 }
@@ -66,13 +76,16 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+
 .installments--summary {
   display: none;
 }
+
 @media screen and (max-width: 1024px) {
   .listPriceValue--summary {
     font-size: 13px;
   }
+
   .listPrice {
     margin: 4px 0px 0 0 !important;
   }

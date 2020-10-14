@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
 .paragraph--home-text-2,
 .paragraph--home-text-1 {
   color: #000000;
@@ -8,6 +9,7 @@
   letter-spacing: 0.1em;
   margin: 40px 0px;
 }
+
 .paragraph--home-text-2::after,
 .paragraph--home-text-1::after {
   content: "";
@@ -17,32 +19,39 @@
   width: 60%;
   background-color: #9d884b;
 }
+
 .container--home-footer-banner {
   color: black;
 }
+
 .strong--footer-row-3-contact {
   font-weight: 600;
 }
+
 .strong--footer-row-4-title-redes {
   font-weight: bold;
   font-size: 15 px;
 }
+
 .paragraph--footer-row-3-contact {
   font-size: 14px;
   font-weight: 400;
   color: black;
   margin: 0;
 }
+
 .paragraph--footer-row-3-contact::before {
   font-weight: 700;
   color: #9d884b;
   content: "¿NECESITAS AYUDA? ";
 }
+
 .paragraph--footer-row-3-contact::after {
   font-weight: 700;
   color: #9d884b;
   content: " +57 317 426 6793";
 }
+
 .paragraph--footer-row-3-contact-email::before {
   font-size: 14px;
   font-weight: 700;
@@ -50,26 +59,31 @@
   color: #9d884b;
   content: "EMAIL: ";
 }
+
 .strong--footer-row-3-contact {
   font-weight: 700 !important;
 }
+
 .link--footer-row-3-contact-email {
   font-size: 14px;
   font-weight: 400;
   color: black;
   margin: 0;
 }
+
 .paragraph--footer-row-4-title-redes {
   font-weight: semi-bold;
   color: #9d884b;
   font-size: 13px;
 }
+
 .paragraph--footer-link-title-col {
   font-size: 13.5px;
   font-weight: bold;
   color: #515151;
   margin-bottom: 30px;
 }
+
 .paragraph--row-6-2-copy {
   font-size: 12px;
   margin-top: 30px;
@@ -79,16 +93,19 @@
   justify-content: center;
   padding: 0 20px;
 }
+
 .wrapper--footer-row-2-newsletter {
   width: 450px;
   margin-bottom: 20px;
   margin-top: -30px;
 }
+
 .paragraph--footer-row-2-newsletter {
   line-height: 2;
   font-size: 11px;
   text-align: justify;
 }
+
 .paragraph--footer-terms-title {
   border-top: 1px solid #9d884b;
   padding: 10px 50px;
@@ -101,11 +118,13 @@
   height: 100%;
   margin: 20px auto;
 }
+
 .container--footer-terms-content-subtitles,
 .container--footer-terms-content {
   margin: 0px 30px;
   height: 100%;
 }
+
 .container--footer-terms-content-frequent-questions-1,
 .container--footer-terms-content-terms-use,
 .container--footer-terms-content-terms-use-justify,
@@ -123,6 +142,7 @@
   margin: 0px 30px;
   height: auto;
 }
+
 .container--footer-contact-us {
   width: 730px !important;
   justify-content: center;
@@ -130,6 +150,7 @@
   font-size: 16px;
   color: #69727b;
 }
+
 .paragraph--footer-terms-content-terms-use-justify,
 .paragraph--footer-terms-content-buy-insurance,
 .paragraph--footer-terms-content-online-shopping,
@@ -142,6 +163,7 @@
   text-align: justify !important;
   color: #515151;
 }
+
 .strong--footer-terms-content-terms-use-justify,
 .strong--footer-terms-content-subtitles-policies,
 .strong--footer-terms-content-subtitles-policies-changes,
@@ -164,11 +186,13 @@
   color: #69727b;
   font-weight: bold;
 }
+
 .strong--footer-terms-content-subtitles-frequent-questions {
   font-size: 18px;
   font-family: "Lora";
   color: #907c68;
 }
+
 .strong--footer-terms-content-subtitles-club-coleccionistas {
   font-size: 19px;
   font-family: "Lora";
@@ -176,6 +200,7 @@
   font-weight: 500;
   margin-bottom: 0px;
 }
+
 .link--footer-terms-content-recomendations-block,
 .link--footer-terms-content-terms-use,
 .link--footer-row-2-newsletter,
@@ -187,6 +212,7 @@
   text-decoration: none;
   color: black;
 }
+
 .wrapper--subtitle-collectors-club {
   margin: 40px 0 0 30px;
   font-family: "Lora";
@@ -194,6 +220,7 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 .strong--footer-terms-content-subtitles-terms-use {
   font-family: "Lora";
   font-size: 15px;
@@ -202,12 +229,14 @@
   font-weight: 600;
   opacity: 0.7;
 }
+
 .paragraph--footer-terms-content-terms-use {
   font-size: 14px;
   text-align: justify !important;
   color: #515151;
   margin-left: 20px;
 }
+
 .link--footer-row-2-newsletter {
   text-decoration: none;
   color: #9d884b;
@@ -226,6 +255,7 @@
   padding-top: 6px;
   padding-left: 7px;
 }
+
 .container--footer-terms-content-profits-club-coleccionistas::before {
   width: 18px;
   content: "";
@@ -250,6 +280,7 @@
   letter-spacing: 0.5px;
   color: #000;
 }
+
 .container--footer-terms-content-subtitles-club-coleccionistas {
   margin: 30px 25px 0;
   height: auto;
@@ -259,6 +290,7 @@
   letter-spacing: 0.5px;
   color: #000;
 }
+
 .container--footer-terms-content-recomendations-block {
   margin: 0px 30px 0 55px;
   height: auto;
@@ -267,6 +299,7 @@
   text-align: justify;
   color: #515151;
 }
+
 .paragraph--footer-terms-content-recomendations-block {
   margin: 0;
 }
@@ -286,6 +319,7 @@
   font-weight: 500;
   letter-spacing: 1px;
 }
+
 .strong--footer-terms-content-policies-1 {
   font-family: "Lora";
   font-size: 14px;
@@ -298,6 +332,7 @@
   margin-top: 5px;
   padding-right: 20px;
 }
+
 .paragraph--desktop-fixed-help {
   font-weight: 600;
   font-size: 15px;
@@ -307,6 +342,7 @@
   width: 48px;
   height: 20px;
 }
+
 .strong--fixed-help {
   font-weight: 600;
 }
@@ -318,10 +354,12 @@
   font-weight: 800;
   color: #e7b79a;
 }
+
 .strong--store-shelf-content {
   color: #9d884b;
   font-weight: 600;
 }
+
 .container--store-shelf-content {
   margin: 0px 10px;
   padding: 0px 55px;
@@ -329,48 +367,60 @@
   color: #515151;
   font-size: 12px;
 }
+
 .container--price-online {
   margin-bottom: 20px;
   font-size: 14px;
   color: #69727b;
 }
+
 .paragraph--price-online {
   margin: 0;
 }
-.paragraph--textSaleMini{
+
+.paragraph--textSaleMini {
   line-height: unset;
 }
-.link--textSaleMini{
+
+.link--textSaleMini {
   color: #ee562a;
 }
-.wrapper--textSaleMini{
+
+.wrapper--textSaleMini {
   padding: 10px 10px 0 10px;
 }
-.paragraph--richSizeDress{
+
+.paragraph--richSizeDress {
   font-weight: 600;
 }
-.container--richSizeDress{
+
+.container--richSizeDress {
   display: flex;
   justify-content: center;
 }
-.paragraph--richSizeDress{
+
+.paragraph--richSizeDress {
   margin: 0;
   padding: 10px 0;
 }
-.paragraph--textMainSize{
+
+.paragraph--textMainSize {
   cursor: pointer;
 }
-.paragraph--textMainSize:hover{
+
+.paragraph--textMainSize:hover {
   text-decoration: underline;
 }
-.paragraph--filterSearchText{
+
+.paragraph--filterSearchText {
   line-height: 0;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   color: #000;
 }
-.paragraph--filterSearchText::before{
+
+.paragraph--filterSearchText::before {
   content: "";
   background-image: url("https://img.icons8.com/ios/16/000000/sorting-options--v1.png");
   background-size: contain;
@@ -379,6 +429,7 @@
   z-index: 1;
   padding-left: 24px;
 }
+
 .link--header-2-link {
   color: #000;
   font-size: 12px;
@@ -387,55 +438,70 @@
   text-decoration: none;
   padding: 20px 5px;
 }
+
 .paragraph--header-2-link:hover {
   opacity: 0.6 !important;
 }
-.wrapper--tituloWishlist{
+
+.wrapper--tituloWishlist {
   margin: 0 auto;
 }
-.wrapper--tituloWishlist .heading-level-3{
+
+.wrapper--tituloWishlist .heading-level-3 {
   margin: 10px 0 20px 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .paragraph--header-2-link{
+  .paragraph--header-2-link {
     margin: 0;
   }
+
   .container--price-online {
     margin-bottom: 15px;
   }
-  .paragraph--textSaleMini{
+
+  .paragraph--textSaleMini {
     margin-top: 0;
   }
-  .paragraph--Title-news{
+
+  .paragraph--Title-news {
     font-size: 30px;
   }
-  .container--home-text-2{
+
+  .container--home-text-2 {
     display: none;
   }
+
   .container--footer-row-2-newsletter {
     margin: 0 20px;
   }
+
   .container--home-footer-banner {
     font-size: 13px;
   }
+
   .container--row-6-2-copy {
     padding-bottom: 0px;
   }
+
   .paragraph--row-6-2-copy {
     font-size: 12px;
     margin: 30px 80px 5px 80px;
   }
+
   .paragraph--footer-row-3-contact {
     text-decoration: none;
   }
+
   .link--footer-row-3-contact-email {
     font-size: 13px;
   }
+
   .container--home-text-2,
   .container--home-text-1 {
     width: 100%;
   }
+
   .container--footer-link-title-col {
     display: flex;
     justify-content: center;
@@ -504,15 +570,18 @@
   font-weight: 300;
   color: #03034e;
 }
+
 .container--footer-terms-title {
   display: flex;
   justify-content: center;
 }
+
 .container--title {
   color: #03034e;
   font-size: 28px;
   font-weight: 700;
 }
+
 .paragraph--tallas {
   margin: auto;
   font-size: 14px;
@@ -521,9 +590,11 @@
   text-align: center;
   margin-left: 5px;
 }
+
 .wrapper--tallas {
   cursor: pointer;
 }
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -547,7 +618,7 @@
 }
 
 .paragraph--Title-news {
-  font-family: "Lora",serif;
+  font-family: "Lora", serif;
   font-size: 44px;
   font-weight: 200;
   letter-spacing: 7px;
@@ -562,6 +633,7 @@
   justify-content: center;
   padding: 0 20px;
 }
+
 .paragraph--newsletter-terms-modal {
   line-height: 2;
   font-size: 11px;
@@ -580,7 +652,7 @@
   z-index: 1000000;
   background-color: #fffafa;
   color: #9d884b;
-  border: 4px solid #9d884b!important;
+  border: 4px solid #9d884b !important;
   bottom: 15px;
   left: 30px;
   font-weight: 500;
@@ -588,7 +660,8 @@
   text-align: center;
   cursor: pointer;
 }
-.wrapper--desktop-fixed-discount::before{
+
+.wrapper--desktop-fixed-discount::before {
   width: 36px;
   content: "";
   background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/popUp10.png");
@@ -601,9 +674,11 @@
   padding-left: 73px;
   cursor: pointer;
 }
-.container--form-devoluciones{
+
+.container--form-devoluciones {
   display: none;
 }
-.container--header-2-link{
+
+.container--header-2-link {
   margin-right: 30px;
 }

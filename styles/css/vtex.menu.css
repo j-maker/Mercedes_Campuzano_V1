@@ -3,15 +3,19 @@
   font-size: 13px;
   color: #515151;
 }
+
 .menuItem--header-submenu-text:hover {
   background: #ebdedd;
 }
+
 .menuItem--header-submenu-1-text:hover {
   background: #ebdedd;
 }
+
 .menuItem--header-submenu-1-text {
   padding: 10px 0;
 }
+
 .styledLinkContent--header-submenu-1-text {
   font-size: 13px;
   color: #515151;
@@ -19,6 +23,7 @@
   height: 100%;
   padding: 1% 0;
 }
+
 .styledLinkContent--header-menu-2 {
   text-decoration: none;
   color: black;
@@ -27,51 +32,63 @@
   text-transform: uppercase;
   height: 21px;
 }
-.menuContainer--submenuVestuario{
+
+.menuContainer--submenuVestuario {
   justify-content: center;
 }
-.menuItem--header-menu-2{
+
+.menuItem--header-menu-2 {
   display: flex;
 }
-.menuItem--header-menu-2::after {/**/
+
+.menuItem--header-menu-2::after {
+  /**/
   width: 12px;
-    content: "";
-    background-image: url("/arquivos/arrow.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 999;
-    padding-top: 5px;
-    padding-left: 7px;
-    margin-top: 1px;
-    position: relative;
-    height: 46px;
-    margin: 14px 0 14px -12px;
+  content: "";
+  background-image: url("/arquivos/arrow.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 999;
+  padding-top: 5px;
+  padding-left: 7px;
+  margin-top: 1px;
+  position: relative;
+  height: 46px;
+  margin: 14px 0 14px -12px;
 }
-.menuItem--header-menu-2:hover::after {/**/
+
+.menuItem--header-menu-2:hover::after {
+  /**/
   transform: rotate(180deg);
 }
+
 .styledLinkContent--header-menu-2:hover::after {
   transform: rotate(180deg);
   opacity: 0.5;
 }
+
 .styledLinkContent--header-menu-2:hover {
   color: #797878;
   font-weight: 400;
 }
+
 .styledLinkContainer--header-menu-2 {
   height: 20px;
   margin: 14px;
 }
+
 .styledLinkContent--header-submenu-text {
   font-size: 13px;
   color: #515151;
 }
+
 .submenuContainer {
   left: -0.9em;
   right: 0em;
   position: absolute;
 }
+
 .submenuWrapper {
   height: 310px;
   width: 100%;
@@ -87,6 +104,7 @@
 .menuContainerNav--submenu {
   width: 280px;
 }
+
 .menuContainerNav--submenu-1 {
   width: 200px;
 }
@@ -96,7 +114,7 @@
   opacity: 0.5;
 }
 
-.menuItem--submenu-baletas:hover::before{
+.menuItem--submenu-baletas:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-baletas.jpg");
@@ -109,7 +127,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-sandalias-planas:hover::before{
+.menuItem--submenu-sandalias-planas:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-sandalias-planas.jpg");
@@ -122,7 +140,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-botas-y-botines:hover::before{
+.menuItem--submenu-botas-y-botines:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-botas.jpg");
@@ -135,7 +153,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-mocasines:hover::before{
+.menuItem--submenu-mocasines:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-Mocasines.jpg");
@@ -148,7 +166,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-oxford:hover::before{
+.menuItem--submenu-oxford:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-oxford.jpg");
@@ -161,7 +179,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-zapatos-de-tacon:hover::before{
+.menuItem--submenu-zapatos-de-tacon:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-sandalias-de-tacon.jpg");
@@ -174,7 +192,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-tacones:hover::before{
+.menuItem--submenu-tacones:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-tacones.jpg");
@@ -187,7 +205,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-tenis:hover::before{
+.menuItem--submenu-tenis:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-tenis.jpg");
@@ -200,7 +218,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-zuecos:hover::before{
+.menuItem--submenu-zuecos:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-zuecos.jpg");
@@ -213,7 +231,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-spadrillas:hover::before{
+.menuItem--submenu-spadrillas:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-spadrillas.jpg");
@@ -226,7 +244,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-sandalias-plataforma:hover::before{
+.menuItem--submenu-sandalias-plataforma:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-sandalias-plataforma.jpg");
@@ -239,7 +257,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-bolsos-y-carteras:hover::before{
+.menuItem--submenu-bolsos-y-carteras:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-bolsos.jpg");
@@ -252,7 +270,7 @@
   z-index: 1000;
 }
 
-.menuItem--submenu-morrales:hover::before{
+.menuItem--submenu-morrales:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-morrales.jpg");
@@ -265,7 +283,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-bandoleras:hover::before{
+.menuItem--submenu-bandoleras:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-bandoleras.jpg");
@@ -278,7 +296,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-sobres:hover::before{
+.menuItem--submenu-sobres:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-sobres.jpg");
@@ -291,7 +309,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-llaveros:hover::before{
+.menuItem--submenu-llaveros:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-llaveros.jpg");
@@ -304,7 +322,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-cosmetiqueras:hover::before{
+.menuItem--submenu-cosmetiqueras:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-cosmetiquera.jpg");
@@ -317,7 +335,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-pulseras:hover::before{
+.menuItem--submenu-pulseras:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-pulseras.jpg");
@@ -330,7 +348,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-limpieza-y-cuidados:hover::before{
+.menuItem--submenu-limpieza-y-cuidados:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-limpieza-y-cuidados.jpg");
@@ -343,7 +361,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-cadenas-y-collares:hover::before{
+.menuItem--submenu-cadenas-y-collares:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-cadenas-y-collares.jpg");
@@ -356,7 +374,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-anillos:hover::before{
+.menuItem--submenu-anillos:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-anillos.jpg");
@@ -369,7 +387,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-aretes:hover::before{
+.menuItem--submenu-aretes:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-aretes.jpg");
@@ -382,7 +400,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-billeteras-y-monederos:hover::before{
+.menuItem--submenu-billeteras-y-monederos:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-billeteras.jpg");
@@ -395,7 +413,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-cinturones:hover::before{
+.menuItem--submenu-cinturones:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-cinturon.jpg");
@@ -410,7 +428,7 @@
 
 
 
-.menuItem--submenu-safe-kit:hover::before{
+.menuItem--submenu-safe-kit:hover::before {
   content: "";
   position: absolute;
   background: #f7ebe9;
@@ -422,12 +440,13 @@
   height: 259px;
   z-index: 2;
 }
-.menuContainerNav--submenuVestuario{
+
+.menuContainerNav--submenuVestuario {
   width: 100% !important;
   justify-content: center !important;
 }
 
-.menuItem--submenu-Bono-Regalo:hover::before{
+.menuItem--submenu-Bono-Regalo:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-bonos.jpg");
@@ -440,7 +459,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-ventas-corporativas:hover::before{
+.menuItem--submenu-ventas-corporativas:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-ventas-corporativas.jpg");
@@ -453,7 +472,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-Cosmopolita:hover::before{
+.menuItem--submenu-Cosmopolita:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-cosmopolita.jpg");
@@ -466,7 +485,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-Urbano:hover::before{
+.menuItem--submenu-Urbano:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-urbano.jpg");
@@ -479,7 +498,7 @@
   z-index: 2;
 }
 
-.menuItem--submenu-Verano:hover::before{
+.menuItem--submenu-Verano:hover::before {
   content: "";
   position: absolute;
   background-image: url("/arquivos/MC-menu-verano.jpg");
@@ -533,16 +552,17 @@
 .styledLink--submenu {
   background: transparent;
 }
-.submenuWrapper--menu-vestuario{
-    height: auto; 
-    width: 100%;
-    left: 0;
-    right: 0;
-    box-sizing: border-box;
-    border: 0;
-    margin: 80px 0 20px 0;
-    padding: 20px 0;
-    background-color: #f7ebe9!important;
+
+.submenuWrapper--menu-vestuario {
+  height: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  border: 0;
+  margin: 80px 0 20px 0;
+  padding: 20px 0;
+  background-color: #f7ebe9 !important;
 }
 
 
@@ -555,33 +575,41 @@
     border-bottom: 1px solid #d0d0d0;
     text-transform: capitalize;
   }
+
   .submenuWrapper {
     height: 0px;
     padding: 0px;
   }
+
   .menuContainerNav {
     width: 100%;
   }
+
   .styledLinkContainer--header-menu-2 {
     height: 0;
     margin: 0 0 0 5px;
     padding: 0px;
   }
+
   .styledLinkContent--header-menu-2 {
     margin: 0;
     padding: 0px 0 0 7px;
     text-transform: capitalize;
   }
+
   .styledLinkContent--header-menu-2::after {
     display: none;
   }
+
   .styledLinkContent--header-menu-2 {
     font-size: 16px;
   }
+
   .styledLinkContent--header-submenu-1-text {
     margin: 0;
     padding: 0px;
   }
+
   .styledLinkContent--submenu,
   .styledLinkContent--submenu-baletas,
   .styledLinkContent--submenu-sandalias-planas,
@@ -618,7 +646,8 @@
     text-transform: capitalize;
     font-size: 15px;
   }
-    .styledLinkContent--submenu-baletas,
+
+  .styledLinkContent--submenu-baletas,
   .styledLinkContent--submenu-sandalias-planas,
   .styledLinkContent--submenu-botas-y-botines,
   .styledLinkContent--submenu-mocasines,
@@ -653,6 +682,7 @@
     text-transform: capitalize;
     font-size: 15px;
   }
+
   .menuItem--submenu:hover::before,
   .menuItem--submenu-baletas:hover::before,
   .menuItem--submenu-sandalias-planas:hover::before,
@@ -687,6 +717,7 @@
   .menuItem--submenu-Verano:hover::before {
     display: none;
   }
+
   .menuItem--submenu-baletas,
   .menuItem--submenu-sandalias-planas,
   .menuItem--submenu-botas-y-botines,
@@ -728,15 +759,18 @@
     margin: 0px 0px;
     border-bottom: 1px solid #d0d0d0;
   }
+
   .menuItem--header-submenu-text {
     padding: 7px 20px;
     margin: 0px 0px;
     border-bottom: 1px solid #d0d0d0;
   }
+
   .menuItem--header-menu-2 {
     width: 10px !important;
     left: 0.9em;
   }
+
   .styledLinkContainer--submenu-safe-kit,
   .styledLinkContainer--submenu-bono-regalo,
   .styledLinkContainer--submenu-ventas-corporativas,
@@ -767,7 +801,7 @@
   .styledLinkContainer--submenu-mocasines,
   .styledLinkContainer--submenu-botas-y-botines,
   .styledLinkContainer--submenu-baletas,
-  .styledLinkContainer--submenu-bolsos-y-carteras{
+  .styledLinkContainer--submenu-bolsos-y-carteras {
     padding: 10px 0;
   }
 }

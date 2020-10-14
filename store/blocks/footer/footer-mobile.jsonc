@@ -1,7 +1,7 @@
 {
     "flex-layout.row#footer": {
-        "props":{
-            "blockClass":"footer-wrapper"
+        "props": {
+            "blockClass": "footer-wrapper"
         },
         "children": [
             "flex-layout.row#footer-row-1",
@@ -14,7 +14,6 @@
             "modal-trigger#form-newsletterButton"
         ]
     },
-    
     "image#mobile-fixed-help": {
         "props": {
             "blockClass": "mobile-fixed-help",

@@ -3,7 +3,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "flex-layout.row#description",  
+      "flex-layout.row#description",
       "rich-text#recomended",
       "shelf.relatedProducts"
     ]
@@ -27,7 +27,7 @@
       "flex-layout.col#shelf-page-product-recomended"
     ],
     "props": {
-      "blockClass":"home-wrapper-shelf",
+      "blockClass": "home-wrapper-shelf",
       "recommendation": "views"
     }
   },
@@ -53,7 +53,10 @@
       "marginBottom": 7,
       "max-height": "10%"
     },
-    "children": ["product-description","flex-layout.row#product"]
+    "children": [
+      "product-description",
+      "flex-layout.row#product"
+    ]
   },
   "product-description": {
     "props": {
@@ -150,10 +153,9 @@
       //"shelf.relatedProducts#similars"
       //"shipping-simulator",
       //"share#default"--PENDIENTE CAMBIO
-      
     ]
   },
-/*  "flex-layout.col#right-col": {
+  /*  "flex-layout.col#right-col": {
     "props": {
       "blockClass": "right-col",
       "preventVerticalStretch": false,
@@ -214,42 +216,55 @@
       "modal-trigger#size-guide"
     ]
   },
-
   "modal-trigger#size-guide": {
     "children": [
       "rich-text#size-guide",
       "modal-layout#size-guide"
     ]
   },
-  
   "rich-text#size-guide": {
     "props": {
       "text": "Guía de tallas",
-      "blockClass":"textMainSize"
+      "blockClass": "textMainSize"
     }
   },
   "modal-layout#size-guide": {
     "children": [
       "modal-header#size-guide"
-    ],"props":{"blockClass":"size-guide"}
+    ],
+    "props": {
+      "blockClass": "size-guide"
+    }
   },
-  "modal-header#size-guide":{
+  "modal-header#size-guide": {
     "children": [
-      "flex-layout.row#products-details-tabs" 
-    ],"props":{"blockClass":"size-guide-modal-header"}
+      "flex-layout.row#products-details-tabs"
+    ],
+    "props": {
+      "blockClass": "size-guide-modal-header"
+    }
   },
-
-  "flex-layout.row#descriptionSize":{
-    "children":["rich-text#sizeDress","rich-text#sizeFootwear"],
-    "props":{"blockClass":"topSizeMenu"}
+  "flex-layout.row#descriptionSize": {
+    "children": [
+      "rich-text#sizeDress",
+      "rich-text#sizeFootwear"
+    ],
+    "props": {
+      "blockClass": "topSizeMenu"
+    }
   },
-  "rich-text#sizeDress":{
-    "props":{"blockClass":"richSizeDress", "text":"CALZADO"}
+  "rich-text#sizeDress": {
+    "props": {
+      "blockClass": "richSizeDress",
+      "text": "CALZADO"
+    }
   },
-  "rich-text#sizeFootwear":{
-    "props":{"blockClass":"richSizeDress", "text":"VESTUARIO"}
+  "rich-text#sizeFootwear": {
+    "props": {
+      "blockClass": "richSizeDress",
+      "text": "VESTUARIO"
+    }
   },
-
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 0
@@ -274,7 +289,7 @@
   },
   "sku-selector#product": {
     "props": {
-      "visibleVariations":[
+      "visibleVariations": [
         "talla"
       ],
       "initialSelection": "empty",
@@ -304,39 +319,6 @@
       }
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   "flex-layout.row#products-details-tabs": {
     "children": [
       "tab-layout#products-details-tabs"
@@ -373,7 +355,9 @@
     ],
     "props": {
       "width": "100%",
-      "blockClass": ["wrapperTopTitleSizes"]
+      "blockClass": [
+        "wrapperTopTitleSizes"
+      ]
     }
   },
   "tab-list.item#products-details-list1": {
@@ -398,11 +382,11 @@
   },
   "tab-content.item#products-details-content1": {
     "children": [
-    "image#sizeFootwear"
+      "image#sizeFootwear"
     ],
     "props": {
       "tabId": "home1",
-      "blockClass":"wrapperImageSize"
+      "blockClass": "wrapperImageSize"
     }
   },
   "tab-content.item#products-details-content2": {
@@ -411,18 +395,18 @@
     ],
     "props": {
       "tabId": "home2",
-      "blockClass":"wrapperImageSize"
+      "blockClass": "wrapperImageSize"
     }
   },
-  "image#sizeFootwear":{
+  "image#sizeFootwear": {
     "props": {
-      "blockClass":"imageSizeModal",
+      "blockClass": "imageSizeModal",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/guia-tallas-amazon-español.jpg"
     }
   },
-  "image#sizeDress":{
+  "image#sizeDress": {
     "props": {
-      "blockClass":"imageSizeModal",
+      "blockClass": "imageSizeModal",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/guia-tallas-VESTIDOS.jpg"
     }
   }

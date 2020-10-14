@@ -4,8 +4,8 @@
       "search-result-layout#title-search"
     ],
     "props": {
-      "context": {  
-        "orderByField":"OrderByReleaseDateDESC",
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
         "maxItemsPerPage": 16,
         "skusFilter": "ALL",
@@ -19,7 +19,7 @@
     ],
     "props": {
       "context": {
-        "orderByField":"OrderByReleaseDateDESC",
+        "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
         "maxItemsPerPage": 16,
         "skusFilter": "ALL",
@@ -33,7 +33,7 @@
     ],
     "props": {
       "context": {
-        "orderByField":"OrderByReleaseDateDESC",
+        "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "dynamic",
         "maxItemsPerPage": 16,
         "skusFilter": "ALL",
@@ -47,9 +47,9 @@
     ],
     "props": {
       "context": {
-        "facetsBehavior": "dynamic", 
+        "facetsBehavior": "dynamic",
         "maxItemsPerPage": 16,
-        "orderByField":"OrderByReleaseDateDESC",
+        "orderByField": "OrderByReleaseDateDESC",
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -62,13 +62,7 @@
       "search-not-found-layout"
     ]
   },
-
-
-
-
-
-
-/*
+  /*
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#did-you-mean",
@@ -104,26 +98,13 @@
     }
   },
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
   "search-result-layout.desktop#title-search": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
     "props": {
-     /* "pagination": "show-more",*/
+      /* "pagination": "show-more",*/
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "brands": true,
@@ -148,7 +129,7 @@
     ],
     "props": {
       "priceRange": false,
-    /*  "pagination": "show-more",*/
+      /*  "pagination": "show-more",*/
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "brands": true,
@@ -208,7 +189,7 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      "blockClass":"wrapperContentFilters",
+      "blockClass": "wrapperContentFilters",
       "priceRange": false,
       "width": "grow",
       "preventVerticalStretch": true
@@ -222,20 +203,31 @@
       //"flex-layout.col#productCount",
       //"flex-layout.col#orderby"
     ],
-    "props":{"blockClass":"wrapperSearchInfo"}
+    "props": {
+      "blockClass": "wrapperSearchInfo"
+    }
   },
   "drawer#filterSearch": {
-    "children": ["flex-layout.col#filter"],
-    "props":{"blockClass":"drawerFilter"},
-    "blocks": ["drawer-trigger#search"]
+    "children": [
+      "flex-layout.col#filter"
+    ],
+    "props": {
+      "blockClass": "drawerFilter"
+    },
+    "blocks": [
+      "drawer-trigger#search"
+    ]
   },
-  
   "drawer-trigger#search": {
     "children": [
-      "rich-text#openDrawerFilter"]
+      "rich-text#openDrawerFilter"
+    ]
   },
   "rich-text#openDrawerFilter": {
-    "props":{"text": "Filtro", "blockClass":"filterSearchText"}      
+    "props": {
+      "text": "Filtro",
+      "blockClass": "filterSearchText"
+    }
   },
   "flex-layout.col#productCount": {
     "children": [

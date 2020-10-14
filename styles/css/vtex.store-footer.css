@@ -1,15 +1,19 @@
 .row--footer-6 {
   background: #e1e1e1;
 }
-.rowContainer--footer-6{
+
+.rowContainer--footer-6 {
   margin-top: 8px;
 }
+
 @media screen and (max-width: 1024px) {
   .rowContentContainer--footer-6 {
     width: 50%;
     margin: 0px 120px;
     padding: 0px;
   }
-  .rowContainer--footer-6{
+
+  .rowContainer--footer-6 {
     margin-left: 15px;
-}}
+  }
+}

@@ -220,7 +220,7 @@
     "props": {
       "blockClass": "imageWishlist",
       "src": "https://aldoecuador.vtexassets.com/arquivos/heart.svg",
-      "href":"/wishlist",
+      "href": "/wishlist",
       "maxHeight": 20
     }
   },

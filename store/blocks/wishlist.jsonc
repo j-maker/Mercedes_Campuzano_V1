@@ -1,43 +1,53 @@
 {
-    "store.wishlist": {
-      "blocks": [
-        "flex-layout.row#wrapperWishlist"
-      ]
-    },
-    "flex-layout.row#wrapperWishlist": {
-        "children": [
-            "flex-layout.col#wrapperWishlist"
-        ],"props":{"blockClass":"wrapperWL"}
-      },
-      "flex-layout.col#wrapperWishlist": {
-        "children": [
-            "flex-layout.row#top",
-            "list-context.wishlist#wl"
-            ],"props":{"blockClass":"wrapperWL"}
-      },
-    "flex-layout.row#top": {
-      "children": [
-        "flex-layout.col#title"
-      ]
-    },
-    "flex-layout.col#title": {
-      "children": [
-        "rich-text#titlewishlist"
-      ],
-      "props": {
-        "blockClass": "titleWishlist",
-        "preventVerticalStretch": true
-      }
-    },
-    "rich-text#titlewishlist":{
-        "title":"Wishlist Titulo",
-      "props": {
-          "blockClass":"tituloWishlist",
-        "text": "### Favoritos"
-      }
-    },
-    "list-context.wishlist#wl": {
-      "blocks": ["product-summary.shelf#WL"],
-      "children": ["slider-layout#shelf-home"]
+  "store.wishlist": {
+    "blocks": [
+      "flex-layout.row#wrapperWishlist"
+    ]
+  },
+  "flex-layout.row#wrapperWishlist": {
+    "children": [
+      "flex-layout.col#wrapperWishlist"
+    ],
+    "props": {
+      "blockClass": "wrapperWL"
     }
+  },
+  "flex-layout.col#wrapperWishlist": {
+    "children": [
+      "flex-layout.row#top",
+      "list-context.wishlist#wl"
+    ],
+    "props": {
+      "blockClass": "wrapperWL"
+    }
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "flex-layout.col#title"
+    ]
+  },
+  "flex-layout.col#title": {
+    "children": [
+      "rich-text#titlewishlist"
+    ],
+    "props": {
+      "blockClass": "titleWishlist",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titlewishlist": {
+    "title": "Wishlist Titulo",
+    "props": {
+      "blockClass": "tituloWishlist",
+      "text": "### Favoritos"
+    }
+  },
+  "list-context.wishlist#wl": {
+    "blocks": [
+      "product-summary.shelf#WL"
+    ],
+    "children": [
+      "slider-layout#shelf-home"
+    ]
   }
+}

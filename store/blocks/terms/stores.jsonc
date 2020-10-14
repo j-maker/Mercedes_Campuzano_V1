@@ -8,13 +8,13 @@
     "children": [
       "flex-layout.col#stores-wrapper"
     ]
-  },  
-  "flex-layout.col#stores-wrapper":{
-      "props":{
-          "colSizing":"auto",
-          "blockClass":"footer-terms-col-wrapper"
-        },
-      "children":[
+  },
+  "flex-layout.col#stores-wrapper": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer-terms-col-wrapper"
+    },
+    "children": [
       "flex-layout.row#stores-title",
       "rich-text#stores-city-1",
       "flex-layout.row#stores-content-1",
@@ -32,7 +32,6 @@
       "flex-layout.row#stores-content-9",
       "flex-layout.row#stores-content-10",
       "flex-layout.row#stores-content-11"
-    
     ]
   },
   "flex-layout.row#stores-title": {
@@ -41,19 +40,19 @@
     ]
   },
   "rich-text#stores-title": {
-      "props": {
-        "blockClass":"footer-terms-title",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "NUESTRAS TIENDAS"
-      }
+    "props": {
+      "blockClass": "footer-terms-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "NUESTRAS TIENDAS"
+    }
   },
   "flex-layout.row#stores-content-1": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-11",
       /*"flex-layout.col#store-shelf-1",*/
@@ -63,11 +62,11 @@
     ]
   },
   "flex-layout.row#stores-content-2": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-4",
       "flex-layout.col#store-shelf-5",
@@ -77,35 +76,32 @@
     ]
   },
   "flex-layout.row#stores-content-3": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
-      
       "flex-layout.col#store-shelf-9",
       "flex-layout.col#spacer"
     ]
   },
   "flex-layout.row#stores-content-4": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
-
-
       "flex-layout.col#spacer"
     ]
   },
   "flex-layout.row#stores-content-5": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-12",
       "flex-layout.col#store-shelf-13",
@@ -113,11 +109,11 @@
     ]
   },
   "flex-layout.row#stores-content-6": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-14",
       //"flex-layout.col#store-shelf-15",
@@ -126,11 +122,11 @@
     ]
   },
   "flex-layout.row#stores-content-7": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-17",
       "flex-layout.col#store-shelf-18",
@@ -139,11 +135,11 @@
     ]
   },
   "flex-layout.row#stores-content-8": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       //"flex-layout.col#store-shelf-20",
       //"flex-layout.col#store-shelf-21",
@@ -152,11 +148,11 @@
     ]
   },
   "flex-layout.row#stores-content-9": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-23",
       "flex-layout.col#store-shelf-24",
@@ -165,11 +161,11 @@
     ]
   },
   "flex-layout.row#stores-content-10": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-26",
       "flex-layout.col#store-shelf-27",
@@ -178,11 +174,11 @@
     ]
   },
   "flex-layout.row#stores-content-11": {
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf-wrapper"
-    },  
-    "children": [ 
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf-wrapper"
+    },
+    "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#store-shelf-29",
       "flex-layout.col#store-shelf-30",
@@ -190,850 +186,843 @@
       "flex-layout.col#spacer"
     ]
   },
-  "flex-layout.col#store-shelf-1":{
-      "props":{
-          "colSizing":"auto",    
-          "blockClass":"stores-shelf"
-      },
-      "children":[
-          "rich-text#stores-shelf-title-1",
-          "rich-text#stores-shelf-content-1",
-          "link#stores-shelf-maps-1"
-      ]
-  },
-  "flex-layout.col#store-shelf-2":{
-      "props":{
-          "colSizing":"auto",
-          "blockClass":"stores-shelf"
-      },
-      "children":[
-          "rich-text#stores-shelf-title-2",
-          "rich-text#stores-shelf-content-2",
-          "link#stores-shelf-maps-2"
-      ]
-  },
-"flex-layout.col#store-shelf-3":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-3",
-    "rich-text#stores-shelf-content-3",
-    "link#stores-shelf-maps-3"
-]
-},
-  "flex-layout.col#store-shelf-4":{
-      "props":{
-          "colSizing":"auto",
-          "blockClass":"stores-shelf"
-      },
-      "children":[
-          "rich-text#stores-shelf-title-4",
-          "rich-text#stores-shelf-content-4",
-          "link#stores-shelf-maps-4"
-      ]
-  },
-  "flex-layout.col#store-shelf-5":{
-    "props":{
-        "colSizing":"auto",
-        "blockClass":"stores-shelf"
+  "flex-layout.col#store-shelf-1": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
     },
-    "children":[
-        "rich-text#stores-shelf-title-5",
-        "rich-text#stores-shelf-content-5",
-        "link#stores-shelf-maps-5"
+    "children": [
+      "rich-text#stores-shelf-title-1",
+      "rich-text#stores-shelf-content-1",
+      "link#stores-shelf-maps-1"
     ]
-},
-"flex-layout.col#store-shelf-6":{
-  "props":{
-      "colSizing":"auto",
-      "blockClass":"stores-shelf"
   },
-  "children":[
+  "flex-layout.col#store-shelf-2": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-2",
+      "rich-text#stores-shelf-content-2",
+      "link#stores-shelf-maps-2"
+    ]
+  },
+  "flex-layout.col#store-shelf-3": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-3",
+      "rich-text#stores-shelf-content-3",
+      "link#stores-shelf-maps-3"
+    ]
+  },
+  "flex-layout.col#store-shelf-4": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-4",
+      "rich-text#stores-shelf-content-4",
+      "link#stores-shelf-maps-4"
+    ]
+  },
+  "flex-layout.col#store-shelf-5": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-5",
+      "rich-text#stores-shelf-content-5",
+      "link#stores-shelf-maps-5"
+    ]
+  },
+  "flex-layout.col#store-shelf-6": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
       "rich-text#stores-shelf-title-6",
       "rich-text#stores-shelf-content-6",
       "link#stores-shelf-maps-6"
-  ]
-},
-"flex-layout.col#store-shelf-7":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-7",
-    "rich-text#stores-shelf-content-7",
-    "link#stores-shelf-maps-7"
-]
-},
-"flex-layout.col#store-shelf-8":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-8",
-    "rich-text#stores-shelf-content-8",
-    "link#stores-shelf-maps-8"
-]
-},
-"flex-layout.col#store-shelf-9":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-9",
-    "rich-text#stores-shelf-content-9",
-    "link#stores-shelf-maps-9"
-]
-},
-"flex-layout.col#store-shelf-11":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-11",
-    "rich-text#stores-shelf-content-11",
-    "link#stores-shelf-maps-11"
-]
-},
-"flex-layout.col#store-shelf-12":{
-"props":{
-    "colSizing":"auto",    
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-12",
-    "rich-text#stores-shelf-content-12",
-    "link#stores-shelf-maps-12"
-]
-},
-"flex-layout.col#store-shelf-13":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-13",
-    "rich-text#stores-shelf-content-13",
-    "link#stores-shelf-maps-13"
-]
-},
-
-"flex-layout.col#store-shelf-14":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-14",
-"rich-text#stores-shelf-content-14",
-"link#stores-shelf-maps-14"
-]
-},
-"flex-layout.col#store-shelf-15":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-15",
-    "rich-text#stores-shelf-content-15",
-    "link#stores-shelf-maps-15"
-]
-},
-"flex-layout.col#store-shelf-16":{
-"props":{
-  "colSizing":"auto",
-  "blockClass":"stores-shelf"
-},
-"children":[
-  "rich-text#stores-shelf-title-16",
-  "rich-text#stores-shelf-content-16",
-  "link#stores-shelf-maps-16"
-]
-},
-"flex-layout.col#store-shelf-17":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-17",
-"rich-text#stores-shelf-content-17",
-"link#stores-shelf-maps-17"
-]
-},
-"flex-layout.col#store-shelf-18":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-18",
-"rich-text#stores-shelf-content-18",
-"link#stores-shelf-maps-18"
-]
-},
-"flex-layout.col#store-shelf-19":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-19",
-"rich-text#stores-shelf-content-19",
-"link#stores-shelf-maps-8"
-]
-},
-"flex-layout.col#store-shelf-20":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-20",
-"rich-text#stores-shelf-content-20",
-"link#stores-shelf-maps-20"
-]
-},
-"flex-layout.col#store-shelf-21":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-21",
-"rich-text#stores-shelf-content-21",
-"link#stores-shelf-maps-21"
-]
-},
-"flex-layout.col#store-shelf-22":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-22",
-"rich-text#stores-shelf-content-22",
-"link#stores-shelf-maps-22"
-]
-},
-"flex-layout.col#store-shelf-23":{
-"props":{
-    "colSizing":"auto",    
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-23",
-    "rich-text#stores-shelf-content-23",
-    "link#stores-shelf-maps-12"
-]
-},
-"flex-layout.col#store-shelf-24":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-24",
-    "rich-text#stores-shelf-content-24",
-    "link#stores-shelf-maps-24"
-]
-},
-"flex-layout.col#store-shelf-25":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-25",
-"rich-text#stores-shelf-content-25",
-"link#stores-shelf-maps-25"
-]
-},
-"flex-layout.col#store-shelf-26":{
-"props":{
-    "colSizing":"auto",
-    "blockClass":"stores-shelf"
-},
-"children":[
-    "rich-text#stores-shelf-title-26",
-    "rich-text#stores-shelf-content-26",
-    "link#stores-shelf-maps-26"
-]
-},
-"flex-layout.col#store-shelf-27":{
-"props":{
-  "colSizing":"auto",
-  "blockClass":"stores-shelf"
-},
-"children":[
-  "rich-text#stores-shelf-title-27",
-  "rich-text#stores-shelf-content-27",
-  "link#stores-shelf-maps-27"
-]
-},
-"flex-layout.col#store-shelf-28":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-28",
-"rich-text#stores-shelf-content-28",
-"link#stores-shelf-maps-28"
-]
-},
-"flex-layout.col#store-shelf-29":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-29",
-"rich-text#stores-shelf-content-29",
-"link#stores-shelf-maps-29"
-]
-},
-"flex-layout.col#store-shelf-30":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-30",
-"rich-text#stores-shelf-content-30",
-"link#stores-shelf-maps-30"
-]
-},
-"flex-layout.col#store-shelf-31":{
-"props":{
-"colSizing":"auto",
-"blockClass":"stores-shelf"
-},
-"children":[
-"rich-text#stores-shelf-title-31",
-"rich-text#stores-shelf-content-31",
-"link#stores-shelf-maps-31"
-]
-},
-
-
-
-
-
+    ]
+  },
+  "flex-layout.col#store-shelf-7": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-7",
+      "rich-text#stores-shelf-content-7",
+      "link#stores-shelf-maps-7"
+    ]
+  },
+  "flex-layout.col#store-shelf-8": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-8",
+      "rich-text#stores-shelf-content-8",
+      "link#stores-shelf-maps-8"
+    ]
+  },
+  "flex-layout.col#store-shelf-9": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-9",
+      "rich-text#stores-shelf-content-9",
+      "link#stores-shelf-maps-9"
+    ]
+  },
+  "flex-layout.col#store-shelf-11": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-11",
+      "rich-text#stores-shelf-content-11",
+      "link#stores-shelf-maps-11"
+    ]
+  },
+  "flex-layout.col#store-shelf-12": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-12",
+      "rich-text#stores-shelf-content-12",
+      "link#stores-shelf-maps-12"
+    ]
+  },
+  "flex-layout.col#store-shelf-13": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-13",
+      "rich-text#stores-shelf-content-13",
+      "link#stores-shelf-maps-13"
+    ]
+  },
+  "flex-layout.col#store-shelf-14": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-14",
+      "rich-text#stores-shelf-content-14",
+      "link#stores-shelf-maps-14"
+    ]
+  },
+  "flex-layout.col#store-shelf-15": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-15",
+      "rich-text#stores-shelf-content-15",
+      "link#stores-shelf-maps-15"
+    ]
+  },
+  "flex-layout.col#store-shelf-16": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-16",
+      "rich-text#stores-shelf-content-16",
+      "link#stores-shelf-maps-16"
+    ]
+  },
+  "flex-layout.col#store-shelf-17": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-17",
+      "rich-text#stores-shelf-content-17",
+      "link#stores-shelf-maps-17"
+    ]
+  },
+  "flex-layout.col#store-shelf-18": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-18",
+      "rich-text#stores-shelf-content-18",
+      "link#stores-shelf-maps-18"
+    ]
+  },
+  "flex-layout.col#store-shelf-19": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-19",
+      "rich-text#stores-shelf-content-19",
+      "link#stores-shelf-maps-8"
+    ]
+  },
+  "flex-layout.col#store-shelf-20": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-20",
+      "rich-text#stores-shelf-content-20",
+      "link#stores-shelf-maps-20"
+    ]
+  },
+  "flex-layout.col#store-shelf-21": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-21",
+      "rich-text#stores-shelf-content-21",
+      "link#stores-shelf-maps-21"
+    ]
+  },
+  "flex-layout.col#store-shelf-22": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-22",
+      "rich-text#stores-shelf-content-22",
+      "link#stores-shelf-maps-22"
+    ]
+  },
+  "flex-layout.col#store-shelf-23": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-23",
+      "rich-text#stores-shelf-content-23",
+      "link#stores-shelf-maps-12"
+    ]
+  },
+  "flex-layout.col#store-shelf-24": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-24",
+      "rich-text#stores-shelf-content-24",
+      "link#stores-shelf-maps-24"
+    ]
+  },
+  "flex-layout.col#store-shelf-25": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-25",
+      "rich-text#stores-shelf-content-25",
+      "link#stores-shelf-maps-25"
+    ]
+  },
+  "flex-layout.col#store-shelf-26": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-26",
+      "rich-text#stores-shelf-content-26",
+      "link#stores-shelf-maps-26"
+    ]
+  },
+  "flex-layout.col#store-shelf-27": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-27",
+      "rich-text#stores-shelf-content-27",
+      "link#stores-shelf-maps-27"
+    ]
+  },
+  "flex-layout.col#store-shelf-28": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-28",
+      "rich-text#stores-shelf-content-28",
+      "link#stores-shelf-maps-28"
+    ]
+  },
+  "flex-layout.col#store-shelf-29": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-29",
+      "rich-text#stores-shelf-content-29",
+      "link#stores-shelf-maps-29"
+    ]
+  },
+  "flex-layout.col#store-shelf-30": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-30",
+      "rich-text#stores-shelf-content-30",
+      "link#stores-shelf-maps-30"
+    ]
+  },
+  "flex-layout.col#store-shelf-31": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "stores-shelf"
+    },
+    "children": [
+      "rich-text#stores-shelf-title-31",
+      "rich-text#stores-shelf-content-31",
+      "link#stores-shelf-maps-31"
+    ]
+  },
   "rich-text#stores-shelf-title-1": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "CALLE 10"
-      }
-  },  
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CALLE 10"
+    }
+  },
   "rich-text#stores-shelf-content-1": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Calle 10 No 35 - 45 \n(4)5606060 Ext 201\n\n321 641 0863\nLUNES - SÁBADO\n10:00AM / 7:00PM\n\nDOMINGOS Y FESTIVOS\nSOLO EN TEMPORADA",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-1": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Cl.+10+%2335-45,+Medell%C3%ADn,+Antioquia/@6.2088123,-75.5682017,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442829b1100c31:0xa47f2c5676dd5668!8m2!3d6.2088404!4d-75.5659021",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-2": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. EL TESORO"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Calle 10 No 35 - 45 \n(4)5606060 Ext 201\n\n321 641 0863\nLUNES - SÁBADO\n10:00AM / 7:00PM\n\nDOMINGOS Y FESTIVOS\nSOLO EN TEMPORADA",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-1": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Cl.+10+%2335-45,+Medell%C3%ADn,+Antioquia/@6.2088123,-75.5682017,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442829b1100c31:0xa47f2c5676dd5668!8m2!3d6.2088404!4d-75.5659021",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-2": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. EL TESORO"
+    }
+  },
   "rich-text#stores-shelf-content-2": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Carrera 25 A No 1 A SUR 45\nLOCAL 3652\n(4)5606060 Ext 202\n\n321 641 0871\n\nLUNES - JUEVES\n10:00AM / 9:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-2": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/El+Tesoro+Shopping+Park/@6.2252869,-75.6019555,13z/data=!4m8!1m2!2m1!1sCarrera+25+A+No+1+A+SUR+45++LOCAL+3652!3m4!1s0x8e46829a65a5d1ab:0xacb563511f221ff3!8m2!3d6.1975763!4d-75.5576852",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-3": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. SANTAFÉ"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Carrera 25 A No 1 A SUR 45\nLOCAL 3652\n(4)5606060 Ext 202\n\n321 641 0871\n\nLUNES - JUEVES\n10:00AM / 9:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-2": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/El+Tesoro+Shopping+Park/@6.2252869,-75.6019555,13z/data=!4m8!1m2!2m1!1sCarrera+25+A+No+1+A+SUR+45++LOCAL+3652!3m4!1s0x8e46829a65a5d1ab:0xacb563511f221ff3!8m2!3d6.1975763!4d-75.5576852",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-3": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. SANTAFÉ"
+    }
+  },
   "rich-text#stores-shelf-content-3": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Carrera 43 # 7sur 170\nLOCAL 2238\n\n(4)5606060 Ext 217\n\n313 697 5622\n\nLUNES - JUEVES\n10:00AM / 9:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-3": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Santaf%C3%A9+Mall/@6.1964843,-75.576019,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4682881ca00127:0xf96762aa39ea4209!8m2!3d6.1966335!4d-75.5740794",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-4": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. LOS MOLINOS"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Carrera 43 # 7sur 170\nLOCAL 2238\n\n(4)5606060 Ext 217\n\n313 697 5622\n\nLUNES - JUEVES\n10:00AM / 9:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-3": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Santaf%C3%A9+Mall/@6.1964843,-75.576019,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4682881ca00127:0xf96762aa39ea4209!8m2!3d6.1966335!4d-75.5740794",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-4": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. LOS MOLINOS"
+    }
+  },
   "rich-text#stores-shelf-content-4": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Calle 30 A No 82 A 26\nLOCAL 2005\n\n(4)5606060 Ext 208\n\n321 641 0850\n\nLUNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-4": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Centro+Comercial+Los+Molinos/@6.2329665,-75.606626,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442993eeb42edd:0x75818b7e73dfbd5e!8m2!3d6.23317!4d-75.60418",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-5": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. SAN DIEGO"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Calle 30 A No 82 A 26\nLOCAL 2005\n\n(4)5606060 Ext 208\n\n321 641 0850\n\nLUNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-4": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Centro+Comercial+Los+Molinos/@6.2329665,-75.606626,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442993eeb42edd:0x75818b7e73dfbd5e!8m2!3d6.23317!4d-75.60418",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-5": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. SAN DIEGO"
+    }
+  },
   "rich-text#stores-shelf-content-5": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Calle 33 No 42 B 06\nLOCAL 1311-1314\n\n(4)5606060 Ext 209\n\n321 641 0859\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 6:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-5": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Sandiego+Mall/@6.2352688,-75.5715451,17z/data=!3m1!4b1!4m5!3m4!1s0x8e44284dcec59917:0xf1ee01323d556ce4!8m2!3d6.2349767!4d-75.5690609",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-6": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. MAYORCA"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Calle 33 No 42 B 06\nLOCAL 1311-1314\n\n(4)5606060 Ext 209\n\n321 641 0859\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 6:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-5": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Sandiego+Mall/@6.2352688,-75.5715451,17z/data=!3m1!4b1!4m5!3m4!1s0x8e44284dcec59917:0xf1ee01323d556ce4!8m2!3d6.2349767!4d-75.5690609",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-6": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. MAYORCA"
+    }
+  },
   "rich-text#stores-shelf-content-6": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Calle 51 SUR No 48 - 57\nLOCAL 2068 ETAPA 2\n(4)5606060 Ext 210\n\n317 893 4561\n\nLUNES - JUEVES\n10:00AM / 9:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-6": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Mayorca+Mega+Plaza/@6.1609283,-75.6074793,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4683cc2769fda9:0x997386a695af1002!8m2!3d6.1604806!4d-75.6046536",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-7": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. VIVA LAURELES"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Calle 51 SUR No 48 - 57\nLOCAL 2068 ETAPA 2\n(4)5606060 Ext 210\n\n317 893 4561\n\nLUNES - JUEVES\n10:00AM / 9:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-6": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Mayorca+Mega+Plaza/@6.1609283,-75.6074793,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4683cc2769fda9:0x997386a695af1002!8m2!3d6.1604806!4d-75.6046536",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-7": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. VIVA LAURELES"
+    }
+  },
   "rich-text#stores-shelf-content-7": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Carrera 83 No. 37 - 100\nLOCAL 115\n\n(4)5606060 Ext 226\n\n318 712 2416\n\nLUNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-7": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Viva+Laureles/@6.2461008,-75.6043454,17z/data=!3m1!4b1!4m5!3m4!1s0x8e44299eeb2545eb:0xf2015365fd844b59!8m2!3d6.2461555!4d-75.6022719",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-8": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. PREMIUM PLAZA"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Carrera 83 No. 37 - 100\nLOCAL 115\n\n(4)5606060 Ext 226\n\n318 712 2416\n\nLUNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-7": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Viva+Laureles/@6.2461008,-75.6043454,17z/data=!3m1!4b1!4m5!3m4!1s0x8e44299eeb2545eb:0xf2015365fd844b59!8m2!3d6.2461555!4d-75.6022719",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-8": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. PREMIUM PLAZA"
+    }
+  },
   "rich-text#stores-shelf-content-8": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Avenida el poblado con Cll 30\nLOCAL 2113\n\n(4)5606060 Ext 227\n\n315 545 6956\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-8": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Premium+Plaza/@6.2296873,-75.5725287,17z/data=!3m1!4b1!4m5!3m4!1s0x8e44284a4848199d:0xd97a19d5c3273e8a!8m2!3d6.2292368!4d-75.5705413",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-9": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. PUERTA DEL NORTE"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Avenida el poblado con Cll 30\nLOCAL 2113\n\n(4)5606060 Ext 227\n\n315 545 6956\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-8": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Premium+Plaza/@6.2296873,-75.5725287,17z/data=!3m1!4b1!4m5!3m4!1s0x8e44284a4848199d:0xd97a19d5c3273e8a!8m2!3d6.2292368!4d-75.5705413",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-9": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. PUERTA DEL NORTE"
+    }
+  },
   "rich-text#stores-shelf-content-9": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Autonorte #34-67, Bello, Antioquia\nLOCAL 1020\n\n(4)5606060 Ext 213\n\n311 366 6754\n\nLUNES - JUEVES\n11:00AM / 8:00PM\n\nVIERNES - SÁBADO\n11:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-9": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Puerta+del+Norte+Shopping+Mall/@6.3394027,-75.5452478,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442f9a57f14d2b:0xaa895da5804ee322!8m2!3d6.3394457!4d-75.5435257",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Autonorte #34-67, Bello, Antioquia\nLOCAL 1020\n\n(4)5606060 Ext 213\n\n311 366 6754\n\nLUNES - JUEVES\n11:00AM / 8:00PM\n\nVIERNES - SÁBADO\n11:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-9": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Puerta+del+Norte+Shopping+Mall/@6.3394027,-75.5452478,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442f9a57f14d2b:0xaa895da5804ee322!8m2!3d6.3394457!4d-75.5435257",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
   "rich-text#stores-shelf-content-10": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Calle 71 #65-150\nLOCAL 99287\n\n(4)5606060 Ext 218\n\n315 488 8577\n\nLUNES - JUEVES\n11:00AM / 9:00PM\n\nVIERNES - SÁBADO\n11:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 9:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-10": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Florida+parque+comercial/@6.2707468,-75.579332,17z/data=!3m1!4b1!4m5!3m4!1s0x8e468290801fc40b:0x278d1d049676680b!8m2!3d6.2707822!4d-75.5771349",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-11": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. VIVA ENVIGADO"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Calle 71 #65-150\nLOCAL 99287\n\n(4)5606060 Ext 218\n\n315 488 8577\n\nLUNES - JUEVES\n11:00AM / 9:00PM\n\nVIERNES - SÁBADO\n11:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 9:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-10": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Florida+parque+comercial/@6.2707468,-75.579332,17z/data=!3m1!4b1!4m5!3m4!1s0x8e468290801fc40b:0x278d1d049676680b!8m2!3d6.2707822!4d-75.5771349",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-11": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. VIVA ENVIGADO"
+    }
+  },
   "rich-text#stores-shelf-content-11": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Cr 48 n 32 b sur 139\nLOCAL 139\n\n(4)5606060 Ext 267\n\n314 4179549\n\nLUNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-11": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Centro+Comercial+Viva+Envigado/@6.177115,-75.5932918,17z/data=!4m5!3m4!1s0x8e46824f5773b1cd:0x5252c7aa8134994d!8m2!3d6.177115!4d-75.5911031",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-      "rich-text#stores-shelf-title-12": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "CC MODA OUTLET"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Cr 48 n 32 b sur 139\nLOCAL 139\n\n(4)5606060 Ext 267\n\n314 4179549\n\nLUNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-11": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Centro+Comercial+Viva+Envigado/@6.177115,-75.5932918,17z/data=!4m5!3m4!1s0x8e46824f5773b1cd:0x5252c7aa8134994d!8m2!3d6.177115!4d-75.5911031",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-12": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CC MODA OUTLET"
+    }
+  },
   "rich-text#stores-shelf-content-12": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "CALLE 16 N 55- 129\nLOCAL 132\n\n(4)5606060 Ext 268\n\n313 550 5428\n\nLUNES - JUEVES\n11:00AM / 7:30PM\n\nVIERNES- SABADO\n11:00AM / 8:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-12": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/De+Moda+Outlet/@6.2198448,-75.6184676,13z/data=!4m5!3m4!1s0x8e4429e1dab04e05:0x5a77c25c8a5faf3a!8m2!3d6.2197606!4d-75.5834479",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-13": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. MAYORCA"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "CALLE 16 N 55- 129\nLOCAL 132\n\n(4)5606060 Ext 268\n\n313 550 5428\n\nLUNES - JUEVES\n11:00AM / 7:30PM\n\nVIERNES- SABADO\n11:00AM / 8:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-12": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/De+Moda+Outlet/@6.2198448,-75.6184676,13z/data=!4m5!3m4!1s0x8e4429e1dab04e05:0x5a77c25c8a5faf3a!8m2!3d6.2197606!4d-75.5834479",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-13": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. MAYORCA"
+    }
+  },
   "rich-text#stores-shelf-content-13": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Calle 51 SUR No 48 - 57\nLOCAL 310\n\n(4)5606060 Ext 221\n\n321 641 0869\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-13": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Mayorca+Mega+Plaza/@6.1609283,-75.6074793,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4683cc2769fda9:0x997386a695af1002!8m2!3d6.1604806!4d-75.6046536",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-14": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. ATLANTIS"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Calle 51 SUR No 48 - 57\nLOCAL 310\n\n(4)5606060 Ext 221\n\n321 641 0869\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-13": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Mayorca+Mega+Plaza/@6.1609283,-75.6074793,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4683cc2769fda9:0x997386a695af1002!8m2!3d6.1604806!4d-75.6046536",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-14": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. ATLANTIS"
+    }
+  },
   "rich-text#stores-shelf-content-14": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Calle 81 # 13-05\nLOCAL 3038\n\n(1)4823403 Ext 314\n\n321 641 0870\n\nLUNES - MIÉRCOLES\n10:30AM / 8:00PM\n\nJUEVES - SÁBADO\n10:30AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 7:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-14": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Atlantis+Plaza+Shopping+Mall/@4.6661097,-74.0579313,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a5f862c9c01:0x513412ba1ae6abbd!8m2!3d4.6661097!4d-74.0557426",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-15": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. UNICENTRO"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Calle 81 # 13-05\nLOCAL 3038\n\n(1)4823403 Ext 314\n\n321 641 0870\n\nLUNES - MIÉRCOLES\n10:30AM / 8:00PM\n\nJUEVES - SÁBADO\n10:30AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 7:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-14": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Atlantis+Plaza+Shopping+Mall/@4.6661097,-74.0579313,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a5f862c9c01:0x513412ba1ae6abbd!8m2!3d4.6661097!4d-74.0557426",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-15": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. UNICENTRO"
+    }
+  },
   "rich-text#stores-shelf-content-15": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Avenida 15 N 124 - 30\nLOCAL 1 - 247\n\n(1)4823403 Ext 315\n\n314 777 8801\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:30AM / 7:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-15": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Centro+Comercial+Unicentro,+Ak.+15+%23124-30,+Bogot%C3%A1/@4.7021472,-74.0433405,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9aad8d3838a7:0xf9056c6d28762770!8m2!3d4.702703!4d-74.0410284",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-16": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "C.C. EMPRESARIAL PLAZA CLARO"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Avenida 15 N 124 - 30\nLOCAL 1 - 247\n\n(1)4823403 Ext 315\n\n314 777 8801\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:30AM / 7:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-15": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Centro+Comercial+Unicentro,+Ak.+15+%23124-30,+Bogot%C3%A1/@4.7021472,-74.0433405,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9aad8d3838a7:0xf9056c6d28762770!8m2!3d4.702703!4d-74.0410284",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-16": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "C.C. EMPRESARIAL PLAZA CLARO"
+    }
+  },
   "rich-text#stores-shelf-content-16": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "Cra 68A No.24B-10 Ciudad Salitre Occidental\nLOCAL 2-11\n\n(1)4823403 Ext 316\n\n311 366 2951\n\nLUNES - SÁBADO\n10:00AM / 8:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-16": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Centro+de+Atenci%C3%B3n+y+Ventas+Bogot%C3%A1+-+Plaza+Claro/@4.6508139,-74.1085657,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9b9409163b97:0x2b61ca4b774b6cdc!8m2!3d4.6508139!4d-74.106377",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-17": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "PEREIRA"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Cra 68A No.24B-10 Ciudad Salitre Occidental\nLOCAL 2-11\n\n(1)4823403 Ext 316\n\n311 366 2951\n\nLUNES - SÁBADO\n10:00AM / 8:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-16": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Centro+de+Atenci%C3%B3n+y+Ventas+Bogot%C3%A1+-+Plaza+Claro/@4.6508139,-74.1085657,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9b9409163b97:0x2b61ca4b774b6cdc!8m2!3d4.6508139!4d-74.106377",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-17": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "PEREIRA"
+    }
+  },
   "rich-text#stores-shelf-content-17": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "C.C. PARQUE ARBOLEDA\nCarrera 14 No 05 - 20\nLOCAL 316A\n\n(4)5606060 ext 206\n\nLUNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n10:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-17": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "/{slug}/p",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-18": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "RIONEGRO"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "C.C. PARQUE ARBOLEDA\nCarrera 14 No 05 - 20\nLOCAL 316A\n\n(4)5606060 ext 206\n\nLUNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n10:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-17": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "/{slug}/p",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-18": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "RIONEGRO"
+    }
+  },
   "rich-text#stores-shelf-content-18": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "C.C. SAN NICÓLAS\nCalle 43 No 54 - 139\nLOCAL 1201\n\n(4)5606060 Ext 211\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-18": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/San+Nicolas+Mall/@6.1466539,-75.3806869,17z/data=!3m1!4b1!4m5!3m4!1s0x8e469f1a48f19d71:0x8f84ceb977036d40!8m2!3d6.1466539!4d-75.3784982",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-19": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "CARTAGENA"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "C.C. SAN NICÓLAS\nCalle 43 No 54 - 139\nLOCAL 1201\n\n(4)5606060 Ext 211\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 7:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-18": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/San+Nicolas+Mall/@6.1466539,-75.3806869,17z/data=!3m1!4b1!4m5!3m4!1s0x8e469f1a48f19d71:0x8f84ceb977036d40!8m2!3d6.1466539!4d-75.3784982",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-19": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CARTAGENA"
+    }
+  },
   "rich-text#stores-shelf-content-19": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "C.C. MALL PLAZA\nAvenida Pedro de Heredia, Carrera 13\n\n(5)6424947 Ext 459\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES Y SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-19": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Centro+Comercial+Mall+Plaza/@10.4248864,-75.5425675,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef62f9cdbfc389d:0x9f525255cbeeb559!8m2!3d10.4248864!4d-75.5403788",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-20": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "CARTAGENA"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "C.C. MALL PLAZA\nAvenida Pedro de Heredia, Carrera 13\n\n(5)6424947 Ext 459\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES Y SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-19": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Centro+Comercial+Mall+Plaza/@10.4248864,-75.5425675,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef62f9cdbfc389d:0x9f525255cbeeb559!8m2!3d10.4248864!4d-75.5403788",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-20": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CARTAGENA"
+    }
+  },
   "rich-text#stores-shelf-content-20": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "AVENIDA SAN MARTIN\nCarrera 2 No 6 - 129\n\n(5)6424947 Ext 403\n\nLUNES - SÁBADO\n10:00AM / 7:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 6:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-20": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Cra.+2+%236-129,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4016741,-75.5590958,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef62f16081f40f3:0x2a22a9637a4fb445!8m2!3d10.4015028!4d-75.5567558",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-21": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "SINCELEJO"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "AVENIDA SAN MARTIN\nCarrera 2 No 6 - 129\n\n(5)6424947 Ext 403\n\nLUNES - SÁBADO\n10:00AM / 7:00PM\n\nDOMINGOS Y FESTIVOS\n11:00AM / 6:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-20": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Cra.+2+%236-129,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4016741,-75.5590958,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef62f16081f40f3:0x2a22a9637a4fb445!8m2!3d10.4015028!4d-75.5567558",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-21": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SINCELEJO"
+    }
+  },
   "rich-text#stores-shelf-content-21": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "C.C. VIVA SINCELEJO\nCarrera 25 #23-45 Av. Las Peñitas\nLOCAL 129\n\n271 40 61\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-21": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/VIVA+MALL/@9.3031378,-75.390551,17z/data=!3m1!4b1!4m5!3m4!1s0x8e59144b2ce58dd3:0x7fcdd7310f77a6ad!8m2!3d9.3033468!4d-75.3879733",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
-    "rich-text#stores-shelf-title-22": {
-      "props": {
-        "blockClass":"store-shelf-title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "BARRANQUILLA"
-      }
-  },  
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "C.C. VIVA SINCELEJO\nCarrera 25 #23-45 Av. Las Peñitas\nLOCAL 129\n\n271 40 61\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-21": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/VIVA+MALL/@9.3031378,-75.390551,17z/data=!3m1!4b1!4m5!3m4!1s0x8e59144b2ce58dd3:0x7fcdd7310f77a6ad!8m2!3d9.3033468!4d-75.3879733",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
+  "rich-text#stores-shelf-title-22": {
+    "props": {
+      "blockClass": "store-shelf-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "BARRANQUILLA"
+    }
+  },
   "rich-text#stores-shelf-content-22": {
-      "props": {
-        "textAlignment": "JUSTIFY",
-        "textPosition": "JUSTIFY",
-        "text": "C.C. VIVA BARRANQUILLA\nCarrera 51b #87-50\nLOCAL 229\n\n(5)6424947 Ext 535\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 8:00PM",
-        "blockClass": "store-shelf-content"
-      }
-    },
-    "link#stores-shelf-maps-22": {
-      "props": {
-        "blockClass":"store-shelf-maps",
-        "href": "https://www.google.com/maps/place/Viva+Centro+Comercial/@11.009226,-74.8224465,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42dae88a770f7:0x49e99a8cc8891029!8m2!3d11.0083002!4d-74.8210361",
-        "label": "VER EN GOOGLE MAPS"
-      }
-    },
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "C.C. VIVA BARRANQUILLA\nCarrera 51b #87-50\nLOCAL 229\n\n(5)6424947 Ext 535\n\nLUNES - JUEVES\n10:00AM / 8:00PM\n\nVIERNES - SÁBADO\n10:00AM / 9:00PM\n\nDOMINGOS Y FESTIVOS\n12:00AM / 8:00PM",
+      "blockClass": "store-shelf-content"
+    }
+  },
+  "link#stores-shelf-maps-22": {
+    "props": {
+      "blockClass": "store-shelf-maps",
+      "href": "https://www.google.com/maps/place/Viva+Centro+Comercial/@11.009226,-74.8224465,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42dae88a770f7:0x49e99a8cc8891029!8m2!3d11.0083002!4d-74.8210361",
+      "label": "VER EN GOOGLE MAPS"
+    }
+  },
   "rich-text#stores-shelf-title-23": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "BOGOTÁ"
     }
-},  
-"rich-text#stores-shelf-content-23": {
+  },
+  "rich-text#stores-shelf-content-23": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1043,20 +1032,20 @@
   },
   "link#stores-shelf-maps-23": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "https://www.google.com/maps/place/Titan+Plaza+Shopping+Mall/@4.694708,-74.0883767,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9b25144634c9:0xaa39a3ad6b78b4cb!8m2!3d4.694708!4d-74.086188",
       "label": "VER EN GOOGLE MAPS"
     }
   },
   "rich-text#stores-shelf-title-24": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "BOGOTÁ"
     }
-},  
-"rich-text#stores-shelf-content-24": {
+  },
+  "rich-text#stores-shelf-content-24": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1066,20 +1055,20 @@
   },
   "link#stores-shelf-maps-24": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "https://www.google.com/maps/place/Tienda+INVICTA+CC+Parque+Colina/@4.7326585,-74.0687611,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f8519f8559e9b:0xffbbd8fdc00a0811!8m2!3d4.7327154!4d-74.0665",
       "label": "VER EN GOOGLE MAPS"
     }
   },
   "rich-text#stores-shelf-title-25": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "BOGOTÁ"
     }
-},  
-"rich-text#stores-shelf-content-25": {
+  },
+  "rich-text#stores-shelf-content-25": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1089,20 +1078,20 @@
   },
   "link#stores-shelf-maps-25": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "https://www.google.com/maps/place/Cl.+185+%2345-03,+Bogot%C3%A1/@4.76271,-74.0484006,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f8593a0085cdd:0x3c5a7beae06384a0!8m2!3d4.76271!4d-74.0462119",
       "label": "VER EN GOOGLE MAPS"
     }
   },
   "rich-text#stores-shelf-title-26": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "BOGOTÁ"
     }
-},  
-"rich-text#stores-shelf-content-26": {
+  },
+  "rich-text#stores-shelf-content-26": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1112,20 +1101,20 @@
   },
   "link#stores-shelf-maps-26": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "/",
       "label": "VER EN GOOGLE MAPS"
     }
   },
   "rich-text#stores-shelf-title-27": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "CALI"
     }
-},  
-"rich-text#stores-shelf-content-27": {
+  },
+  "rich-text#stores-shelf-content-27": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1135,20 +1124,20 @@
   },
   "link#stores-shelf-maps-27": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "https://www.google.com/maps/place/Falabella+Square+Garden/@3.3692303,-76.5297074,17z/data=!4m5!3m4!1s0x8e30a1a07b88e69f:0xde090dea3171cb05!8m2!3d3.3672592!4d-76.5268792",
       "label": "VER EN GOOGLE MAPS"
     }
   },
   "rich-text#stores-shelf-title-28": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "CALI"
     }
-},  
-"rich-text#stores-shelf-content-28": {
+  },
+  "rich-text#stores-shelf-content-28": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1158,20 +1147,20 @@
   },
   "link#stores-shelf-maps-28": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "/",
       "label": "VER EN GOOGLE MAPS"
     }
   },
   "rich-text#stores-shelf-title-29": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "CARTAGENA"
     }
-},  
-"rich-text#stores-shelf-content-29": {
+  },
+  "rich-text#stores-shelf-content-29": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1181,20 +1170,20 @@
   },
   "link#stores-shelf-maps-29": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "/",
       "label": "VER EN GOOGLE MAPS"
     }
   },
   "rich-text#stores-shelf-title-30": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "BARRANQUILLA"
     }
-},  
-"rich-text#stores-shelf-content-30": {
+  },
+  "rich-text#stores-shelf-content-30": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1204,20 +1193,20 @@
   },
   "link#stores-shelf-maps-30": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "/",
       "label": "VER EN GOOGLE MAPS"
     }
   },
   "rich-text#stores-shelf-title-31": {
     "props": {
-      "blockClass":"store-shelf-title",
+      "blockClass": "store-shelf-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "BARRANQUILLA"
     }
-},  
-"rich-text#stores-shelf-content-31": {
+  },
+  "rich-text#stores-shelf-content-31": {
     "props": {
       "textAlignment": "JUSTIFY",
       "textPosition": "JUSTIFY",
@@ -1227,53 +1216,49 @@
   },
   "link#stores-shelf-maps-31": {
     "props": {
-      "blockClass":"store-shelf-maps",
+      "blockClass": "store-shelf-maps",
       "href": "https://www.google.com/maps/place/Buenavista+Mall/@11.0131404,-74.8298599,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42c4d4ad7ec73:0x9ab6eda3d5142548!8m2!3d11.0131404!4d-74.8276712",
       "label": "VER EN GOOGLE MAPS"
     }
   },
-
-
-
-    "rich-text#stores-city-1": { 
-      "props": { 
-        "blockClass":"home-text-1",
-        "text": "MEDELLÍN",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-    },
-    "rich-text#stores-city-2": { 
-      "props": { 
-        "blockClass":"home-text-1",
-        "text": "OUTLET MEDELLÍN",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-    },
-    "rich-text#stores-city-3": { 
-      "props": { 
-        "blockClass":"home-text-1",
-        "text": "BOGOTÁ",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-    },
-    "rich-text#stores-city-4": { 
-      "props": { 
-        "blockClass":"home-text-1",
-        "text": "OTRAS CIUDADES",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-    },
-    "rich-text#stores-city-5": { 
-      "props": { 
-        "blockClass":"home-text-1",
-        "text": "TIENDAS FALABELLA",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
+  "rich-text#stores-city-1": {
+    "props": {
+      "blockClass": "home-text-1",
+      "text": "MEDELLÍN",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
-
+  },
+  "rich-text#stores-city-2": {
+    "props": {
+      "blockClass": "home-text-1",
+      "text": "OUTLET MEDELLÍN",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#stores-city-3": {
+    "props": {
+      "blockClass": "home-text-1",
+      "text": "BOGOTÁ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#stores-city-4": {
+    "props": {
+      "blockClass": "home-text-1",
+      "text": "OTRAS CIUDADES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#stores-city-5": {
+    "props": {
+      "blockClass": "home-text-1",
+      "text": "TIENDAS FALABELLA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
 }

@@ -24,8 +24,8 @@
   },
   "flex-layout.row#selling-price": {
     "props": {
-      "colSizing":"auto",
-      "blockClass":"selling-price",
+      "colSizing": "auto",
+      "blockClass": "selling-price",
       "preventHorizontalStretch": false,
       "colGap": 0,
       "marginBottom": 4,
@@ -42,7 +42,7 @@
   },
   "flex-layout.row#selling-price-savings": {
     "props": {
-      "blockClass":"wrapperPriceShelf",
+      "blockClass": "wrapperPriceShelf",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": false
@@ -55,7 +55,6 @@
       "custom-thrid-price"
     ]
   },
-
   "flex-layout.row#list-price-savings": {
     "props": {
       "colGap": 2,
@@ -78,13 +77,13 @@
       "custom-thrid-price"
     ]
   },
-"flex-layout.col#shelf-general-price": {
+  "flex-layout.col#shelf-general-price": {
     "props": {
       "blockClass": "shelf-general-price"
     },
     "children": [
       "flex-layout.row#selling-price-savings"
- //     "custom-thrid-price"
+      //     "custom-thrid-price"
     ]
   }
 }

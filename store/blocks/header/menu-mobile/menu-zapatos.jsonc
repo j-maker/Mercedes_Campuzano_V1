@@ -1,35 +1,37 @@
 {
-    "flex-layout.row#menu-mobile-zapatos-new":{
-    "props":{
-      "blockClass":"menu-mobile-new",
-      "colSizing":"auto"
+  "flex-layout.row#menu-mobile-zapatos-new": {
+    "props": {
+      "blockClass": "menu-mobile-new",
+      "colSizing": "auto"
     },
-    "children":[
+    "children": [
       "drawer#mobile-menu-new-zapatos"
     ]
   },
   "drawer#mobile-menu-new-zapatos": {
     "props": {
-      "blockClass": ["mobile-menu-zapatos"],
+      "blockClass": [
+        "mobile-menu-zapatos"
+      ],
       "slideDirection": "rightToLeft",
       "backdropMode": "none",
       "isFullWidth": "true"
     },
     "children": [
-        "logo#drawer",
-        "flex-layout.row#drawer-row-2",
-        "link#mobile-menu-zapatosTop",
-        "menu-item#menu-1-1",
-        "menu-item#menu-1-3",
-        "menu-item#menu-1-4",
-        "menu-item#menu-1-5",
-        "menu-item#menu-1-6",
-        "menu-item#menu-1-2",
-        "menu-item#menu-1-11",
-        "menu-item#menu-1-10",
-        "menu-item#menu-1-7",
-        "menu-item#menu-1-8",
-        "menu-item#menu-1-9"
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-zapatosTop",
+      "menu-item#menu-1-1",
+      "menu-item#menu-1-3",
+      "menu-item#menu-1-4",
+      "menu-item#menu-1-5",
+      "menu-item#menu-1-6",
+      "menu-item#menu-1-2",
+      "menu-item#menu-1-11",
+      "menu-item#menu-1-10",
+      "menu-item#menu-1-7",
+      "menu-item#menu-1-8",
+      "menu-item#menu-1-9"
     ]
   },
   "link#mobile-menu-zapatosTop": {

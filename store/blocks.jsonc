@@ -30,22 +30,14 @@
       "showInstallments": true
     }
   },
-
-
-
-  "add-to-list-btn":{
-    "props": {"blockClass":"shelfWishlist"}
+  "add-to-list-btn": {
+    "props": {
+      "blockClass": "shelfWishlist"
+    }
   },
-
-
-
-
-
-
-
   "product-summary-sku-selector": {
-   "props": {
-      "visibleVariations":[
+    "props": {
+      "visibleVariations": [
         "talla"
       ],
       "blockClass": "shelf-sku",
@@ -60,10 +52,9 @@
       "showVariationsErrorMessage": false
     }
   },
-
   "product-summary-sku-selector#home": {
     "props": {
-      "visibleVariations":[
+      "visibleVariations": [
         "color"
       ],
       "imageLabel": 3,
@@ -402,9 +393,9 @@
     ]
   },
   "minicart.v2": {
-    "props":{
-      "blockClass":"minicart",
-      "backdropMode":"visible"
+    "props": {
+      "blockClass": "minicart",
+      "backdropMode": "visible"
     },
     "children": [
       "minicart-base-content"
@@ -420,15 +411,20 @@
       "flex-layout.row#minicart-footer"
     ]
   },
-  "flex-layout.row#saleMini":{
-    "children":["image#saleMini","rich-text#saleMini"],
-    "props":{"blockClass":"wrapperSaleMini"}
-  },
-  "image#saleMini":{
+  "flex-layout.row#saleMini": {
+    "children": [
+      "image#saleMini",
+      "rich-text#saleMini"
+    ],
     "props": {
-      "blockClass":"imageSalwMini",
+      "blockClass": "wrapperSaleMini"
+    }
+  },
+  "image#saleMini": {
+    "props": {
+      "blockClass": "imageSalwMini",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/ids/178304-600-600?width=600&height=600&aspect=true",
-      "url":"/checkout/cart/add?sku=8746&qty=1&seller=1&redirect=true&sc=1"
+      "url": "/checkout/cart/add?sku=8746&qty=1&seller=1&redirect=true&sc=1"
     }
   },
   "rich-text#saleMini": {
@@ -452,14 +448,13 @@
       "minicart-summary",
       "minicart-checkout-button"
       //"flex-layout.row#button-minicart"
-      
     ]
   },
-  "flex-layout.row#button-minicart":{
-    "props":{
-      "blockClass":"minicart"
+  "flex-layout.row#button-minicart": {
+    "props": {
+      "blockClass": "minicart"
     },
-    "children":[
+    "children": [
       "minicart-checkout-button"
       //"link#button"
     ]
@@ -478,7 +473,6 @@
       "product-list#minicart"
     ]
   },
-
   "product-list#minicart": {
     "blocks": [
       "product-list-content-mobile"
@@ -545,8 +539,8 @@
   },
   "add-to-cart-button#shelf": {
     "props": {
-      "isOneClickBuy ":true,
-      "unavailableText":"NO DISPONIBLE",
+      "isOneClickBuy ": true,
+      "unavailableText": "NO DISPONIBLE",
       "blockClass": "buy-button-product",
       "text": "COMPRAR YA"
     }
@@ -559,30 +553,35 @@
   },
   "add-to-cart-button#homeShelf": {
     "props": {
-      "isOneClickBuy ":true,
-      "unavailableText":"NO DISPONIBLE",
+      "isOneClickBuy ": true,
+      "unavailableText": "NO DISPONIBLE",
       "blockClass": "buy-button-product",
-      "text": "COMPRAR YA"    }
+      "text": "COMPRAR YA"
+    }
   },
   "shelf.relatedProducts": {
     "props": {
-      "blockClass":"home-wrapper-shelf",
-        "recommendation": "view",
-        "productList": {
-            "showTitle":false,
-            "itemsPerPage": {
-              "desktop": 4,
-              "tablet": 1,
-              "phone": 1
-            },
-            "showPaginationDots":"never"  
-        }
+      "blockClass": "home-wrapper-shelf",
+      "recommendation": "view",
+      "productList": {
+        "showTitle": false,
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+        },
+        "showPaginationDots": "never"
+      }
     },
-    "blocks":["product-summary.shelf#home"]
-},
-"shelf.relatedProducts#similars": {
-  "props": {
-      "blockClass": ["home-wrapper-shelf-pdp"],
+    "blocks": [
+      "product-summary.shelf#home"
+    ]
+  },
+  "shelf.relatedProducts#similars": {
+    "props": {
+      "blockClass": [
+        "home-wrapper-shelf-pdp"
+      ],
       "recommendation": "view",
       "itemsPerPage": {
         "desktop": 5,
@@ -590,55 +589,34 @@
         "phone": 2
       },
       "productList": {
-        "maxItems":"10",
-          "scroll":"BY_PAGE",
-          "titleText":"Prendas similares",
-          "showNavigationArrows":"desktopOnly",
-          "showTitle":true,
-          "arrows":true,
-          "showPaginationDots":"never"  
+        "maxItems": "10",
+        "scroll": "BY_PAGE",
+        "titleText": "Prendas similares",
+        "showNavigationArrows": "desktopOnly",
+        "showTitle": true,
+        "arrows": true,
+        "showPaginationDots": "never"
       }
-  },
-  "blocks":["product-summary.shelf#pdpSimilars"]
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"product-specification-badges#hotDays": {
-  "props": {
-    "specificationGroupName": "specification",
-    "specificationsOptions": [{
-      "specificationName": "2x1",
-      "displayValue": "SPECIFICATION_NAME",
-      "visibleWhen": "true"
     },
-    {
-      "specificationName": "altura",
-      "displayValue": "SPECIFICATION_NAME",
-      "visibleWhen": "true"
-    }]
+    "blocks": [
+      "product-summary.shelf#pdpSimilars"
+    ]
+  },
+  "product-specification-badges#hotDays": {
+    "props": {
+      "specificationGroupName": "specification",
+      "specificationsOptions": [
+        {
+          "specificationName": "2x1",
+          "displayValue": "SPECIFICATION_NAME",
+          "visibleWhen": "true"
+        },
+        {
+          "specificationName": "altura",
+          "displayValue": "SPECIFICATION_NAME",
+          "visibleWhen": "true"
+        }
+      ]
+    }
   }
-}
-
-
-
-
 }
