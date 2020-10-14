@@ -16,7 +16,7 @@
 }
 .wishlistIconContainer--shelfWishlist :global(.vtex-button){
     outline: 0 !important;
-}F
+}
 .wishlistIconContainer--shelfWishlist :global(.vtex-button__label){
     padding: 0 10px;
 }
