@@ -574,7 +574,7 @@
       }
     },
     "blocks": [
-      "product-summary.shelf#home"
+      "product-summary.shelf#related"
     ]
   },
   "shelf.relatedProducts#similars": {

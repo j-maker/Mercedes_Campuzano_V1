@@ -3,8 +3,8 @@
     "children": [
       //"product-summary-image#shelf"
       //"stack-layout#prodsum",          
-      "custom-product-summary-images"
-      //"product-summary-image"
+      //"custom-product-summary-images"
+      "product-summary-image"
       //"percent-discount",
       //"custom-product-summary-images",
       //"product-summary-specification-badges",
@@ -46,8 +46,27 @@
       "flex-layout.col#spacer",
       //"flex-layout.row#selling-price-savings",
       "flex-layout.col#shelf-general-price",
-      "flex-layout.col#spacer",
-      "product-summary-sku-selector",
+      //"flex-layout.col#spacer",
+      //"product-summary-sku-selector",
+      "add-to-cart-button#homeShelf"
+      //"flex-layout.row#buy-button-shelf-home"
+    ]
+  },
+  "product-summary.shelf#related": {
+    "children": [
+      "percent-discount",
+      "modal-trigger#quickview",
+      "add-to-list-btn",
+      "custom-product-summary-images",
+      //"product-summary-image",
+      //"product-summary-specification-badges",
+      //"stack-layout#prodsum",
+      "product-summary-name",
+      //"flex-layout.col#spacer",
+      //"flex-layout.row#selling-price-savings",
+      "flex-layout.col#shelf-general-price",
+      //"flex-layout.col#spacer",
+      //"product-summary-sku-selector",
       "add-to-cart-button#homeShelf"
       //"flex-layout.row#buy-button-shelf-home"
     ]

@@ -1,3 +1,7 @@
 .dotsContainer {
   display: none;
 }
+
+.sliderFrame{
+  min-height: 240px;
+}
