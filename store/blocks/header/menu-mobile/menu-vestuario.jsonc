@@ -44,8 +44,43 @@
       "menu-item#menu-vestuario-4",
       "menu-item#menu-vestuario-5",
       "menu-item#menu-vestuario-6",
-      "menu-item#menu-vestuario-7"
+      "menu-item#menu-vestuario-7",
+      "menu-item#menu-vestuario-8"
+      //"menu-item#menu-vestuario-9"
+
     ]
+  },
+  "menu-item#menu-vestuario-8": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Buzos y Chaquetas",
+        "text": "Buzos y Chaquetas"
+      },
+      "href": "/vestuario/buzos-y-chaquetas",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-9": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Chaquetas",
+        "text": "Chaquetas"
+      },
+      "href": "/vestuario/chaquetas",
+      "blockClass": "submenu-vestuario"
+    }
   },
   "menu-item#menu-vestuario-1": {
     "props": {
@@ -216,7 +251,9 @@
       "menu-item#menu-5-4",
       "menu-item#menu-5-5",
       "menu-item#menu-5-6",
-      "menu-item#menu-5-7"
+      "menu-item#menu-5-7",
+      "menu-item#menu-5-8"
+      //"menu-item#menu-5-9"
     ]
   },
   "menu-item#menu-5-1": {
@@ -331,6 +368,38 @@
       "blockClass": "submenu-bolsos-y-carteras"
     }
   },
+  "menu-item#menu-5-8": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/buzos-y-chaquetas",
+        "noFollow": false,
+        "tagTitle": "Buzos y Chaquetas",
+        "text": "Buzos y Chaquetas"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-9": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/chaquetas",
+        "noFollow": false,
+        "tagTitle": "Chaquetas",
+        "text": "Chaquetas"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
   "flex-layout.row#menu-mobile-vestuario-new": {
     "props": {
       "blockClass": "menu-mobile-new",
@@ -357,7 +426,9 @@
       "menu-item#menu-5-4",
       "menu-item#menu-5-5",
       "menu-item#menu-5-6",
-      "menu-item#menu-5-7"
+      "menu-item#menu-5-7",
+      "menu-item#menu-5-8"
+      //"menu-item#menu-5-9"
     ]
   },
   "link#mobile-menu-5": {

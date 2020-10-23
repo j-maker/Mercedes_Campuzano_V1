@@ -565,6 +565,18 @@
   background-color: #f7ebe9 !important;
 }
 
+.styledLinkContainer--submenu-vestuario{
+  margin: 0 1rem;
+}
+
+.styledLinkContent--bold{
+  font-weight: bold;
+  font-size: 16px!important;
+}
+
+.styledLinkContent--bold:hover{
+  font-weight: bold;
+}
 
 @media screen and (max-width: 1024px) {
   .menuItem--submenu {
