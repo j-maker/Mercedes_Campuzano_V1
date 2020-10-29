@@ -92,6 +92,7 @@
     margin: 0 0 0px 0;
   }
 
+  .childrenContainer--mobile-menu-nuevo,
   .childrenContainer--mobile-menu-otros,
   .childrenContainer--mobile-menu-accesorios,
   .childrenContainer--mobile-menu-bolsos,
@@ -100,6 +101,7 @@
     display: block;
   }
 
+  .openIconContainer--mobile-menu-nuevo,
   .openIconContainer--mobile-menu-otros,
   .openIconContainer--mobile-menu-accesorios,
   .openIconContainer--mobile-menu-bolsos,
@@ -110,6 +112,7 @@
     align-items: center;
   }
 
+  .closeIcon--mobile-menu-nuevo,
   .closeIcon--mobile-menu-otros,
   .closeIcon--mobile-menu-accesorios,
   .closeIcon--mobile-menu-bolsos,
@@ -131,6 +134,7 @@
     font-weight: 700 !important;
   }
 
+  .openIconContainer--mobile-menu-nuevo::after,
   .openIconContainer--mobile-menu-otros::after,
   .openIconContainer--mobile-menu-accesorios::after,
   .openIconContainer--mobile-menu-bolsos::after,
@@ -149,12 +153,20 @@
     transform: rotate(270deg);
   }
 
+  .openIconContainer--mobile-menu-nuevo::before {
+    content: "Lo Nuevo";
+    font-size: 18px;
+    margin-right: auto;
+    font-weight: bold;
+  }
+
   .openIconContainer--mobile-menu-2::before {
     content: "Vestuario";
     font-size: 18px;
     margin-right: auto;
   }
 
+  .menuIcon--mobile-menu-nuevo,
   .menuIcon--mobile-menu-otros,
   .menuIcon--mobile-menu-accesorios,
   .menuIcon--mobile-menu-bolsos,
@@ -163,6 +175,7 @@
     width: 0;
   }
 
+  .openIconContainer--mobile-menu-nuevo,
   .openIconContainer--mobile-menu-otros,
   .openIconContainer--mobile-menu-accesorios,
   .openIconContainer--mobile-menu-bolsos,
@@ -195,6 +208,7 @@
     margin-right: auto;
   }
 
+  .opened--mobile-menu-nuevo,
   .opened--mobile-menu-2,
   .opened--drawer-mobile,
   .drawer--drawer-mobile {

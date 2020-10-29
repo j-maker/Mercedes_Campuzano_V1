@@ -58,6 +58,7 @@
     }
   },
   "iframe": {
+    "title": "Home-Video",
     "props": {
       "blockClass": "iframe",
       "src": "https://my.matterport.com/show/?m=QkpQiCwkhjo",
@@ -67,6 +68,7 @@
     }
   },
   "flex-layout.row#social-networks": {
+    "title": "Home-Imagenes-Redes",
     "props": {
       "blockClass": "social-networks"
     },
@@ -242,6 +244,7 @@
     }*/
   },
   "flex-layout.row#shelf-sale": {
+    "title": "Home-Contenedor-Vitrina-2",
     "children": [
       "flex-layout.col#shelf-sale"
     ],
@@ -312,6 +315,7 @@
     }
   },
   "list-context.image-list#home": {
+    "title": "Home-Carrusel-Principal",
     "children": [
       "slider-layout#home"
     ],
@@ -348,6 +352,7 @@
     }
   },
   "rich-text#iframe": {
+    "title": "Home-titlulo-video",
     "props": {
       "blockClass": "home-text-1",
       "text": "HAZ UN RECORRIDO VIRTUAL DE NUESTRA TIENDA DE EL TESORO",
@@ -356,6 +361,7 @@
     }
   },
   "rich-text#new": {
+    "title": "Home-Titulo-Vitrina-1",
     "props": {
       "blockClass": "home-text-1",
       "text": "LO NUEVO",
@@ -364,6 +370,7 @@
     }
   },
   "link#all": {
+    "title": "Home-Ver todo-Vitrina-1",
     "props": {
       "blockClass": "home-text-all",
       "textAlignment": "CENTER",
@@ -373,6 +380,7 @@
     }
   },
   "link#all-1": {
+    "title": "Home-Ver-todo-Vitrina-2",
     "props": {
       "blockClass": "home-text-all",
       "textAlignment": "CENTER",
@@ -382,6 +390,7 @@
     }
   },
   "rich-text#sale": {
+    "title": "Home-Titulo-Vitrina-2",
     "props": {
       "blockClass": "home-text-1",
       "text": "SALE",
@@ -390,6 +399,7 @@
     }
   },
   "rich-text#store": {
+    "title": "Home-Titulo-Tienda-en-redes",
     "props": {
       "blockClass": "home-text-2",
       "text": "TIENDA EN REDES",
@@ -398,6 +408,7 @@
     }
   },
   "flex-layout.row#home-row-1": {
+    "title": "Home-Juego-Geometrico",
     "children": [
       "flex-layout.row#home-row-1-wrapper"
     ]
@@ -427,6 +438,7 @@
     }
   },
   "flex-layout.row#home-row-2": {
+    "title": "Home-Juego-Geometrico-1",
     "children": [
       "flex-layout.row#home-row-2-wrapper"
     ]
@@ -492,6 +504,7 @@
     }
   },
   "flex-layout.row#home-row-3": {
+    "title": "Home-3-figuras",
     "children": [
       "flex-layout.col#home-row-3"
     ]
@@ -549,6 +562,7 @@
     }
   },
   "flex-layout.row#home-row-4": {
+    "title": "Home-Pagos-Cambio-Devoluciones",
     "children": [
       "flex-layout.col#home-row-4"
     ]
@@ -635,6 +649,7 @@
     }
   },
   "rich-text#home-footer-banner-3": {
+    "title": "Devoluciones",
     "props": {
       "blockClass": "home-footer-banner",
       "text": "**Devoluciones gratis**",

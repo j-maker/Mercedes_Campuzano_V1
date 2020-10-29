@@ -48,6 +48,7 @@
     ]
   },
   "flex-layout.row#description": {
+    "title": "Pdp-Descriopcion-y-especificaciones",
     "props": {
       "blockClass": "product-description",
       "marginBottom": 7,
@@ -80,6 +81,7 @@
     }
   },
   "rich-text#recomended": {
+    "title": "Pdp-titulo-vitrina-recomendado",
     "props": {
       "blockClass": "home-text-1",
       "text": "RECOMENDADO",
@@ -196,6 +198,7 @@
     }
   },
   "rich-text#dia-sin-iva": {
+    "title": "Pdp-precio-online-sin-iva",
     "props": {
       "blockClass": "price-online",
       "text": "El precio ya incluye el 19% de descuento por el dia sin IVA. Al entrar en tu carrito encontraras el precio final del producto discriminando el descuento aqui aplicado.",
@@ -204,6 +207,7 @@
     }
   },
   "rich-text#price-online": {
+    "title": "Pdp-precio-online",
     "props": {
       "blockClass": "price-online",
       "text": "El precio sólo aplica para tienda online",
@@ -223,6 +227,7 @@
     ]
   },
   "rich-text#size-guide": {
+    "title": "Pdp-Titulo-Guia-de-tallas",
     "props": {
       "text": "Guía de tallas",
       "blockClass": "textMainSize"
@@ -254,12 +259,14 @@
     }
   },
   "rich-text#sizeDress": {
+    "title": "Pdp-Titulo-Guia-de-tallas-Calzado",
     "props": {
       "blockClass": "richSizeDress",
       "text": "CALZADO"
     }
   },
   "rich-text#sizeFootwear": {
+    "title": "Pdp-Titulo-Guia-de-tallas-Vestuario",
     "props": {
       "blockClass": "richSizeDress",
       "text": "VESTUARIO"
@@ -274,6 +281,7 @@
     ]
   },
   "sku-selector": {
+    "title": "Pdp-Sku-Variaciones",
     "props": {
       "initialSelection": "empty",
       "variationsSpacing": 3,
@@ -288,6 +296,7 @@
     }
   },
   "sku-selector#product": {
+    "title": "Pdp-Sku-Variaciones-Talla",
     "props": {
       "visibleVariations": [
         "talla"

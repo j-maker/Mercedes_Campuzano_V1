@@ -393,6 +393,7 @@
     ]
   },
   "minicart.v2": {
+    "title": "Header-Minicart",
     "props": {
       "blockClass": "minicart",
       "backdropMode": "visible"
@@ -428,6 +429,7 @@
     }
   },
   "rich-text#saleMini": {
+    "title": "Micar-text-Oferta",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -516,6 +518,7 @@
     ]
   },
   "rich-text#empty-state": {
+    "title": "Header-Minicart-Vacio",
     "props": {
       "text": "Tu carrito esta vacio!"
     }
@@ -560,6 +563,7 @@
     }
   },
   "shelf.relatedProducts": {
+    "title": "Pdp-Vitrina-productos-recomendados",
     "props": {
       "blockClass": "home-wrapper-shelf",
       "recommendation": "view",

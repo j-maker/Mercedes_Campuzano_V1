@@ -1,11 +1,11 @@
-/*header-row-1*/
 .imageElement--header-1-icon {
   margin-top: 4px;
   margin-right: 6px;
-  width: 15px;
+  width: 20px;
+  max-height: 20px !important;
+  height: auto;
 }
 
-/*header-row-2*/
 .imageElementLink--header-1-icon {
   width: auto;
 }
@@ -612,10 +612,6 @@
 
   .productImageGallerySlide {
     width: 500px;
-  }
-
-  .imageElement--header-1-icon {
-    width: 18px;
   }
 
   .carouselThumBorder {

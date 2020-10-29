@@ -37,6 +37,7 @@
     }
   },
   "rich-text#button10%": {
+    "title": "Footer-10%",
     "props": {
       "blockClass": "desktop-fixed-discount",
       "text": ""
@@ -72,6 +73,7 @@
     }
   },
   "form#news2": {
+    "title": "Footer-Form",
     // "entity": "News",
     // "schema": "client"
     "props": {
@@ -96,6 +98,7 @@
     ]
   },
   "rich-text#successSubmit-news": {
+    "title": "Footer-Text-Gracias-Newsletter",
     "props": {
       "text": "Gracias por suscribirte!",
       "textAlignment": "CENTER",
@@ -210,6 +213,7 @@
     }
   },
   "image#desktop-fixed-discount": {
+    "title": "Footer-Image-Descuento",
     "props": {
       "blockClass": "desktop-fixed-discount",
       "image": "https://mercedescampuzano.vtexassets.com/arquivos/10-off (1).png",
@@ -243,7 +247,6 @@
       "width": "100%",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
-      /*"fullWidth": true*/
     },
     "children": [
       "flex-layout.col#spacer",
@@ -280,6 +283,7 @@
     ]
   },
   "link#footer-1-1": {
+    "title": "Footer-Sobre-Nosotros",
     "props": {
       "blockClass": "footer-row-1-1",
       "href": "/_v/segment/routing/vtex.store@2.x/userRoute/:id(/*terms)",
@@ -287,6 +291,7 @@
     }
   },
   "link#footer-1-2": {
+    "title": "Footer-nuestras-tiendas",
     "props": {
       "blockClass": "footer-row-1-1",
       "href": "/nuestras-tiendas",
@@ -294,6 +299,7 @@
     }
   },
   "link#footer-1-3": {
+    "title": "Footer-Blog",
     "props": {
       "blockClass": "footer-row-1-1",
       "href": "http://blogmercedescampuzano.com/",
@@ -301,6 +307,7 @@
     }
   },
   "newsletter": {
+    "title": "Footer-Newsletter",
     "props": {
       "blockClass": "footer-row-2-newsletter",
       "label": "SUSCRÍBETE",
@@ -324,6 +331,7 @@
     ]
   },
   "rich-text#footer-row-3-1": {
+    "title": "Footer-Comunicacion-WP",
     "props": {
       "blockClass": "footer-row-3-contact",
       "textAlignment": "CENTER",
@@ -332,6 +340,7 @@
     }
   },
   "rich-text#footer-row-3-2": {
+    "title": "Footer-seervicio-al-cliente",
     "props": {
       "blockClass": "footer-row-3-contact-email",
       "textAlignment": "CENTER",
@@ -341,7 +350,6 @@
   },
   "flex-layout.row#footer-row-4": {
     "props": {
-      /*"fullWidth": true,*/
       "blockClass": "footer-row-4"
     },
     "children": [
@@ -355,6 +363,7 @@
     ]
   },
   "rich-text#title-redes": {
+    "title": "Footer-titulo-redes-sociales",
     "props": {
       "blockClass": "footer-row-4-title-redes",
       "textAlignment": "CENTER",
@@ -367,7 +376,6 @@
       "colSizing": "auto",
       "blockClass": "footer-row-4-redes",
       "preserveLayoutOnMobile": true
-      /*"fullWidth": true*/
     },
     "children": [
       "image#facebook",
@@ -377,6 +385,7 @@
     ]
   },
   "image#facebook": {
+    "title": "Footer-Imagen-facebook",
     "props": {
       "blockClass": "redes",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-facebook-f-brands.png",
@@ -385,6 +394,7 @@
     }
   },
   "image#instagram": {
+    "title": "Footer-Image-instagram",
     "props": {
       "blockClass": "redes",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-instagram-brands.png",
@@ -393,6 +403,7 @@
     }
   },
   "image#twiter": {
+    "title": "Footer-Image-twitter",
     "props": {
       "blockClass": "redes",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-twitter-brands.png",
@@ -401,6 +412,7 @@
     }
   },
   "image#pinterest": {
+    "title": "Footer-Image-Pinterest",
     "props": {
       "blockClass": "redes",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-pinterest-p-brands.png",
@@ -439,6 +451,7 @@
     ]
   },
   "rich-text#footer-link-title-col-1": {
+    "title": "Footer-Title-Link-Interes",
     "props": {
       "blockClass": "footer-link-title-col",
       "textAlignment": "LEFT",
@@ -447,6 +460,7 @@
     }
   },
   "link#footer-interes-1-col-1": {
+    "title": "Footer-Title-Link-Interes",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/_v/segment/routing/vtex.store@2.x/userRoute/:id(/*terms)",
@@ -489,6 +503,7 @@
     }
   },
   "link#footer-interes-7-col-1": {
+    "title": "Footer-Nuestra-Garantia",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/nuestra-garantia",
@@ -496,6 +511,7 @@
     }
   },
   "link#footer-interes-8-col-1": {
+    "title": "Footer-Recomendaciones de uso",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/recomendaciones-de-uso",
@@ -503,6 +519,7 @@
     }
   },
   "link#footer-interes-9-col-1": {
+    "title": "Footer-Ventas-corporativas",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/ventas-corporativas",
@@ -517,6 +534,7 @@
     }
   },
   "link#footer-interes-11-col-1": {
+    "title": "Footer-TyC",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/terminos-y-condiciones-de-promociones",
@@ -541,6 +559,7 @@
     ]
   },
   "rich-text#footer-link-title-col-2": {
+    "title": "Footer-Titulo-Servicio-al-cliente",
     "props": {
       "blockClass": "footer-link-title-col",
       "textAlignment": "LEFT",
@@ -556,6 +575,7 @@
     }
   },
   "link#footer-interes-2-col-2": {
+    "title": "Footer-Compra-Online",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/como-comprar-online",
@@ -563,6 +583,7 @@
     }
   },
   "link#footer-interes-3-col-2": {
+    "title": "Footer-Terminos-de-uso",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/terminos-de-uso",
@@ -570,6 +591,7 @@
     }
   },
   "link#footer-interes-4-col-2": {
+    "title": "Footer-Politicas-de-privacidad",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/politicas-de-privacidad",
@@ -577,6 +599,7 @@
     }
   },
   "link#footer-interes-5-col-2": {
+    "title": "Footer-Estatuto-de-consumidor",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/estatuto-del-consumidor",
@@ -584,6 +607,7 @@
     }
   },
   "link#footer-interes-6-col-2": {
+    "title": "Footer-Compra-segura",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/compra-segura",
@@ -591,6 +615,7 @@
     }
   },
   "link#footer-interes-7-col-2": {
+    "title": "Footer-Nuestra-tienda",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/nuestras-tiendas",
@@ -598,6 +623,7 @@
     }
   },
   "link#footer-interes-8-col-2": {
+    "title": "Footer-Contactenos",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/contactanos",
@@ -615,6 +641,7 @@
     ]
   },
   "rich-text#footer-link-title-col-3": {
+    "title": "Footer-Mi-cuenta",
     "props": {
       "blockClass": "footer-link-title-col",
       "textAlignment": "LEFT",
@@ -623,6 +650,7 @@
     }
   },
   "link#footer-interes-1-col-3": {
+    "title": "Footer-Micuenta-Login",
     "props": {
       "blockClass": "footer-col-link",
       "href": "/login",
@@ -691,6 +719,7 @@
     ]
   },
   "image#footer-1": {
+    "title": "Footer-Image-Master",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -698,6 +727,7 @@
     }
   },
   "image#footer-2": {
+    "title": "Footer-Image-Dinners",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -705,6 +735,7 @@
     }
   },
   "image#footer-3": {
+    "title": "Footer-Image-American",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -712,6 +743,7 @@
     }
   },
   "image#footer-4": {
+    "title": "Footer-Image-Visa",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -719,6 +751,7 @@
     }
   },
   "image#footer-5": {
+    "title": "Footer-Image-Dinners-Club",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -726,6 +759,7 @@
     }
   },
   "image#footer-6": {
+    "title": "Footer-Image-PSE",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -733,6 +767,7 @@
     }
   },
   "image#footer-7": {
+    "title": "Footer-Image-Bancolombia",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -740,6 +775,7 @@
     }
   },
   "image#footer-8": {
+    "title": "Footer-Image-Efecty",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -747,6 +783,7 @@
     }
   },
   "image#footer-9": {
+    "title": "Footer-Image-Baloto",
     "props": {
       "blockClass": "footer-image",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
@@ -784,6 +821,7 @@
     ]
   },
   "link#footer-6": {
+    "title": "Footer-texto-Contra-entrega",
     "props": {
       "blockClass": "footer-6",
       "href": "/{slug}/p",
@@ -796,6 +834,7 @@
     ]
   },
   "rich-text#copy": {
+    "title": "Footer-Copy",
     "props": {
       "blockClass": "row-6-2-copy",
       "textAlignment": "CENTER",

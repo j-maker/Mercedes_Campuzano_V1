@@ -15,7 +15,10 @@
       //"product-summary-sku-selector"
       //"flex-layout.col#spacer",
       //"flex-layout.row#buy-button-shelf"
-    ]
+    ],
+    "props":{
+      "blockClass":"ShelfPDPSimilars"
+    }
   },
   "product-summary.shelf": {
     "children": [

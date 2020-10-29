@@ -14,14 +14,6 @@
             "modal-trigger#form-newsletterButton"
         ]
     },
-    "image#mobile-fixed-help": {
-        "props": {
-            "blockClass": "mobile-fixed-help",
-            "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-help.png",
-            "maxHeight": 22,
-            "maxWidth": 22
-        }
-    },
     "flex-layout.row#footer-row-6-mobile": {
         "props": {
             "blockClass": "footer"

@@ -103,6 +103,7 @@
 
 .menuContainerNav--submenu {
   width: 280px;
+  margin: auto 0;
 }
 
 .menuContainerNav--submenu-1 {
@@ -565,16 +566,16 @@
   background-color: #f7ebe9 !important;
 }
 
-.styledLinkContainer--submenu-vestuario{
+.styledLinkContainer--submenu-vestuario {
   margin: 0 1rem;
 }
 
-.styledLinkContent--bold{
+.styledLinkContent--bold {
   font-weight: bold;
-  font-size: 16px!important;
+  font-size: 16px !important;
 }
 
-.styledLinkContent--bold:hover{
+.styledLinkContent--bold:hover {
   font-weight: bold;
 }
 

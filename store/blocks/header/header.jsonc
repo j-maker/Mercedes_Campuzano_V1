@@ -42,7 +42,6 @@
       "blockClass": "header-1-info"
     },
     "children": [
-      "meta-tag-google-merchant",
       "image#header-1",
       "link#header-1"
     ]
@@ -93,6 +92,7 @@
     ]
   },
   "image#header-1": {
+    "title": "Header-truck-costo-de-envio",
     "props": {
       "blockClass": "header-1-icon",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/truck-solid (2).png",
@@ -100,6 +100,7 @@
     }
   },
   "link#header-1": {
+    "title": "Header-Texto-Envios",
     "props": {
       "blockClass": "header-1-link",
       "href": "/politicas",
@@ -122,6 +123,7 @@
     }
   },
   "image#header-3": {
+    "title": "Header-image-Devoluciones",
     "props": {
       "blockClass": "header-1-icon",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/return-solid (1).png",
@@ -130,6 +132,7 @@
     }
   },
   "link#header-3": {
+    "title": "Header-Texto-Devoluciones",
     "props": {
       "blockClass": "header-1-link",
       "href": "/politicas",
@@ -137,6 +140,7 @@
     }
   },
   "image#header-4": {
+    "title": "Header-image-TyC",
     "props": {
       "blockClass": "header-1-icon",
       "href": "/terminos-y-condiciones-de-promociones",
@@ -145,6 +149,7 @@
     }
   },
   "link#header-4": {
+    "title": "Header-Texto-Cambios",
     "props": {
       "blockClass": "header-1-link",
       "href": "/terminos-y-condiciones-de-promociones",
@@ -152,6 +157,7 @@
     }
   },
   "image#header-5": {
+    "title": "Header-image-cuidado-y-salud",
     "props": {
       "blockClass": "header-1-icon",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/cuidado-solid (1).png",
@@ -160,6 +166,7 @@
     }
   },
   "link#header-5": {
+    "title": "Header-Texto-Bono-Regalo",
     "props": {
       "blockClass": "header-1-link",
       "href": "/cuidado-y-salud",
@@ -167,6 +174,7 @@
     }
   },
   "image#header-6": {
+    "title": "Header-image-Bono-Regalo",
     "props": {
       "blockClass": "header-1-icon",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/gift-solid (1).png",
@@ -175,6 +183,7 @@
     }
   },
   "link#header-6": {
+    "title": "Header-Texto-Bono-Regalo",
     "props": {
       "blockClass": "header-1-link",
       "href": "/",
@@ -217,6 +226,7 @@
     ]
   },
   "image#wishlist": {
+    "title": "Header-Image-Wishlist",
     "props": {
       "blockClass": "imageWishlist",
       "src": "https://aldoecuador.vtexassets.com/arquivos/heart.svg",
@@ -225,6 +235,7 @@
     }
   },
   "image#contact": {
+    "title": "Header-Image-Contacto-Fijo",
     "props": {
       "blockClass": "header-2-icon",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/icon-phone.png",
@@ -232,12 +243,14 @@
     }
   },
   "rich-text#contact": {
+    "title": "Header-Contacto-Fijo",
     "props": {
       "blockClass": "header-2-link",
       "text": "[(4) 5606060 ext 121](tel:017123200)"
     }
   },
   "link#contact": {
+    "title": "Header-Contacto-Fijo",
     "props": {
       "blockClass": "header-2-link",
       "href": "tel:0345606060",
@@ -245,6 +258,7 @@
     }
   },
   "image#contact-1": {
+    "title": "Header-Contacto-WP",
     "props": {
       "blockClass": "header-2-icon",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/icon-whatsapp2.png",
@@ -252,6 +266,7 @@
     }
   },
   "link#contact-1": {
+    "title": "Header-link-Wp",
     "props": {
       "blockClass": "header-2-link",
       "hred": "https://api.whatsapp.com/send?phone=573174266793",
@@ -321,9 +336,9 @@
     ]
   },
   "logo#desktop": {
+    "title": "Header-Logo",
     "props": {
       "blockClass": "row-3-logo",
-      "title": "Logo",
       "href": "/",
       "url": "https://mercedescampuzano.vtexassets.com/arquivos/mc-logo.png",
       "width": "160"
@@ -343,6 +358,7 @@
     ]
   },
   "login#Mc": {
+    "title": "Header-Login",
     "props": {
       "labelClasses": "blockClass",
       "accountOptionsButtonBehavior": "link",
@@ -410,6 +426,7 @@
     }
   },
   "image#mobile-contact-1": {
+    "title": "Header-Image-Wp-Mobile",
     "props": {
       "blockClass": "header-2-icon",
       "src": "https://mercedescampuzano.vtexassets.com/arquivos/icon-whatsapp2.png",
@@ -417,6 +434,7 @@
     }
   },
   "link#mobile-contact-1": {
+    "title": "Header-Link-Wp-Mobile",
     "props": {
       "blockClass": "header-2-link",
       "href": "https://api.whatsapp.com/send?phone=573174266793",
@@ -459,6 +477,7 @@
     ]
   },
   "search-bar": {
+    "title": "Header-Buscador",
     "props": {
       "blockClass": "mobile-search-bar"
     }

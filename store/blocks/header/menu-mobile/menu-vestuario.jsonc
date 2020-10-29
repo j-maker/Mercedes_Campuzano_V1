@@ -26,29 +26,65 @@
       "blockClass": "menu-vestuario"
     },
     "children": [
-      "vtex.menu@2.x:menu#menu-5-vestuario"
+      "vtex.menu@2.x:menu#menu-5-vestuario-Left",
+      "vtex.menu@2.x:menu#menu-5-vestuario-Right",
+      "list-context.image-list#menu-vestuario"
     ]
   },
-  "vtex.menu@2.x:menu#menu-5-vestuario": {
+  "vtex.menu@2.x:menu#menu-5-vestuario-Left": {
     "props": {
-      "orientation": "horizontal",
+      "orientation": "vertical",
       "blockClass": [
-        "submenu",
-        "submenuVestuario"
+        "submenu"
       ]
     },
     "children": [
       "menu-item#menu-vestuario-1",
       "menu-item#menu-vestuario-2",
       "menu-item#menu-vestuario-3",
-      "menu-item#menu-vestuario-4",
+      "menu-item#menu-vestuario-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-5-vestuario-Right": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "submenu"
+      ]
+    },
+    "children": [
       "menu-item#menu-vestuario-5",
       "menu-item#menu-vestuario-6",
       "menu-item#menu-vestuario-7",
       "menu-item#menu-vestuario-8"
-      //"menu-item#menu-vestuario-9"
-
     ]
+  },
+  "list-context.image-list#menu-vestuario": {
+    "children": [
+      "slider-layout#menu-slider-vestuario"
+    ],
+    "props": {
+      "blockClass": "menu-slider",
+      "images": [
+        {
+          "image": "https://mercedescampuzano.vtexassets.com/arquivos/vestuario.jpg",
+          "description": "Vestuario"
+        }
+      ]
+    }
+  },
+  "slider-layout#menu-slider-vestuario": {
+    "props": {
+      "blockClass": "menu-slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
   },
   "menu-item#menu-vestuario-8": {
     "props": {
