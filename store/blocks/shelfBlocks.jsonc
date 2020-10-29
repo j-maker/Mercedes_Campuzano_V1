@@ -37,6 +37,11 @@
       "flex-layout.row#buy-button-shelf"
     ]
   },
+  "product-summary-name": {
+    "props": {
+      "tag":"h3"
+    }
+  },
   "product-summary.shelf#home": {
     "children": [
       "percent-discount",

@@ -39,8 +39,12 @@
 }
 
 .relatedProducts--home-wrapper-shelf-pdp {
-  width: 80% !important;
+  width: 50% !important;
   margin: 0 auto;
+}
+
+.relatedProducts--home-wrapper-shelf-pdp :global(.vtex-store-components-3-x-discountContainer){
+  left: 10px;
 }
 
 .sliderContainer--home-wrapper-shelf-pdp :global(.vtex-slider-0-x-dotsContainer) {
@@ -68,6 +72,7 @@
   top: 0 !important;
 }
 
+
 @media screen and (max-width: 1024px) {
   .caretIcon--home-wrapper-shelf {
     width: 20px;
@@ -79,5 +84,9 @@
   }
   .title--home-wrapper-shelf-pdp{
 padding-top: 40px;
+  }
+  .relatedProducts--home-wrapper-shelf-pdp {
+    width: 80% !important;
+    margin: 0 auto;
   }
 }

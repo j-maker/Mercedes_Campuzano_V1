@@ -3,10 +3,10 @@
 }
 
 .sliderFrame {
-  min-height: 240px;
+  min-height: 150px;
 }
 @media screen and (max-width:1024px){
   .sliderFrame{
-    min-height: 180px;
+    min-height: 167px;
   }
 }
