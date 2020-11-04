@@ -73,7 +73,7 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-  background: #d86c2b !important;
+  background: #ED962E !important;
 }
 
 .minicartCheckoutButton :global(.vtex-button__label)::after {
