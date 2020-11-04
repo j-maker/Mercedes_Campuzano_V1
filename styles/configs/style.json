@@ -79,10 +79,10 @@
   "semanticColors": {
     "background": {
       "base": "#ffffff",
-      "base--inverted": "#d56e2f",
+      "base--inverted": "#ED962E",
       "action-primary": "transparent",
-      "action-secondary": "#d56e2f",
-      "emphasis": "#d56e2f",
+      "action-secondary": "#ED962E",
+      "emphasis": "#ED962E",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -150,7 +150,7 @@
       "link": ""
     },
     "hover-text": {
-      "action-primary": "#d56e2f",
+      "action-primary": "#ED962E",
       "action-secondary": "#dbe9fd",
       "link": "red",
       "emphasis": "#dd1659",
@@ -173,7 +173,7 @@
     },
     "border": {
       "action-primary": "#E1D3C8",
-      "action-secondary": "#d56e2f",
+      "action-secondary": "#ED962E",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",

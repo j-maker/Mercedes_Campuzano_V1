@@ -1,3 +1,6 @@
+:global(.vtex-button){
+  outline: 0 !important;
+}
 .flexRow--product-description {
   margin: 0 auto;
   max-width: 1200px;
@@ -383,7 +386,7 @@
 
 .flexRowContent--buy-button-product {
   width: 50%;
-  background: #d56e2f !important;
+  background: #ED962E !important;
   margin: 10px 0 0;
 }
 
@@ -402,13 +405,13 @@
 .flexRow--buy-button-shelf-home-1,
 .flexRow--buy-button-shelf-home {
   margin: 0;
-  background: #d56e2f;
+  background: #ED962E;
   color: #fff;
-}
+} 
 
 .flexRow--buy-button-shelf {
   margin-top: 16px;
-  background: #d56e2f;
+  background: #ED962E;
 }
 
 .flexRow--buy-button-shelf-home-1:hover,

@@ -5,7 +5,8 @@
       "flex-layout.row#product-main",
       "flex-layout.row#description",
       "rich-text#recomended",
-      "shelf.relatedProducts"
+      "shelf.relatedProducts",
+      "back-to-top-button"
     ]
   },
   "flex-layout.row#product": {
