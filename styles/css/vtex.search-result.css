@@ -20,8 +20,10 @@
 }
 
 .searchResultContainer {
-  width: 1200px;
+  width: 100%;
   margin-bottom: 130px;
+  max-width: unset;
+  padding: 0;
 }
 
 .filterPopupTitle {
@@ -202,6 +204,9 @@
   top: 10px;
 }
 
+.container--layout--mobileSearch .galleryTitle--layout{
+  color: #000;
+}
 @media screen and (min-width: 1024px) {
   .galleryItem {
     width: 24% !important;
@@ -286,3 +291,4 @@
     height: 35px;
   }
 }
+

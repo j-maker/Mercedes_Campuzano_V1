@@ -17,8 +17,23 @@
       "rich-text#iframe",
       "iframe",
       "custom-open-modal",
+      "rich-text#HomeTitle",
+      "rich-text#descriptionHome",
       "back-to-top-button"
     ]
+  },
+  "rich-text#HomeTitle": {
+    "title":"Home Titulo H1 ",
+    "props": {
+      "text": "# Mercedes Campuzano Tienda de Moda Online",
+      "blockClass": "homeTitleH1"
+    }
+  },
+  "rich-text#descriptionHome": {
+    "props": {
+      "text": "Somos una marca colombiana de moda, enfocada en un estilo de vida joven, fresco y urbano. Encuentra en nuestra tienda online ropa para mujer y niña  perfecta para todas las ocasiones y momentos : trabajo, universidad, fiesta, comida familiar, tarde de amigos. Encuentra también en Mercedes Campuzano las últimas tendencias de moda en jeans, zapatos, accesorios, camisas, vestidos, chaquetas, buzos y demás líneas para estar perfecta en cada ocasión. Nuestras colecciones están pensadas en ropa de moda del momento para que lleves lo mejor de las tendencias a tu closet y disfrutes del estilo de vida.",
+      "blockClass": "descriptionHomeText"
+    }
   },
   "back-to-top-button": {
     "props": {

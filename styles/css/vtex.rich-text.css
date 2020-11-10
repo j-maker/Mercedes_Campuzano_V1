@@ -157,8 +157,13 @@
 .paragraph--footer-terms-content-recomendations,
 .paragraph--footer-terms-content-warranty,
 .paragraph--footer-terms-content-policies-1,
-.container--footer-terms-content-subtitles-policies-changes,
-.paragraph--footer-terms-content-policies {
+.container--footer-terms-content-subtitles-policies-changes{
+  font-size: 14px;
+  text-align: justify !important;
+  color: #515151;
+}
+.paragraph--footer-terms-content-policies{
+  padding: 10px 20px;
   font-size: 14px;
   text-align: justify !important;
   color: #515151;
@@ -177,7 +182,18 @@
   opacity: 0.9;
 }
 
-.strong--footer-terms-content-subtitles-policies-1,
+.strong--footer-terms-content-subtitles-policies-1{
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  font-size: 19px;
+  font-weight: 300;
+  background: #fff;
+  color: #907c68;
+  text-decoration: none;
+  font-family: 'Lora';
+  letter-spacing: 0.5px;
+}
 .strong--footer-terms-content-online-shopping,
 .strong--footer-terms-content-recomendastions,
 .strong--footer-terms-content-warranty {
@@ -451,7 +467,38 @@
   margin: 10px 0 20px 0;
 }
 
+.paragraph--descriptionCategoryText{
+  color: #69727b;
+  font-size: 14px;
+}
+.container--descriptionCategoryText{
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+.wrapper--descriptionCategoryTitle{
+  margin: auto;
+}
+
+.heading--descriptionCategoryTitle{
+  color: #000;
+}
+
+.heading--descriptionCategoryTitle::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #dcd2c6;
+  opacity: 0.77;
+}
 @media screen and (max-width: 1024px) {
+  .strong--footer-terms-content-subtitles-policies-1{
+    font-size: 16px;
+  }
   .paragraph--header-2-link {
     margin: 0;
   }
@@ -681,4 +728,36 @@
 
 .container--header-2-link {
   margin-right: 30px;
+}
+
+.container--homeTitleH1{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading--homeTitleH1{
+  padding: 0 20px;  
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+}
+
+.wrapper--homeTitleH1{
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper--descriptionHomeText{
+  max-width: 920px;
+  margin: 0 auto 50px;
+}
+
+.paragraph--descriptionHomeText{
+  width: 100%;
+    color: #888;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    padding: 0 20px;
 }

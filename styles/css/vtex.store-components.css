@@ -312,7 +312,7 @@
   font-size: 16px;
   font-weight: bold;
   padding: 16px 3px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .searchBarInnerContainer--search-result {
@@ -853,4 +853,16 @@
   padding-left: 17px;
   transform: rotate(180deg);
   opacity: .6;
+}
+
+.imageElement--imageCategories{
+  width: 100%;
+}
+
+.imageElement--imageCategories::after{
+  display: block;
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%;
+  content: "";
 }

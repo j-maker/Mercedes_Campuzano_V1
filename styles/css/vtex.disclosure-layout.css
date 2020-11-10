@@ -1,0 +1,21 @@
+.trigger--wrapperTermsContent {
+  border: none;
+  border-radius: none;
+  background: none;
+  padding: 0;
+  outline: 0;
+}
+
+.trigger--wrapperTermsContent--hidden{
+    width: 100%;  
+}
+
+.trigger--wrapperTermsContent--visible {
+  background: #d4c4a0;
+  width: 100%;
+}
+
+.trigger--wrapperTermsContent--visible :global(.vtex-rich-text-0-x-strong--footer-terms-content-subtitles-policies-1) {
+  background: #d4c4a0 !important;
+  color: #fff !important;
+}

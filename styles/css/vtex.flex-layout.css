@@ -1,6 +1,7 @@
-:global(.vtex-button){
+:global(.vtex-button) {
   outline: 0 !important;
 }
+
 .flexRow--product-description {
   margin: 0 auto;
   max-width: 1200px;
@@ -407,7 +408,7 @@
   margin: 0;
   background: #ED962E;
   color: #fff;
-} 
+}
 
 .flexRow--buy-button-shelf {
   margin-top: 16px;
@@ -439,6 +440,7 @@
 
 .flexColChild--footer-terms-col-policies-col-wrapper {
   margin: 0 auto;
+  width: 100%;
 }
 
 .flexRow--modal-form-row :global(.vtex-store-components-3-x-container) {
@@ -475,6 +477,11 @@
 .flexRowContent--buy-button-shelf-home-1 :global(.vtex-button),
 .flexRowContent--buy-button-product :global(.vtex-button) {
   outline: 0 !important;
+}
+
+.flexCol--wrapperContentFilters {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .flexCol--wrapperContentFilters .flexColChild--wrapperContentFilters:first-child {
@@ -1208,4 +1215,41 @@
 
 .flexRowContent--menu-mobile-new .stretchChildrenWidth {
   width: 100% !important;
+}
+
+.flexRow--footer-terms-conditions-promotions :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+}
+
+.flexRowContent--wrapperSearchCategories {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flexRow--descriptionImage :global(.vtex-store-components-3-x-container) {
+  max-width: unset;
+  padding: 0;
+}
+
+.flexRowContent--descriptionImage {
+  position: relative;
+}
+
+.flexRowContent--descriptionImage .stretchChildrenWidth:first-child {
+  width: 100% !important;
+  max-height: 300px;
+  transform: scale(1);
+}
+
+.flexRowContent--descriptionImage .stretchChildrenWidth:last-child {
+  width: 100% !important;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+}
+
+.flexColChild--wrapperSearchCategories :global(.vtex-search-result-3-x-galleryTitle--layout) {
+  margin: 15px 0 0px;
+  font-size: 18px;
+  color: #000;
 }

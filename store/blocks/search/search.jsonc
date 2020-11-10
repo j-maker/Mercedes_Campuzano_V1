@@ -125,8 +125,8 @@
   },
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#result",
+      //"flex-layout.row#descriptionImage",
+      "flex-layout.row#wrapperSearchCategories",
       "back-to-top-button"
     ],
     "props": {
@@ -139,6 +139,22 @@
         "mode1": "small",
         "mode2": "normal"
       }
+    }
+  },
+  "flex-layout.row#wrapperSearchCategories":{
+    "children":[
+      "flex-layout.col#wrapperSearchCategories"
+    ],"props":{"blockClass":"wrapperSearchCategories"}
+  },
+  "flex-layout.col#wrapperSearchCategories":{
+    "children":[
+            "flex-layout.row#searchbread",
+            "flex-layout.row#result",
+            "flex-layout.row#searchtitle",
+            "flex-layout.row#descriptionCategory"
+    ],
+    "props":{
+      "blockClass":"wrapperSearchCategories"
     }
   },
   "search-bar#search-result": {
@@ -164,7 +180,6 @@
   },
   "flex-layout.row#result": {
     "children": [
-      //"flex-layout.col#filter",
       "flex-layout.col#content"
     ],
     "props": {
@@ -186,7 +201,6 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#searchinfo",
-      //"flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
     ],
@@ -195,6 +209,18 @@
       "priceRange": false,
       "width": "grow",
       "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#descriptionCategory":{
+    "title":"Descripcion Category",
+    "children":[
+      "rich-text#descriptionCategory"
+    ]
+  },
+  "rich-text#descriptionCategory": {
+    "props": {
+      "text": "Los **morrales de mujer de moda** son una tendencia muy actual que ha cobrado fuerza cada vez más. Mercedes Campuzano sabe esto y ha diseñado para ti las mochilas de moda para mujer más hermosas, prácticas y de mejor calidad. Tenemos morrales para mujer de cuero de diferentes y bellos estampados y texturas, con espacio suficiente para cargar tú celular, maquillaje, cambio de ropa para el gimnasio, y hasta la laptop. Lo bueno de los morrales de mujer de moda es que te permite llevar contigo muchas cosas sin tener que renunciar a tu estilo, porque Mercedes Campuzano ha ideado modelos de morrales de mujer de moda con un diseño increíble, muy sofisticado y a la moda que te harán resaltar por tu impecable gusto a la hora de elegir el accesorio correcto.",
+      "blockClass": "descriptionCategoryText"
     }
   },
   "flex-layout.row#searchinfo": {
@@ -288,9 +314,12 @@
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#descriptionCategory",
       "back-to-top-button"
     ],
     "props": {
+      "blockClass":"mobileSearch",
       /*"pagination": "show-more",*/
       "mobileLayout": {
         "mode1": "small",
