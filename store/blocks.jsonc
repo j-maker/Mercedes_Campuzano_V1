@@ -556,7 +556,8 @@
   },
   "add-to-cart-button#homeShelf": {
     "props": {
-      "isOneClickBuy ": true,
+      "onClickBehavior":"go-to-product-page",
+      "isOneClickBuy ": false,
       "unavailableText": "NO DISPONIBLE",
       "blockClass": "buy-button-product",
       "text": "COMPRAR YA"

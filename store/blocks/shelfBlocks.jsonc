@@ -57,7 +57,7 @@
       //"flex-layout.col#spacer",
       //"product-summary-sku-selector",
       "add-to-cart-button#homeShelf"
-      //"flex-layout.row#buy-button-shelf-home"
+ //     "flex-layout.row#buy-button-shelf-home"
     ]
   },
   "product-summary.shelf#related": {
