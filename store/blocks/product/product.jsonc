@@ -151,6 +151,7 @@
       "flex-layout.row#size-guide",
       "product-assembly-options",
       "flex-layout.row#buy-button-product",
+      "custom-event-open-minicart-pdp",
       //"flex-layout.row#product",
       "availability-subscriber",
       "shelf.relatedProducts#similars"

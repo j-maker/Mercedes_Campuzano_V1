@@ -830,11 +830,14 @@
     right: 18px;
     bottom: 130px;
 }
+
 .backToTopButtonContainer :global(.vtex-button) {
   border-radius: 50%;
   border: 1px solid #e5e5e5;
   background: #fff;
   outline: 0!important;
+  width: 42px;
+  height: 40px;
 }
 
 .backToTopButtonContainer :global(.vtex-button__label) {
