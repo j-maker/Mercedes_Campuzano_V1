@@ -470,6 +470,7 @@
 .paragraph--descriptionCategoryText{
   color: #69727b;
   font-size: 14px;
+  text-align: justify;
 }
 .container--descriptionCategoryText{
   padding-left: 22px;
