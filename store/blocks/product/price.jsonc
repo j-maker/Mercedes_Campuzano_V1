@@ -77,6 +77,13 @@
       "custom-thrid-price"
     ]
   },
+
+
+  "flex-layout.row#shelf-general-price":{
+    "children": [
+      "flex-layout.col#shelf-general-price"
+    ]
+  },
   "flex-layout.col#shelf-general-price": {
     "props": {
       "blockClass": "shelf-general-price"

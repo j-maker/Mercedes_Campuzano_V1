@@ -183,7 +183,7 @@
 .menuItem--submenu-zapatos-de-tacon:hover::before {
   content: "";
   position: absolute;
-  background-image: url("/arquivos/MC-menu-sandalias-de-tacon.jpg");
+  background-image: url("/arquivos/minibanners-02.jpg");
   background-size: 100%;
   top: 25px;
   left: calc(50% + 25px);
@@ -209,7 +209,7 @@
 .menuItem--submenu-tenis:hover::before {
   content: "";
   position: absolute;
-  background-image: url("/arquivos/MC-menu-tenis.jpg");
+  background-image: url("/arquivos/minibanners-04.jpg");
   background-size: 100%;
   top: 25px;
   left: calc(50% + 25px);
@@ -287,7 +287,7 @@
 .menuItem--submenu-bandoleras:hover::before {
   content: "";
   position: absolute;
-  background-image: url("/arquivos/MC-menu-bandoleras.jpg");
+  background-image: url("/arquivos/minibanners-03.jpg");
   background-size: 100%;
   top: 25px;
   left: calc(50% + 5px);
@@ -326,7 +326,7 @@
 .menuItem--submenu-cosmetiqueras:hover::before {
   content: "";
   position: absolute;
-  background-image: url("/arquivos/MC-menu-cosmetiquera.jpg");
+  background-image: url("/arquivos/minibanners-05.jpg");
   background-size: 100%;
   top: 25px;
   left: calc(50% + 5px);

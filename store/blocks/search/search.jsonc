@@ -7,7 +7,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "Static",
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 20,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -21,7 +21,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "Static",
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 20,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -35,7 +35,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "Static",
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 20,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -48,7 +48,7 @@
     "props": {
       "context": {
         "facetsBehavior": "Static",
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 20,
         "orderByField": "OrderByReleaseDateDESC",
         "skusFilter": "ALL",
         "simulationBehavior": "skip"

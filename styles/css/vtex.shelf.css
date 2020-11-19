@@ -44,7 +44,7 @@
 }
 
 .relatedProducts--home-wrapper-shelf-pdp :global(.vtex-store-components-3-x-discountContainer){
-  left: 10px;
+  left: 0px;
 }
 
 .sliderContainer--home-wrapper-shelf-pdp :global(.vtex-slider-0-x-dotsContainer) {

@@ -177,6 +177,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .slide--shelf{
+    max-width: unset;
+  }
   .sliderLeftArrow--home-slider {
     right: 15px;
     top: 45%;

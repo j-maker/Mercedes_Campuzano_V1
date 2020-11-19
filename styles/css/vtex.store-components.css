@@ -307,8 +307,8 @@
   border-radius: 100px;
   position: absolute;
   z-index: 1;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   font-size: 16px;
   font-weight: bold;
   padding: 16px 3px;
@@ -475,14 +475,13 @@
   flex: 0 0 auto;
 }
 
-.discountContainer {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
 .skuSelectorSubcontainer--color {
   margin-top: 15px;
+}
+
+.discountContainer{
+    top: 0;
+    right: 0;
 }
 
 .backToTopButtonActive {
