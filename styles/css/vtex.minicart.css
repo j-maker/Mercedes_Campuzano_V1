@@ -109,7 +109,7 @@
 
 .minicartContainer--minicart :global(.vtex-button)::after {
   content: "";
-  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/mc-bag.png");
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/Bag.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

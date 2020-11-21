@@ -5,23 +5,39 @@
   z-index: 2;
 }
 
-.outline {
-  background-image: url("https://aldoecuador.vtexassets.com/arquivos/heart.svg");
-  width: 18px;
-  height: 18px;
+.outline,
+.fill {
+  width: 0;
 }
 
-.fill {
-  background-image: url("https://aldoecuador.vtexassets.com/arquivos/fill-heart.svg");
-  width: 18px;
-  height: 18px;
+.fill::before {
+  content: "";
+  background-image: url(https://mercedescampuzano.vtexassets.com/arquivos/heart-11.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding-top: 24px;
+  padding-left: 24px;
 }
+
+.outline::before {
+  content: "";
+  background-image: url(https://mercedescampuzano.vtexassets.com/arquivos/heart-shelf-1.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
 
 .wishlistIconContainer--shelfWishlist :global(.vtex-button) {
   outline: 0 !important;
+  margin-top: 15px;
 }
 
 .wishlistIconContainer--shelfWishlist :global(.vtex-button__label) {
   padding: 0 10px;
 }
-

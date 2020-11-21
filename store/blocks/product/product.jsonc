@@ -143,8 +143,10 @@
     },
     "children": [
       "flex-layout.row#product-name",
-      "flex-layout.col#general-price",
-      "rich-text#price-online",
+      "flex-layout.row#selling-price-savings",
+      //"flex-layout.col#general-price",
+      "rich-text#dia-sin-iva",
+      //"rich-text#price-online",
       "sku-selector",
       //"sku-selector#product",
       "custom-map-color",

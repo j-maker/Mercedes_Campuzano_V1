@@ -85,14 +85,15 @@
 
 .triggerContainer--quickview::after {
   content: "";
-  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/eye.svg");
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/eye-brown-1.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: -19px;
   z-index: 1;
-  padding-top: 40px;
-  padding-left: 40px;
+  padding-top: 24px;
+  padding-left: 24px;
+  margin-left: 10px;
+  margin-top: 6px;
 }
 
 .contentContainer--quickviewContent :global(.vtex-store-components-3-x-errorMessage) {

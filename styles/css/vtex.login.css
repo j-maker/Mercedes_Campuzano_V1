@@ -11,12 +11,12 @@
 }
 
 .container :global(.vtex-button__label)::before {
-  width: 26px;
+  width: 20px;
   margin-right: -7px;
-  height: 25px;
+  height: 20px;
   content: "";
   display: block;
-  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/person-female.png");
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/icon-user.png");
   background-size: contain;
 }
 
@@ -131,6 +131,7 @@
 
 .label {
   text-decoration: underline;
+  font-size: 13px;
 }
 
 .buttonLink:focus {
@@ -142,6 +143,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+  
+  .container :global(.vtex-button__label)::before {
+    width: 19px;
+    background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/icon-perfil.svg");
+  }
   .label {
     font-size: 0px;
   }
@@ -173,6 +179,8 @@
   }
 
   .buttonLink :global(.vtex-button__label) {
-    padding: 0 10px;
+    padding-top: 2px !important;
+    padding-right: 14px;
+    padding-left: 14px;
   }
 }

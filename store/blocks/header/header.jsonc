@@ -222,14 +222,14 @@
     "children": [
       "search-bar",
       "login#Mc",
-      "image#wishlist"
+      "image#wishlist-1"
     ]
   },
-  "image#wishlist": {
+  "image#wishlist-1": {
     "title": "Header-Image-Wishlist",
     "props": {
       "blockClass": "imageWishlist",
-      "src": "https://aldoecuador.vtexassets.com/arquivos/heart.svg",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/heart-11.svg",
       "href": "/wishlist",
       "maxHeight": 20
     }
@@ -470,7 +470,7 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "image#wishlist",
+      "image#wishlist-1",
       "login#Mc",
       "flex-layout.col#car",
       "drawer#mobile"

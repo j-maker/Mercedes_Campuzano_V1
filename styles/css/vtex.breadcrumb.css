@@ -10,22 +10,17 @@
   margin: 0 0 16px;
 }
 
-.link--2 {
-  margin-right: 0;
-  margin-left: 0px;
-  text-decoration: none;
+
+
+.link--2::before,
+.link--3::before,
+.term::before{
+  content:"/";
+  font-size: 14px;
   color: #9d884b;
-  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none !important;
 }
-
-.link--1 {
-  margin-right: 0;
-  margin-left: 0px;
-  text-decoration: underline;
-  color: #8c8c8c;
-  background-color: transparent;
-}
-
 .link--1:hover,
 .link--2:hover {
   color: #bebfc0;
@@ -41,7 +36,13 @@
   margin: 40px;
 }
 
+.homeLink{
+  display: none;
+}
 
+.caretIcon{
+  display: none;
+}
 @media screen and (max-width:1024px) {
   .container {
     margin: 0;

@@ -27,7 +27,8 @@
         ]
       },
       "flex-layout.col#col-1-content-terms-conditions-promotions": {
-        "children": [ 
+        "children": [
+          "disclosure-layout#terms-18",
           "disclosure-layout#terms-17",
           "disclosure-layout#terms-16",
           "disclosure-layout#terms-15",
@@ -45,269 +46,335 @@
           "disclosure-layout#terms-2",
           "disclosure-layout#terms-1"
         ],
-        "props":{
-          "blockClass":"childContentTyCPromotions"
+        "props": {
+          "blockClass": "childContentTyCPromotions"
         }
+      },
+      "disclosure-layout#terms-18": {
+        "children": [
+          "disclosure-trigger#terms-18",
+          "disclosure-content#terms-18"
+        ]
+      },
+      "disclosure-trigger#terms-18": {
+        "children": [
+          "rich-text#col-1-subtitle-18-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-18": {
+        "children": [
+          "rich-text#col-1-paragraph-18-content-terms-conditions-promotions"
+        ]
       },
       "disclosure-layout#terms-17": {
         "children": [
-            "disclosure-trigger#terms-17",
-            "disclosure-content#terms-17"
+          "disclosure-trigger#terms-17",
+          "disclosure-content#terms-17"
         ]
-    },
-    "disclosure-trigger#terms-17": {
+      },
+      "disclosure-trigger#terms-17": {
         "children": [
-            "rich-text#col-1-subtitle-17-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-17": {
+          "rich-text#col-1-subtitle-17-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-17": {
         "children": [
-            "rich-text#col-1-paragraph-17-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-17-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-16": {
+      },
+      "disclosure-layout#terms-16": {
         "children": [
-            "disclosure-trigger#terms-16",
-            "disclosure-content#terms-16"
+          "disclosure-trigger#terms-16",
+          "disclosure-content#terms-16"
         ]
-    },
-    "disclosure-trigger#terms-16": {
+      },
+      "disclosure-trigger#terms-16": {
         "children": [
-            "rich-text#col-1-subtitle-16-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-16": {
+          "rich-text#col-1-subtitle-16-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-16": {
         "children": [
-            "rich-text#col-1-paragraph-16-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-16-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-15": {
+      },
+      "disclosure-layout#terms-15": {
         "children": [
-            "disclosure-trigger#terms-15",
-            "disclosure-content#terms-15"
+          "disclosure-trigger#terms-15",
+          "disclosure-content#terms-15"
         ]
-    },
-    "disclosure-trigger#terms-15": {
+      },
+      "disclosure-trigger#terms-15": {
         "children": [
-            "rich-text#col-1-subtitle-15-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-15": {
+          "rich-text#col-1-subtitle-15-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-15": {
         "children": [
-            "rich-text#col-1-paragraph-15-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-15-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-14": {
+      },
+      "disclosure-layout#terms-14": {
         "children": [
-            "disclosure-trigger#terms-14",
-            "disclosure-content#terms-14"
+          "disclosure-trigger#terms-14",
+          "disclosure-content#terms-14"
         ]
-    },
-    "disclosure-trigger#terms-14": {
+      },
+      "disclosure-trigger#terms-14": {
         "children": [
-            "rich-text#col-1-subtitle-14-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-14": {
+          "rich-text#col-1-subtitle-14-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-14": {
         "children": [
-            "rich-text#col-1-paragraph-14-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-14-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-13": {
+      },
+      "disclosure-layout#terms-13": {
         "children": [
-            "disclosure-trigger#terms-13",
-            "disclosure-content#terms-13"
+          "disclosure-trigger#terms-13",
+          "disclosure-content#terms-13"
         ]
-    },
-    "disclosure-trigger#terms-13": {
+      },
+      "disclosure-trigger#terms-13": {
         "children": [
-            "rich-text#col-1-subtitle-13-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-13": {
+          "rich-text#col-1-subtitle-13-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-13": {
         "children": [
-            "rich-text#col-1-paragraph-13-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-13-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-12": {
+      },
+      "disclosure-layout#terms-12": {
         "children": [
-            "disclosure-trigger#terms-12",
-            "disclosure-content#terms-12"
+          "disclosure-trigger#terms-12",
+          "disclosure-content#terms-12"
         ]
-    },
-    "disclosure-trigger#terms-12": {
+      },
+      "disclosure-trigger#terms-12": {
         "children": [
-            "rich-text#col-1-subtitle-12-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-12": {
+          "rich-text#col-1-subtitle-12-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-12": {
         "children": [
-            "rich-text#col-1-paragraph-12-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-12-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-11": {
+      },
+      "disclosure-layout#terms-11": {
         "children": [
-            "disclosure-trigger#terms-11",
-            "disclosure-content#terms-11"
+          "disclosure-trigger#terms-11",
+          "disclosure-content#terms-11"
         ]
-    },
-    "disclosure-trigger#terms-11": {
+      },
+      "disclosure-trigger#terms-11": {
         "children": [
-            "rich-text#col-1-subtitle-11-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-11": {
+          "rich-text#col-1-subtitle-11-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-11": {
         "children": [
-            "rich-text#col-1-paragraph-11-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-11-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-10": {
+      },
+      "disclosure-layout#terms-10": {
         "children": [
-            "disclosure-trigger#terms-10",
-            "disclosure-content#terms-10"
+          "disclosure-trigger#terms-10",
+          "disclosure-content#terms-10"
         ]
-    },
-    "disclosure-trigger#terms-10": {
+      },
+      "disclosure-trigger#terms-10": {
         "children": [
-            "rich-text#col-1-subtitle-10-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-10": {
+          "rich-text#col-1-subtitle-10-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-10": {
         "children": [
-            "rich-text#col-1-paragraph-10-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-10-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-9": {
+      },
+      "disclosure-layout#terms-9": {
         "children": [
-            "disclosure-trigger#terms-9",
-            "disclosure-content#terms-9"
+          "disclosure-trigger#terms-9",
+          "disclosure-content#terms-9"
         ]
-    },
-    "disclosure-trigger#terms-9": {
+      },
+      "disclosure-trigger#terms-9": {
         "children": [
-            "rich-text#col-1-subtitle-9-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-9": {
+          "rich-text#col-1-subtitle-9-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-9": {
         "children": [
-            "rich-text#col-1-paragraph-9-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-9-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-8": {
+      },
+      "disclosure-layout#terms-8": {
         "children": [
-            "disclosure-trigger#terms-8",
-            "disclosure-content#terms-8"
+          "disclosure-trigger#terms-8",
+          "disclosure-content#terms-8"
         ]
-    },
-    "disclosure-trigger#terms-8": {
+      },
+      "disclosure-trigger#terms-8": {
         "children": [
-            "rich-text#col-1-subtitle-8-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-8": {
+          "rich-text#col-1-subtitle-8-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-8": {
         "children": [
-            "rich-text#col-1-paragraph-8-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-8-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-7": {
+      },
+      "disclosure-layout#terms-7": {
         "children": [
-            "disclosure-trigger#terms-7",
-            "disclosure-content#terms-7"
+          "disclosure-trigger#terms-7",
+          "disclosure-content#terms-7"
         ]
-    },
-    "disclosure-trigger#terms-7": {
+      },
+      "disclosure-trigger#terms-7": {
         "children": [
-            "rich-text#col-1-subtitle-7-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-7": {
+          "rich-text#col-1-subtitle-7-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-7": {
         "children": [
-            "rich-text#col-1-paragraph-7-content-terms-conditions-promotions",
-            "rich-text#col-1-paragraph-6-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-7-content-terms-conditions-promotions",
+          "rich-text#col-1-paragraph-6-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-5": {
+      },
+      "disclosure-layout#terms-5": {
         "children": [
-            "disclosure-trigger#terms-5",
-            "disclosure-content#terms-5"
+          "disclosure-trigger#terms-5",
+          "disclosure-content#terms-5"
         ]
-    },
-    "disclosure-trigger#terms-5": {
+      },
+      "disclosure-trigger#terms-5": {
         "children": [
-            "rich-text#col-1-subtitle-5-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-5": {
+          "rich-text#col-1-subtitle-5-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-5": {
         "children": [
-            "rich-text#col-1-paragraph-5-content-terms-conditions-promotions",
-            "sandbox#table"
+          "rich-text#col-1-paragraph-5-content-terms-conditions-promotions",
+          "sandbox#table"
         ]
-    },
-    "disclosure-layout#terms-4": {
+      },
+      "disclosure-layout#terms-4": {
         "children": [
-            "disclosure-trigger#terms-4",
-            "disclosure-content#terms-4"
+          "disclosure-trigger#terms-4",
+          "disclosure-content#terms-4"
         ]
-    },
-    "disclosure-trigger#terms-4": {
+      },
+      "disclosure-trigger#terms-4": {
         "children": [
-            "rich-text#col-1-subtitle-4-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-4": {
+          "rich-text#col-1-subtitle-4-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-4": {
         "children": [
-            "rich-text#col-1-paragraph-4-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-4-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-3": {
+      },
+      "disclosure-layout#terms-3": {
         "children": [
-            "disclosure-trigger#terms-3",
-            "disclosure-content#terms-3"
+          "disclosure-trigger#terms-3",
+          "disclosure-content#terms-3"
         ]
-    },
-    "disclosure-trigger#terms-3": {
+      },
+      "disclosure-trigger#terms-3": {
         "children": [
-            "rich-text#col-1-subtitle-3-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-3": {
+          "rich-text#col-1-subtitle-3-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-3": {
         "children": [
-            "rich-text#col-1-paragraph-3-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-3-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-2": {
+      },
+      "disclosure-layout#terms-2": {
         "children": [
-            "disclosure-trigger#terms-2",
-            "disclosure-content#terms-2"
+          "disclosure-trigger#terms-2",
+          "disclosure-content#terms-2"
         ]
-    },
-    "disclosure-trigger#terms-2": {
+      },
+      "disclosure-trigger#terms-2": {
         "children": [
-            "rich-text#col-1-subtitle-2-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-2": {
+          "rich-text#col-1-subtitle-2-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-2": {
         "children": [
-            "rich-text#col-1-paragraph-2-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-2-content-terms-conditions-promotions"
         ]
-    },
-    "disclosure-layout#terms-1": {
+      },
+      "disclosure-layout#terms-1": {
         "children": [
-            "disclosure-trigger#terms-1",
-            "disclosure-content#terms-1"
+          "disclosure-trigger#terms-1",
+          "disclosure-content#terms-1"
         ]
-    },
-    "disclosure-trigger#terms-1": {
+      },
+      "disclosure-trigger#terms-1": {
         "children": [
-            "rich-text#col-1-subtitle-1-content-terms-conditions-promotions"
-        ],"props":{"blockClass":"wrapperTermsContent"}
-    },
-    "disclosure-content#terms-1": {
+          "rich-text#col-1-subtitle-1-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-1": {
         "children": [
-            "rich-text#col-1-paragraph-1-content-terms-conditions-promotions"
+          "rich-text#col-1-paragraph-1-content-terms-conditions-promotions"
         ]
-    },
-
+      },
       "rich-text#col-1-title-terms-conditions-promotions": {
         "props": {
           "blockClass": "footer-terms-title",
@@ -584,6 +651,22 @@
           "textAlignment": "JUSTIFY",
           "textPosition": "JUSTIFY",
           "text": "Aplica condiciones y restricciones\nDescuentos hasta del 50% en referencias seleccionadas\nPromoción válida únicamente  del 19 al 25 de octubre del  año 2020\nAplica únicamente para el inventario disponible los días del evento, en nuestra  página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93.\nNo aplica para tiendas físicas Mercedes Campuzano ni falabella\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras  de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento\nNo aplica para bonos de descuento por cumpleaños\nUnidades disponibles a nivel nacional entre zapatos, bolsos y accesorios18,498\n"
+        }
+      },
+      "rich-text#col-1-subtitle-18-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**- NOVIEMBRE 21 DÍA SIN IVA**\n"
+        }
+      },
+      "rich-text#col-1-paragraph-18-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones\n Descuentos hasta del 60% en referencias seleccionadas y el 21% en producto de línea\nPromoción válida únicamente el 21 de noviembre de 2020 hasta las 11:30 pm.\nAplica únicamente para el inventario disponible el día del evento, en todas las tiendas físicas Mercedes Campuzano del país, línea whatsapp 3174266793  y página web www.mercedescampuzano.com.\nLa apertura de tiendas físicas está sujeta a autorizaciones de entes gubernamentales.\nNo aplica para nuestra línea de protección (Jabón, gel antibacterial, tapabocas); esta línea ya es exenta de IVA y no tiene descuento\nSolo aplica con forma de pago electrónico (Tarjetas débito y/o crédito)\nLos precios finales ya incluyen el beneficio de exención especial dada por el decreto legislativo 682 del 21 de mayo de 2020\nEn referencia al decreto 682, el consumidor solo podrá adquirir un máximo de tres (3) unidades del mismo bien, de acuerdo a su categoría.\nEl calzado y vestuario son en sí mismos una misma categoría.\nLos Bolsos y Accesorios son en sí mismos una misma categoría.\nEl valor unitario máximo a cancelar por el consumidor, será de: $159.580 (ciento cincuenta y nueve mil quinientos ochenta pesos m.l.)\nNo aplica para tiendas físicas falabella\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento\nNo aplica para bonos de descuento por cumpleaños\n\nUnidades disponibles a nivel nacional entre bolsos, zapatos y accesorios 57.079"
         }
       }
     }

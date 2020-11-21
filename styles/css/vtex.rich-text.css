@@ -385,7 +385,8 @@
 }
 
 .container--price-online {
-  margin-bottom: 20px;
+  width: 80%;
+  margin: 0 auto 20px;
   font-size: 14px;
   color: #69727b;
 }
@@ -452,11 +453,15 @@
   line-height: 18px;
   font-weight: 400;
   text-decoration: none;
-  padding: 20px 5px;
+  padding: 15px 5px;
 }
 
 .paragraph--header-2-link:hover {
   opacity: 0.6 !important;
+}
+
+.paragraph--header-2-link{
+  margin: 13px 0;
 }
 
 .wrapper--tituloWishlist {
