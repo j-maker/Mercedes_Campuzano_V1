@@ -64,9 +64,9 @@
   },
   "flex-layout.row#menu-2": {
     "children": [
-      //"menu-item#menu-3",
+      "menu-item#menu-3",
       "menu-item#menu-4",
-      "link#row-3-4",
+      //"link#row-3-4",
       "link#row-3-3",
       "link#row-3-5",
       //"flex-layout.row#hotDays",
@@ -765,12 +765,11 @@
       "blockClass": "submenu"
     },
     "children": [
-      //"menu-item#menu-4-2",
+      "menu-item#menu-4-2",
       "menu-item#menu-4-3",
       "menu-item#menu-4-4",
       "menu-item#menu-4-5",
-      "menu-item#menu-4-6",
-      "menu-item#menu-4-7"
+      "menu-item#menu-4-6"
     ]
   },
   "vtex.menu@2.x:menu#menu-4-2": {
@@ -779,8 +778,8 @@
       "blockClass": "submenu"
     },
     "children": [
-      //"menu-item#menu-4-1",
-      //"menu-item#menu-4-7"
+      "menu-item#menu-4-1",
+      "menu-item#menu-4-7"
     ]
   },
   "menu-item#menu-4-7": {
@@ -939,7 +938,7 @@
       //"flex-layout.row#menu-mobile-1",
       "flex-layout.row#menu-mobile-zapatos-new",
       "flex-layout.row#menu-mobile-bolsos-new",
-      //"flex-layout.row#menu-mobile-accesorios-new",
+      "flex-layout.row#menu-mobile-accesorios-new",
       "flex-layout.row#menu-mobile-otros-new",
       //"flex-layout.row#menu-mobile-2",
       //"flex-layout.row#menu-mobile-3",

@@ -15,9 +15,10 @@
 }
 
 .currencyContainer--summary {
-  margin: 0;
-  text-align: center;
+  margin: 0 5px 0 0;
+  text-align: right;
   line-height: 1;
+  display: table-caption;
 }
 
 .sellingPriceValue {
@@ -53,9 +54,12 @@
   margin: 0 !important;
 }
 
+.sellingPriceValue--summary .currencyContainer--summary{
+  margin: 0 0 0 5px;
+}
 .listPriceValue--summary {
   color: #292c2a;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 900;
   margin: 0 !important;
   padding: 0 !important;
@@ -90,7 +94,7 @@
 
 @media screen and (max-width: 1024px) {
   .listPriceValue--summary {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .listPrice {
@@ -98,6 +102,6 @@
   }
 
   .sellingPriceValue--summary {
-    font-size: 18px;
+    font-size: 16px;
   }
 }

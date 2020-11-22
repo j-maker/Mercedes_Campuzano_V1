@@ -51,7 +51,7 @@
     "children": [
       //"product-summary-space",
       "product-list-price#summary",
-      "custom-price-iva",
+      //"custom-price-iva",
       "product-selling-price#summary"
       //"product-price-savings#summary"
       //"custom-thrid-price"
