@@ -33,7 +33,7 @@
     },
     "children": [
       "flex-layout.col#spacer",
-      "custom-price-iva",
+      //"custom-price-iva",
       "product-list-price#summary",
       "product-selling-price#summary",
       "product-price-savings#summary",
