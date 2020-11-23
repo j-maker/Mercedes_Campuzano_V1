@@ -26,7 +26,7 @@
 
 .styledLinkContent--header-menu-2 {
   text-decoration: none;
-  color: pink;
+  color: black;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
@@ -608,7 +608,7 @@
     margin: 0;
     padding: 0px 0 0 7px;
     text-transform: capitalize;
-
+    
   }
 
   .styledLinkContent--header-menu-2::after {
