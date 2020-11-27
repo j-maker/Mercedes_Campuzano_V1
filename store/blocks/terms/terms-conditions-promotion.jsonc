@@ -28,6 +28,7 @@
       },
       "flex-layout.col#col-1-content-terms-conditions-promotions": {
         "children": [
+          "disclosure-layout#terms-19",
           "disclosure-layout#terms-18",
           "disclosure-layout#terms-17",
           "disclosure-layout#terms-16",
@@ -49,6 +50,25 @@
         "props": {
           "blockClass": "childContentTyCPromotions"
         }
+      },
+      "disclosure-layout#terms-19": {
+        "children": [
+          "disclosure-trigger#terms-19",
+          "disclosure-content#terms-19"
+        ]
+      },
+      "disclosure-trigger#terms-19": {
+        "children": [
+          "rich-text#col-1-subtitle-19-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-19": {
+        "children": [
+          "rich-text#col-1-paragraph-19-content-terms-conditions-promotions"
+        ]
       },
       "disclosure-layout#terms-18": {
         "children": [
@@ -667,6 +687,22 @@
           "textAlignment": "JUSTIFY",
           "textPosition": "JUSTIFY",
           "text": "Aplica condiciones y restricciones\n Descuentos hasta del 60% en referencias seleccionadas y el 21% en producto de línea\nPromoción válida únicamente el 21 de noviembre de 2020 hasta las 11:30 pm.\nAplica únicamente para el inventario disponible el día del evento, en todas las tiendas físicas Mercedes Campuzano del país, línea whatsapp 3174266793  y página web www.mercedescampuzano.com.\nLa apertura de tiendas físicas está sujeta a autorizaciones de entes gubernamentales.\nNo aplica para nuestra línea de protección (Jabón, gel antibacterial, tapabocas); esta línea ya es exenta de IVA y no tiene descuento\nSolo aplica con forma de pago electrónico (Tarjetas débito y/o crédito)\nLos precios finales ya incluyen el beneficio de exención especial dada por el decreto legislativo 682 del 21 de mayo de 2020\nEn referencia al decreto 682, el consumidor solo podrá adquirir un máximo de tres (3) unidades del mismo bien, de acuerdo a su categoría.\nEl calzado y vestuario son en sí mismos una misma categoría.\nLos Bolsos y Accesorios son en sí mismos una misma categoría.\nEl valor unitario máximo a cancelar por el consumidor, será de: $159.580 (ciento cincuenta y nueve mil quinientos ochenta pesos m.l.)\nNo aplica para tiendas físicas falabella\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\nEl descuento no es canjeable por dinero.\nNo aplica para compras de bonos regalos.\nNo aplica para redención de puntos club de coleccionistas\nNo aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento\nNo aplica para bonos de descuento por cumpleaños\n\nUnidades disponibles a nivel nacional entre bolsos, zapatos y accesorios 57.079"
+        }
+      },
+      "rich-text#col-1-subtitle-19-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**- TÉRMINOS Y CONDICIONES BLACK DAYS 2020**\n"
+        }
+      },
+      "rich-text#col-1-paragraph-19-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones\n Descuento hasta del 60% en referencias seleccionadas\nPromoción válida únicamente (Desde 27-Nov-20 / Hasta 29-Nov-20) o hasta agotar existencias, lo que suceda primero.\n Aplica únicamente en página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93\n No aplica para ningún otro medio de comercialización físico ni virtual\n  El descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\n  El descuento no es canjeable por dinero.\n No aplica para compras de bonos regalos.\n No aplica para redención de puntos club de coleccionistas.\n No aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento.\nNo aplica para bonos de descuento por cumpleaños.\n\nUnidades disponibles a nivel nacional entre bolsos, zapatos y accesorios 11.215\n"
         }
       }
     }
