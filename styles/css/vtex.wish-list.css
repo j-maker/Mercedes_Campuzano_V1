@@ -28,16 +28,27 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: 1;
-  padding-top: 24px;
-  padding-left: 24px;
+  padding-top: 12px;
+  padding-left: 20px;
 }
 
 
 .wishlistIconContainer--shelfWishlist :global(.vtex-button) {
   outline: 0 !important;
-  margin-top: 15px;
+  margin-top: 12px;
+  margin-left: 2px;
 }
 
 .wishlistIconContainer--shelfWishlist :global(.vtex-button__label) {
   padding: 0 10px;
+}
+
+@media (max-width:1024px){
+  .wishlistIconContainer--shelfWishlist :global(.vtex-button__label) {
+    padding: 0 20px 0 0;
+  }
+  .wishlistIconContainer--shelfWishlist :global(.vtex-button) {
+    margin-left: 12px;
+    margin-top: 5px;
+  }
 }

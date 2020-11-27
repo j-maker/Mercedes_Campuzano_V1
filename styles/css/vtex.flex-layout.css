@@ -602,6 +602,10 @@
 
 
 @media screen and (max-width:1024px) {
+  .flexColChild--general-price :global(.vtex-product-price-1-x-currencyContainer--summary) {
+    text-align: center;
+    margin: 0 0 5px 0;
+  }
 
   .flexRow--row-2-wrapper :global(.vtex-store-components-3-x-container) {
     padding: 12px 0;

@@ -101,4 +101,8 @@
   .sellingPriceValue--summary {
     font-size: 16px;
   }
+
+  .currencyContainer--summary{
+    text-align: center;
+  }
 }
