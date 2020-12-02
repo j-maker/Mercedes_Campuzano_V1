@@ -19,3 +19,7 @@
 .stackItem--stackImagePDP{
   position: relative;
 }
+
+.stackItem--stackImagePDP--percent-discunt-container :global(.vtex-store-components-3-x-discountContainer){
+  position: absolute;
+}
