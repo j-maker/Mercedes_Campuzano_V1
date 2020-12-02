@@ -99,6 +99,15 @@
   min-height: 160px !important;
 }
 
+.containerNormal--ShelfPDPSimilars :global(.vtex-store-components-3-x-discountInsideContainer){
+    display: none;
+}
+
+.element--ShelfHome :global(.vtex-store-components-3-x-discountContainer){
+  position: absolute;
+     top: 10px; 
+     right: 10px;
+}
 @media screen and (min-width: 1024px) {
   .containerNormal {
     padding: 5px;

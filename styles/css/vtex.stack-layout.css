@@ -8,3 +8,10 @@
   top: 0;
   left: auto;
 }
+
+.stackItem--percent-discunt-container{
+  z-index: 3 !important;
+  position: absolute;
+  left: unset;
+  right: 0;
+}

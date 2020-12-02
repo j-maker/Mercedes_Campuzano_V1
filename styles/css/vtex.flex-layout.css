@@ -597,7 +597,7 @@
 
 .flexRow--product-main :global(.vtex-store-components-3-x-discountInsideContainer) {
   top: 10px !important;
-  right: 0 !important;
+  right: 10px !important;
 }
 
 .flexRowContent--wrapperSaleMini .stretchChildrenWidth:first-child{
@@ -609,6 +609,11 @@
 }
 
 @media screen and (max-width:1024px) {
+  .flexRow--product-main :global(.vtex-store-components-3-x-discountInsideContainer) {
+    top: 20px !important;
+    right: 20px !important;
+  }
+
   .flexColChild--general-price :global(.vtex-product-price-1-x-currencyContainer--summary) {
     text-align: center;
     margin: 0 0 5px 0;
@@ -632,7 +637,7 @@
 
   .flexCol--shelf-general-price,
   .flexRowContent--wrapperPriceShelf {
-    flex-wrap: wrap;
+    flex-wrap: unset;
   }
 
   .flexCol--shelf-general-price .flexColChild:last-child {
@@ -1052,6 +1057,14 @@
 
   .flexRowContent--wrapperFooterQuickview {
     padding-top: 15% !important;
+  }
+
+  .flexColChild--image-percent-container :global(.vtex-stack-layout-0-x-stackItem){
+    position: relative;
+  }
+
+  .flexColChild--image-percent-container :global(.vtex-store-components-3-x-discountContainer){
+    position: absolute;
   }
 }
 
