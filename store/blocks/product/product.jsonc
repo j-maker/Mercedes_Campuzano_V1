@@ -70,7 +70,8 @@
       "percent-discount",
       "flex-layout.row#product-image",
       "product-bookmark"
-    ]
+    ],
+    "props":{"blockClass":"stackImagePDP"}
   },
   "rich-text#recomended": {
     "title": "Pdp-titulo-vitrina-recomendado",

@@ -15,3 +15,7 @@
   left: unset;
   right: 0;
 }
+
+.stackItem--stackImagePDP{
+  position: relative;
+}
