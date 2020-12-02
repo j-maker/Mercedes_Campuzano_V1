@@ -512,7 +512,27 @@
   background-color: #dcd2c6;
   opacity: 0.77;
 }
+
+.paragraph--salesDisccount{
+  color: #121314;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.container--salesDisccount{
+  margin: 60px auto;
+  max-width: 1200px;
+  background: #e1d3c8;
+}
+
 @media screen and (max-width: 1024px) {
+  .paragraph--salesDisccount{
+    font-size: 12px;
+    padding: 0 30px;
+  }
+  .container--salesDisccount{
+    margin: -8px auto;
+  }
   .wrapper--textSaleMini {
     font-size: 14px;
   }

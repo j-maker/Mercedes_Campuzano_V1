@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#home",
+      "rich-text#salesDisccount",
       "rich-text#new",
       "flex-layout.row#shelf",
       "link#all",
@@ -21,6 +22,14 @@
       "rich-text#descriptionHome",
       "back-to-top-button"
     ]
+  },
+  "rich-text#salesDisccount": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "LLEVA OBSEQUIO POR COMPRAS IGUALES O SUPERIORES A $300.000",
+      "blockClass": "salesDisccount"
+    }
   },
   "rich-text#HomeTitle": {
     "title":"Home Titulo H1 ",
