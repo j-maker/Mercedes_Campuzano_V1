@@ -414,11 +414,58 @@
   },
   "flex-layout.row#saleMini": {
     "children": [
-      "image#saleMini",
-      "rich-text#saleMini"
+      "slider-layout#miniSaledecember",
+      //"image#saleMini",
+      "rich-text#saleMiniDecember"
+  //    "rich-text#saleMini"
     ],
     "props": {
       "blockClass": "wrapperSaleMini"
+    }
+  },
+  "slider-layout#miniSaledecember": {
+    "props": {
+      "autoplay":{
+        "timeout":2000,
+        "stopOnHover":true
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showPaginationDots":"always",
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel-mini"
+    },
+    "children": ["image#saleMiniD-1", "image#saleMiniD-2", "image#saleMiniD-3"]
+  },
+  "image#saleMiniD-1": {
+    "props": {
+      "blockClass": "imageSalwMini",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/ids/178300-800-800?width=800&height=800&aspect=true"
+    }
+  },
+  "image#saleMiniD-2": {
+    "props": {
+      "blockClass": "imageSalwMini",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/ids/178297-600-600?width=600&height=600&aspect=true"
+    }
+  },
+  "image#saleMiniD-3": {
+    "props": {
+      "blockClass": "imageSalwMini",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/ids/178296-800-800?width=800&height=800&aspect=true"
+    }
+  },
+  "rich-text#saleMiniDecember": {
+    "title": "Micar-text-Oferta",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Por compras superiores a \n***$300.000***\n\n **[LLEVA GRATIS]()** \n\n Uno de estos productos,  \n**Eligelo al finalizar la compra**",
+      "blockClass": "textSaleMini"
     }
   },
   "image#saleMini": {
@@ -622,6 +669,24 @@
           "visibleWhen": "true"
         }
       ]
+    }
+  },
+
+
+
+
+
+"flex-layout.row#badges":{
+  "children":["product-specification-badges"],
+  "props":{
+  "blockClass":"wrapperbadges"
+}
+},
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "displayValue": "SPECIFICATION_NAME",
+      "visibleWhen":"Pre-orden"
     }
   }
 }

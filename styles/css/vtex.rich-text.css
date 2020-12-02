@@ -397,14 +397,25 @@
 
 .paragraph--textSaleMini {
   line-height: unset;
-}
+} 
 
 .link--textSaleMini {
-  color: #ee562a;
+  color: #212529;
+  text-decoration: none;
+}
+
+.link--textSaleMini::after{
+  content: "";
+  display: block;
+  margin: 10px auto 0;
+  height: 3px;
+  width: 30%;
+  background-color: #d4b69a;
 }
 
 .wrapper--textSaleMini {
   padding: 10px 10px 0 10px;
+  font-size: 16px;
 }
 
 .paragraph--richSizeDress {
@@ -502,6 +513,10 @@
   opacity: 0.77;
 }
 @media screen and (max-width: 1024px) {
+  .wrapper--textSaleMini {
+    font-size: 14px;
+  }
+
   .strong--footer-terms-content-subtitles-policies-1{
     font-size: 16px;
   }

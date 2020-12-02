@@ -61,6 +61,7 @@
   },
   "product-summary.shelf#home": {
     "children": [
+      //"product-specification-badges",
       //"percent-discount",
       "modal-trigger#quickview",
       "add-to-list-btn",
