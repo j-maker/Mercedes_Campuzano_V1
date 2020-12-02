@@ -1,7 +1,7 @@
 {
   "vendor": "mercedescampuzano",
   "name": "mcampuzano",
-  "version": "1.2.111",
+  "version": "1.2.112",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
