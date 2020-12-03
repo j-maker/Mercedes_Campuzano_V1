@@ -563,23 +563,24 @@
   font-size: 16px;
 }
 
-.flexCol--right-col .flexRow--wrapperPriceShelf{
+.flexCol--right-col .flexRow--wrapperPriceShelf {
   width: 60%;
   margin: 30px auto;
 }
 
-.flexCol--right-col .stretchChildrenWidth:last-child :global(.vtex-product-price-1-x-sellingPrice--summary){
+.flexCol--right-col .stretchChildrenWidth:last-child :global(.vtex-product-price-1-x-sellingPrice--summary) {
   margin-top: -3px !important;
 }
+
 .flexColChild--shelf-general-price .stretchChildrenWidth:first-child {
   width: auto !important;
-  margin:0 !important;
+  margin: 0 !important;
   padding: 0;
 }
 
 .flexColChild--shelf-general-price .stretchChildrenWidth:last-child {
   width: auto !important;
-  margin:0 !important;
+  margin: 0 !important;
   padding: 0;
 }
 
@@ -587,7 +588,7 @@
   width: 25px;
 }
 
-.flexRowContent--wrapperPriceShelf{
+.flexRowContent--wrapperPriceShelf {
   margin-bottom: 5px;
 }
 
@@ -600,12 +601,12 @@
   right: 10px !important;
 }
 
-.flexRowContent--wrapperSaleMini .stretchChildrenWidth:first-child{
+.flexRowContent--wrapperSaleMini .stretchChildrenWidth:first-child {
   width: 40% !important;
 }
 
-.flexRowContent--wrapperSaleMini .stretchChildrenWidth:last-child{
-  width: 60%!important;
+.flexRowContent--wrapperSaleMini .stretchChildrenWidth:last-child {
+  width: 60% !important;
 }
 
 @media screen and (max-width:1024px) {
@@ -622,12 +623,13 @@
   .flexRow--row-2-wrapper :global(.vtex-store-components-3-x-container) {
     padding: 12px 0;
   }
-    
+
   .flexColChild--shelf-general-price .stretchChildrenWidth {
     width: 100% !important;
     margin: 0 auto !important;
     min-width: 100%;
   }
+
   .flexRowContent--wrapperPriceShelf .stretchChildrenWidth {
     margin: auto !important;
     padding: 0 !important;
@@ -739,7 +741,7 @@
     width: 100%;
   }
 
-  .flexRowContent--row-3-wrapper .stretchChildrenWidth:first-child::before{
+  .flexRowContent--row-3-wrapper .stretchChildrenWidth:first-child::before {
     content: "";
     background-image: url(https://mercedescampuzano.vtexassets.com/arquivos/icons8-heart.svg);
     background-size: contain;
@@ -750,6 +752,7 @@
     padding-left: 24px;
     margin-top: -9px;
   }
+
   .flexRowContent--buy-button-product {
     width: 90%;
   }
@@ -1059,11 +1062,11 @@
     padding-top: 15% !important;
   }
 
-  .flexColChild--image-percent-container :global(.vtex-stack-layout-0-x-stackItem){
+  .flexColChild--image-percent-container :global(.vtex-stack-layout-0-x-stackItem) {
     position: relative;
   }
 
-  .flexColChild--image-percent-container :global(.vtex-store-components-3-x-discountContainer){
+  .flexColChild--image-percent-container :global(.vtex-store-components-3-x-discountContainer) {
     position: absolute;
   }
 }
@@ -1267,11 +1270,6 @@
 
 .flexCol--newsletter-container-agreement-modal {
   padding-left: 5px;
-}
-
-.flexColChild--image-percent-container:first-child {
-  height: 0 !important;
-  display: none;
 }
 
 .flexColChild--image-percent-container:first-child :global(.vtex-store-components-3-x-discountContainer) {

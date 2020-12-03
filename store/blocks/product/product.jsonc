@@ -67,7 +67,7 @@
   },
   "stack-layout": {
     "children": [
-      "percent-discount",
+      //"custom-flag-discount-pdp",
       "flex-layout.row#product-image",
       "product-bookmark"
     ],
@@ -84,7 +84,7 @@
   },
   "flex-layout.col#stack": {
     "children": [
-      "percent-discount",
+      "custom-flag-discount-pdp",
       //"product-specification-badges",
       "stack-layout"
     ],
@@ -92,19 +92,6 @@
       "width": "50%",
       "rowGap": 0,
       "blockClass": "image-percent-container"
-    }
-  },
-  "percent-discount": {
-    "props": {
-      "blockClass": "percent-discunt-container"
-    }
-  },
-  "flex-layout.row#percent-discount": {
-    "children": [
-      "percent-discount"
-    ],
-    "props": {
-      "blockClass": "percent-discunt-container"
     }
   },
   "flex-layout.row#product-image": {
