@@ -204,9 +204,10 @@
   top: 10px;
 }
 
-.container--layout--mobileSearch .galleryTitle--layout{
+.container--layout--mobileSearch .galleryTitle--layout {
   color: #000;
 }
+
 @media screen and (min-width: 1024px) {
   .galleryItem {
     width: 24% !important;
@@ -223,6 +224,11 @@
 
 
 @media screen and (max-width: 1024px) {
+  .galleryItem :global(.vtex-modal-layout-0-x-triggerContainer) {
+    top: 5px !important;
+    left: 5px !important;
+  }
+  
   .galleryItem {
     flex-basis: 47% !important;
     max-width: 47% !important;
@@ -291,4 +297,3 @@
     height: 35px;
   }
 }
-

@@ -1,0 +1,19 @@
+.groupContainer--contentbadges {
+    left: 0;
+    height: 0;
+    position: absolute;
+    z-index: 5;
+    width: max-content;
+}
+
+.badgeContainer--pre-orden{
+        background: transparent;
+}
+
+@media (max-width:767px){
+    .badgeText--pre-orden{
+        font-size: 12px;
+        padding: 5px 10px !important;
+        margin-left: -7px!important;
+    }
+}

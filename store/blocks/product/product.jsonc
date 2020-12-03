@@ -85,7 +85,7 @@
   "flex-layout.col#stack": {
     "children": [
       "custom-flag-discount-pdp",
-      //"product-specification-badges",
+      "product-specification-badges",
       "stack-layout"
     ],
     "props": {
