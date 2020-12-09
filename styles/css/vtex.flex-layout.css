@@ -392,7 +392,7 @@
 
 .flexRowContent--buy-button-product {
   width: 50%;
-  background: #ED962E !important;
+  background: #000 !important;
   margin: 10px 0 0;
 }
 
@@ -411,13 +411,13 @@
 .flexRow--buy-button-shelf-home-1,
 .flexRow--buy-button-shelf-home {
   margin: 0;
-  background: #ED962E;
+  background: none;
   color: #fff;
 }
 
 .flexRow--buy-button-shelf {
   margin-top: 16px;
-  background: #ED962E;
+  background: none;
 }
 
 .flexRow--buy-button-shelf-home-1:hover,
@@ -482,6 +482,7 @@
 .flexRowContent--buy-button-shelf-home-1 :global(.vtex-button),
 .flexRowContent--buy-button-product :global(.vtex-button) {
   outline: 0 !important;
+  border: none;
 }
 
 .flexCol--wrapperContentFilters {

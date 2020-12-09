@@ -42,7 +42,8 @@
       "menu-item#menu-vestuario-1",
       "menu-item#menu-vestuario-2",
       "menu-item#menu-vestuario-3",
-      "menu-item#menu-vestuario-4"
+      "menu-item#menu-vestuario-4",
+      "menu-item#menu-vestuario-9"
     ]
   },
   "vtex.menu@2.x:menu#menu-5-vestuario-Right": {
@@ -111,10 +112,10 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Chaquetas",
-        "text": "Chaquetas"
+        "tagTitle": "Pijamas",
+        "text": "Pijamas"
       },
-      "href": "/vestuario/chaquetas",
+      "href": "/vestuario/pijamas",
       "blockClass": "submenu-vestuario"
     }
   },

@@ -532,8 +532,8 @@
 
 @media screen and (max-width: 1024px) {
   .paragraph--salesDisccount{
-    font-size: 14px !important;
-    padding: 0 20px;
+    font-size: 12px !important;
+    padding: 0 14px;
   }
   .container--salesDisccount{
     margin: 0 auto 0;
@@ -817,7 +817,7 @@
     background-color: #E1D3C8;
   }
   50% {
-    background-color: #ED962E;
+    background-color: #d56e2f;
   }
   100% {
     background-color: #E1D3C8;

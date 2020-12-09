@@ -45,7 +45,7 @@
 }
 
 .minicartQuantityBadge {
-  background: #ED962E;
+  background: #d56e2f;
   margin-top: 15px;
   margin-right: -10px;
   width: 12px;
@@ -73,7 +73,9 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-  background: #ED962E !important;
+  background: #000 !important;
+  border: none ;
+  letter-spacing: 1px;
 }
 
 .minicartCheckoutButton :global(.vtex-button__label)::after {
