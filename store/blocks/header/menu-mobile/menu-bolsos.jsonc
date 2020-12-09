@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#menu-mobile-bolsos-new": {
+    "props": {
+      "blockClass": "menu-mobile-new",
+      "colSizing": "auto"
+    },
+    "children": [
+      "drawer#mobile-menu-new-bolsos"
+    ]
+  },
+  "drawer#mobile-menu-new-bolsos": {
+    "props": {
+      "blockClass": [
+        "mobile-menu-bolsos"
+      ],
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-BolsosTop",
+      "menu-item#menu-2-1",
+      "menu-item#menu-2-2",
+      "menu-item#menu-2-3",
+      "menu-item#menu-2-4"
+    ]
+  },
+  "link#mobile-menu-BolsosTop": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "/bolsos",
+      "label": "Bolsos"
+    }
+  }
+}

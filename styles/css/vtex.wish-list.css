@@ -1,0 +1,54 @@
+.wishlistIconContainer--shelfWishlist {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  z-index: 2;
+}
+
+.outline,
+.fill {
+  width: 0;
+}
+
+.fill::before {
+  content: "";
+  background-image: url(https://mercedescampuzano.vtexassets.com/arquivos/heart-11.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.outline::before {
+  content: "";
+  background-image: url(https://mercedescampuzano.vtexassets.com/arquivos/heart-shelf-1.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+
+.wishlistIconContainer--shelfWishlist :global(.vtex-button) {
+  outline: 0 !important;
+  margin-top: 12px;
+  margin-left: 2px;
+}
+
+.wishlistIconContainer--shelfWishlist :global(.vtex-button__label) {
+  padding: 0 10px;
+}
+
+@media (max-width:1024px){
+  .wishlistIconContainer--shelfWishlist :global(.vtex-button__label) {
+    padding: 0 20px 0 0;
+  }
+  .wishlistIconContainer--shelfWishlist :global(.vtex-button) {
+    margin-left: 7px;
+    margin-top: 0px;
+  }
+}

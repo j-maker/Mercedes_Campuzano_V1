@@ -1,0 +1,98 @@
+{
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#selling-price": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "selling-price",
+      "preventHorizontalStretch": false,
+      "colGap": 0,
+      "marginBottom": 4,
+      "marginTop": 2
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      //"custom-price-iva",
+      "product-list-price#summary",
+      "product-selling-price#summary",
+      "product-price-savings#summary",
+      //"custom-thrid-price",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "blockClass": "wrapperPriceShelf",
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      //"product-summary-space",
+      "product-list-price#summary",
+      //"custom-price-iva",
+      "product-selling-price#summary"
+      //"product-price-savings#summary"
+      //"custom-thrid-price"
+    ]
+  },
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 2,
+      "marginTop": 1
+    },
+    "children": [
+      "product-list-price",
+      "product-price-savings"
+    ]
+  },
+  "flex-layout.col#general-price": {
+    "props": {
+      "blockClass": "general-price"
+    },
+    "children": [
+      "flex-layout.row#selling-price"
+      //"custom-thrid-price"
+    ]
+  },
+
+
+  "flex-layout.row#shelf-general-price":{
+    "children": [
+      "flex-layout.col#shelf-general-price"
+    ]
+  },
+  "flex-layout.col#shelf-general-price": {
+    "props": {
+      "blockClass": "shelf-general-price"
+    },
+    "children": [
+      "flex-layout.row#selling-price-savings"
+      //     "custom-thrid-price"
+    ]
+  }
+}

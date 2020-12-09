@@ -1,0 +1,169 @@
+.cartIcon--minicart {
+  width: 0 !important;
+}
+
+.cartIcon {
+  height: 23px;
+  width: 23px;
+  margin-top: -10px;
+  padding: 0px;
+}
+
+.openIconContainer--minicart {
+  padding: 0;
+}
+
+.openIconContainer--minicart :global(.vtex-button) {
+  outline: 0 !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.openIconContainer--minicart :global(.vtex-button__label) {
+  margin-top: 7px;
+}
+
+.openIconContainer {
+  height: auto;
+}
+
+.openIconContainer:hover {
+  background: none;
+  background-color: none;
+}
+
+.minicartContainer {
+  padding: 0px;
+}
+
+.minicartSideBarContentWrapper {
+  padding-left: 20px;
+}
+
+.minicartEmptyStateContainer {
+  justify-content: unset;
+}
+
+.minicartQuantityBadge {
+  background: #ED962E;
+  margin-top: 15px;
+  margin-right: -10px;
+  width: 12px;
+  height: 12px;
+  color: white;
+  font-size: 10px;
+  font-weight: 800;
+  font-family: "Lora";
+  border-radius: 10px;
+}
+
+.opened {
+  width: 480px;
+}
+
+.minicartCheckoutButton {
+  z-index: 999;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background: #ED962E !important;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+  font-size: 14px;
+  content: "FINALIZA TU COMPRA";
+  color: #fff;
+  font-weight: bold;
+}
+
+.closeIconButton--minicart {
+  padding: 0;
+}
+
+.closeIcon--minicart {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+}
+
+.minicartTitle {
+  margin-top: 30px;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  outline: 0 !important;
+}
+
+.drawer--minicart {
+  max-width: 500px !important;
+  width: 100%;
+  z-index: 999999;
+}
+
+.minicartContainer--minicart :global(.vtex-button)::after {
+  content: "";
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/Bag.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10px;
+  z-index: 1;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .minicartContainer--minicart :global(.vtex-button)::after {
+    padding-top: 23px;
+    padding-left: 23px;
+  }
+
+  .minicartContainer--minicart {
+    margin-right: -10px;
+  }
+
+  .openIconContainer--minicart {
+    margin-top: 10px !important;
+  }
+
+  .openIconContainer--minicart :global(.vtex-button__label) {
+    height: 27px;
+  }
+
+
+
+  .minicartSideBarContentWrapper {
+    min-height: 650px;
+  }
+
+  .minicartCheckoutButton {
+    z-index: 999;
+    position: unset;
+    bottom: 5px;
+    width: 100%;
+  }
+
+  .opened {
+    width: 100% !important;
+  }
+
+  .openIconContainer {
+    padding: 0px;
+    margin: 0 0 10px 0px;
+  }
+
+  .cartIcon {
+    height: 23px;
+    width: 23px;
+    margin: 13px 0;
+    opacity: 0.7;
+  }
+}

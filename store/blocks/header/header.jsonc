@@ -1,0 +1,485 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "props": {
+      "sticky": true,
+      "blockClass": "header-1-wrapper"
+    },
+    "children": [
+      "header-row#info-1",
+      /*"header-row#info-2",*/
+      "header-row#info-3",
+      "header-row#info-4",
+      "header-row#info-5",
+      "header-row#info-6"
+    ]
+  },
+  "header-row#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "header-row#info-1": {
+    "props": {
+      "blockClass": "header-1-info"
+    },
+    "children": [
+      "image#header-1",
+      "link#header-1"
+    ]
+  },
+  "header-row#info-2": {
+    "props": {
+      "blockClass": "header-1-info"
+    },
+    "children": [
+      "image#header-2",
+      "link#header-2"
+    ]
+  },
+  "header-row#info-3": {
+    "props": {
+      "blockClass": "header-1-info"
+    },
+    "children": [
+      "image#header-3",
+      "link#header-3"
+    ]
+  },
+  "header-row#info-4": {
+    "props": {
+      "blockClass": "header-1-info"
+    },
+    "children": [
+      "image#header-4",
+      "link#header-4"
+    ]
+  },
+  "header-row#info-5": {
+    "props": {
+      "blockClass": "header-1-info"
+    },
+    "children": [
+      "image#header-5",
+      "link#header-5"
+    ]
+  },
+  "header-row#info-6": {
+    "props": {
+      "blockClass": "header-1-info"
+    },
+    "children": [
+      "image#header-6",
+      "link#header-6"
+    ]
+  },
+  "image#header-1": {
+    "title": "Header-truck-costo-de-envio",
+    "props": {
+      "blockClass": "header-1-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/truck-solid (2).png",
+      "maxHeight": 16
+    }
+  },
+  "link#header-1": {
+    "title": "Header-Texto-Envios",
+    "props": {
+      "blockClass": "header-1-link",
+      "href": "/politicas",
+      "label": "COSTO DE ENVIÍO"
+    }
+  },
+  "image#header-2": {
+    "props": {
+      "blockClass": "header-1-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/.png",
+      "href": "/politicas",
+      "maxHeight": 16
+    }
+  },
+  "link#header-2": {
+    "props": {
+      "blockClass": "header-1-link",
+      "href": "/",
+      "label": "PENDIENTE "
+    }
+  },
+  "image#header-3": {
+    "title": "Header-image-Devoluciones",
+    "props": {
+      "blockClass": "header-1-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/return-solid (1).png",
+      "href": "/politicas",
+      "maxHeight": 16
+    }
+  },
+  "link#header-3": {
+    "title": "Header-Texto-Devoluciones",
+    "props": {
+      "blockClass": "header-1-link",
+      "href": "/politicas",
+      "label": "DEVOLUCIONES GRATIS"
+    }
+  },
+  "image#header-4": {
+    "title": "Header-image-TyC",
+    "props": {
+      "blockClass": "header-1-icon",
+      "href": "/terminos-y-condiciones-de-promociones",
+      "src": "https://mercedescampuzano.vtexassets.com/assets/vtex.file-manager-graphql/images/retorno___c0ef9221b9dac46a5989724e3c62f8c7.png",
+      "maxHeight": 16
+    }
+  },
+  "link#header-4": {
+    "title": "Header-Texto-Cambios",
+    "props": {
+      "blockClass": "header-1-link",
+      "href": "/terminos-y-condiciones-de-promociones",
+      "label": "CAMBIOS HASTA EN 90 DÍAS"
+    }
+  },
+  "image#header-5": {
+    "title": "Header-image-cuidado-y-salud",
+    "props": {
+      "blockClass": "header-1-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/cuidado-solid (1).png",
+      "maxHeight": 16,
+      "href": "/cuidado-y-salud"
+    }
+  },
+  "link#header-5": {
+    "title": "Header-Texto-Bono-Regalo",
+    "props": {
+      "blockClass": "header-1-link",
+      "href": "/cuidado-y-salud",
+      "label": "CUIDADO Y SALUD"
+    }
+  },
+  "image#header-6": {
+    "title": "Header-image-Bono-Regalo",
+    "props": {
+      "blockClass": "header-1-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/gift-solid (1).png",
+      "url": "/",
+      "maxHeight": 16
+    }
+  },
+  "link#header-6": {
+    "title": "Header-Texto-Bono-Regalo",
+    "props": {
+      "blockClass": "header-1-link",
+      "href": "/",
+      "label": "BONO REGALO"
+    }
+  },
+  "header-row#2-desktop": {
+    "props": {
+      "blockClass": "header-2-wrapper",
+      "sticky": true
+    },
+    "children": [
+      "flex-layout.row#2-desktop"
+    ]
+  },
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "sticky": true,
+      "blockClass": "row-2-wrapper",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#contact",
+      //"link#contact",
+      "rich-text#contact",
+      "image#contact-1",
+      "link#contact-1",
+      "flex-layout.col#spacer",
+      "flex-layout.row#icons"
+    ]
+  },
+  "flex-layout.row#icons": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "search-bar",
+      "login#Mc",
+      "image#wishlist-1"
+    ]
+  },
+  "image#wishlist-1": {
+    "title": "Header-Image-Wishlist",
+    "props": {
+      "blockClass": "imageWishlist",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/heart-11.svg",
+      "href": "/wishlist",
+      "maxHeight": 20
+    }
+  },
+  "image#contact": {
+    "title": "Header-Image-Contacto-Fijo",
+    "props": {
+      "blockClass": "header-2-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/icon-phone.png",
+      "maxHeight": 20
+    }
+  },
+  "rich-text#contact": {
+    "title": "Header-Contacto-Fijo",
+    "props": {
+      "blockClass": "header-2-link",
+      "text": "[(4) 5606060 ext 121](tel:017123200)"
+    }
+  },
+  "link#contact": {
+    "title": "Header-Contacto-Fijo",
+    "props": {
+      "blockClass": "header-2-link",
+      "href": "tel:0345606060",
+      "label": "(4) 5606060 ext 121"
+    }
+  },
+  "image#contact-1": {
+    "title": "Header-Contacto-WP",
+    "props": {
+      "blockClass": "header-2-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/icon-whatsapp2.png",
+      "maxHeight": 20
+    }
+  },
+  "link#contact-1": {
+    "title": "Header-link-Wp",
+    "props": {
+      "blockClass": "header-2-link",
+      "hred": "https://api.whatsapp.com/send?phone=573174266793",
+      "label": "Compras: 317 4266793"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "row-3-wrapper"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "header-row#3-desktop": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header-3-wrapper",
+      "sticky": true
+    },
+    "children": [
+      "flex-layout.row#3-desktop"
+    ]
+  },
+  "link#row-3-1": {
+    "props": {
+      "blockClass": "row-3-links-new",
+      "href": "/140?map=productClusterIds",
+      "label": "Lo Nuevo"
+    }
+  },
+  "link#row-3-2": {
+    "props": {
+      "blockClass": "row-3-links",
+      "href": "/accesorios/vestuario",
+      "label": "VESTUARIO"
+    }
+  },
+  "link#row-3-3": {
+    "props": {
+      "blockClass": "row-3-links-1",
+      "href": "/144?map=productClusterIds",
+      "label": "SALE"
+    }
+  },
+  "link#row-3-4": {
+    "props": {
+      "blockClass": "row-3-links",
+      "href": "/nuestras-tiendas",
+      "label": "Tiendas"
+    }
+  },
+  "link#row-3-5": {
+    "props": {
+      "blockClass": "row-3-links-2",
+      "href": "/156?map=productClusterIds",
+      "label": "BAZAR"
+    }
+  },
+  "flex-layout.col#car": {
+    "props": {
+      "blockClass": "car"
+    },
+    "children": [
+      "minicart.v2"
+    ]
+  },
+  "logo#desktop": {
+    "title": "Header-Logo",
+    "props": {
+      "blockClass": "row-3-logo",
+      "href": "/",
+      "url": "https://mercedescampuzano.vtexassets.com/arquivos/mc-logo.png",
+      "width": "160"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile",
+      "header-row#2-mobile",
+      "sticky-layout#mobile",
+      "search-bar"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "header-row#3-mobile"
+    ]
+  },
+  "login#Mc": {
+    "title": "Header-Login",
+    "props": {
+      "labelClasses": "blockClass",
+      "accountOptionsButtonBehavior": "link",
+      "proveedorPasswordButtonLabel": "Ingresa tu contraseña",
+      "optionsTitle": "INICIA SESIÓN",
+      "emailAndPasswordTitle": "INICIA SESIÓN",
+      "accessCodeTitle": "INGRESA TU CORREO",
+      "showIconProfile": true,
+      "iconLabel": "INICIA SESIÓN",
+      "invalidIdentifierError": "Usuario o Contraseña incorrecta",
+      "showPasswordVerificationIntoTooltip": false
+    }
+  },
+  "header-row#1-mobile": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header-1-wrapper"
+    },
+    "children": [
+      "header-row#info-1",
+      "header-row#info-3",
+      "header-row#info-4",
+      "header-row#info-5",
+      "header-row#info-6"
+    ]
+  },
+  "header-row#2-mobile": {
+    "props": {
+      "blockClass": "header-2-wrapper"
+    },
+    "children": [
+      "flex-layout.row#2-mobile"
+    ]
+  },
+  "flex-layout.row#2-mobile": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "row-2-wrapper",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "image#mobile-contact",
+      "rich-text#contact",
+      //"link#mobile-contact",
+      "flex-layout.col#spacer",
+      "image#mobile-contact-1",
+      "link#mobile-contact-1",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "image#mobile-contact": {
+    "props": {
+      "blockClass": "header-2-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/icon-phone.png",
+      "maxHeight": 15
+    }
+  },
+  "link#mobile-contact": {
+    "props": {
+      "blockClass": "header-2-link",
+      "href": "/{slug}/p",
+      "label": " (4) 5606060 ext 121"
+    }
+  },
+  "image#mobile-contact-1": {
+    "title": "Header-Image-Wp-Mobile",
+    "props": {
+      "blockClass": "header-2-icon",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/icon-whatsapp2.png",
+      "maxHeight": 15
+    }
+  },
+  "link#mobile-contact-1": {
+    "title": "Header-Link-Wp-Mobile",
+    "props": {
+      "blockClass": "header-2-link",
+      "href": "https://api.whatsapp.com/send?phone=573174266793",
+      "label": "Compras: 317 4266793"
+    }
+  },
+  "header-row#3-mobile": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header-3-wrapper",
+      "sticky": true
+    },
+    "children": [
+      "flex-layout.row#3-mobile"
+    ]
+  },
+  "flex-layout.row#3-mobile": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "row-3-wrapper",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "logo#desktop",
+      "flex-layout.row#3-mobile-wrapper"
+    ]
+  },
+  "flex-layout.row#3-mobile-wrapper": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "row-3-wrapper",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "image#wishlist-1",
+      "login#Mc",
+      "flex-layout.col#car",
+      "drawer#mobile"
+    ]
+  },
+  "search-bar": {
+    "title": "Header-Buscador",
+    "props": {
+      "blockClass": "mobile-search-bar"
+    }
+  }
+}

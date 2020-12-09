@@ -1,0 +1,50 @@
+.container {
+  background-color: transparent;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+  width: 1110px;
+  font-weight: bold;
+  padding: 12px 16px;
+  margin: 0 0 16px;
+}
+
+
+
+.link--2::before,
+.link--3::before,
+.term::before{
+  content:"/";
+  font-size: 14px;
+  color: #9d884b;
+  margin-right: 10px;
+  text-decoration: none !important;
+}
+.link--1:hover,
+.link--2:hover {
+  color: #bebfc0;
+}
+
+.term {
+  color: #9d884b;
+  font-weight: 600;
+}
+
+.swiper-wrapper {
+  background: red;
+  margin: 40px;
+}
+
+.homeLink{
+  display: none;
+}
+
+.caretIcon{
+  display: none;
+}
+@media screen and (max-width:1024px) {
+  .container {
+    margin: 0;
+  }
+}

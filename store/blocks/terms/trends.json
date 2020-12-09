@@ -1,0 +1,65 @@
+{
+    "store.custom#trends": {
+        "blocks": [
+            "flex-layout.row#trends"
+        ]
+    },
+    "flex-layout.row#trends": {
+        "children": [
+            "flex-layout.col#trends-wrapper"
+        ]
+    },
+    "flex-layout.col#trends-wrapper": {
+        "props": {
+            "blockClass": "footer-terms-col-wrapper"
+        },
+        "children": [
+            "flex-layout.row#trends-title",
+            "flex-layout.row#trends-content"
+        ]
+    },
+    "flex-layout.row#trends-title": {
+        "children": [
+            "rich-text#trends-title"
+        ]
+    },
+    "flex-layout.row#trends-content": {
+        "props": {
+            "blockClass": "tendencias-content"
+        },
+        "children": [
+            "image#trends-1",
+            "image#trends-2",
+            "image#trends-3"
+        ]
+    },
+    "rich-text#trends-title": {
+        "props": {
+            "blockClass": "footer-terms-title",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "TENDENCIAS"
+        }
+    },
+    "image#trends-1": {
+        "props": {
+            "blockClass": "tendencias-image",
+            "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-tendencias-verano.jpg",
+            "url": "/141?map=productClusterIds"
+        }
+    },
+    "image#trends-2": {
+        "props": {
+            "blockClass": "tendencias-image",
+            "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-tendencias-urbano.jpg",
+            "url": "/142?map=productClusterIds"
+        }
+    },
+    "image#trends-3": {
+        "props": {
+            "blockClass": "tendencias-image",
+            "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-tendencias-cosmopolita.jpg",
+            "url": "/143?map=productClusterIds"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "store.custom#buy-insurance": {
+        "blocks": [
+            "flex-layout.row#footer-terms-col-buy-insurance"
+        ]
+    },
+    "flex-layout.row#footer-terms-col-buy-insurance": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "about-us"
+        },
+        "children": [
+            "flex-layout.col#buy-insurance-wrapper"
+        ]
+    },
+    "flex-layout.col#buy-insurance-wrapper": {
+        "props": {
+            "blockClass": "footer-terms-col-wrapper"
+        },
+        "children": [
+            "flex-layout.row#buy-insurance-title",
+            "flex-layout.row#buy-insurance-subtitle",
+            "flex-layout.row#buy-insurance-content"
+        ]
+    },
+    "flex-layout.row#buy-insurance-title": {
+        "children": [
+            "rich-text#title-buy-insurance"
+        ]
+    },
+    "rich-text#title-buy-insurance": {
+        "props": {
+            "blockClass": "footer-terms-title",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "COMPRA SEGURA"
+        }
+    },
+    "flex-layout.row#buy-insurance-subtitle": {
+        "children": [
+            "rich-text#subtitle-buy-insurance"
+        ]
+    },
+    "rich-text#subtitle-buy-insurance": {
+        "props": {
+            "blockClass": "footer-terms-content-subtitles-buy-insurance",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**Compra con total seguridad en mercedescampuzano.com**"
+        }
+    },
+    "flex-layout.row#buy-insurance-content": {
+        "children": [
+            "rich-text#buy-insurance-content-1",
+            "rich-text#buy-insurance-content-2"
+        ]
+    },
+    "rich-text#buy-insurance-content-1": {
+        "props": {
+            "textAlignment": "JUSTIFY",
+            "textPosition": "JUSTIFY",
+            "text": "La seguridad siempre ha sido prioridad para MERCEDES CAMPUZANO y las compras en línea no son la excepción. Por eso, contamos con procesos de seguridad transaccional que garantizan el adecuado manejo de tu información personal.\n\nEstas transacciones son protegidas a través de sistemas de Seguridad que cumplen con los estándares de más alto nivel de la industria, de la misma forma como los manejan los servicios de transacciones sensibles como por ejemplo las entidades bancarias.",
+            "blockClass": "footer-terms-content-buy-insurance"
+        }
+    },
+    "rich-text#buy-insurance-content-2": {
+        "props": {
+            "textAlignment": "JUSTIFY",
+            "textPosition": "JUSTIFY",
+            "text": "Durante el proceso de compra la información es transportada con algoritmos de cifrado, de forma que si es interceptada no puede ser vista por ningún tercero, pues contamos con mecanismos que funcionan bajo el protocolo SSL (Secure Socket Layer). Así que adelante! estas en un sitio absolutamente SEGURO de comercio electrónico.",
+            "blockClass": "footer-terms-content-buy-insurance"
+        }
+    }
+}

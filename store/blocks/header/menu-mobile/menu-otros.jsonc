@@ -1,0 +1,41 @@
+{
+  "flex-layout.row#menu-mobile-otros-new": {
+    "props": {
+      "blockClass": "menu-mobile-new",
+      "colSizing": "auto"
+    },
+    "children": [
+      "drawer#mobile-menu-new-otros"
+    ]
+  },
+  "drawer#mobile-menu-new-otros": {
+    "props": {
+      "blockClass": [
+        "mobile-menu-otros"
+      ],
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-otrosTop",
+      //"menu-item#menu-4-1",
+      //"menu-item#menu-4-2",
+      "menu-item#menu-4-3",
+      "menu-item#menu-4-4",
+      "menu-item#menu-4-5",
+      "menu-item#menu-4-6"
+    ]
+  },
+  "link#mobile-menu-otrosTop": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "/otros",
+      "label": "Otros"
+    }
+  }
+}

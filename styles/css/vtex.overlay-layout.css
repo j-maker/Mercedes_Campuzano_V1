@@ -1,0 +1,22 @@
+.trigger--share{
+    position: absolute;
+    right: 30px;
+    top: 76px;
+    width: 20px;
+    z-index: 6 !important;
+}
+
+.container--share{
+    border-radius: 25px;
+    color: #f8f8f8;
+    padding: 2px 5px 5px;
+    transition: opacity 2000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+}
+
+@media (min-width:767px){
+    .trigger--share{
+        right: 24px;
+        top: 84px;
+        width: 24px;
+    }
+}

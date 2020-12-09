@@ -1,0 +1,12 @@
+.dotsContainer {
+  display: none;
+}
+
+.sliderFrame {
+  min-height: 150px;
+}
+@media screen and (max-width:1024px){
+  .sliderFrame{
+    min-height: 167px;
+  }
+}

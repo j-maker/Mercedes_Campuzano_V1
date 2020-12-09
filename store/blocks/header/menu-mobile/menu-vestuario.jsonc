@@ -1,0 +1,479 @@
+{
+  "menu-item#menu-vestuario": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario",
+        "noFollow": false,
+        "tagTitle": "Vestuario",
+        "text": "Vestuario"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-vestuario"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-vestuario": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal",
+      "blockClass": "menu-vestuario"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-5-vestuario-Left",
+      "vtex.menu@2.x:menu#menu-5-vestuario-Right",
+      "list-context.image-list#menu-vestuario"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-5-vestuario-Left": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "submenu"
+      ]
+    },
+    "children": [
+      "menu-item#menu-vestuario-1",
+      "menu-item#menu-vestuario-2",
+      "menu-item#menu-vestuario-3",
+      "menu-item#menu-vestuario-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-5-vestuario-Right": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "submenu"
+      ]
+    },
+    "children": [
+      "menu-item#menu-vestuario-5",
+      "menu-item#menu-vestuario-6",
+      "menu-item#menu-vestuario-7",
+      "menu-item#menu-vestuario-8"
+    ]
+  },
+  "list-context.image-list#menu-vestuario": {
+    "children": [
+      "slider-layout#menu-slider-vestuario"
+    ],
+    "props": {
+      "blockClass": "menu-slider",
+      "images": [
+        {
+          "image": "https://mercedescampuzano.vtexassets.com/arquivos/vestuario.jpg",
+          "description": "Vestuario"
+        }
+      ]
+    }
+  },
+  "slider-layout#menu-slider-vestuario": {
+    "props": {
+      "blockClass": "menu-slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "menu-item#menu-vestuario-8": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Buzos y Chaquetas",
+        "text": "Buzos y Chaquetas"
+      },
+      "href": "/vestuario/buzos-y-chaquetas",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-9": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Chaquetas",
+        "text": "Chaquetas"
+      },
+      "href": "/vestuario/chaquetas",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-1": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Vestidos",
+        "text": "Vestidos"
+      },
+      "href": "/vestuario/vestidos",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-2": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Faldas",
+        "text": "Faldas"
+      },
+      "href": "/vestuario/faldas",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-3": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      },
+      "href": "/vestuario/pantalones",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-4": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Enterizos",
+        "text": "Enterizos"
+      },
+      "href": "/vestuario/enterizos",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-5": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Kimonos",
+        "text": "Kimonos"
+      },
+      "href": "/vestuario/kimonos",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-6": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      },
+      "href": "/vestuario/shorts",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  "menu-item#menu-vestuario-7": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Blusas y T-shirts",
+        "text": "Blusas y T-shirts"
+      },
+      "href": "/vestuario/blusas-y-t-shirts",
+      "blockClass": "submenu-vestuario"
+    }
+  },
+  //MOBILE
+  "flex-layout.row#menu-mobile-vestuario": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#menu-mobile-vestuario",
+      "drawer#mobile-menu-vestuario"
+    ]
+  },
+  "menu-item#menu-mobile-vestuario": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Vestuario",
+        "text": "Vestuario"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-mobile-vestuario"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-mobile-vestuario": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "drawer#mobile-menu-vestuario"
+    ]
+  },
+  "drawer#mobile-menu-vestuario": {
+    "props": {
+      "blockClass": "mobile-menu",
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-2",
+      "menu-item#menu-5-1",
+      "menu-item#menu-5-2",
+      "menu-item#menu-5-3",
+      "menu-item#menu-5-4",
+      "menu-item#menu-5-5",
+      "menu-item#menu-5-6",
+      "menu-item#menu-5-7",
+      "menu-item#menu-5-8"
+      //"menu-item#menu-5-9"
+    ]
+  },
+  "menu-item#menu-5-1": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/vestidos",
+        "noFollow": false,
+        "tagTitle": "Vestidos",
+        "text": "Vestidos"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-2": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/faldas",
+        "noFollow": false,
+        "tagTitle": "Faldas",
+        "text": "Faldas"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-3": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/pantalones",
+        "noFollow": false,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-4": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/enterizos",
+        "noFollow": false,
+        "tagTitle": "Enterizos",
+        "text": "Enterizos"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-5": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/kimonos",
+        "noFollow": false,
+        "tagTitle": "Kimonos",
+        "text": "Kimonos"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-6": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/shorts",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-7": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/blusas-y-t-shirts",
+        "noFollow": false,
+        "tagTitle": "Blusas y t-shirts",
+        "text": "Blusas y t-shirts"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-8": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/buzos-y-chaquetas",
+        "noFollow": false,
+        "tagTitle": "Buzos y Chaquetas",
+        "text": "Buzos y Chaquetas"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-5-9": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/chaquetas",
+        "noFollow": false,
+        "tagTitle": "Chaquetas",
+        "text": "Chaquetas"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "flex-layout.row#menu-mobile-vestuario-new": {
+    "props": {
+      "blockClass": "menu-mobile-new",
+      "colSizing": "auto"
+    },
+    "children": [
+      "drawer#mobile-menu-new-vestuario"
+    ]
+  },
+  "drawer#mobile-menu-new-vestuario": {
+    "props": {
+      "blockClass": "mobile-menu-2",
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-5",
+      "menu-item#menu-5-1",
+      "menu-item#menu-5-2",
+      "menu-item#menu-5-3",
+      "menu-item#menu-5-4",
+      "menu-item#menu-5-5",
+      "menu-item#menu-5-6",
+      "menu-item#menu-5-7",
+      "menu-item#menu-5-8"
+      //"menu-item#menu-5-9"
+    ]
+  },
+  "link#mobile-menu-5": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "/vestuario",
+      "label": "Vestuario"
+    }
+  }
+}

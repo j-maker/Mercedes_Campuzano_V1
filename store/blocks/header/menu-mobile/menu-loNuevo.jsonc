@@ -1,0 +1,243 @@
+{
+  "menu-item#menu-nuevo": {
+    "props": {
+      "blockClass": [
+        "header-menu-2",
+        "bold"
+      ],
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Lo Nuevo",
+        "text": "Lo Nuevo"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-nuevo"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-nuevo": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal",
+      "blockClass": "menu-vestuario"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-5-nuevo-Left",
+      "vtex.menu@2.x:menu#menu-5-nuevo-Right",
+      "list-context.image-list#menu-nuevo"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-5-nuevo-Left": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "submenu"
+      ]
+    },
+    "children": [
+      "menu-item#menu-nuevo-1",
+      "menu-item#menu-nuevo-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-5-nuevo-Right": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "submenu"
+      ]
+    },
+    "children": []
+  },
+  "list-context.image-list#menu-nuevo": {
+    "children": [
+      "slider-layout#menu-slider-nuevo"
+    ],
+    "props": {
+      "blockClass": "menu-slider",
+      "images": [
+        {
+          "image": "https://mercedescampuzano.vtexassets.com/arquivos/vestuario.jpg",
+          "description": "Lo nuevo"
+        }
+      ]
+    }
+  },
+  "slider-layout#menu-slider-nuevo": {
+    "props": {
+      "blockClass": "menu-slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "menu-item#menu-nuevo-1": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Nuevo Vestuario",
+        "text": "Nuevo Vestuario"
+      },
+      "href": "/164?map=productClusterIds",
+      "blockClass": [
+        "submenu-vestuario",
+        "bold"
+      ]
+    }
+  },
+  "menu-item#menu-nuevo-2": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Nuevos Zapatos",
+        "text": "Nuevos Zapatos"
+      },
+      "href": "/168?map=productClusterIds",
+      "blockClass": [
+        "submenu-vestuario",
+        "bold"
+      ]
+    }
+  },
+  //MOBILE
+  "flex-layout.row#menu-mobile-nuevo": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#menu-mobile-nuevo",
+      "drawer#mobile-menu-nuevo"
+    ]
+  },
+  "menu-item#menu-mobile-nuevo": {
+    "props": {
+      "blockClass": "header-menu-2",
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Vestuario",
+        "text": "Vestuario"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-mobile-nuevo"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-mobile-nuevo": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal"
+    },
+    "children": [
+      "drawer#mobile-menu-lo-nuevo"
+    ]
+  },
+  "drawer#mobile-menu-lo-nuevo": {
+    "props": {
+      "blockClass": "mobile-menu",
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-2",
+      "menu-item#menu-6-1",
+      "menu-item#menu-6-2"
+    ]
+  },
+  "menu-item#menu-6-1": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/164?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Nuevo Vestuario",
+        "text": "Nuevo Vestuario"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "menu-item#menu-6-2": {
+    "props": {
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/168?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Nuevos Zapatos",
+        "text": "Nuevos Zapatos"
+      },
+      "blockClass": "submenu-bolsos-y-carteras"
+    }
+  },
+  "flex-layout.row#menu-mobile-lo-nuevo": {
+    "props": {
+      "blockClass": "menu-mobile-new",
+      "colSizing": "auto"
+    },
+    "children": [
+      "drawer#mobile-menu-nuevo"
+    ]
+  },
+  "drawer#mobile-menu-nuevo": {
+    "props": {
+      "blockClass": "mobile-menu-nuevo",
+      "slideDirection": "rightToLeft",
+      "backdropMode": "none",
+      "isFullWidth": "true"
+    },
+    "children": [
+      "logo#drawer",
+      "flex-layout.row#drawer-row-2",
+      "link#mobile-menu-6",
+      "menu-item#menu-6-1",
+      "menu-item#menu-6-2"
+    ]
+  },
+  "link#mobile-menu-6": {
+    "props": {
+      "blockClass": "mobile-submenu-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "href": "",
+      "label": "Lo Nuevo"
+    }
+  }
+}

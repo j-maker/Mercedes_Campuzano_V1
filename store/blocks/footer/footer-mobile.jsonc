@@ -1,0 +1,91 @@
+{
+    "flex-layout.row#footer": {
+        "props": {
+            "blockClass": "footer-wrapper"
+        },
+        "children": [
+            "flex-layout.row#footer-row-1",
+            "flex-layout.row#footer-row-2",
+            "flex-layout.row#footer-row-3",
+            "flex-layout.row#footer-row-4",
+            "flex-layout.row#footer-row-5",
+            "flex-layout.row#footer-row-6-mobile",
+            "image#desktop-fixed-arrow-up",
+            "modal-trigger#form-newsletterButton"
+        ]
+    },
+    "flex-layout.row#footer-row-6-mobile": {
+        "props": {
+            "blockClass": "footer"
+        },
+        "children": [
+            "flex-layout.col#row-6-wrapper-mobile"
+        ]
+    },
+    "flex-layout.col#row-6-wrapper-mobile": {
+        "children": [
+            "flex-layout.row#row-6-1-wrapper-mobile",
+            "flex-layout.row#row-6-2-wrapper"
+        ]
+    },
+    "flex-layout.row#row-6-1-wrapper-mobile": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "footer-6-1-wrapper"
+        },
+        "children": [
+            "flex-layout.row#footer-media-images-row-1",
+            "flex-layout.row#footer-media-images-row-2",
+            "flex-layout.row#footer-media-images-row-3",
+            "footer-row#footer-6"
+        ]
+    },
+    "flex-layout.row#footer-media-images-row-1": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "mobile-footer-6",
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#spacer",
+            "image#footer-1",
+            "flex-layout.col#spacer",
+            "image#footer-2",
+            "flex-layout.col#spacer",
+            "image#footer-3",
+            "flex-layout.col#spacer",
+            "image#footer-4",
+            "flex-layout.col#spacer",
+            "image#footer-5",
+            "flex-layout.col#spacer"
+        ]
+    },
+    "flex-layout.row#footer-media-images-row-2": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "mobile-footer-6",
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#spacer",
+            "image#footer-6",
+            "flex-layout.col#spacer",
+            "image#footer-7",
+            "flex-layout.col#spacer",
+            "image#footer-8",
+            "flex-layout.col#spacer"
+        ]
+    },
+    "flex-layout.row#footer-media-images-row-3": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "mobile-footer-6",
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#spacer",
+            "image#footer-10",
+            "flex-layout.col#spacer"
+        ]
+    }
+}

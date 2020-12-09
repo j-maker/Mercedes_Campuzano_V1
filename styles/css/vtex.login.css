@@ -1,0 +1,186 @@
+.container:hover {
+  opacity: 0.5;
+}
+
+.profile {
+  padding-top: 4px;
+}
+
+.profileIcon--login-drawer {
+  width: 0 !important;
+}
+
+.container :global(.vtex-button__label)::before {
+  width: 20px;
+  margin-right: -7px;
+  height: 20px;
+  content: "";
+  display: block;
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/icon-user.png");
+  background-size: contain;
+}
+
+.profileIcon {
+  width: 0;
+}
+
+.content {
+  font-size: 12px;
+  margin: 0;
+  background-color: #f9efed;
+  margin: 0px auto;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.button {
+  margin: 10px;
+}
+
+.backButton {
+  margin-right: auto;
+}
+
+.sendButton {
+  background: #e1d3c8;
+}
+
+.sendButton:hover {
+  background: #d56e2f;
+  color: white;
+  transition: all 0.6s;
+}
+
+.dontHaveAccount {
+  font-size: 0 !important;
+}
+
+.dontHaveAccount::after {
+  font-size: 14px;
+  color: #212529;
+  content: "¿NO TIENES UNA CUENTA? REGÍSTRATE";
+  opacity: 0.8;
+}
+
+.formTitle {
+  font-family: "Lora";
+  font-size: 27px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.formError {
+  font-size: 12px;
+  margin: 15px 0;
+  background-color: #f9efed;
+  color: #646464;
+  font-weight: bold;
+}
+
+.pa2 {
+  display: none;
+}
+
+.arrowUp {
+  display: none;
+}
+
+.optionsSticky {
+  display: none;
+}
+
+.contentFormVisible {
+  margin: 20px auto;
+  padding: 0 25px;
+  width: 445px;
+  height: auto;
+}
+
+.inputContainerEmail {
+  margin-bottom: 50px;
+}
+
+.formLinkContainer {
+  display: flex;
+  justify-content: center;
+  color: #646464;
+  font-size: 15px;
+}
+
+.forgotPasswordLink {
+  color: #646464;
+  font-family: "Montserrat";
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.dontHaveAccount {
+  color: #646464;
+  font-family: "Montserrat";
+  font-size: 15px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.profileIcon--login-drawer {
+  width: 14px;
+}
+
+.label {
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.buttonLink:focus {
+  outline: 0px;
+}
+
+.container :global(.vtex-button) {
+  outline: 0 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .container :global(.vtex-button__label)::before {
+    width: 19px;
+    background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/icon-perfil.svg");
+  }
+  .label {
+    font-size: 0px;
+  }
+
+  .content {
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+  }
+
+  .contentFormVisible {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+  }
+
+  .profileIcon--header-login {
+    padding: 0 0 10px 0;
+    width: 13px;
+  }
+
+  .container {
+    padding: 0px 0 5px 0 !important;
+  }
+
+  .buttonLink {
+    width: 45px !important;
+    margin: 0;
+  }
+
+  .buttonLink :global(.vtex-button__label) {
+    padding-top: 2px !important;
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+}

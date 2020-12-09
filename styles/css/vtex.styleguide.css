@@ -1,0 +1,26 @@
+.input {
+  z-index: 1;
+  font-size: 13px;
+}
+
+.hideDecorators {
+  height: auto;
+}
+
+.container {
+  width: 50px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown :global(.vtex-dropdown__button) {
+  padding-left: 0.5rem;
+}
+
+.input::placeholder {
+  text-transform: uppercase;
+  color: #000;
+}

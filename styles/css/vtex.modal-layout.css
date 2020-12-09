@@ -1,0 +1,229 @@
+@media screen and (min-width: 40em) {
+  .paper--quickview {
+    height: 260px;
+    width: 580px;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .paper--quickview {
+    height: 450px;
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .paper--quickview {
+    width: calc(100% - 4rem);
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .actionsContainer--quickview {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .paper--quickview {
+    width: 80% !important;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+.triggerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.backdropContainer {
+  opacity: 0.5 !important;
+}
+
+.paper--quickview {
+  width: 60%;
+  min-width: 320px;
+  max-width: 96rem;
+}
+
+.headerContainer--quickview {
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.actionsContainer--quickview {
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: transparent;
+  box-shadow: -4px 0px 27px -12px transparent;
+}
+
+
+
+.contentContainer--quickviewContent {
+  padding: 2.5rem 0 0 0;
+  overflow-x: hidden;
+}
+
+.triggerContainer--quickview {
+  position: absolute;
+  top: 20px;
+  z-index: 7;
+}
+
+.triggerContainer--quickview::after {
+  content: "";
+  background-image: url("https://mercedescampuzano.vtexassets.com/arquivos/eye-brown-1.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding-top: 24px;
+  padding-left: 24px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.contentContainer--quickviewContent :global(.vtex-store-components-3-x-errorMessage) {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  font-weight: 500;
+}
+
+.contentContainer--quickviewContent :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  padding: 0 20px;
+}
+
+.paper--quickview {
+  margin: 0;
+}
+
+.closeButton--quickview {
+  outline: none;
+}
+
+.closeIcon--quickview {
+  width: 20px;
+}
+
+.triggerContainer {
+  outline: none;
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
+  border-top-color: rgb(238, 238, 238);
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
+  border-top-color: transparent;
+}
+
+
+.paper--product-gifts {
+  padding: 1.5rem;
+}
+
+.paper--form-newsletter-modal {
+  width: 40%;
+}
+
+.backdrop--form-newsletter-modal {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.closeIcon--modal-header {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.closeButton--modal-header {
+  padding-right: 3px;
+  position: fixed !important;
+  margin-top: 0px;
+  margin-left: -45px;
+}
+
+.triggerContainer--desktop-fixed-discount {
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+  z-index: 1;
+}
+
+.paper--size-guide {
+  max-height: 80%;
+  max-width: 45%;
+  margin: 20px auto;
+
+}
+
+.closeButton--size-guide-modal-header {
+  position: fixed;
+  margin-left: 10px;
+  outline: 0 !important;
+}
+
+.closeIcon--size-guide-modal-header {
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  padding: 2px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+
+@media screen and (max-width:768px) {
+  .headerContainer--quickview {
+    border: none;
+    position: fixed;
+    right: 20px;
+    background: #fff;
+    top: 20px;
+    border-radius: 50%;
+  }
+
+  .closeButton--quickview {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .closeIcon--quickview {
+    height: 30px;
+    padding-top: 2px;
+  }
+
+  .paperScrollContent {
+    max-height: none;
+    height: 90%;
+    max-height: 100%;
+  }
+
+  .paper--size-guide {
+    max-width: 90%;
+  }
+
+  .paper--form-newsletter-modal {
+    width: 95%;
+  }
+
+  .closeButton--size-guide-modal-header {
+    margin-top: -25px;
+    margin-left: -25px;
+  }
+}

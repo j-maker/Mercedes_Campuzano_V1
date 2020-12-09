@@ -1,0 +1,31 @@
+.buttonText--buy-button-product {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.buttonDataContainer--buy-button-product {
+  background: #ED962E;
+  color: #fff !important;
+  font-size: 10px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.buttonDataContainer--buy-button-shelf:hover {
+  color: #fff;
+  font-weight: 500;
+}
+
+.buttonText--buy-button-product {
+  margin: 12px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .buttonDataContainer--buy-button-shelf {
+    padding: 7px 0px;
+  }
+
+  .buttonText--buy-button-product {
+    font-size: 12px;
+  }
+}

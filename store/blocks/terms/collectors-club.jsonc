@@ -1,0 +1,896 @@
+{
+  "store.custom#collectors-club": {
+    "blocks": [
+      "image#collectors-club",
+      "flex-layout.row#footer-terms-col-collectors-club"
+    ]
+  },
+  "flex-layout.row#footer-terms-col-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
+    },
+    "children": [
+      "flex-layout.col#col-1-wrapper-collectors-club"
+    ]
+  },
+  "flex-layout.col#col-1-wrapper-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-col-wrapper"
+    },
+    "children": [
+      "flex-layout.row#col-1-title-collectors-club",
+      "flex-layout.col#col-1-content-collectors-club"
+    ]
+  },
+  "flex-layout.row#col-1-title-collectors-club": {
+    "children": [
+      "rich-text#col-1-title-collectors-club"
+    ]
+  },
+  "flex-layout.col#col-1-content-collectors-club": {
+    "children": [
+      "rich-text#col-1-subtitle-1-content-collectors-club",
+      "rich-text#col-1-paragraph-1-content-collectors-club",
+      "rich-text#col-1-subtitle-content-terms-collectors-club",
+      "rich-text#collectors-club-content-1",
+      "rich-text#collectors-club-content-2",
+      "rich-text#collectors-club-content-3",
+      "rich-text#collectors-club-content-4",
+      "rich-text#collectors-club-content-5",
+      "rich-text#collectors-club-content-6",
+      "rich-text#collectors-club-content-7",
+      "rich-text#collectors-club-content-8",
+      "rich-text#col-1-title-2-collectors-club",
+      "rich-text#col-1-paragraph-1-content-2-collectors-club",
+      "rich-text#silver-profits",
+      "rich-text#collectors-club-content-9",
+      "rich-text#collectors-club-content-10",
+      "rich-text#collectors-club-content-11",
+      "rich-text#collectors-club-content-12",
+      "rich-text#collectors-club-content-13",
+      "rich-text#gold-profits",
+      "rich-text#collectors-club-content-14",
+      "rich-text#collectors-club-content-15",
+      "rich-text#collectors-club-content-16",
+      "rich-text#collectors-club-content-17",
+      "rich-text#collectors-club-content-18",
+      "rich-text#collectors-club-content-19",
+      "rich-text#collectors-club-content-20",
+      "rich-text#collectors-club-content-21",
+      "rich-text#collectors-club-content-22",
+      "rich-text#collectors-club-content-23",
+      "rich-text#diamond-profits",
+      "rich-text#collectors-club-content-24",
+      "rich-text#collectors-club-content-25",
+      "rich-text#collectors-club-content-26",
+      "rich-text#collectors-club-content-27",
+      "rich-text#collectors-club-content-28",
+      "rich-text#collectors-club-content-29",
+      "rich-text#collectors-club-content-30",
+      "rich-text#collectors-club-content-31",
+      "rich-text#collectors-club-content-32",
+      "rich-text#collectors-club-content-33",
+      "rich-text#collectors-club-content-34",
+      "rich-text#collectors-club-content-35",
+      "rich-text#collectors-club-content-36",
+      "rich-text#collectors-club-content-37",
+      "rich-text#col-1-title-3-collectors-club",
+      "rich-text#col-1-subtitle-1-content-terms-collectors-club",
+      "rich-text#col-1-paragraph-1-content-terms-collectors-club",
+      "rich-text#col-1-subtitle-2-content-terms-collectors-club",
+      "rich-text#col-1-paragraph-2-content-terms-collectors-club",
+      "rich-text#col-1-subtitle-3-content-terms-collectors-club",
+      "rich-text#col-1-paragraph-3-content-terms-collectors-club",
+      "rich-text#col-1-subtitle-4-content-terms-collectors-club",
+      "rich-text#col-1-paragraph-4-content-terms-collectors-club",
+      "rich-text#col-1-subtitle-5-content-terms-collectors-club",
+      "rich-text#col-1-paragraph-5-content-terms-collectors-club",
+      "rich-text#col-1-subtitle-6-content-terms-collectors-club",
+      "rich-text#col-1-paragraph-6-content-terms-collectors-club",
+      "rich-text#col-1-subtitle-7-content-terms-collectors-club",
+      "rich-text#col-1-paragraph-7-content-terms-collectors-club",
+      "rich-text#col-1-subtitle-8-content-terms-collectors-club",
+      "rich-text#col-1-paragraph-8-content-terms-collectors-club",
+      "rich-text#col-1-subtitle-9-content-terms-collectors-club",
+      "rich-text#collectors-club-content-38",
+      "rich-text#collectors-club-content-39",
+      "rich-text#collectors-club-content-40",
+      "rich-text#collectors-club-content-41",
+      "rich-text#collectors-club-content-42",
+      "rich-text#collectors-club-content-43",
+      "rich-text#collectors-club-content-44",
+      "rich-text#collectors-club-content-45",
+      "rich-text#collectors-club-content-46",
+      "rich-text#collectors-club-content-47",
+      "rich-text#collectors-club-content-48",
+      "rich-text#collectors-club-content-49",
+      "rich-text#collectors-club-content-50",
+      "rich-text#collectors-club-content-51",
+      "rich-text#collectors-club-content-52",
+      "rich-text#collectors-club-content-53",
+      "rich-text#collectors-club-content-54",
+      "rich-text#collectors-club-content-55",
+      "rich-text#collectors-club-content-56",
+      "rich-text#collectors-club-content-57",
+      "rich-text#collectors-club-content-58",
+      "rich-text#collectors-club-content-59",
+      "rich-text#collectors-club-content-60",
+      "rich-text#collectors-club-content-61",
+      "rich-text#collectors-club-content-62",
+      "rich-text#collectors-club-content-63",
+      "rich-text#collectors-club-content-64",
+      "rich-text#collectors-club-content-65",
+      "rich-text#collectors-club-content-66",
+      "rich-text#collectors-club-content-67",
+      "rich-text#collectors-club-content-68"
+    ]
+  },
+  "image#collectors-club": {
+    "props": {
+      "blockClass": "footer-collectors-club",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/mc-home2-tendencias-min.jpg"
+    }
+  },
+  "rich-text#col-1-title-collectors-club": {
+    "props": {
+      "blockClass": "subtitle-collectors-club",
+      "textColor": "red",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "BASES LEGALES PROGRAMADA DE FIDELIZACIÓN CLUB COLECCIONISTAS"
+    }
+  },
+  "rich-text#col-1-subtitle-1-content-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**Conoce Nuestro Club**"
+    }
+  },
+  "rich-text#col-1-paragraph-1-content-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El Club de Coleccionistas Mercedes Campuzano es un programa diseñado exclusivamente para premiar tu fidelidad y preferencia por la marca. Hoy queremos contarte los beneficios que recibes por hacer parte del CLUB DE COLECCIONISTAS MERCEDES CAMPUZANO y la descripción detallada de cada uno de sus niveles.\n\nSi aún no haces parte de nuestro Club de Coleccionistas, inscríbete en el punto de pago al momento de realizar tu compra, y ¡disfruta de grandes beneficios!"
+    }
+  },
+  "rich-text#col-1-subtitle-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**¿Cuáles son los beneficios del Club de Coleccionistas Mercedes Campuzano?**"
+    }
+  },
+  "rich-text#collectors-club-content-1": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acumula puntos por cada compra que realices, los cuales podrás redimir por bonos o beneficios para comprar en nuestras tiendas Mercedes Campuzano.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Recibe un Bono de descuento en el mes de tu cumpleaños.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-3": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Disfruta de descuentos en temporadas especiales exclusivos para Coleccionistas.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-4": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Recibe Invitaciones a eventos exclusivos como cliente VIP.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-5": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acceso a productos de edición limitada.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-6": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acumula doble puntaje en eventos especiales.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-7": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Compra productos de la marca a través de redención de puntos + dinero.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-8": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Compra productos de la marca con tus puntos",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#col-1-title-2-collectors-club": {
+    "props": {
+      "blockClass": "subtitle-collectors-club",
+      "textColor": "red",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "CATEGORIAS DEL CLUB DE COLECCIONISTAS"
+    }
+  },
+  "rich-text#col-1-paragraph-1-content-2-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La categorización de coleccionistas “estatus” se realizara por medio de la acumulación de puntos a través de las compras realizadas durante cada año."
+    }
+  },
+  "rich-text#silver-profits": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Beneficios Plata",
+      "blockClass": "footer-terms-content-profits-club-coleccionistas"
+    }
+  },
+  "rich-text#collectors-club-content-9": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acumula 5 punto por cada $10.000 pesos en compras que realices.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-10": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Reclama un bono de $50.000 por cada 600 puntos que acumules, el cual no es acumulable con otras promociones ni alianzas y debe ser redimido en una compra.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-11": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Recibe Bono de $25.000 en el mes de tu cumpleaños. (Redimible durante TODO el mes de tú cumpleaños // Para redimirlo solo debes presentar esta postal y tú cédula // Bono personal e intransferible / No es acumulable con otras promociones, alianzas y descuentos // Este bono se hace efectivo por compras superiores a $ 100.000 pesos / Válido por una sola compra en el mes // Aplica cualquier medio de pago*).",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-12": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Recibe Noticias con información de tendencias y nuevos lanzamientos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-13": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Adquiere productos especiales de edición limitada pagando con dinero y con tus puntos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#gold-profits": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Beneficios Oro",
+      "blockClass": "footer-terms-content-gold-profits-club-coleccionistas"
+    }
+  },
+  "rich-text#collectors-club-content-14": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acumula 5 punto por cada $10.000 pesos en compras que realices.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-15": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Todas aquellas coleccionistas que por sus compras ganen 3001 puntos en un período de un año calendario, del 1 de Enero al 31 de Diciembre, acceden a los beneficios de la categoría Oro.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-16": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La contabilización de puntos para ascender de nivel comienza de nuevo en el siguiente año calendario.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-17": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Reclama un bono de $50.000 por cada 600 puntos que acumules, el cual no es acumulable con otras promociones ni alianzas y debe ser redimido en una compra.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-18": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Recibe Bono de $50.000 en el mes de tu cumpleaños. (Redimible durante TODO el mes de tú cumpleaños // Para redimirlo solo debes presentar esta postal y tú cédula // Bono personal e intransferible / No es acumulable con otras promociones, alianzas y descuentos // Este bono se hace efectivo por compras superiores a $ 100.000 pesos / Válido por una sola compra en el mes // Aplica cualquier medio de pago*)",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-19": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Recibe Newsletters con información de tendencias y nuevos lanzamientos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-20": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Doble puntaje en días especiales.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-21": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acceso al producto del mes con plata + puntos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-22": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Adquiere productos especiales de edición limitada a cambio de tus puntos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-23": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Accede a tarde de moda con personal shopper especializadas en tendencias.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#diamond-profits": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Beneficios Diamante",
+      "blockClass": "footer-terms-content-profits-club-coleccionistas"
+    }
+  },
+  "rich-text#collectors-club-content-24": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acumula 5 punto por cada $10.000 pesos en compras que realices.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-25": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Todas aquellas coleccionistas que por sus compras ganen 6001 puntos en un período de un año calendario, del 1 de Enero al 31 de Diciembre, acceden a los beneficios de la categoría Oro.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-26": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La contabilización de puntos para ascender de nivel comienza de nuevo en el siguiente año calendario.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-27": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Reclama un bono de $50.000 por cada 600 puntos que acumules, el cual no es acumulable con otras promociones ni alianzas y debe ser redimido en una compra.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-28": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Recibe Bono de $75.000 en el mes de tu cumpleaños. (Redimible durante TODO el mes de tú cumpleaños // Para redimirlo solo debes presentar esta postal y tú cédula // Bono personal e intransferible / No es acumulable con otras promociones, alianzas y descuentos // Este bono se hace efectivo por compras superiores a $ 100.000 pesos / Válido por una sola compra en el mes // Aplica cualquier medio de pago*)",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-29": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Recibe Newsletters con información de tendencias y nuevos lanzamientos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-30": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Doble puntaje en días especiales.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-31": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acceso al producto del mes* con plata + puntos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-32": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Acceso a cualquier producto de la tienda con plata + puntos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-33": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Participa para ganar un año de Coleccionista* Mercedes Campuzano.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-34": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Accede a productos edición limitada de colección.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-35": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Adquiere productos especiales de edición limitada a cambio de tus puntos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-36": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Accede a días de DOBLE O TRIPLE puntaje en tus compras.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-37": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Participa en tardes de moda con Mercedes Campuzano.\n\n",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#col-1-title-3-collectors-club": {
+    "props": {
+      "blockClass": "subtitle-collectors-club",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "PREGUNTAS FRECUENTES"
+    }
+  },
+  "rich-text#col-1-subtitle-1-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**1. ¿Cómo me registro?**"
+    }
+  },
+  "rich-text#col-1-paragraph-1-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Visita una tienda Mercedes Campuzano, realiza una compra y solicita realizar el registro de inscripción, ¡y prepárate a disfrutar de tus beneficios como Coleccionista!"
+    }
+  },
+  "rich-text#col-1-subtitle-2-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**2.¿Cómo acumulo puntos?**"
+    }
+  },
+  "rich-text#col-1-paragraph-2-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "En Colombia por cada compra que realices en nuestras tiendas Mercedes Campuzano acumulas 5 punto por cada $10.000 pesos en compras."
+    }
+  },
+  "rich-text#col-1-subtitle-3-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**3.¿Cómo consulto mis puntos?**"
+    }
+  },
+  "rich-text#col-1-paragraph-3-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "¡Es muy fácil! Solo debes dirigirte a cualquiera de nuestras tiendas Mercedes Campuzano y consultar en el punto de pago los puntos acumulados, utilizando tu número de cédula."
+    }
+  },
+  "rich-text#col-1-subtitle-4-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**4.¿Cuál es el tiempo de validez de mis puntos?**"
+    }
+  },
+  "rich-text#col-1-paragraph-4-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los puntos acumulados son redimibles por un plazo de dos años."
+    }
+  },
+  "rich-text#col-1-subtitle-5-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**5.¿Cómo alcanzo el nivel oro?**"
+    }
+  },
+  "rich-text#col-1-paragraph-5-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Todas aquellas coleccionistas que por sus compras ganen 3001 puntos en un período de un año calendario, del 1 de Enero al 31 de Diciembre, acceden a los beneficios de la categoría Oro. La contabilización de puntos para ascender de nivel comienza de nuevo en el siguiente año calendario."
+    }
+  },
+  "rich-text#col-1-subtitle-6-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**6.¿Cómo alcanzo el nivel diamante?**"
+    }
+  },
+  "rich-text#col-1-paragraph-6-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Todas aquellas coleccionistas que por sus compras ganen 6001 puntos en un período de un año calendario, del 1 de Enero al 31 de Diciembre, acceden a los beneficios de la categoría Oro. La contabilización de puntos para ascender de nivel comienza de nuevo en el siguiente año calendario."
+    }
+  },
+  "rich-text#col-1-subtitle-7-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**7.¿Cuál es el tiempo de validez de mi status en la categoría?**"
+    }
+  },
+  "rich-text#col-1-paragraph-7-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Una vez alcanzada la categoría Oro o Diamante, ésta será válida por el período de un año a partir del momento en que se alcance el monto requerido."
+    }
+  },
+  "rich-text#col-1-subtitle-8-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-club-coleccionistas",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "**8.¿Cómo me entero si paso de categoría?**"
+    }
+  },
+  "rich-text#col-1-paragraph-8-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-policies",
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Te llegará una comunicación directa a tu correo; pero es responsabilidad de la coleccionista mantener su dirección de correo electrónico actualizado. Esta comunicación Te llegara en máximo 10 días hábiles siguientes a haber realizado la última compra y acumulación de puntos."
+    }
+  },
+  "rich-text#col-1-subtitle-9-content-terms-collectors-club": {
+    "props": {
+      "blockClass": "footer-terms-content-subtitles-frequent-questions",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**TÉRMINOS Y CONDICIONES**\n\n"
+    }
+  },
+  "rich-text#collectors-club-content-38": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los presentes Términos y Condiciones del programa Club de Coleccionistas Mercedes Campuzano podrán ser modificados, enmendados y/o sustituidos en cualquier momento, con o sin previo aviso, así como también las demás reglas, ofertas especiales y beneficios de dicho programa. Esto significa que la acumulación de puntos no acredita a los socios a ningún tipo de derecho adquirido respecto a dichos puntos, premios o beneficios del programa.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-39": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El personal o colaboradores de la tiendas MC HORMAS Y ZAPATOS S.A.S no podrán participar en el programa CLUB DE COLECCIONISTAS Mercedes Campuzano.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-40": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Una versión actualizada de los términos y condiciones del programa se encontrará siempre disponible en www.mercedescampuzano.com. Es obligación y responsabilidad de todos los socios del programa conocer, cumplir y actualizarse de todas las reglas y políticas del programa Club de Coleccionistas Mercedes Campuzano, así como conocer, cumplir y actualizarse de toda información adicional para los socios, noticias y sus estados de cuenta a través de www.mercedescampuzano.com.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-41": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los puntos acumulados no tienen valor monetario de ningún tipo y en ningún caso un socio puede comprar, vender, intercambiar o transferir puntos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-42": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Sólo acumulas puntos por compras realizadas en las tiendas Mercedes Campuzano del país y en tienda ONLINE www.mercedescampuzano.com",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-43": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los puntos se acumulan y redimen en el país donde está inscrito el cliente.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-44": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los puntos se acumularán a tu cuenta de manera inmediata al realizar compras.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-45": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los puntos entregados a los miembros del Programa de fidelización “Club de coleccionistas Mercedes Campuzano” tendrán vigencia por un período de un (1) año a partir de la fecha en que se realizó la compra, cuando se realice una redención, los puntos que se descuentan para dicha transacción serán los de mayor antigüedad, permitiendo así que los puntos que queden disponibles en la cuenta del titular sean los más recientes y por ende los que estén más lejos de la fecha de vencimiento.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-46": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Para disfrutar de los beneficios del Club de coleccionistas, el miembro titular del club será responsable de mantener sus datos personales actualizados en la base de datos del programa; la actualización puede realizarse acercándose directamente a las tiendas.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-47": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El miembro titular de la cuenta, debe garantizar la exactitud de la información suministrada.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-48": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Solo se obtendrán beneficios realizando el registro completamente (Nombre, apellidos, documento de identidad, correo electrónico, sexo, teléfono, celular, fecha de nacimiento, ciudad, país, universo de moda preferido, almacén, rango de edad, tipo de cliente u ocupación).",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-49": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El beneficio o bono de cumpleaños solo será exclusivamente para Coleccionistas registradas e inscritas al programa de fidelización por medio de nuestra tarjeta de puntos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-50": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "El bono del cumpleaños no es acumulable con otros beneficios, redención de puntos o promociones.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-51": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Las compras con Bonos de regalo o con Bonos de redención de puntos NO ACUMULAN PUNTOS.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-52": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los puntos por la compra de tarjetas de bono regalo Mercedes Campuzano son acumulados a quien compre el bono, no a quien lo redime.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-53": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Cuando el valor de la redención es mayor al valor del producto, el cliente deberá renunciar a la diferencia generada al momento de la compra o adquirir otro producto y pagar el excedente.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-54": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La redención de puntos sólo aplica para productos que en ese momento no tengan descuento.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-55": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "La entrega de datos al momento de la compra en nuestras tiendas, constituye por parte del cliente, como reconocimiento y aceptación de las condiciones de este programa.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-56": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Ni los bonos o mercancía que se expidan por concepto de beneficios ni los descuentos, serán redimibles por valor en efectivo.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-57": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los beneficios del programa no son transferibles, y los puntos acumulados no podrán ser traspasados a los herederos causahabientes.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-58": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Mercedes Campuzano podrá suspender, modificar o variar a su criterio, tanto las promociones como los planes de acumulación y redención de puntos o bonos.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-59": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Para hacer parte del Club de Coleccionistas debes ser mayor de 18 años.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-60": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Si un cliente realiza algún tipo de fraude quedará inmediatamente por fuera del programa y perderá los puntos y beneficios que haya acumulado hasta la fecha.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-61": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "MC HORMAS Y ZAPATOS S.A.S, cancelara las membresías de las personas que no realicen compras en las tiendas Mercedes Campuzano durante 2 años.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-62": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los puntos sólo podrán ser redimidos por bonos o productos que se estipulen para el programa “Club de Coleccionistas Mercedes Campuzano”.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-63": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "No se podrá registrar una misma persona con dos cuentas o membresías en el club, MC HORMAS Y ZAPATOS S.A.S cancelará una de las dos cuentas en caso de que esto suceda.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-64": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "En caso de que MC HORMAS Y ZAPATOS S.A.S llegara a cancelar el programa, se comunicaría por escrito a todos los clientes inscritos con una fecha de 60 días hábiles.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-65": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Los bonos o beneficios del club de coleccionistas no son acumulables con otras promociones, descuentos o alianzas.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-66": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Estimada Coleccionista: Por disposiciones de la ley 1581 de 2012, en lo referente al tratamiento de sus datos personales, les informamos que los datos que usted describa en los formatos diligenciados, o entregados al cajero en el momento de su compra quedarán registrados en nuestra base de datos los cuales serán almacenados y utilizados para el envío de invitaciones a eventos, promociones e información de la marca. Por lo anterior, si usted no autoriza al tratamiento, le solicitamos que nos notifique a la dirección de contacto servicioalcliente@mercedescampuzano.com y procederemos a eliminar de nuestra base de datos MC HORMAS Y ZAPATOS S.A.S sus datos personales.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-67": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "En caso de que un producto entre por garantía, el sistema automáticamente restará los puntos acumulados de la compra, y estos serán sumados nuevamente al comprador una vez el proceso de garantía sea finalizado.",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  },
+  "rich-text#collectors-club-content-68": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Cualquier inquietud o solicitud de información más detallada podrá ser realizada a través de servicioalcliente@mercedescampuzano.com",
+      "blockClass": "footer-terms-content-recomendations-block"
+    }
+  }
+}
