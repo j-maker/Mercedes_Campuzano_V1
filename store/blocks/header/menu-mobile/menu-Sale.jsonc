@@ -1,0 +1,77 @@
+{
+  "menu-item#menu-sale": {
+    "props": {
+      "blockClass": [
+        "sale"
+      ],
+      "id": "",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "Sale"
+      },
+      "iconPosition": "left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menu-sale"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menu-sale": {
+    "props": {
+      "width": "auto",
+      "orientation": "horizontal",
+      "blockClass": "menu-sale"
+    },
+    "children": [
+      "slider-layout#menu-slider-sale"
+    ]
+  },
+  "slider-layout#menu-slider-sale": {
+    "children":[
+      "image#menu-sale-1",
+      "image#menu-sale-2",
+      "image#menu-sale-3",
+      "image#menu-sale-4"
+    ],
+    "props": {
+      "blockClass": "menu-sale",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "image#menu-sale-1": {
+    "props": {
+      "blockClass": "",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/Bancolombia-menu.jpg"
+    }
+  },
+  "image#menu-sale-2": {
+    "props": {
+      "blockClass": "",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/sale_20.jpg"
+    }
+  },
+  "image#menu-sale-3": {
+    "props": {
+      "blockClass": "",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/sale_40.jpg"
+    }
+  },
+  "image#menu-sale-4": {
+    "props": {
+      "blockClass": "",
+      "src": "https://mercedescampuzano.vtexassets.com/arquivos/sale_60.jpg"
+    }
+  }
+}

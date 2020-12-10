@@ -4,6 +4,15 @@
   color: #515151;
 }
 
+.styledLinkContent--image-new::after {
+  content: "New!";
+  font-size: 9px;
+  margin-left: 5px;
+  font-weight: bold;
+  margin-top: -5px;
+  text-transform: capitalize;
+}
+
 .menuItem--header-submenu-text:hover {
   background: #ebdedd;
 }
@@ -58,6 +67,23 @@
   margin: 14px 0 14px -12px;
 }
 
+.menuItem--sale::after {
+  width: 12px;
+  content: "";
+  background-image: url("/arquivos/arrow-orange.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 999;
+  padding-top: 5px;
+  padding-left: 3px;
+  margin-top: 1px;
+  position: relative;
+  height: 46px;
+  margin: 14px 0 14px -12px;
+}
+
+.menuItem--sale:hover::after,
 .menuItem--header-menu-2:hover::after {
   /**/
   transform: rotate(180deg);
@@ -548,6 +574,7 @@
   padding: 15px;
   font-size: 13px;
   color: #000;
+  justify-content: left;
 }
 
 .styledLink--submenu {
@@ -579,6 +606,22 @@
   font-weight: bold;
 }
 
+.styledLinkContainer--sale {
+  padding: 0;
+  margin: 0;
+}
+
+.styledLinkContent--sale  {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.5px;
+  text-transform: uppercase;
+  padding: 27px 15px;
+  margin: 0;
+  color: #ee562a;
+}
+
 @media screen and (max-width: 1024px) {
   .menuItem--submenu {
     margin: 0;
@@ -608,7 +651,7 @@
     margin: 0;
     padding: 0px 0 0 7px;
     text-transform: capitalize;
-    
+
   }
 
   .styledLinkContent--header-menu-2::after {

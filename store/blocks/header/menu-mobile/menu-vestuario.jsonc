@@ -42,8 +42,8 @@
       "menu-item#menu-vestuario-1",
       "menu-item#menu-vestuario-2",
       "menu-item#menu-vestuario-3",
-      "menu-item#menu-vestuario-4",
-      "menu-item#menu-vestuario-9"
+      "menu-item#menu-vestuario-4"
+      //"menu-item#menu-vestuario-9"
     ]
   },
   "vtex.menu@2.x:menu#menu-5-vestuario-Right": {
@@ -116,7 +116,7 @@
         "text": "Pijamas"
       },
       "href": "/vestuario/pijamas",
-      "blockClass": "submenu-vestuario"
+      "blockClass": ["submenu-vestuario","image-new"]
     }
   },
   "menu-item#menu-vestuario-1": {

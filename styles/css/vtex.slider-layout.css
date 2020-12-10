@@ -176,6 +176,14 @@
   display: flex;
 }
 
+.slide--menu-sale{
+  padding: 0 14px;
+}
+
+.sliderTrackContainer--menu-sale{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 @media screen and (max-width: 1024px) {
 
   .slideChildrenContainer--shelf :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
