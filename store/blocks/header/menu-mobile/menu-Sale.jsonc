@@ -33,7 +33,7 @@
   },
   "slider-layout#menu-slider-sale": {
     "children":[
-      "image#menu-sale-1",
+      //"image#menu-sale-1",
       "image#menu-sale-2",
       "image#menu-sale-3",
       "image#menu-sale-4"

@@ -67,6 +67,10 @@
   margin: 14px 0 14px -12px;
 }
 
+.menuItem--sale {
+  display: flex;
+}
+
 .menuItem--sale::after {
   width: 12px;
   content: "";
@@ -611,7 +615,7 @@
   margin: 0;
 }
 
-.styledLinkContent--sale  {
+.styledLinkContent--sale {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;

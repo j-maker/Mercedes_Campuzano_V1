@@ -14,10 +14,7 @@
       "flex-layout.row#home-row-3",
       "rich-text#store",
       "flex-layout.row#instagram",
-      //"flex-layout.row#social-networks",
       "flex-layout.row#home-row-4",
-      //"rich-text#iframe",
-      //"iframe",
       "custom-open-modal",
       "rich-text#HomeTitle",
       "rich-text#descriptionHome",
@@ -33,7 +30,7 @@
     }
   },
   "rich-text#HomeTitle": {
-    "title":"Home Titulo H1 ",
+    "title": "Home Titulo H1 ",
     "props": {
       "text": "# Mercedes Campuzano Tienda de Moda Online",
       "blockClass": "homeTitleH1"
@@ -82,16 +79,6 @@
       "text": "EN PRUEBAS"
     }
   },
-  "iframe": {
-    "title": "Home-Video",
-    "props": {
-      "blockClass": "iframe",
-      "src": "https://my.matterport.com/show/?m=QkpQiCwkhjo",
-      "width": "1050",
-      "height": "480",
-      "title": "exampleStaticPageName iframe wrapper for"
-    }
-  },
   "flex-layout.row#social-networks": {
     "title": "Home-Imagenes-Redes",
     "props": {
@@ -99,166 +86,16 @@
     },
     "children": [
       "custom-instragram-posts-v2"
-      //"list-context.image-list#social-networks"
     ]
   },
   "flex-layout.row#instagram": {
     "title": "Home-Imagenes-Redes",
     "props": {
-      "blockClass": ""
+      "blockClass": "postInstagram"
     },
     "children": [
       "custom-instragram-posts-v2"
     ]
-  },
-  "list-context.image-list#social-networks": {
-    "children": [
-      "slider-layout#social-networks"
-    ],
-    "props": {
-      "blockClass": "social-networks",
-      "height": 180,
-      "width": 180,
-      "images": [
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/101035819_565639280997020_5480644893606505111_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/101029320_247692696334998_6958465212469855937_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100997183_284124092978035_2441005283126824088_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100979643_381209322805388_4948593296586992286_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100973885_1142837462760958_779037659322856302_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100952373_116047810118372_3649115238111778627_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100901819_144564133804685_2423718401877442393_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100782403_2300186286956538_613150146199004107_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100699565_3051067924946235_7734432277738777372_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100369731_108091330804065_5328105136460621136_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/100106131_3040179182728045_5496884370569544246_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/99425142_105734811156037_1350366841892600264_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/98596301_248685839540190_2808077142168623629_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/98489907_117733643020237_4071940177484980004_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/98450630_269651297518848_3353053985545628651_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/98419103_158471592338846_7392382794323484317_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/98334952_1362266500624809_3000738406985571175_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/98174250_542755009723700_5134939828097832173_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/98135557_290600511982841_8585288121403397696_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/98106446_1203694613308006_6745468024015387555_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/97911413_256399485704744_5542654698946719191_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/97556426_655986131850621_2076893896478271762_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/97535536_268038520985245_1191909715455092656_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/97284902_260342321833485_6987960474235402704_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/97219538_643067586275766_4359258429222270797_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/97135007_159523188914503_429868832152966047_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/95529856_229703538259005_7349552095041895740_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/95491263_584487315520017_7391228838862411031_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/95280767_1291667531028147_3976857762610175494_n.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "https://mercedescampuzano.vtexassets.com/arquivos/94726254_730846207452425_3179611980213754443_n.jpg",
-          "description": "something something"
-        }
-      ]
-    }
-  },
-  "slider-layout#social-networks": {
-    "props": {
-      "blockClass": "social-networks",
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
-      "showNavigationArrows": "always",
-      "showPaginationDots": "never",
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true
-    }
   },
   "flex-layout.row#shelf": {
     "title": "Home-Contenedor-Vitrina-1",
@@ -267,16 +104,12 @@
     ],
     "props": {
       "blockClass": "home-wrapper-shelf"
-      /*      "fullWidth":true*/
     }
   },
   "flex-layout.col#shelf": {
     "children": [
       "list-context.product-list#shelf"
     ]
-    /*"props": {
-      "fullWidth":true
-    }*/
   },
   "flex-layout.row#shelf-sale": {
     "title": "Home-Contenedor-Vitrina-2",
@@ -285,16 +118,12 @@
     ],
     "props": {
       "blockClass": "home-wrapper-shelf"
-      /*"fullWidth":true*/
     }
   },
   "flex-layout.col#shelf-sale": {
     "children": [
       "list-context.product-list#sale"
     ]
-    /*"props": {
-       "fullWidth":true
-    }*/
   },
   "list-context.product-list#shelf": {
     "title": "Home-Poductos-Vitrina-1",
@@ -320,7 +149,6 @@
       "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "infinite": true,
-      /* "fullWidth": false,*/
       "blockClass": "shelf"
     }
   },
@@ -345,7 +173,6 @@
       },
       "showPaginationDots": "never",
       "infinite": true,
-      /*    "fullWidth": false,*/
       "blockClass": "shelf"
     }
   },
@@ -384,15 +211,6 @@
         "phone": 1
       },
       "infinite": true
-    }
-  },
-  "rich-text#iframe": {
-    "title": "Home-titlulo-video",
-    "props": {
-      "blockClass": "home-text-1",
-      "text": "HAZ UN RECORRIDO VIRTUAL DE NUESTRA TIENDA DE EL TESORO",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
     }
   },
   "rich-text#new": {
@@ -611,7 +429,6 @@
     "props": {
       "blockClass": "home-row-4-wrapper",
       "preserveLayoutOnMobile": true
-      /*   "fullWidth": true*/
     },
     "children": [
       "flex-layout.col#home-col-4-1-wrapper",
