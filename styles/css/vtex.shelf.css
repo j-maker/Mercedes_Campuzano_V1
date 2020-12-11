@@ -65,7 +65,7 @@
   font-weight: bold;
   text-decoration: none;
   line-height: 40px;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .relatedProducts--home-wrapper-shelf-pdp :global(.vtex-store-components-3-x-discountInsideContainer) {
@@ -81,9 +81,6 @@
 
   .shelfContentContainer--home-wrapper-shelf {
     width: 95%;
-  }
-  .title--home-wrapper-shelf-pdp{
-padding-top: 40px;
   }
   .relatedProducts--home-wrapper-shelf-pdp {
     width: 80% !important;

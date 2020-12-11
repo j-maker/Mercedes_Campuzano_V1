@@ -386,7 +386,7 @@
 
 .container--price-online {
   width: 80%;
-  margin: 0 auto 20px;
+  margin: 20px auto;
   font-size: 14px;
   color: #69727b;
 }

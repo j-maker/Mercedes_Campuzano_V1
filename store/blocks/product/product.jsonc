@@ -129,7 +129,6 @@
       //"flex-layout.row#selling-price-savings",
       "flex-layout.col#general-price",
       //"rich-text#dia-sin-iva",
-      "rich-text#price-online",
       "sku-selector",
       //"sku-selector#product",
       "custom-map-color",
@@ -138,6 +137,7 @@
       "product-assembly-options",
       "flex-layout.row#buy-button-product",
       "custom-event-open-minicart-pdp",
+      "rich-text#price-online",
       //"flex-layout.row#product",
       "availability-subscriber",
       "shelf.relatedProducts#similars"
