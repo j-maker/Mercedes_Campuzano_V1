@@ -618,6 +618,12 @@
   width: 60% !important;
 }
 
+
+.flexRowContent--postInstagram {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width:1024px) {
   .flexColChild--wrapperImagePreOrdenCustoms :global(.vtex-product-specification-badges-0-x-groupContainer--contentbadges) {
     margin-top: -34px !important;
