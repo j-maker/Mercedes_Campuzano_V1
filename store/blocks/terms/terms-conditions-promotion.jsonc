@@ -28,6 +28,7 @@
       },
       "flex-layout.col#col-1-content-terms-conditions-promotions": {
         "children": [
+          "disclosure-layout#terms-21",
           "disclosure-layout#terms-20",
           "disclosure-layout#terms-19",
           "disclosure-layout#terms-18",
@@ -51,6 +52,25 @@
         "props": {
           "blockClass": "childContentTyCPromotions"
         }
+      },
+      "disclosure-layout#terms-21": {
+        "children": [
+          "disclosure-trigger#terms-21",
+          "disclosure-content#terms-21"
+        ]
+      },
+      "disclosure-trigger#terms-21": {
+        "children": [
+          "rich-text#col-1-subtitle-21-content-terms-conditions-promotions"
+        ],
+        "props": {
+          "blockClass": "wrapperTermsContent"
+        }
+      },
+      "disclosure-content#terms-21": {
+        "children": [
+          "rich-text#col-1-paragraph-21-content-terms-conditions-promotions"
+        ]
       },
       "disclosure-layout#terms-20": {
         "children": [
@@ -742,6 +762,22 @@
           "textAlignment": "JUSTIFY",
           "textPosition": "JUSTIFY",
           "text": "Aplican condiciones y restricciones\nEnvío gratis por compras superiores a trescientos mil pesos (300.000) desde el 02 de diciembre de 2020 hasta el 31 de diciembre de 2020. Sujeto a cambio sin previo aviso.\nObsequio por compras superiores a trescientos mil pesos (300.000) desde el 02 de diciembre de 2020 hasta el 31 de diciembre de 2020 o hasta agotar existencias, lo que suceda primero. Podrán elegir entre Ref 3937 GEL ANTIBACTERIAL BOLSA DOY PACK 1 Lt, Ref 3938 GEL ANTIBACTERIAL 1 Lt ó Ref 3941 JABON LIQUIDO BOLSA DOY PACK 1 Lt.\nAplica unicamente en pagina web www.mercedescampuzano.com y línea whatsapp 3174266793\nNo aplica para ningún otro medio de comercialización físico ni virtual\nEl envío y/u obsequio no es canjeable por dinero\n"
+        }
+      },
+      "rich-text#col-1-subtitle-21-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-subtitles-policies-1",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "**- VESTUARIO PRPRIME**\n"
+        }
+      },
+      "rich-text#col-1-paragraph-21-content-terms-conditions-promotions": {
+        "props": {
+          "blockClass": "footer-terms-content-policies",
+          "textAlignment": "JUSTIFY",
+          "textPosition": "JUSTIFY",
+          "text": "Aplica condiciones y restricciones\nDescuento del 20% en toda la línea de vestuario\nBeneficio  válido únicamente del 16 de diciembre a las 3:00 pm al 20 de diciembre a las 11:30 pm de  2020\nAplica únicamente para el inventario disponible los días del evento, en todas las tiendas físicas Mercedes Campuzano del país, página web www.mercedescampuzano.com y línea whatsapp 317 426 67 93\n No aplica para la línea de zapatos, bolsos, ni accesorios\n No aplica para ningún otro medio de comercialización físico ni virtual\n El descuento no es acumulable entre sí ni con otras ofertas o alianzas comerciales\n El descuento no es canjeable por dinero.\n No aplica para redención de puntos club de coleccionistas\n No aplica para redención de saldos a favor por concepto de cambios y/o garantías generados en días anteriores al evento\n No aplica para forma de pago con bono o tarjeta regalo\n* No aplica para bonos de descuento por cumpleaños\n"
         }
       }
     }
